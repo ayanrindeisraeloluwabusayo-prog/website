@@ -16,6 +16,12 @@ Whenever the owner needs a design (a new site, page, section, redesign or restyl
    more, or mix parts of different options. Build the full page only after they choose.
 4. Use brand-inspired styles as inspiration only: no brand names, logos or proprietary fonts.
 
+## Motion and polish
+
+Emil Kowalski's skills (`animate`, `choreograph`, `review-animations`, `emil-design-eng`,
+`mobile-native`, `break-ui` and others, listed in `skills-lock.json`) cover animation, UI polish,
+mobile feel and edge-case testing. Use them once a chosen design is being built and refined.
+
 ## Impeccable
 
 The `impeccable` skill is installed but not set up yet: the owner had no site plan when it was
