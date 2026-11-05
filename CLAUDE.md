@@ -29,6 +29,13 @@ on an existing site or app works. Only its instructions are installed; its tools
 `npx rea-agents`. Use it to learn techniques, then build the owner's own version: never copy
 another site's content, branding or code wholesale.
 
+## Explainer illustrations (Anatomy)
+
+The `anatomy` skill (from github.com/wheresryan22/anatomy) builds interactive isometric
+illustrations that explain an idea as a working object. Use it for explainer visuals on the
+site. Never run its `publish.mjs --submit` (it posts to the author's public gallery) unless the
+owner asks.
+
 ## Impeccable
 
 The `impeccable` skill is installed but not set up yet: the owner had no site plan when it was
