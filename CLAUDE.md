@@ -22,6 +22,13 @@ Emil Kowalski's skills (`animate`, `choreograph`, `review-animations`, `emil-des
 `mobile-native`, `break-ui` and others, listed in `skills-lock.json`) cover animation, UI polish,
 mobile feel and edge-case testing. Use them once a chosen design is being built and refined.
 
+## Studying other sites (REA)
+
+The `reverse-engineer-anything` skill (REA, from github.com/morluto/rea) explains how a feature
+on an existing site or app works. Only its instructions are installed; its tools run on demand via
+`npx rea-agents`. Use it to learn techniques, then build the owner's own version: never copy
+another site's content, branding or code wholesale.
+
 ## Impeccable
 
 The `impeccable` skill is installed but not set up yet: the owner had no site plan when it was

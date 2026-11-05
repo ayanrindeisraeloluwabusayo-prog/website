@@ -106,6 +106,13 @@
       "computedHash": "5d738305c722c25e054a9e3b67e68d4429617d9fbae4bc8861b73cc25c8ba84c",
       "installMode": "copy"
     },
+    "reverse-engineer-anything": {
+      "source": "morluto/rea",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/reverse-engineer-anything/SKILL.md",
+      "computedHash": "d30a7feffbea4c3ee741ccee95605bb136ee8e184db779c925d930578262e1c3",
+      "installMode": "copy"
+    },
     "review-animations": {
       "source": "emilkowalski/skills",
       "sourceType": "github",
