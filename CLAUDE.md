@@ -15,3 +15,11 @@ Whenever the owner needs a design (a new site, page, section, redesign or restyl
 3. Show each option as a quick mockup of the top of the page, then let the owner pick, ask for
    more, or mix parts of different options. Build the full page only after they choose.
 4. Use brand-inspired styles as inspiration only: no brand names, logos or proprietary fonts.
+
+## Impeccable
+
+The `impeccable` skill is installed but not set up yet: the owner had no site plan when it was
+added. Before the first real build, run `/impeccable init` to interview the owner and write
+`PRODUCT.md`. Use its commands (`critique`, `audit`, `polish`, …) to review and refine pages, and
+since its design hook is off, run `.claude/skills/impeccable/scripts/impeccable detect --json
+<changed files>` once a UI change is finished.
