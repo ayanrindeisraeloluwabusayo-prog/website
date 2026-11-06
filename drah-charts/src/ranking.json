@@ -1,0 +1,105 @@
+{
+  "topic": "Most streamed 2026 Afrobeats songs on Spotify so far",
+  "footnote": "PLACEHOLDER DATA · replace in src/ranking.json",
+  "clipSeconds": 7,
+  "accent": "#1ed760",
+  "videoVolume": 1,
+  "design": {
+    "searchTextSize": 48,
+    "typingFramesPerLetter": 2,
+    "listTextScale": 1,
+    "rowMotion": "vinyl-cascade"
+  },
+  "songs": [
+    {
+      "rank": 1,
+      "title": "Song Title One",
+      "artist": "Artist Name",
+      "streams": "612.4M",
+      "cover": "covers/01.png",
+      "video": "videos/01.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 2,
+      "title": "Song Title Two",
+      "artist": "Artist Name",
+      "streams": "498.1M",
+      "cover": "covers/02.png",
+      "video": "videos/02.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 3,
+      "title": "Song Title Three",
+      "artist": "Artist Name",
+      "streams": "455.7M",
+      "cover": "covers/03.png",
+      "video": "videos/03.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 4,
+      "title": "Song Title Four",
+      "artist": "Artist Name",
+      "streams": "401.2M",
+      "cover": "covers/04.png",
+      "video": "videos/04.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 5,
+      "title": "Song Title Five",
+      "artist": "Artist Name",
+      "streams": "377.9M",
+      "cover": "covers/05.png",
+      "video": "videos/05.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 6,
+      "title": "Song Title Six",
+      "artist": "Artist Name",
+      "streams": "342.5M",
+      "cover": "covers/06.png",
+      "video": "videos/06.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 7,
+      "title": "Song Title Seven",
+      "artist": "Artist Name",
+      "streams": "318.0M",
+      "cover": "covers/07.png",
+      "video": "videos/07.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 8,
+      "title": "Song Title Eight",
+      "artist": "Artist Name",
+      "streams": "296.3M",
+      "cover": "covers/08.png",
+      "video": "videos/08.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 9,
+      "title": "Song Title Nine",
+      "artist": "Artist Name",
+      "streams": "271.8M",
+      "cover": "covers/09.png",
+      "video": "videos/09.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 10,
+      "title": "Song Title Ten",
+      "artist": "Artist Name",
+      "streams": "250.6M",
+      "cover": "covers/10.png",
+      "video": "videos/10.mp4",
+      "clipStart": 0
+    }
+  ]
+}
