@@ -23,6 +23,15 @@ export const C = {
   note: "#8f8f8f", // small print: 5.9:1 on the background (Impeccable floor is 4.5:1)
 };
 export const FONT = "Figtree";
+
+// Width of a piece of text in pixels, so long titles and names can be fitted instead of cut off.
+let measureCtx: CanvasRenderingContext2D | null | undefined;
+export const textWidth = (text: string, size: number, weight = 700) => {
+  if (measureCtx === undefined) measureCtx = typeof document === "undefined" ? null : document.createElement("canvas").getContext("2d");
+  if (!measureCtx) return text.length * size * 0.6;
+  measureCtx.font = `${weight} ${size}px ${FONT}, sans-serif`;
+  return measureCtx.measureText(text).width;
+};
 export const W = 1080;
 export const H = 1920;
 export const SIDE = 60;

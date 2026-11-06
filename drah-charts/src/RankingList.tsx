@@ -6,7 +6,7 @@ import type { Segment, Song, Timeline } from "./schema";
 import { useLayout } from "./layout";
 import { rowState, type RowState } from "./timeline";
 import { countUp, hasCascade, rowMotion, type RowMotion } from "./rowMotion";
-import { Bar, C, Equalizer, p01, useAccent } from "./ui";
+import { Bar, C, Equalizer, p01, textWidth, useAccent } from "./ui";
 
 // The playing song's sticker (cover, vinyl, title, artist, streams) pops out toward the viewer, in place:
 // a punchy zoom with one overshoot and a forward tilt, held while the song plays, then it sinks back as the
@@ -66,6 +66,17 @@ const Row: React.FC<{ song: Song; tl: Timeline; order: number; motion: RowMotion
     cover: L.cover,
   });
   const words = song.title.split(" ");
+  // Fit long names in the sticker (measured at its narrowest, with the record slid out) instead of cutting them:
+  // a long single word shrinks the title a little; a one-line title leaves room for the artist to use two lines.
+  const textRoom = stickerMax - STICKER_PAD_L - STICKER_PAD_R - L.cover - 14 - 4 - (motion === "vinyl" || motion === "vinyl-cascade" ? L.cover * 0.4 : 0);
+  const longestWord = Math.max(...words.map((w) => textWidth(w, L.title, 700)));
+  const wordFit = Math.max(L.title * 0.72, Math.min(L.title, Math.floor((L.title * textRoom) / longestWord)));
+  // If the artist needs two lines and a slightly smaller title (down to 75%) fits on one line, use that.
+  const artistLong = textWidth(song.artist, L.artist, 400) > textRoom;
+  const oneLine = Math.floor((L.title * textRoom) / textWidth(song.title, L.title, 700));
+  const titleSize = artistLong && oneLine < wordFit && oneLine >= L.title * 0.75 ? oneLine : wordFit;
+  const titleLines = textWidth(song.title, titleSize, 700) > textRoom ? 2 : 1;
+  const artistLines = titleLines === 1 ? 2 : 1;
   const streamsShown = hasCascade(motion) ? countUp(song.streams, p01(frame, seg.start + 6, 30)) : song.streams;
 
   return (
@@ -178,7 +189,7 @@ const Row: React.FC<{ song: Song; tl: Timeline; order: number; motion: RowMotion
               <div style={{ flex: 1, minWidth: 0, position: "relative", ...mv.text }}>
                 <div
                   style={{
-                    fontSize: L.title,
+                    fontSize: titleSize,
                     fontWeight: 700,
                     lineHeight: 1.08,
                     color: isActive ? accent : C.text,
@@ -198,7 +209,20 @@ const Row: React.FC<{ song: Song; tl: Timeline; order: number; motion: RowMotion
                       ))
                     : song.title}
                 </div>
-                <div style={{ fontSize: L.artist, color: C.muted, marginTop: 4, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{song.artist}</div>
+                <div
+                  style={{
+                    fontSize: L.artist,
+                    lineHeight: 1.15,
+                    color: C.muted,
+                    marginTop: 4,
+                    display: "-webkit-box",
+                    WebkitLineClamp: artistLines,
+                    WebkitBoxOrient: "vertical",
+                    overflow: "hidden",
+                  }}
+                >
+                  {song.artist}
+                </div>
                 <div style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 4 }}>
                   {isActive ? <Equalizer size={L.streams * 0.8} /> : null}
                   <span style={{ fontSize: L.streams, fontWeight: 700, color: isActive ? C.text : C.muted, fontVariantNumeric: "tabular-nums" }}>{streamsShown}</span>
