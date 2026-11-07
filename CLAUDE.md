@@ -43,3 +43,10 @@ added. Before the first real build, run `/impeccable init` to interview the owne
 `PRODUCT.md`. Use its commands (`critique`, `audit`, `polish`, …) to review and refine pages, and
 since its design hook is off, run `.claude/skills/impeccable/scripts/impeccable detect --json
 <changed files>` once a UI change is finished.
+
+## Video (Remotion)
+
+The official Remotion skills (`remotion-best-practices` routes to the rest: `remotion-create`,
+`remotion-markup`, `remotion-render`, `remotion-studio`, `remotion-captions`, `remotion-license`, …,
+from github.com/remotion-dev/skills, listed in `skills-lock.json`) cover making videos in code.
+Use them for the owner's music videos, such as the Drah Charts template in `drah-charts/`.
