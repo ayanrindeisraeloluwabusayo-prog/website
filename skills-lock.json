@@ -218,6 +218,13 @@
       "computedHash": "b1aca2c16876b8f00e2a1eb161714e63ec41099269d5f95c2f307230749b9dcd",
       "installMode": "copy"
     },
+    "video-use": {
+      "source": "browser-use/video-use",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "896d55ce2c26c3d0f6d5598c34eb882f7d5c6e98fc09aa44b55d4c7e2ac357a5",
+      "installMode": "copy"
+    },
     "write-swift": {
       "source": "emilkowalski/skills",
       "sourceType": "github",

@@ -50,3 +50,12 @@ The official Remotion skills (`remotion-best-practices` routes to the rest: `rem
 `remotion-markup`, `remotion-render`, `remotion-studio`, `remotion-captions`, `remotion-license`, …,
 from github.com/remotion-dev/skills, listed in `skills-lock.json`) cover making videos in code.
 Use them for the owner's music videos, such as the Drah Charts template in `drah-charts/`.
+
+## Editing real footage (video-use)
+
+The `video-use` skill (from github.com/browser-use/video-use) edits existing footage by
+conversation: transcribe, cut, colour grade, overlays, burned-in subtitles. Its helpers in
+`.claude/skills/video-use/helpers/` need Python packages (`pip install requests librosa matplotlib
+pillow numpy`) and ffmpeg. Transcription uses the ElevenLabs Scribe API: ask the owner for an
+`ELEVENLABS_API_KEY` through the environment's credential form, never in chat or in a committed file.
+Use Remotion (above) to build videos from data and templates; use video-use to cut and polish footage.
