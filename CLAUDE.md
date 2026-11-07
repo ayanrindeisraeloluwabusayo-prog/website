@@ -59,3 +59,14 @@ conversation: transcribe, cut, colour grade, overlays, burned-in subtitles. Its 
 pillow numpy`) and ffmpeg. Transcription uses the ElevenLabs Scribe API: ask the owner for an
 `ELEVENLABS_API_KEY` through the environment's credential form, never in chat or in a committed file.
 Use Remotion (above) to build videos from data and templates; use video-use to cut and polish footage.
+
+## HyperFrames (HTML rendered to video)
+
+The HyperFrames skills (from github.com/heygen-com/hyperframes, by HeyGen; start with `hyperframes`,
+plus `hyperframes-cli`, `hyperframes-registry` with ~450 ready-made blocks, `media-use`, `figma`,
+`remotion-to-hyperframes`, `reverse-any-video`, `slideshow`, `style-sampling`) are a second way to
+make videos, from web pages. They run through `npx hyperframes`. Many media features are optional
+paid services (HeyGen, ElevenLabs, Gemini…): ask for any key through the environment's credential
+form, never in chat or a committed file. The CLI sends usage telemetry unless turned off
+(`HYPERFRAMES_NO_TELEMETRY=1`). When rebuilding someone else's video, learn the technique and make
+the owner's own version: never copy another creator's content or branding.

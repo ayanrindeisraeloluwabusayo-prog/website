@@ -71,6 +71,13 @@
       "computedHash": "2483020b5bbaab030d6b3463bfba49c8d9c2cd8dea4d9fba836dbd471f1fb706",
       "installMode": "copy"
     },
+    "figma": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/figma/SKILL.md",
+      "computedHash": "c7593153c627ecb96d93c65d6908475cc3f7faefc398c0b9176b15063e917e2e",
+      "installMode": "copy"
+    },
     "find-animation-opportunities": {
       "source": "emilkowalski/skills",
       "sourceType": "github",
@@ -78,11 +85,39 @@
       "computedHash": "465d087c41768e4f14ed640dd049036009f613feb55baaa5831b68b33178f9d2",
       "installMode": "copy"
     },
+    "hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/hyperframes/SKILL.md",
+      "computedHash": "0e604f3e7415f0cc531516ea15dab512f3355021cbf8da57d7f67de222a4eba5",
+      "installMode": "copy"
+    },
+    "hyperframes-cli": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/hyperframes-cli/SKILL.md",
+      "computedHash": "98f67b040f7fa7dff5824ca1ee5062d2701cd4bc4d261e7cd3eae3d5366915ba",
+      "installMode": "copy"
+    },
+    "hyperframes-registry": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/hyperframes-registry/SKILL.md",
+      "computedHash": "bbbb2bcb11fb43c9dd7e7f927a5617affee0458864fe4b3582e644d70aa1e10f",
+      "installMode": "copy"
+    },
     "improve-animations": {
       "source": "emilkowalski/skills",
       "sourceType": "github",
       "skillPath": "skills/improve-animations/SKILL.md",
       "computedHash": "f6652a3bb94950baa33c684cc0966c838eb65cf22ebb5769a4f51ea205c254fe",
+      "installMode": "copy"
+    },
+    "media-use": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/media-use/SKILL.md",
+      "computedHash": "2946da8cb2fe7f8b6c480c71470f25ebc3a6c346b47c15a4c5a4430aec5c9bdd",
       "installMode": "copy"
     },
     "mobile-native": {
@@ -190,6 +225,13 @@
       "computedHash": "d65d0933b789017f33aea95d1f450e4b0873a7102a09e104729862fb1146b775",
       "installMode": "copy"
     },
+    "remotion-to-hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-to-hyperframes/SKILL.md",
+      "computedHash": "5651c249d1567f51c24ad5ed98729be4050ec0609e57e7a6a79606614082935e",
+      "installMode": "copy"
+    },
     "remotion-upgrade": {
       "source": "remotion-dev/skills",
       "sourceType": "github",
@@ -204,6 +246,13 @@
       "computedHash": "5d738305c722c25e054a9e3b67e68d4429617d9fbae4bc8861b73cc25c8ba84c",
       "installMode": "copy"
     },
+    "reverse-any-video": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/reverse-any-video/SKILL.md",
+      "computedHash": "645c3599ee3e3ebb7b53d6954b0417bd5f04d4e8dc78c3cf512deb0478256c66",
+      "installMode": "copy"
+    },
     "reverse-engineer-anything": {
       "source": "morluto/rea",
       "sourceType": "github",
@@ -216,6 +265,20 @@
       "sourceType": "github",
       "skillPath": "skills/review-animations/SKILL.md",
       "computedHash": "b1aca2c16876b8f00e2a1eb161714e63ec41099269d5f95c2f307230749b9dcd",
+      "installMode": "copy"
+    },
+    "slideshow": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/slideshow/SKILL.md",
+      "computedHash": "14d0bf700a7bcb264b60e7c8b786f8883d75d038c2ce93e7fc29ccddd7002744",
+      "installMode": "copy"
+    },
+    "style-sampling": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/style-sampling/SKILL.md",
+      "computedHash": "2caf1b78cc777fff9ca2754ca042ee5810f90dd88279c82d1dee29df8edfd4fa",
       "installMode": "copy"
     },
     "video-use": {
