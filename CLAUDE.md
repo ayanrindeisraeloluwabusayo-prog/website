@@ -70,3 +70,12 @@ paid services (HeyGen, ElevenLabs, Gemini…): ask for any key through the envir
 form, never in chat or a committed file. The CLI sends usage telemetry unless turned off
 (`HYPERFRAMES_NO_TELEMETRY=1`). When rebuilding someone else's video, learn the technique and make
 the owner's own version: never copy another creator's content or branding.
+
+## Cartoon story shorts (cartoon-3d-short)
+
+The `cartoon-3d-short` skill (from github.com/mromidev/claude-animated-shorts) makes ~60 s vertical
+cartoon story shorts: flat cartoon characters in a painted 3D world, with narration, sound effects
+and music, built with three.js inside Remotion. Its style notes come from a creator it studied: make
+the owner's own stories, characters and shots, never copy theirs, and never publish its reference
+frames (kept out of git on purpose). Some of its "user rules" (2K export, no captions, the original
+author's mix levels) were the original author's preferences: confirm them with the owner first.

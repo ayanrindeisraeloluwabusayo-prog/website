@@ -57,6 +57,13 @@
       "computedHash": "60ada67662925f4df5e3c6ff41cac3ab241b66f8898100a5ffcd7ba7196cb868",
       "installMode": "copy"
     },
+    "cartoon-3d-short": {
+      "source": "mromidev/claude-animated-shorts",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "0112fcf1559f670bb558a5004d35bef75ae54b55bd87c61a543128e1adc36be6",
+      "installMode": "copy"
+    },
     "choreograph": {
       "source": "emilkowalski/skills",
       "sourceType": "github",
