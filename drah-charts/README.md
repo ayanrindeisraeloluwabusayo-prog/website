@@ -44,6 +44,13 @@ Either edit **`src/ranking.json`**, or use the visual form (next step). Every fi
 | `design.searchTextSize` | Size of the search-bar text (default 48) |
 | `design.typingFramesPerLetter` | Typing speed: higher is slower (30 frames = 1 second) |
 | `design.listTextScale` | List text size: `1` as designed, `1.1` = 10% bigger |
+| `design.rowMotion` | How each song sticker moves: `vinyl-cascade` (default), `breathe`, `beat`, `vinyl`, `flip`, `shine`, `cascade`, `float` or `none` |
+| `design.saas` | `true` = the SaaS motion design layer (opening headline, the app on a 3D stage with depth, a cursor that operates it, camera push-ins, end card). `false` = the plain chart |
+| `design.uiSounds` | Soft interface sounds on clicks, camera moves and the end card (`true`/`false`) |
+| `brand.name` / `brand.handle` | Shown on the end card, e.g. "Drah Charts" and "Drahcir_The_Creator" |
+| `brand.logo` | Your logo inside `public/`, ideally a see-through PNG, e.g. `"brand/dc-logo.png"` |
+| `brand.cta` / `brand.ctaDone` | The end-card button before and after the cursor clicks it, e.g. "Follow" and "Following ✓" |
+| `brand.hookTitle` / `brand.hookLine` | The opening headline, e.g. "TOP 10" and "Afrobeats · 2026 so far" |
 | `songs[].rank` | 1–10 |
 | `songs[].title` / `artist` / `streams` | Shown as written, e.g. `"412.6M"` |
 | `songs[].cover` | Path inside `public/`, e.g. `"covers/01.png"` |
@@ -84,3 +91,17 @@ npx remotion render RankingLandscape out/my-video-youtube.mp4
 ## 5. Copyright
 
 Facts (titles, artists, stream counts) are fine to show. **Official music videos and song audio are copyrighted** and are detected automatically by YouTube, TikTok and Instagram, which can mute, block or claim the video. Short clips, commentary and the platform's own licensed sounds lower the risk but do not remove it. Do not use any platform's logo or name as if the video were official.
+
+## SaaS motion design layer
+
+With `design.saas` on, the chart is presented the way software companies launch an app:
+
+1. **Opening hook:** a big headline on a dark stage with a soft accent glow.
+2. **The app rises in** on a 3D tilt that settles flat, floating over the stage with a long soft shadow.
+3. **A cursor operates it:** it clicks the search bar (typing starts), then clicks search (the bar docks).
+4. **Camera push-in:** the app grows until it fills the frame, then nudges toward each song as it pops.
+5. **Pull-back:** after #1 the app floats on the stage again.
+6. **End card:** the logo lands with a ring, the name wipes in, and the cursor clicks the call-to-action button.
+
+Depth comes from layers moving at different rates: a dot grid and glow behind, the app card in the middle, the cursor and end card in front. The code is in `src/Saas.tsx`; timings are `BEATS.intro` and `BEATS.endCard` in `src/timeline.ts`. Interface sounds in `public/sfx/` are from Pixabay (free for commercial use).
+

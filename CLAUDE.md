@@ -79,3 +79,14 @@ and music, built with three.js inside Remotion. Its style notes come from a crea
 the owner's own stories, characters and shots, never copy theirs, and never publish its reference
 frames (kept out of git on purpose). Some of its "user rules" (2K export, no captions, the original
 author's mix levels) were the original author's preferences: confirm them with the owner first.
+
+## The owner's video style: SaaS motion design in every video
+
+Every video made for the owner gets a SaaS motion design treatment (the style software companies use
+for product launches), with real depth: a hook headline in the first second, the "product" (the
+chart, app or screen) floating on a layered stage (glow, dot grid, long soft shadow, a 3D tilt that
+settles), a large cursor whose clicks cause the next thing, camera push-ins on the key moment and a
+pull-back after, kinetic type, numbers that count up, UI sounds on visible actions, and a performed
+end card (logo lands, name wipes in, the cursor clicks a call to action). Keep it calm while the
+music and footage play: the product stays the star. Show real screens and real numbers, never an
+invented UI. In the Drah Charts template this is `design.saas` (`src/Saas.tsx`).

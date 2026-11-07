@@ -8,7 +8,9 @@
     "searchTextSize": 48,
     "typingFramesPerLetter": 2,
     "listTextScale": 1,
-    "rowMotion": "vinyl-cascade"
+    "rowMotion": "vinyl-cascade",
+    "saas": true,
+    "uiSounds": true
   },
   "songs": [
     {
@@ -101,5 +103,14 @@
       "video": "videos/10.mp4",
       "clipStart": 0
     }
-  ]
+  ],
+  "brand": {
+    "name": "Drah Charts",
+    "logo": "brand/dc-logo.png",
+    "handle": "Drahcir_The_Creator",
+    "cta": "Follow",
+    "hookTitle": "TOP 10",
+    "hookLine": "Afrobeats · 2026 so far",
+    "ctaDone": "Following ✓"
+  }
 }

@@ -7,7 +7,7 @@ import { C, EASE_DRAWER, FONT, p01, SearchIcon } from "./ui";
 export const SearchBar: React.FC<{ topic: string; tl: Timeline }> = ({ topic, tl }) => {
   const frame = useCurrentFrame();
   const L = useLayout().search;
-  const enter = p01(frame, 0, tl.typeStart, EASE_DRAWER);
+  const enter = p01(frame, tl.introEnd, tl.typeStart - tl.introEnd, EASE_DRAWER);
   const dock = p01(frame, tl.dockStart, tl.dockEnd - tl.dockStart, EASE_DRAWER);
   const perChar = (tl.typeEnd - tl.typeStart) / Math.max(1, topic.length);
   const typed = Math.max(0, Math.min(topic.length, Math.floor((frame - tl.typeStart) / perChar)));

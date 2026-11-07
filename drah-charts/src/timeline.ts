@@ -6,6 +6,7 @@ export const FPS = 30;
 
 // Fixed beats of the sequence, in frames. Change these to retime the whole template.
 export const BEATS = {
+  intro: 66, // SaaS opening: headline, then the app rises in (only when design.saas is on)
   barIn: 18, // search bar slides in
   perChar: 2, // typewriter speed
   typeHold: 20, // pause after the topic is typed
@@ -13,6 +14,7 @@ export const BEATS = {
   listIn: 30, // ranking list appears
   firstLoad: 24, // row #10 shimmers before the first clip starts
   outro: 75, // hold on the finished list after #1
+  endCard: 120, // SaaS end card: logo, name, call to action (only when design.saas is on)
 };
 
 // The hand-off between two songs, in frames (18 = 0.6 s). It is added on top of clipSeconds:
@@ -23,7 +25,9 @@ export const TRANSITION = 18;
 // Its clip keeps playing for one more TRANSITION while it hands off to the next song, so it needs
 // slot + TRANSITION of footage; a video shorter than that loops instead of cutting anything short.
 export const buildTimeline = (props: RankingProps, clipFrames: Record<number, number>): Timeline => {
-  const typeStart = BEATS.barIn;
+  const saas = props.design?.saas ?? false;
+  const introEnd = saas ? BEATS.intro : 0;
+  const typeStart = introEnd + BEATS.barIn;
   const typeEnd = typeStart + props.topic.length * (props.design?.typingFramesPerLetter ?? BEATS.perChar);
   const dockStart = typeEnd + BEATS.typeHold;
   const dockEnd = dockStart + BEATS.dock;
@@ -39,7 +43,8 @@ export const buildTimeline = (props: RankingProps, clipFrames: Record<number, nu
     segments.push({ rank: s.rank, start: t, length, source: Math.min(needed, clipFrames[s.rank] ?? needed) });
     t += length;
   }
-  return { typeStart, typeEnd, dockStart, dockEnd, listStart, playStart, segments, outroStart: t, total: t + BEATS.outro };
+  const endStart = t + BEATS.outro;
+  return { introEnd, typeStart, typeEnd, dockStart, dockEnd, listStart, playStart, segments, outroStart: t, endStart, total: endStart + (saas ? BEATS.endCard : 0) };
 };
 
 // Measures how much of every video is playable from its clipStart, so a short one can loop.
