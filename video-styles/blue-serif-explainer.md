@@ -122,3 +122,8 @@ conclusion → a call to action card on blue ("Comment …"). The speaker is on 
   when the subject fills the bottom, top-right when it sits lower-left, centred on open backgrounds),
   and the font style follows the scene type (serif on pictures, heavy grotesk on statement cards, italic
   serif for quotes).
+- **No collisions, ever (measured, not guessed):** after the words are drawn, the real position of
+  every tall letter (b d f h k l t, capitals, i/j dots) and hanging letter (g j p q y , ;) is measured.
+  Small words above a big word tuck into a gap between its tall letters when one is wide enough (like
+  "is expressing / hatred"), otherwise they sit clear above the tallest letter; small words below clear
+  its hanging letters.
