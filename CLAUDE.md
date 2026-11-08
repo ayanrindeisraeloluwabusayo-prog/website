@@ -90,3 +90,13 @@ pull-back after, kinetic type, numbers that count up, UI sounds on visible actio
 end card (logo lands, name wipes in, the cursor clicks a call to action). Keep it calm while the
 music and footage play: the product stays the star. Show real screens and real numbers, never an
 invented UI. In the Drah Charts template this is `design.saas` (`src/Saas.tsx`).
+
+## Keep projects separate
+
+Drah Charts is a finished project. Don't link new work to it (its template, data, branding or
+songs) unless the owner names it. Treat each new request as its own project.
+
+## Reference editing styles
+
+`video-styles/` holds frame-by-frame studies of editing styles the owner wants to use (technique
+only, never the source footage, wording or branding). `blue-serif-explainer.md` is the first.
