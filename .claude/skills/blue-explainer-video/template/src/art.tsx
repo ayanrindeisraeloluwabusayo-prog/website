@@ -151,7 +151,13 @@ export const Rising: React.FC<{ from: number }> = ({ from }) => {
 };
 
 /** The study, as a printed page card with a yellow highlighter wipe over its title. */
-export const StudyPage: React.FC<{ from: number; highlightAt: number }> = ({ from, highlightAt }) => {
+export const StudyPage: React.FC<{ from: number; highlightAt: number; journal?: string; title?: string; authors?: string }> = ({
+  from,
+  highlightAt,
+  journal = "NATURE NEUROSCIENCE · 2011",
+  title = "Anatomically distinct dopamine release during anticipation and experience of peak emotion to music",
+  authors = "Salimpoor, Benovoy, Larcher, Dagher & Zatorre · McGill University",
+}) => {
   const f = useCurrentFrame();
   const inP = p(f, from, 12);
   const hl = p(f, highlightAt, 22);
@@ -176,12 +182,12 @@ export const StudyPage: React.FC<{ from: number; highlightAt: number }> = ({ fro
         color: "#1a1a1a",
       }}
     >
-      <div style={{ fontFamily: SANS, fontSize: 20, letterSpacing: "0.18em", color: "#b0362c", fontWeight: 700 }}>NATURE NEUROSCIENCE · 2011</div>
+      <div style={{ fontFamily: SANS, fontSize: 20, letterSpacing: "0.18em", color: "#b0362c", fontWeight: 700 }}>{journal}</div>
       <div style={{ position: "relative", marginTop: 26, fontSize: 52, lineHeight: 1.08, letterSpacing: "-0.01em" }}>
         <div style={{ position: "absolute", left: -8, top: 6, height: 176, width: `${hl * 104}%`, background: FLASH, opacity: 0.85, zIndex: 0 }} />
-        <span style={{ position: "relative" }}>Anatomically distinct dopamine release during anticipation and experience of peak emotion to music</span>
+        <span style={{ position: "relative" }}>{title}</span>
       </div>
-      <div style={{ marginTop: 24, fontFamily: SANS, fontSize: 22, color: "#444" }}>Salimpoor, Benovoy, Larcher, Dagher &amp; Zatorre · McGill University</div>
+      <div style={{ marginTop: 24, fontFamily: SANS, fontSize: 22, color: "#444" }}>{authors}</div>
       <div style={{ marginTop: 34 }}>
         {lines.map((w, i) => (
           <div key={i} style={{ height: 12, width: `${w * 100}%`, background: "#d8d6d0", borderRadius: 3, marginBottom: 14 }} />

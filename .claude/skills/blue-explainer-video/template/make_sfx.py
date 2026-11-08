@@ -359,13 +359,86 @@ def pop():
     return reverb(stereo(x, 0.3), size=0.6, mix=0.15)
 
 
+def stamp():
+    """A heavy rubber stamp hitting a desk: a low thump, a short slap and a little wood ring."""
+    d = 1.2
+    t = secs(d)
+    n = len(t)
+    thump = np.sin(2 * np.pi * np.cumsum(70 + 90 * np.exp(-t * 35)) / SR) * env(n, 0.002, 0.35, curve=2.5)
+    slap = filt(white(n), "band", [300, 4000]) * env(n, 0.0008, 0.05, curve=3)
+    ring = sum(np.sin(2 * np.pi * f * t) * g for f, g in ((180, 1), (410, 0.5), (720, 0.25))) * np.exp(-t * 14) * 0.25
+    return reverb(stereo(thump + slap * 0.6 + ring, 0.2), size=0.9, mix=0.18)
+
+
+def ticks():
+    """A clock ticking fast (4 ticks a second) for 2 seconds, alternating tick and tock."""
+    d = 2.0
+    n = int(SR * d)
+    x = np.zeros(n)
+    for k in range(8):
+        i = int(SR * k * 0.25)
+        m = int(SR * 0.03)
+        tt = np.arange(m) / SR
+        f0 = 3200 if k % 2 == 0 else 2500
+        click = np.sin(2 * np.pi * f0 * tt) * np.exp(-tt * 260) + rng.standard_normal(m) * np.exp(-tt * 500) * 0.4
+        x[i: i + m] += click
+    x = filt(x, "high", 800)
+    return reverb(stereo(x, 0.3), size=0.6, mix=0.15)
+
+
+def strike():
+    """A marker slash across the clock: a fast bright swish ending in a soft tap."""
+    d = 0.6
+    t = secs(d)
+    n = len(t)
+    f = 1500 + 6000 * np.clip(t / 0.22, 0, 1) ** 0.8
+    x = svf_sweep(white(n), f, q=1.4) * swell(n, 0.18, 0.16, 0.25)
+    tap = filt(white(n), "band", [1500, 6000]) * env(n, 0.0005, 0.02, curve=3) * 0.5
+    tap = np.roll(tap, int(SR * 0.2))
+    return reverb(pan_sweep(x + tap, -0.6, 0.6), size=0.6, mix=0.12)
+
+
+def lift():
+    """Relief: an airy rise that blooms into a soft major chord."""
+    d = 2.2
+    t = secs(d)
+    n = len(t)
+    air = svf_sweep(pink(n), 300 + 4500 * np.clip(t / 0.6, 0, 1) ** 1.6, q=1.8) * swell(n, 0.6, 0.55, 1.4)
+    chord = sum(np.sin(2 * np.pi * f * t) for f in (523.25, 659.25, 783.99, 1046.5)) * np.clip((t - 0.5) / 0.08, 0, 1) * np.exp(-np.clip(t - 0.5, 0, None) * 2.2)
+    x = air * 0.8 + chord * 0.12
+    return reverb(stereo(x, 0.8), size=2.2, mix=0.38, damp=8000)
+
+
+def tap():
+    """A soft phone or touchscreen tap."""
+    d = 0.25
+    t = secs(d)
+    n = len(t)
+    x = np.sin(2 * np.pi * 1800 * t) * np.exp(-t * 120) * 0.5 + filt(white(n), "band", [2000, 8000]) * env(n, 0.0004, 0.01, curve=3) * 0.4
+    x += np.sin(2 * np.pi * 240 * t) * np.exp(-t * 60) * 0.4
+    return reverb(stereo(x, 0.2), size=0.4, mix=0.1)
+
+
+def eerie():
+    """An uneasy swell: two detuned tones drifting apart, with breathy air."""
+    d = 2.4
+    t = secs(d)
+    n = len(t)
+    a = np.sin(2 * np.pi * 330 * t) + np.sin(2 * np.pi * np.cumsum(330 + 22 * t / d) / SR)
+    b = np.sin(2 * np.pi * 495 * t + 0.5) * 0.5 + np.sin(2 * np.pi * np.cumsum(495 - 30 * t / d) / SR) * 0.5
+    air = filt(pink(n), "band", [800, 3500]) * 0.6
+    x = (a * 0.3 + b * 0.2 + air) * env(n, 0.7, 1.5, hold=0.2)
+    return reverb(stereo(x, 0.9), size=2.6, mix=0.45, damp=6000)
+
+
 if __name__ == "__main__":
     only = set(sys.argv[1:])
     jobs = {
         "shiver": shiver, "whoosh": lambda: whoosh(False), "whoosh-film": lambda: whoosh(True), "riser": riser,
         "wave-hit": wave_hit, "glitch-a": lambda: glitch(3), "glitch-b": lambda: glitch(11), "firework": firework,
         "subdrop": subdrop, "drop": drop, "paper": paper, "marker": marker, "shutter": shutter, "spark": spark,
-        "lamp": lamp, "chime": chime, "pop": pop,
+        "lamp": lamp, "chime": chime, "pop": pop, "stamp": stamp, "ticks": ticks, "strike": strike,
+        "lift": lift, "tap": tap, "eerie": eerie,
     }
     for name, fn in jobs.items():
         if not only or name in only:

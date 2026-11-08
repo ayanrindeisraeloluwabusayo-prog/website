@@ -47,8 +47,22 @@ picture or graphic, scrim, grain, words.
   for other body or brain parts.
 - `Rising({ from })`: glowing particles rising (a chemical being released).
 - `StippleHead({ from, y })`: a head made of grain that blows away like sand (a shiver, a thought fading).
-- `StudyPage({ from, highlightAt })`: the research paper card with a yellow highlighter wipe. Edit its
-  title, journal and authors to match the real study.
+- `StudyPage({ from, highlightAt, journal, title, authors })`: the research paper card with a yellow
+  highlighter wipe. Always pass the real study's journal (with year), title and authors.
+
+## More graphics (`src/graphics2.tsx`, first made for the procrastination video)
+- `ClockCross({ from, crossAt })`: a clock draws itself with spinning hands, then a yellow strike crosses
+  it out. Use it for "it's not about X".
+- `MoodGraph({ keys, taskAt, reliefAt })`: a line over time that drops, then jumps up, with labels.
+  `keys` are 6 frames that set where the drawing tip is (start, before the dip, after the dip, before the
+  jump, after the jump, end), so the dip and the jump land on their words. Change the labels for any
+  "goes down, then up" idea.
+- `Timeline({ from, slideAt })`: NOW → FUTURE YOU, with a card sliding along and landing. Use it for
+  "puts it off", "later", "passes it on".
+- `ThreeHeads({ from, morphAt })`: three heads with glowing spots (you, future you, someone else); one
+  spot changes colour to match another. Use it for any "A is more like C than B" idea.
+- `BlockSplit({ from, splitAt, tickAt })`: one big block splits into small steps, and the first is ticked.
+  Use it for "break it down", "start small".
 
 ## Transitions (`src/kit.tsx`, plus `FlashMontage` in `Video.tsx`)
 - `FilmBurn({ at })`: a warm light leak. It covers the cut at about `at + 5`.

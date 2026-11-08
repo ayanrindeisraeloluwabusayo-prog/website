@@ -51,7 +51,8 @@ project folder.
 Search the Art Institute of Chicago, Wikimedia Commons, NASA and Pixabay (videos and photos) with
 `scripts/search_media.py`. Build thumbnail sheets with `scripts/grid.py` and **look at every candidate
 yourself**. Keep only the ones that truly carry the scene's feeling. Then send the owner a contact
-sheet: 3-4 picks per picture slot, each with a one-line reason and its licence. Details, sources, licences
+sheet: 3-4 picks per picture slot, each with a one-line reason and its licence (build it with
+`scripts/contact_sheet.py`). Put your own pick first as "A", and tell the owner they can reply "go". Details, sources, licences
 and network quirks are in `references/sourcing.md`. If the owner says "just choose", pick the strongest
 and say so.
 
@@ -68,7 +69,8 @@ Use the building blocks (all documented in `references/building-blocks.md`):
 - **Motion graphics:** `BlueStage` (blue, glow, drifting dot grid), `Panel` (a floating glass panel),
   `LineHead` + `Regions` + `Rising` (a head diagram with spots lighting up), `StippleHead` (grain head that
   blows away), `BuildCurve` (a curve that draws itself), `BeforeGraph` (two lines over time),
-  `Molecule`, `StudyPage` (paper card with highlighter). For a new idea, draw a **new** graphic in the
+  `Molecule`, `StudyPage` (paper card with highlighter), plus `ClockCross`, `MoodGraph`, `Timeline`,
+  `ThreeHeads` and `BlockSplit` in `src/graphics2.tsx`. For a new idea, draw a **new** graphic in the
   same language: white lines on blue that draw themselves, one yellow accent, small Inter Tight labels.
 - **Words:** `Lockup` with `ws("words", startFrame, gap)`. Put them in the empty part of the picture.
 - **Transitions** (about one cut in four): `FilmBurn`, `InvertFlash`, `PixelGlitch`, a flash-frame
@@ -107,4 +109,11 @@ to commit.
 - **Words on a face.** Move the picture (`Shot` `shiftY` + `fill`) or move the words.
 - **White words on a bright picture.** Add a `Scrim` or darken with `grade="brightness(0.8)"`.
 - **A sound on every cut.** Too much. Sound only on visible actions and the stylised transitions.
-- **Wrong facts on screen** (e.g. "Nature" when the journal was *Nature Neuroscience*). Check them.
+- **Wrong facts on screen** (e.g. "Nature" when the journal was *Nature Neuroscience*). Check them, and
+  say exactly what a study compared: the 2009 future-self study compared imagining the future self with
+  imagining *other people*, so "someone else", not "a stranger".
+- **Small words overlapping the big word.** The lockup tucks small words into gaps above a big word with
+  few tall letters ("someone else", "now"). Two small lines above such a word will crash into it. Put
+  only one small line above it, and show the earlier lines in their own lockup with `until`.
+- **Words appearing too early.** Words given frame 0 (to show instantly) appear from the start of their
+  scene, so wrap that lockup in its own `<Scene from to>`.

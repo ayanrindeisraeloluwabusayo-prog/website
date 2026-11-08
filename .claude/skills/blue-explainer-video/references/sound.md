@@ -32,6 +32,12 @@
 | `drop` | a single water plink |
 | `chime` | the payoff word: a warm bell |
 | `pop` | the end card or a small UI moment |
+| `stamp` | a hook word slammed down ("lazy.") |
+| `ticks` | a clock on screen |
+| `strike` | something crossed out |
+| `lift` | relief or a lift in mood: an airy rise into a soft chord |
+| `tap` | a phone or touchscreen tap, a tick on a checklist |
+| `eerie` | an unsettling turn ("someone else") |
 
 To make a new effect, add a function to `make_sfx.py`. Shape noise and tones with filters, envelopes and
 the room `reverb()`, then add it to `jobs`. Before using it, check a spectrogram (a picture of the
