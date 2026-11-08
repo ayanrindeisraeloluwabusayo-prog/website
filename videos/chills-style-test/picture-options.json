@@ -39,6 +39,36 @@
    "lic": "Public domain (CC0)",
    "page": "https://www.artic.edu/artworks/106600",
    "full": "https://www.artic.edu/iiif/2/6371c0e9-9b24-2e5f-3056-e69393b11ddf/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "1E",
+   "src": "Pixabay photo",
+   "title": "goosebumps, cold, arm, goosebumps, goosebumps, goosebumps, goosebumps, goosebumps",
+   "who": "physicsgirl",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/goosebumps-cold-arm-885563/",
+   "full": "https://pixabay.com/get/g3715ea9106f5e8e7e1738f0540be9b294601400ded7762b60de956e1e8b83a83183aa42f2ed5e37dc2f2c9a59f4a90bfced61943e2387ea083f1638aab9eceae_1280.jpg"
+  },
+  {
+   "label": "1F",
+   "src": "Pixabay photo",
+   "title": "woman, listen to music, headphones, music, portrait, headphones, headphones, headphones, headphones, headphones, music",
+   "who": "Alessandra_Ceja19",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/woman-listen-to-music-headphones-6805178/",
+   "full": "https://pixabay.com/get/gf4737c69abdedc23a3006895bf5f716337c42ae569b18594ee5a74b858afa567e7f2ec25c0275cb47a020242db3f2dc060569f148854d1daa6b1fc7969b82b5f_1280.jpg"
+  },
+  {
+   "label": "1G",
+   "src": "Pixabay photo",
+   "title": "music, headphones, volume, to play, melody, woman, pleasure, fun, song, happy, to dance, laugh, dreams, relax, home, at home, tape, listen, listen to, sound",
+   "who": "VinzentWeinbeer",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/music-headphones-volume-to-play-5190764/",
+   "full": "https://pixabay.com/get/gccdfd07281aa4c6a978b4f5c11cbfdfa3dd24f0f1ab247b25ff8829472e41cf1bdf53258e9d3fa515ef78483117d6a8b58ecac9dbdb21dcc1671721d0b2fb912_1280.jpg"
   }
  ],
  "2_chemistry": [
@@ -81,6 +111,36 @@
    "lic": "Public domain (CC0)",
    "page": "https://www.artic.edu/artworks/75214",
    "full": "https://www.artic.edu/iiif/2/7d1f99f7-93f1-292f-ff8f-ffb552454ad2/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "2E",
+   "src": "Pixabay video",
+   "title": "monochrome, liquid, paint, space, motion paint, macro, abstract, slow, ink, ink in water, fluid, flow, water, arts, acrylic, watercolor, parallax, lines, forms, beautiful wallpaper, backdrop, background, dark, dramatic, cinematic (20 s)",
+   "who": "FreeCreativeStuff",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/videos/id-27794/",
+   "full": "https://cdn.pixabay.com/video/2019/10/11/27794-365891117_large.mp4"
+  },
+  {
+   "label": "2F",
+   "src": "Pixabay video",
+   "title": "yellow, liquid, paint, space, motion paint, macro, abstract, slow, ink, ink in water, fluid, beautiful wallpaper, flow, water, arts, acrylic, watercolor, parallax, lines, forms, backdrop, background, colors, live wallpaper (24 s)",
+   "who": "FreeCreativeStuff",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/videos/id-27803/",
+   "full": "https://cdn.pixabay.com/video/2019/10/11/27803-365891137_large.mp4"
+  },
+  {
+   "label": "2G",
+   "src": "Pixabay photo",
+   "title": "flasks, erlenmeyer, chemistry, laboratory, science, research, lab, liquid, glassware, medical, test, equipment, biology, white, biotechnology, container, pharmacy, solution, blue medical, blue science, blue research, blue lab, blue test, blue laboratory, blue chemistry, chemistry, chemistry, chemistry, chemistry, chemistry, laboratory, laboratory, laboratory, laboratory, laboratory, science, research, lab, lab, lab, lab, lab, biology, pharmacy",
+   "who": "Republica",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/flasks-erlenmeyer-chemistry-606612/",
+   "full": "https://pixabay.com/get/g9eef70e9e12aa5d0af34d255391c1f0101337c8419d4b8a50660918bbd3d7acf4df03315b33108461fb87d589068b4e240c595e6a5288453e6a8754c2cd8e2e4_1280.jpg"
   }
  ],
  "3_buildup": [
@@ -123,6 +183,46 @@
    "lic": "Public domain (CC0)",
    "page": "https://www.artic.edu/artworks/121628",
    "full": "https://www.artic.edu/iiif/2/f7ef1f0f-c5c9-6794-9283-2e7ebcde95cd/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "3E",
+   "src": "Pixabay video",
+   "title": "sea, ocean, waves crashing, storm, thunderstorm, weather, waves, lightning, hurricane, tsunami, cyclone, rain, wind (29 s)",
+   "who": "harrisonmiller",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/videos/id-200244/",
+   "full": "https://cdn.pixabay.com/video/2024/02/12/200244-912370046_large.mp4"
+  },
+  {
+   "label": "3F",
+   "src": "Pixabay photo",
+   "title": "wave, surf, nature, sea, water, coast, ocean",
+   "who": "makabera",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/wave-surf-nature-sea-water-coast-9067749/",
+   "full": "https://pixabay.com/get/gb0c43dc6c4b86a4b7e410ed72fcc3135e8719ce46156af52f987e5054c864258d0a0ab11df42fcc5066992b50470b70bdf93e8dcd62ed427973c93adea6fe2b5_1280.jpg"
+  },
+  {
+   "label": "3G",
+   "src": "Pixabay photo",
+   "title": "concert, crowd, silhouette, music festival, festival, live performance, stage performance, people, audience, performance, party, concert, concert, concert, crowd, music festival, festival, festival, party, party, party, party, party",
+   "who": "mikewallimages",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/concert-crowd-silhouette-3084876/",
+   "full": "https://pixabay.com/get/g5f0a8b03dd37f9b88add2fc9553bbb3151bb0ce4e926544aa0e3aca73c33b13298d82fe9b49e27c791a66b357ce9c50dc6d816da83831004a6a0bedbe26b0b9a_1280.jpg"
+  },
+  {
+   "label": "3H",
+   "src": "Pixabay photo",
+   "title": "violins, musicians, orchestra, instruments, bowed string instruments, musical, musical instruments, classical music, concert, music, performance, string instruments, orchestra, orchestra, orchestra, orchestra, orchestra, concert, music, music, music",
+   "who": "Pexels",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/violins-musicians-orchestra-1838390/",
+   "full": "https://pixabay.com/get/g38591e90d2e5c97bc05b3adae108a03e1cd284d4b0b457f9d9b329c3f841d6572559a293bf2d2f973c5bb96e2de2fe93d03a72bad7e53f737128a455b36ce7e6_1280.jpg"
   }
  ],
  "4_dopamine": [
@@ -165,6 +265,36 @@
    "lic": "Public domain (CC0)",
    "page": "https://www.artic.edu/artworks/120172",
    "full": "https://www.artic.edu/iiif/2/d51eb11c-da63-0888-0a59-6a5ef0631142/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "4E",
+   "src": "Pixabay video",
+   "title": "firework, explosive, star, light, explosion, night, laser, dark, fireworks, bright, fire, black, celebration, new, art, explode, festival, glow, party, celebrate, optical device (10 s)",
+   "who": "tommyvideo",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/videos/id-121793/",
+   "full": "https://cdn.pixabay.com/video/2022/06/22/121793-724719765_large.mp4"
+  },
+  {
+   "label": "4F",
+   "src": "Pixabay video",
+   "title": "particles, lights, golden, loop, screensaver, beautiful wallpaper, background, diwali (10 s)",
+   "who": "TIMETORELAXSCREENSAVER",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/videos/id-183281/",
+   "full": "https://cdn.pixabay.com/video/2023/10/02/183281-870457586_large.mp4"
+  },
+  {
+   "label": "4G",
+   "src": "Pixabay photo",
+   "title": "mysterious, backlight, enlightenment, silhouette, shadow, conceptual, meditation, introspective, divine light, mysticism, halo effect, mindfulness, expressive, emotional, soft glow, light rays, meditative pose, tranquility, hidden identity, enigmatic, dark atmosphere, solitude, backlit, moody portrait, light and shadow",
+   "who": "cmrcn_",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/mysterious-backlight-enlightenment-9413772/",
+   "full": "https://pixabay.com/get/gb317805fa5f827696de842d0bf30b3106e7e327c7807efea128cc3f89bcd48188bc84cd6cecb5dc5c1697b89abd9c4be327c96c84424d3ff011bcd407440d7a8_1280.jpg"
   }
  ],
  "5_before_drop": [
@@ -207,6 +337,36 @@
    "lic": "Public domain",
    "page": "https://commons.wikimedia.org/wiki/File:Breaking_Wave_(by_Ivan_Aivazovsky).jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Breaking_Wave_%28by_Ivan_Aivazovsky%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "5E",
+   "src": "Pixabay photo",
+   "title": "dive, swimmer, jump, sport, competition, speed, woman, athlete, health, strength, human, movement, sporty, nature, active, exercise, swimsuit, youth, beautiful, red, professional, diver, high, sea, that",
+   "who": "Engin_Akyurt",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/dive-swimmer-jump-sport-9093321/",
+   "full": "https://pixabay.com/get/g109ae6b58f415b5815d95efe44de8a6f6e0b5f1cd504f4c9d59d664cde53fd280f216840dd4c4197bde5f8ba08fcf39523df736204d2f73ec7745d210433ec73_1280.jpg"
+  },
+  {
+   "label": "5F",
+   "src": "Pixabay photo",
+   "title": "water drop, water, nature, drop, liquid",
+   "who": "KarenPouls",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/water-drop-water-drop-liquid-7589539/",
+   "full": "https://pixabay.com/get/ge3aada9d900274e399a33b1572a3764102bfc93de0173880f8080864f75b4550c5cd4126d47e468685e9f2258d9cba85901a5fe7f29fd242652c812a03385058_1280.jpg"
+  },
+  {
+   "label": "5G",
+   "src": "Pixabay photo",
+   "title": "man, dive, jump, high, body, beautiful, sea, ocean, wave, nature, sunny, male, bounce, sport, health, athletic, athlete, cliff",
+   "who": "Engin_Akyurt",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/man-dive-jump-high-body-beautiful-9158644/",
+   "full": "https://pixabay.com/get/g46f119056cf96ba9f7d6729c040ba979e87e3919e07b033bbea359733483b9a5e1e319afb218cd6f053bfcbda7ad551b77a21cf12ef3103394c342f9b2e1b3b9_1280.jpg"
   }
  ],
  "6_scanned": [
@@ -249,6 +409,36 @@
    "lic": "Public domain",
    "page": "https://commons.wikimedia.org/wiki/File:Gray%27s_Anatomy_plate_517_brain.png",
    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gray%27s_Anatomy_plate_517_brain.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "6E",
+   "src": "Pixabay photo",
+   "title": "head, magnetic resonance imaging, mrt, roentgen, x-ray image, brain, blue, brain, brain, brain, brain, brain",
+   "who": "kalhh",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/head-magnetic-resonance-imaging-mrt-254866/",
+   "full": "https://pixabay.com/get/g0df72e4dbabecffdc97caf4d4676f1c00b6e3e60598e2b37c927007fe9387619fa7e00c50998e8c2f9edc52d809abfb1a7c4c8a9089abef31c61924508a3cf34_1280.jpg"
+  },
+  {
+   "label": "6F",
+   "src": "Pixabay photo",
+   "title": "x-ray, mri, ct scan, computed tomography, magnetic resonance imaging, medicine, neurology, healthcare, x-ray, mri, mri, mri, mri, mri, ct scan, medicine, neurology, neurology, healthcare, healthcare",
+   "who": "Mitrey",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/x-ray-mri-ct-scan-6841384/",
+   "full": "https://pixabay.com/get/g98eb62bcc03c9f43a178d0fe77317d3d7b4f90d2fef751428bbf40a17ad05d05f90957c1645b697f307d21cca42195d6c69a5041013d014e68939b3eceaaea1b_1280.jpg"
+  },
+  {
+   "label": "6G",
+   "src": "Pixabay video",
+   "title": "skull, cat scan, medical, anatomy, x-ray, human, head, brain, patient, examination, cranium, ct, scan, healthcare, body, exam, skeleton (3 s)",
+   "who": "NeuroPixels",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/videos/id-4122/",
+   "full": "https://cdn.pixabay.com/video/2016/08/01/4122-177145595_large.mp4"
   }
  ],
  "7_two_lights": [
@@ -291,6 +481,36 @@
    "lic": "Public domain (CC0)",
    "page": "https://www.artic.edu/artworks/56905",
    "full": "https://www.artic.edu/iiif/2/50034c7f-ce51-00f1-430e-a6f7efc233fc/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "7E",
+   "src": "Pixabay video",
+   "title": "brain, brain synapses, synapses, neurons, mind, head, human brain, human brain neurons, human brain synapses (6 s)",
+   "who": "Ahsan-Ashraf",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/videos/id-143567/",
+   "full": "https://cdn.pixabay.com/video/2022/12/19/143567-782758325_large.mp4"
+  },
+  {
+   "label": "7F",
+   "src": "Pixabay photo",
+   "title": "light bulbs, lights, lamps, electricity, power, design, electric, bright, glass, night, lantern, electricity, electricity, electricity, electricity, electricity, power, power, design, electric, lantern",
+   "who": "xegxef",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/light-bulbs-lights-lamps-1603766/",
+   "full": "https://pixabay.com/get/g5a7fa5e313122a7827cb81005c5205037e54eab501a374c006597214749c32f4c3508c2692a6aa7c24817c5d2915d53fbc1f31b701d85a73d9890e4bf1f11461_1280.jpg"
+  },
+  {
+   "label": "7G",
+   "src": "Pixabay video",
+   "title": "bulb, electricity, lightning, energy, intro, light (14 s)",
+   "who": "MONKIKY",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/videos/id-172195/",
+   "full": "https://cdn.pixabay.com/video/2023/07/19/172195-846731366_large.mp4"
   }
  ],
  "8_reward": [
@@ -333,6 +553,36 @@
    "lic": "Public domain (NASA)",
    "page": "https://images.nasa.gov/details/iss065e013242",
    "full": "https://images-assets.nasa.gov/image/iss065e013242/collection.json"
+  },
+  {
+   "label": "8E",
+   "src": "Pixabay photo",
+   "title": "woman, nature, hiking, summit, peak, clouds, dusk, twilight, sunset, silhouette, mountain",
+   "who": "Mohamed_hassan",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/woman-hiking-summit-peak-clouds-3338616/",
+   "full": "https://pixabay.com/get/ged9627ee0d715b1e1d50afba1f90da9b7adcfa4f255def970c3cc2a2130ff5d24e116455564452d532a2f185f50d0d5e4ff938f0a4137b0d4e0269ce75eab13f_1280.jpg"
+  },
+  {
+   "label": "8F",
+   "src": "Pixabay video",
+   "title": "sea of fog, sunrise, alps, mountains, landscape, heaven, time lapse, timelapse (11 s)",
+   "who": "adege",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/videos/id-102377/",
+   "full": "https://cdn.pixabay.com/video/2021/12/24/102377-659979931_large.mp4"
+  },
+  {
+   "label": "8G",
+   "src": "Pixabay photo",
+   "title": "mountains, canada, girl, outlook, snow, nature, mountain landscape, hiking, happy, wide, landscape, excited, woman, canada, hiking, hiking, hiking, happy, happy, happy, happy, happy, excited",
+   "who": "11417994",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/mountains-canada-girl-outlook-snow-3959204/",
+   "full": "https://pixabay.com/get/g3e5c2847702974b0cd1d1a00505501fbc45ceaf6da2b72e710a992674f4b4ad442530ea5029a30a4b039df5ffac0846a68f11d5305fded37b584c64b5620f06d_1280.jpg"
   }
  ],
  "9_end": [
@@ -375,6 +625,36 @@
    "lic": "CC0",
    "page": "https://commons.wikimedia.org/wiki/File:Bust_of_Germanicus,_left_profile_-_Getty_Museum_(2021.66).jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/3/35/Bust_of_Germanicus%2C_left_profile_-_Getty_Museum_%282021.66%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "9E",
+   "src": "Pixabay photo",
+   "title": "busts, philosophy, aristotle, philosophers, greeks, knowledge, greek, philosophy, philosophy, philosophy, philosophy, philosophy, aristotle",
+   "who": "morhamedufmg",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/photos/busts-philosophy-aristotle-756620/",
+   "full": "https://pixabay.com/get/g8f429582ad3b075817621d63198529deaa12fef1ebc866ed7d717d310f2108e9f33b423aac5fad3319b9456e903407590f69c7081fd4d641ed4e60bd4d618f20_1280.jpg"
+  },
+  {
+   "label": "9F",
+   "src": "Pixabay video",
+   "title": "bust, figure, technology, wireframe, sculpture, woman, spinning, man, statue, head, classic, loop, infinite (40 s)",
+   "who": "ChristianBodhi",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/videos/id-42670/",
+   "full": "https://cdn.pixabay.com/video/2020/06/20/42670-432087053_large.mp4"
+  },
+  {
+   "label": "9G",
+   "src": "Pixabay video",
+   "title": "space, wormhole, blue, vortex, lights, beautiful wallpaper, abstract, background (29 s)",
+   "who": "tommyvideo",
+   "date": "",
+   "lic": "Pixabay Content License",
+   "page": "https://pixabay.com/videos/id-4968/",
+   "full": "https://cdn.pixabay.com/video/2016/09/06/4968-181688475_large.mp4"
   }
  ]
 }
