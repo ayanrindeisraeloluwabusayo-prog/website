@@ -10,8 +10,12 @@ exactly as each word is said.
     (`request_credential`, host `api.elevenlabs.io`, header `xi-api-key`).
 - Plan: free tier, 10,000 characters a month at the start. A 30 s script is about 400-500 characters.
   Check what's left with `GET https://api.elevenlabs.io/v1/user/subscription` before a big job.
-- **Licence:** ElevenLabs' free plan requires crediting ElevenLabs and doesn't allow commercial use. If
-  the owner will monetise a video, they need a paid plan. Add "Voice: ElevenLabs" to CREDITS.md.
+- **Licence** (checked 2026-11-08 in ElevenLabs' help center; recheck their terms if it matters):
+  - Free plan: personal, non-commercial use only. Published content must credit ElevenLabs by putting
+    "elevenlabs.io" or "11.ai" in the title.
+  - Paid plans, from Starter at about $6 a month: commercial use, no credit needed. Audio made while
+    subscribed keeps its commercial licence after the subscription ends.
+  - Before publishing, ask which plan the owner is on. Note it, and the voice, in CREDITS.md.
 
 ## Choosing the voice
 **Chosen: Brian (`nPczCjzI2devNBz1zQrb`)**, recorded in `videos/voice-choice.md`. Use him unless the owner
