@@ -100,3 +100,10 @@ songs) unless the owner names it. Treat each new request as its own project.
 
 `video-styles/` holds frame-by-frame studies of editing styles the owner wants to use (technique
 only, never the source footage, wording or branding). `blue-serif-explainer.md` is the first.
+
+## Explainer videos (blue-explainer-video skill)
+
+The `blue-explainer-video` skill in `.claude/skills/` turns the owner's favourite edit (the "Why a song
+gives you chills" video, `videos/chills-style-test`) into a repeatable process. It covers when to use a
+picture and when to use a motion graphic, the fonts and colours, picture sourcing, and designed sound
+effects. Use it whenever the owner uploads a video or gives a topic for a short explainer.
