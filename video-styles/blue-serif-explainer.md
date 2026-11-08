@@ -127,3 +127,6 @@ conclusion → a call to action card on blue ("Comment …"). The speaker is on 
   Small words above a big word tuck into a gap between its tall letters when one is wide enough (like
   "is expressing / hatred"), otherwise they sit clear above the tallest letter; small words below clear
   its hanging letters.
+- **Font colours (owner's rule):** white on photos, footage and dark or blue backgrounds; **black on
+  white or paper**; blue only as an accent (a single key word on a white card, or an occasional blue
+  card). Never blue in every scene.
