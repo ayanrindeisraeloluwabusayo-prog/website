@@ -4,17 +4,30 @@
 // Pictures: public domain (Art Institute of Chicago, Wikimedia Commons) and Pixabay (Pixabay Content
 // License); see CREDITS.md. Text colour rule: white on pictures and blue, black on paper, blue as an accent.
 import { AbsoluteFill, Audio, Img, Sequence, staticFile, useCurrentFrame } from "remotion";
-import { StudyPage } from "./art";
+import { BuildCurve, LineHead, Regions, Rising, StippleHead, StudyPage } from "./art";
+import { BeforeGraph, BlueStage, Molecule, Panel } from "./motion";
 import { BlueField, FilmBurn, Grain, InvertFlash, p, Paper, PixelGlitch } from "./kit";
 import { ws } from "./type";
 import { Lockup } from "./lockup";
-import { Card, Filters, Scrim, Shot, Stage, Vignette } from "./media";
+import { Filters, Scrim, Shot, Vignette } from "./media";
 
 export const FRAMES = 900;
 
+/** Music level: steady, dipping briefly under the big hits so they land clearly. */
+const DIPS = [258, 313, 420];
+const musicLevel = (f: number) => {
+  let v = 0.6;
+  for (const d of DIPS) {
+    const k = f < d - 3 ? 0 : f < d ? (f - d + 3) / 3 : Math.max(0, 1 - (f - d) / 30);
+    v = Math.min(v, 0.6 - 0.3 * k);
+  }
+  return v * Math.min(1, (900 - f) / 20);
+};
+
+/** One sound effect from public/sfx2 (made by make_sfx.py), starting at frame `at`. */
 const Sfx: React.FC<{ at: number; src: string; volume?: number }> = ({ at, src, volume = 0.6 }) => (
-  <Sequence from={at} durationInFrames={90} layout="none">
-    <Audio src={staticFile(`sfx/${src}.mp3`)} volume={volume} />
+  <Sequence from={at} durationInFrames={150} layout="none">
+    <Audio src={staticFile(`sfx2/${src}.wav`)} volume={volume} />
   </Sequence>
 );
 
@@ -36,28 +49,18 @@ const FlashMontage: React.FC<{ at: number }> = ({ at }) => {
   );
 };
 
-/** Two lamps that switch on one after the other: dark at first, then full glow. */
-const Lamps: React.FC<{ from: number; on: number }> = ({ from, on }) => {
-  const f = useCurrentFrame();
-  const k = p(f, on, 8);
-  return (
-    <AbsoluteFill style={{ filter: `brightness(${0.35 + 0.75 * k}) saturate(${0.6 + 0.5 * k})` }}>
-      <Card src="7F.jpg" from={from} to={795} ratio={1280 / 853} width={980} y={1180} tilt={-1.5} />
-    </AbsoluteFill>
-  );
-};
-
 export const Video: React.FC = () => {
+  const f = useCurrentFrame();
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       <Filters />
 
-      {/* 1. Hook: a head thrown back (blue), then real goosebumps (0.0-3.4 s) */}
+      {/* 1. Hook: picture (Rodin's head thrown back), then motion: a head of grain that blows away (0.0-3.4 s) */}
       <Scene from={0} to={102}>
         <Shot src="1B.jpg" from={0} to={50} pos="50% 100%" zoom={[0.98, 1.06]} shiftY={330} fill="rgb(41,92,255)" duo="blue" grade="contrast(1.15)" />
         <Scene from={50} to={102}>
-          <BlueField glow={0.4} />
-          <Card src="1E.jpg" from={50} to={102} ratio={1280 / 960} width={940} y={1250} tilt={2} />
+          <BlueStage glowY={55} />
+          <StippleHead from={30} y={820} />
         </Scene>
         <Grain amount={0.22} />
         <Lockup
@@ -75,8 +78,13 @@ export const Video: React.FC = () => {
       {/* 2. The alchemist: not magic; ink in water: chemistry (3.4-6.8 s) */}
       <Scene from={102} to={204}>
         <Shot src="2A.jpg" from={102} to={146} pos="50% 70%" zoom={[1.05, 1.13]} grade="brightness(0.95) contrast(1.1) saturate(0.9)" />
-        <Shot src="ink.mp4" video from={146} to={204} zoom={[1.0, 1.08]} duo="ink" grade="contrast(1.2)" />
-        <Scrim side="top" strength={0.65} />
+        <Scene from={0} to={146}>
+          <Scrim side="top" strength={0.65} />
+        </Scene>
+        <Scene from={146} to={204}>
+          <BlueStage />
+          <Molecule from={148} />
+        </Scene>
         <Grain amount={0.2} />
         <Lockup
           top={300}
@@ -90,10 +98,18 @@ export const Video: React.FC = () => {
 
       {/* 3. The build: a storm sea, then push into the great wave (6.8-10.4 s) */}
       <Scene from={204} to={312}>
-        <Shot src="sea.mp4" video from={204} to={258} zoom={[1.0, 1.06]} grade="brightness(0.9) contrast(1.15) saturate(0.8)" />
+        <Scene from={204} to={258}>
+          <BlueStage glowY={65} />
+          <Panel from={204} x={50} y={900} w={980} h={720}>
+            <div style={{ position: "absolute", left: 40, top: 30, color: "rgba(255,255,255,0.75)", fontFamily: "'Inter Tight', sans-serif", fontSize: 30, letterSpacing: "0.14em" }}>A SONG'S LOUDNESS</div>
+          </Panel>
+          <BuildCurve from={208} dur={60} color="#ffffff" y={1290} height={460} stroke={5} />
+        </Scene>
         <Shot src="3B.jpg" from={258} to={312} pos="30% 40%" zoom={[1.0, 1.35]} grade="contrast(1.05)" />
-        <Scrim side="top" strength={0.7} />
-        <Vignette amount={0.45} />
+        <Scene from={258} to={312}>
+          <Scrim side="top" strength={0.7} />
+          <Vignette amount={0.45} />
+        </Scene>
         <Grain amount={0.2} />
         <Lockup
           top={230}
@@ -109,9 +125,15 @@ export const Video: React.FC = () => {
 
       {/* 4. Dopamine: a gold burst, then Whistler's falling sparks (10.4-14.0 s) */}
       <Scene from={312} to={420}>
-        <Shot src="firework.mp4" video from={312} to={378} zoom={[1.0, 1.1]} grade="brightness(0.8)" />
-        <Shot src="4A.jpg" from={378} to={420} pos="50% 40%" zoom={[1.05, 1.15]} grade="brightness(1.25) contrast(1.15)" />
-        <Scrim side="top" strength={0.8} />
+        <Shot src="firework.mp4" video from={312} to={372} zoom={[1.0, 1.1]} grade="brightness(0.8)" />
+        <Scene from={312} to={372}>
+          <Scrim side="top" strength={0.8} />
+        </Scene>
+        <Scene from={372} to={420}>
+          <BlueStage glowY={62} />
+          <LineHead draw={1} brain={1} y={760} />
+          <Rising from={340} />
+        </Scene>
         <Vignette amount={0.5} />
         <Grain amount={0.24} />
         <Lockup
@@ -125,12 +147,17 @@ export const Video: React.FC = () => {
 
       {/* 5. Before: a diver hanging in the air, then a drop that hasn't landed (14.0-17.5 s) */}
       <Scene from={420} to={525}>
-        <Shot src="5E.jpg" from={420} to={470} pos="50% 50%" zoom={[1.0, 1.1]} grade="contrast(1.1)" />
-        <Scene from={470} to={525}>
-          <Stage />
-          <Card src="5F.jpg" from={470} to={525} ratio={1280 / 786} width={980} y={1250} tilt={-1} grade="grayscale(0.3) contrast(1.1)" />
+        <Shot src="5E.jpg" from={420} to={462} pos="50% 50%" zoom={[1.0, 1.1]} grade="contrast(1.1)" />
+        <Scene from={420} to={462}>
+          <Scrim side="top" strength={0.55} />
         </Scene>
-        <Scrim side="top" strength={0.55} />
+        <Scene from={462} to={525}>
+          <BlueStage glowY={65} />
+          <Panel from={462} x={50} y={880} w={980} h={820}>
+            <span />
+          </Panel>
+          <BeforeGraph from={466} />
+        </Scene>
         <Grain amount={0.2} />
         <Lockup
           top={210}
@@ -175,12 +202,15 @@ export const Video: React.FC = () => {
 
       {/* 7. Two regions: brain cells firing, then two lamps switching on (22.5-26.5 s) */}
       <Scene from={675} to={795}>
-        <Shot src="neurons.mp4" video from={675} to={738} zoom={[1.0, 1.08]} grade="contrast(1.1)" />
-        <Scene from={738} to={795}>
-          <Stage />
-          <Lamps from={738} on={748} />
+        <Shot src="neurons.mp4" video from={675} to={704} zoom={[1.0, 1.08]} grade="contrast(1.1)" />
+        <Scene from={675} to={704}>
+          <Scrim side="top" strength={0.6} />
         </Scene>
-        <Scrim side="top" strength={0.6} />
+        <Scene from={704} to={795}>
+          <BlueStage glowY={60} />
+          <LineHead draw={p(f, 704, 18)} brain={p(f, 712, 14)} />
+          <Regions a={721} b={770} />
+        </Scene>
         <Grain amount={0.22} />
         <Lockup
           top={240}
@@ -236,16 +266,26 @@ export const Video: React.FC = () => {
       <FlashMontage at={671} />
       <FilmBurn at={790} />
 
-      {/* sound (placeholder until we plan the sound together): soft bed, hits on the stylised transitions */}
-      <Audio src={staticFile("music.wav")} volume={0.75} />
-      <Sfx at={95} src="whoosh-cinematic" volume={0.5} />
-      <Sfx at={250} src="riser" volume={0.22} />
-      <Sfx at={311} src="glitch-2" volume={0.45} />
-      <Sfx at={420} src="impact-bass-1" volume={0.55} />
-      <Sfx at={518} src="glitch-2" volume={0.4} />
-      <Sfx at={670} src="whoosh" volume={0.45} />
-      <Sfx at={788} src="whoosh-cinematic" volume={0.45} />
-      <Sfx at={866} src="pop" volume={0.5} />
+      {/* sound: a soft music bed that dips under the big moments, and effects only where something happens
+          (plan in SOUND.md). Whooshes peak 15 frames after they start, so they start 15 frames before the cut. */}
+      <Audio src={staticFile("music.wav")} volume={(f) => musicLevel(f)} />
+      <Sfx at={0} src="shiver" volume={0.45} />
+      <Sfx at={148} src="spark" volume={0.25} />         {/* the molecule starts drawing */}          {/* the chill: cold breath and shimmer */}
+      <Sfx at={85} src="whoosh-film" volume={0.55} />    {/* film burn into the alchemist */}
+      <Sfx at={201} src="riser" volume={0.4} />          {/* "builds toward its…" climbs, cut dead on the wave */}
+      <Sfx at={258} src="wave-hit" volume={0.7} />       {/* the great wave lands */}
+      <Sfx at={310} src="glitch-a" volume={0.35} />      {/* invert flash */}
+      <Sfx at={313} src="firework" volume={0.6} />       {/* gold burst: dopamine */}
+      <Sfx at={420} src="subdrop" volume={0.75} />       {/* "before": the floor drops out */}
+      <Sfx at={466} src="paper" volume={0.3} />          {/* the graph panel slides up */}
+      <Sfx at={518} src="glitch-b" volume={0.3} />       {/* pixel glitch into the scan */}
+      <Sfx at={618} src="marker" volume={0.35} />        {/* highlighter across the study title */}
+      <Sfx at={671} src="shutter" volume={0.45} />       {/* one click per flash frame */}
+      <Sfx at={721} src="spark" volume={0.4} />          {/* first region lights up */}
+      <Sfx at={770} src="lamp" volume={0.45} />          {/* second region switches on */}
+      <Sfx at={778} src="whoosh-film" volume={0.45} />   {/* film burn into the reward */}
+      <Sfx at={842} src="chime" volume={0.4} />          {/* "reward." rings out */}
+      <Sfx at={866} src="pop" volume={0.45} />           {/* end card lands */}
     </AbsoluteFill>
   );
 };
