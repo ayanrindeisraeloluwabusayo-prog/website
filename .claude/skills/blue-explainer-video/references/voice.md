@@ -14,6 +14,9 @@ exactly as each word is said.
   the owner will monetise a video, they need a paid plan. Add "Voice: ElevenLabs" to CREDITS.md.
 
 ## Choosing the voice
+**Chosen: Brian (`nPczCjzI2devNBz1zQrb`)**, recorded in `videos/voice-choice.md`. Use him unless the owner
+asks for a change.
+
 - The owner chooses. The first time, send 4-6 short samples of the same line
   (`POST /v1/text-to-speech/<voice_id>`, model `eleven_multilingual_v2`), named `1-George.mp3` and so on.
 - Save the chosen voice (name and id) in `voice-choice.md` at `videos/` level, and reuse it for every
