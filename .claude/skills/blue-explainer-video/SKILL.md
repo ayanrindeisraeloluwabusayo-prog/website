@@ -18,8 +18,9 @@ the decision rules and a worked example.
 ## What the owner may give you
 
 1. **A topic or a script** ("make one about why we procrastinate"). You write a ~30 s script (70-85
-   words, about 8-9 phrases), and the words on screen carry it. There's no voice unless the owner asks
-   for one.
+   words, about 8-9 phrases). **The owner wants a spoken voiceover** (ElevenLabs, in their chosen voice:
+   see `references/voice.md`), with the words building on screen exactly as they're spoken. Make a
+   silent, words-only version only if they ask for one.
 2. **An uploaded video** (a talking head, a clip of them speaking, or other footage). Its speech becomes
    the words on screen. The speaker stays on screen about half the time, and every 2-3 s the edit cuts
    away to a picture or a motion graphic for the line being spoken. See
@@ -60,7 +61,8 @@ and say so.
 Copy `template/` (next to this file) to `videos/<short-name>/`, run `npm install`, and put the chosen
 media in `public/media/`. Crop clips to 1080×1920 at 30 fps with ffmpeg first, keeping only the
 seconds you use. `src/Video.tsx` is the finished chills video: a working example to copy patterns from.
-Rewrite it for the new script.
+Rewrite it for the new script. **Make the voiceover now** (step 6), because its word timings drive
+step 5.
 
 ### 5. Build the edit
 Use the building blocks (all documented in `references/building-blocks.md`):
@@ -79,7 +81,9 @@ Use the building blocks (all documented in `references/building-blocks.md`):
 Text colour rule (the owner's): **white** on pictures, footage and blue; **black** on white or paper;
 blue only as an accent.
 
-### 6. Sound
+### 6. Voice and sound
+Make the voiceover first (`scripts/voiceover.py`, see `references/voice.md`): its word timings set the
+timing of the whole edit, so do it before step 5's word placement. Then the effects:
 Run `python3 make_sfx.py` (needs `pip install scipy`) to build the effects, then place them only where
 something visibly happens. Rules and the effect list are in `references/sound.md`. Run
 `python3 make_music.py public/music.wav` for the placeholder bed, or use music the owner supplies. Dip the
