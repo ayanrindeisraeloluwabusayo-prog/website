@@ -106,3 +106,19 @@ conclusion → a call to action card on blue ("Comment …"). The speaker is on 
   word-by-word captions, blue/paper cards, grain and the transition kit on top.
 - Use the owner's own footage, clips they have the rights to, public-domain art and original diagrams.
   Never reuse the reference videos' footage, speaker, wording or branding.
+
+## Chosen fonts (tested side by side against the reference frames)
+- **Key word, serif:** Newsreader 500, condensed to 88 % width, letter-spacing −0.045em, line height
+  0.84, about 200 px on a 1080-wide frame. The closest free match to the reference serif; Instrument
+  Serif was too thin and read as cheap.
+- **Small words:** Inter Tight 400, about 51 px, letter-spacing −0.018em (the Helvetica role).
+- **Statement key word on cards:** Inter Tight 800, letter-spacing −0.05em.
+- **Quotes:** Newsreader 500 italic.
+- **Lockup spacing:** a small lead-in line sits just above the serif word (about 7.5 % of the big size
+  overlap), never touching its tall letters.
+- **The standout word** is the one that carries the meaning or the surprise (a noun or verb of the
+  claim: "chemistry", "peak", "dopamine", "before", "scanned", "reward"), never a filler word.
+- **Placement is decided by the scene:** the text goes into the empty part of the picture (top-left
+  when the subject fills the bottom, top-right when it sits lower-left, centred on open backgrounds),
+  and the font style follows the scene type (serif on pictures, heavy grotesk on statement cards, italic
+  serif for quotes).
