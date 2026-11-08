@@ -1,0 +1,380 @@
+{
+ "1_chill": [
+  {
+   "label": "1A",
+   "src": "AIC",
+   "title": "Head of a Dominican Nun: Study for the Ecstasy of Saint Dominic",
+   "who": "Domenico Maria Canuti",
+   "date": "1673/75",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/81959",
+   "full": "https://www.artic.edu/iiif/2/ecb909d5-eca8-279b-30f1-835f8bf76d74/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "1B",
+   "src": "AIC",
+   "title": "Sorrow",
+   "who": "Auguste Rodin",
+   "date": "Modeled 1882, cast c. 1913–23",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/13600",
+   "full": "https://www.artic.edu/iiif/2/bf569bf0-3394-7c36-d4ac-e16c2c214095/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "1C",
+   "src": "AIC",
+   "title": "Head of Woman with Eyes Closed",
+   "who": "Sir Edward Burne-Jones",
+   "date": "c. 1873–77",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/78961",
+   "full": "https://www.artic.edu/iiif/2/5af20254-79c8-0da8-f582-a5bfe7d03773/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "1D",
+   "src": "AIC",
+   "title": "Closed Eyes",
+   "who": "Odilon Redon",
+   "date": "1890",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/106600",
+   "full": "https://www.artic.edu/iiif/2/6371c0e9-9b24-2e5f-3056-e69393b11ddf/full/1686,/0/default.jpg"
+  }
+ ],
+ "2_chemistry": [
+  {
+   "label": "2A",
+   "src": "Wikimedia",
+   "title": "JosephWright-Alchemist-Cropped.jpg",
+   "who": "Joseph Wright of Derby",
+   "date": "1771",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:JosephWright-Alchemist-Cropped.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/JosephWright-Alchemist-Cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "2B",
+   "src": "Wikimedia",
+   "title": "17th century Chemistry apparatus.PNG",
+   "who": "Unknown authorUnknown author",
+   "date": "17th c. engraving",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:17th_century_Chemistry_apparatus.PNG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/17th_century_Chemistry_apparatus.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "2C",
+   "src": "Wikimedia",
+   "title": "Faust image 19thcentury.jpg",
+   "who": "Engelbert Seibertz",
+   "date": "19th century",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Faust_image_19thcentury.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/1/17/Faust_image_19thcentury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "2D",
+   "src": "AIC",
+   "title": "Friendship With a Great Chemist is Not Always a Godsend… “I am so sure of my findings that I will now poison my best friend, Mr. Coquardeau, and I will retrieve arsenic in his eyeglasses,” plate 39 from Émotions Parisiennes",
+   "who": "Honoré-Victorin Daumier",
+   "date": "1841",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/75214",
+   "full": "https://www.artic.edu/iiif/2/7d1f99f7-93f1-292f-ff8f-ffb552454ad2/full/1686,/0/default.jpg"
+  }
+ ],
+ "3_buildup": [
+  {
+   "label": "3A",
+   "src": "AIC",
+   "title": "The Great Wave, Sète",
+   "who": "Gustave Le Gray",
+   "date": "1857",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/36848",
+   "full": "https://www.artic.edu/iiif/2/2eb727fe-0e5f-24fc-d07e-463e8cce57d0/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "3B",
+   "src": "AIC",
+   "title": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjūrokkei)\"",
+   "who": "Katsushika Hokusai",
+   "date": "1830/33",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/24645",
+   "full": "https://www.artic.edu/iiif/2/b3974542-b9b4-7568-fc4b-966738f61d78/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "3C",
+   "src": "Wikimedia",
+   "title": "Ivan Constantinovich Aivazovsky - The Ninth Wave (detail).JPG",
+   "who": "Ivan Aivazovsky",
+   "date": "1850",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Ivan_Constantinovich_Aivazovsky_-_The_Ninth_Wave_(detail).JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ivan_Constantinovich_Aivazovsky_-_The_Ninth_Wave_%28detail%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "3D",
+   "src": "AIC",
+   "title": "Rehearsal of the Pasdeloup Orchestra at the Cirque d'Hiver",
+   "who": "John Singer Sargent",
+   "date": "c. 1879",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/121628",
+   "full": "https://www.artic.edu/iiif/2/f7ef1f0f-c5c9-6794-9283-2e7ebcde95cd/full/1686,/0/default.jpg"
+  }
+ ],
+ "4_dopamine": [
+  {
+   "label": "4A",
+   "src": "Wikimedia",
+   "title": "Whistler James Nocturne in Black and Gold The Falling Rocket 1875.jpg",
+   "who": "James McNeill Whistler",
+   "date": "1875",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Whistler_James_Nocturne_in_Black_and_Gold_The_Falling_Rocket_1875.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Whistler_James_Nocturne_in_Black_and_Gold_The_Falling_Rocket_1875.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "4B",
+   "src": "AIC",
+   "title": "Fireworks at Ryogoku (Ryogoku hanabi), from the series \"One Hundred Famous Views of Edo (Meisho Edo hyakkei)\"",
+   "who": "Utagawa Hiroshige",
+   "date": "1858",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/34150",
+   "full": "https://www.artic.edu/iiif/2/f963d4f4-268e-a5df-757d-c63472a466bf/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "4C",
+   "src": "NASA",
+   "title": "NASA's SDO Sees Solar Flares",
+   "who": "GSFC",
+   "date": "2017-12-08",
+   "lic": "Public domain (NASA)",
+   "page": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001057",
+   "full": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001057/collection.json"
+  },
+  {
+   "label": "4D",
+   "src": "AIC",
+   "title": "Penitent Saint Peter",
+   "who": "Jusepe de Ribera",
+   "date": "c. 1630",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/120172",
+   "full": "https://www.artic.edu/iiif/2/d51eb11c-da63-0888-0a59-6a5ef0631142/full/1686,/0/default.jpg"
+  }
+ ],
+ "5_before_drop": [
+  {
+   "label": "5A",
+   "src": "AIC",
+   "title": "Icarus, from The Four Disgracers",
+   "who": "Hendrick Goltzius",
+   "date": "1588",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/268592",
+   "full": "https://www.artic.edu/iiif/2/d94bcd5a-9a23-cb93-adcc-c1d53798d4a2/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "5B",
+   "src": "Wikimedia",
+   "title": "Eadweard Muybridge - Athletes. Walking High Leap.jpg",
+   "who": "Eadweard Muybridge (1830–1904)",
+   "date": "Taken at Palo Alto, California, in 1879–79, published at San Francisco, California, in 1881; Muybridge published at least 15 copies of this book.[1]",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Eadweard_Muybridge_-_Athletes._Walking_High_Leap.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/7/72/Eadweard_Muybridge_-_Athletes._Walking_High_Leap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "5C",
+   "src": "AIC",
+   "title": "Girl Leaping from Kiyomizu Temple",
+   "who": "Torii Kiyotsune",
+   "date": "c. 1765",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/36242",
+   "full": "https://www.artic.edu/iiif/2/66805296-30ae-2280-8765-0be70fb807c7/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "5D",
+   "src": "Wikimedia",
+   "title": "Breaking Wave (by Ivan Aivazovsky).jpg",
+   "who": "Ivan Aivazovsky",
+   "date": "1895",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Breaking_Wave_(by_Ivan_Aivazovsky).jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Breaking_Wave_%28by_Ivan_Aivazovsky%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  }
+ ],
+ "6_scanned": [
+  {
+   "label": "6A",
+   "src": "Wikimedia",
+   "title": "Vesalius 605c.png",
+   "who": "",
+   "date": "",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Vesalius_605c.png",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Vesalius_605c.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "6B",
+   "src": "Wikimedia",
+   "title": "Vesalius 606c.png",
+   "who": "",
+   "date": "",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Vesalius_606c.png",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Vesalius_606c.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "6C",
+   "src": "Wikimedia",
+   "title": "MRI head side.jpg",
+   "who": "en:User:TheBrain",
+   "date": "",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:MRI_head_side.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/MRI_head_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "6D",
+   "src": "Wikimedia",
+   "title": "Gray's Anatomy plate 517 brain.png",
+   "who": "Henry Vandyke Carter",
+   "date": "before 1858",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Gray%27s_Anatomy_plate_517_brain.png",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Gray%27s_Anatomy_plate_517_brain.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  }
+ ],
+ "7_two_lights": [
+  {
+   "label": "7A",
+   "src": "NASA",
+   "title": "Space Science",
+   "who": "MSFC",
+   "date": "2002-04-07",
+   "lic": "Public domain (NASA)",
+   "page": "https://images.nasa.gov/details/0203049",
+   "full": "https://images-assets.nasa.gov/image/0203049/collection.json"
+  },
+  {
+   "label": "7B",
+   "src": "NASA",
+   "title": "Earth Observations taken by the Expedition 35 Crew",
+   "who": "JSC",
+   "date": "2013-03-31",
+   "lic": "Public domain (NASA)",
+   "page": "https://images.nasa.gov/details/iss035e013107",
+   "full": "https://images-assets.nasa.gov/image/iss035e013107/collection.json"
+  },
+  {
+   "label": "7C",
+   "src": "Wikimedia",
+   "title": "GolgiStainedPyramidalCell.jpg",
+   "who": "The original uploader was Cahass at English Wikipedia.",
+   "date": "13 March 2006 (original upload date)",
+   "lic": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:GolgiStainedPyramidalCell.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/GolgiStainedPyramidalCell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "7D",
+   "src": "AIC",
+   "title": "Nocturne: Blue and Gold—Southampton Water",
+   "who": "James McNeill Whistler",
+   "date": "1872",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/56905",
+   "full": "https://www.artic.edu/iiif/2/50034c7f-ce51-00f1-430e-a6f7efc233fc/full/1686,/0/default.jpg"
+  }
+ ],
+ "8_reward": [
+  {
+   "label": "8A",
+   "src": "Wikimedia",
+   "title": "Caspar David Friedrich - Wanderer above the sea of fog.jpg",
+   "who": "Caspar David Friedrich",
+   "date": "circa 1817",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "8B",
+   "src": "AIC",
+   "title": "The Song of the Lark",
+   "who": "Jules Breton",
+   "date": "1884",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/94841",
+   "full": "https://www.artic.edu/iiif/2/48b2de88-ba73-8e19-f448-d1cef4a1c847/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "8C",
+   "src": "AIC",
+   "title": "The Summit, from Ascent of Mont Blanc",
+   "who": "George Baxter",
+   "date": "1855",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/59618",
+   "full": "https://www.artic.edu/iiif/2/96ba2a5e-e444-dd54-04ae-408e333e85e6/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "8D",
+   "src": "NASA",
+   "title": "iss065e013242",
+   "who": "JSC",
+   "date": "2021-05-02",
+   "lic": "Public domain (NASA)",
+   "page": "https://images.nasa.gov/details/iss065e013242",
+   "full": "https://images-assets.nasa.gov/image/iss065e013242/collection.json"
+  }
+ ],
+ "9_end": [
+  {
+   "label": "9A",
+   "src": "Wikimedia",
+   "title": "Socrates Louvre.jpg",
+   "who": "Copy of Lysippos (?)",
+   "date": "1st century AD",
+   "lic": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "9B",
+   "src": "Wikimedia",
+   "title": "Socrate du Louvre.jpg",
+   "who": "Copy of Lysippos (?)",
+   "date": "1st century AD",
+   "lic": "CC BY-SA 2.5",
+   "page": "https://commons.wikimedia.org/wiki/File:Socrate_du_Louvre.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Socrate_du_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "label": "9C",
+   "src": "AIC",
+   "title": "Singer and Lute Player",
+   "who": "Mary Trevor",
+   "date": "1818",
+   "lic": "Public domain (CC0)",
+   "page": "https://www.artic.edu/artworks/114700",
+   "full": "https://www.artic.edu/iiif/2/81d377aa-aa53-26cf-c442-925f95c6d309/full/1686,/0/default.jpg"
+  },
+  {
+   "label": "9D",
+   "src": "Wikimedia",
+   "title": "Bust of Germanicus, left profile - Getty Museum (2021.66).jpg",
+   "who": "J. Paul Getty Museum",
+   "date": "",
+   "lic": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Bust_of_Germanicus,_left_profile_-_Getty_Museum_(2021.66).jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/3/35/Bust_of_Germanicus%2C_left_profile_-_Getty_Museum_%282021.66%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  }
+ ]
+}
