@@ -102,7 +102,9 @@ music under the 2-3 biggest hits, and normalise the final mix to -14 LUFS.
 6. Write `CREDITS.md` with every picture's source and licence, plus a ready-to-paste description line.
 
 Commit the project, but not `node_modules`, `out/` or the generated audio. Media under ~25 MB is fine
-to commit.
+to commit. **Save the finished video too:** copy it to `videos/<project>/final/<name>.mp4` and commit it
+(the owner wants the video file kept). When a video is changed later, replace that file with the new
+render.
 
 ## Things that went wrong before (avoid them)
 - **All pictures, no graphics.** The owner rejected this. The motion graphics are half the style.
