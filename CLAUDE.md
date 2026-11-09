@@ -43,3 +43,25 @@ added. Before the first real build, run `/impeccable init` to interview the owne
 `PRODUCT.md`. Use its commands (`critique`, `audit`, `polish`, …) to review and refine pages, and
 since its design hook is off, run `.claude/skills/impeccable/scripts/impeccable detect --json
 <changed files>` once a UI change is finished.
+
+## Drah Charts (music chart videos)
+
+`drah-charts/` is the backup of the finished Drah Charts video template (built with Remotion), and
+`anatomy/drah-charts-skeleton/` is an explainer figure of how it works. It is a separate project from
+the explainer videos.
+
+## The owner's video style: SaaS motion design in every video
+
+Every video made for the owner gets a SaaS motion design treatment (the style software companies use
+for product launches), with real depth: a hook headline in the first second, the "product" (the
+chart, app or screen) floating on a layered stage (glow, dot grid, long soft shadow, a 3D tilt that
+settles), a large cursor whose clicks cause the next thing, camera push-ins on the key moment and a
+pull-back after, kinetic type, numbers that count up, UI sounds on visible actions, and a performed
+end card (logo lands, name wipes in, the cursor clicks a call to action). Keep it calm while the
+music and footage play: the product stays the star. Show real screens and real numbers, never an
+invented UI. In the Drah Charts template this is `design.saas` (`src/Saas.tsx`).
+
+## Keep projects separate
+
+Drah Charts is a finished project. Don't link new work to it (its template, data, branding or
+songs) unless the owner names it. Treat each new request as its own project.
