@@ -9,6 +9,8 @@ The user is usually not technical. Keep replies short and friendly, do the work 
 
 All paths below are relative to this skill's folder (the folder this SKILL.md is in). Use its absolute path in commands.
 
+**This project:** the owner works from a guide. Before editing, read `OWNER-PLAYBOOK.md` (next to this file). It says what every edit must include (captions, sound, 3-5 effects, checks) and maps the guide's effect names to the ones installed here.
+
 ## 1. First run: set up (once)
 Run `bash scripts/setup.sh`. It prints `READY` when done (the first time takes 1 to 3 minutes).
 - `NEED_FFMPEG`: install it for them. On a Mac: `brew install ffmpeg` (if `brew` is missing, tell them to install Homebrew from brew.sh first). On Windows: `winget install ffmpeg`.

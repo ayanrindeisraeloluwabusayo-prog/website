@@ -119,7 +119,9 @@ It is separate from the `blue-explainer-video` skill:
 - `blue-explainer-video`: the owner wants the blue serif explainer edit (word-by-word captions, cut-aways
   to pictures and motion graphics, designed sound).
 They can be combined (effects first on the footage, then the explainer edit around it) only when the
-owner asks for both.
+owner asks for both. For every effects edit, follow `.claude/skills/effects/OWNER-PLAYBOOK.md` (the owner's
+guide: captions on every word, subtle sound, 3-5 effects, checks, and the guide's effect names mapped
+to this version).
 
 Setup in a cloud session: run `bash .claude/skills/effects/scripts/setup.sh` (creates its `.venv`, kept out
 of git), and install the graphics libraries its face tracking needs: `apt-get install -y libegl1 libgles2
