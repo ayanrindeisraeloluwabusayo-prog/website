@@ -1,0 +1,694 @@
+{
+ "words": [
+  {
+   "w": "And",
+   "start": 0.08,
+   "end": 0.16,
+   "frame": 2
+  },
+  {
+   "w": "the",
+   "start": 0.22,
+   "end": 0.36,
+   "frame": 7
+  },
+  {
+   "w": "blowing",
+   "start": 1.38,
+   "end": 1.72,
+   "frame": 41
+  },
+  {
+   "w": "up",
+   "start": 1.8,
+   "end": 1.98,
+   "frame": 54
+  },
+  {
+   "w": "of",
+   "start": 2.04,
+   "end": 2.16,
+   "frame": 61
+  },
+  {
+   "w": "the",
+   "start": 2.22,
+   "end": 2.48,
+   "frame": 67
+  },
+  {
+   "w": "song.",
+   "start": 2.8,
+   "end": 3.12,
+   "frame": 84
+  },
+  {
+   "w": "But",
+   "start": 3.6,
+   "end": 3.72,
+   "frame": 108
+  },
+  {
+   "w": "you",
+   "start": 3.76,
+   "end": 3.82,
+   "frame": 113
+  },
+  {
+   "w": "can't",
+   "start": 3.86,
+   "end": 4.0,
+   "frame": 116
+  },
+  {
+   "w": "deny",
+   "start": 4.019,
+   "end": 4.26,
+   "frame": 121
+  },
+  {
+   "w": "the",
+   "start": 4.3,
+   "end": 4.4,
+   "frame": 129
+  },
+  {
+   "w": "fact",
+   "start": 4.46,
+   "end": 4.62,
+   "frame": 134
+  },
+  {
+   "w": "that",
+   "start": 4.66,
+   "end": 4.78,
+   "frame": 140
+  },
+  {
+   "w": "this",
+   "start": 4.82,
+   "end": 4.96,
+   "frame": 145
+  },
+  {
+   "w": "guy",
+   "start": 5.0,
+   "end": 5.12,
+   "frame": 150
+  },
+  {
+   "w": "is",
+   "start": 5.18,
+   "end": 5.28,
+   "frame": 155
+  },
+  {
+   "w": "incredibly",
+   "start": 5.34,
+   "end": 5.92,
+   "frame": 160
+  },
+  {
+   "w": "talented.",
+   "start": 5.96,
+   "end": 6.48,
+   "frame": 179
+  },
+  {
+   "w": "I",
+   "start": 6.88,
+   "end": 6.92,
+   "frame": 206
+  },
+  {
+   "w": "mean,",
+   "start": 6.98,
+   "end": 7.08,
+   "frame": 209
+  },
+  {
+   "w": "if",
+   "start": 7.2,
+   "end": 7.28,
+   "frame": 216
+  },
+  {
+   "w": "he",
+   "start": 7.3,
+   "end": 7.36,
+   "frame": 219
+  },
+  {
+   "w": "wasn't,",
+   "start": 7.5,
+   "end": 7.7,
+   "frame": 225
+  },
+  {
+   "w": "\"Ye\"",
+   "start": 7.82,
+   "end": 8.0,
+   "frame": 235
+  },
+  {
+   "w": "would",
+   "start": 8.06,
+   "end": 8.16,
+   "frame": 242
+  },
+  {
+   "w": "have",
+   "start": 8.18,
+   "end": 8.3,
+   "frame": 245
+  },
+  {
+   "w": "probably",
+   "start": 8.32,
+   "end": 8.74,
+   "frame": 250
+  },
+  {
+   "w": "been",
+   "start": 8.8,
+   "end": 8.96,
+   "frame": 264
+  },
+  {
+   "w": "the",
+   "start": 9.0,
+   "end": 9.08,
+   "frame": 270
+  },
+  {
+   "w": "only",
+   "start": 9.38,
+   "end": 9.7,
+   "frame": 281
+  },
+  {
+   "w": "song",
+   "start": 9.82,
+   "end": 10.08,
+   "frame": 295
+  },
+  {
+   "w": "in",
+   "start": 10.12,
+   "end": 10.18,
+   "frame": 304
+  },
+  {
+   "w": "his",
+   "start": 10.2,
+   "end": 10.34,
+   "frame": 306
+  },
+  {
+   "w": "catalog",
+   "start": 10.38,
+   "end": 10.76,
+   "frame": 311
+  },
+  {
+   "w": "that",
+   "start": 10.78,
+   "end": 10.9,
+   "frame": 323
+  },
+  {
+   "w": "he",
+   "start": 10.92,
+   "end": 11.02,
+   "frame": 328
+  },
+  {
+   "w": "could",
+   "start": 11.04,
+   "end": 11.18,
+   "frame": 331
+  },
+  {
+   "w": "perform",
+   "start": 11.22,
+   "end": 11.54,
+   "frame": 337
+  },
+  {
+   "w": "every-everywhere.",
+   "start": 11.62,
+   "end": 12.42,
+   "frame": 349
+  },
+  {
+   "w": "But",
+   "start": 12.82,
+   "end": 12.98,
+   "frame": 385
+  },
+  {
+   "w": "today,",
+   "start": 13.02,
+   "end": 13.36,
+   "frame": 391
+  },
+  {
+   "w": "even",
+   "start": 13.7,
+   "end": 13.88,
+   "frame": 411
+  },
+  {
+   "w": "without",
+   "start": 13.92,
+   "end": 14.32,
+   "frame": 418
+  },
+  {
+   "w": "\"Ye\"",
+   "start": 14.34,
+   "end": 14.52,
+   "frame": 430
+  },
+  {
+   "w": "in",
+   "start": 14.64,
+   "end": 14.72,
+   "frame": 439
+  },
+  {
+   "w": "the",
+   "start": 14.76,
+   "end": 14.8,
+   "frame": 443
+  },
+  {
+   "w": "set",
+   "start": 14.9,
+   "end": 15.06,
+   "frame": 447
+  },
+  {
+   "w": "list,",
+   "start": 15.16,
+   "end": 15.38,
+   "frame": 455
+  },
+  {
+   "w": "this",
+   "start": 15.64,
+   "end": 15.8,
+   "frame": 469
+  },
+  {
+   "w": "guy",
+   "start": 15.86,
+   "end": 16.059,
+   "frame": 476
+  },
+  {
+   "w": "will",
+   "start": 16.1,
+   "end": 16.2,
+   "frame": 483
+  },
+  {
+   "w": "still",
+   "start": 16.26,
+   "end": 16.46,
+   "frame": 488
+  },
+  {
+   "w": "keep",
+   "start": 16.7,
+   "end": 16.9,
+   "frame": 501
+  },
+  {
+   "w": "the",
+   "start": 16.98,
+   "end": 17.04,
+   "frame": 509
+  },
+  {
+   "w": "people",
+   "start": 17.16,
+   "end": 17.4,
+   "frame": 515
+  },
+  {
+   "w": "moving.",
+   "start": 17.5,
+   "end": 17.86,
+   "frame": 525
+  },
+  {
+   "w": "In",
+   "start": 18.14,
+   "end": 18.24,
+   "frame": 544
+  },
+  {
+   "w": "stadium,",
+   "start": 18.34,
+   "end": 18.96,
+   "frame": 550
+  },
+  {
+   "w": "in",
+   "start": 19.3,
+   "end": 19.38,
+   "frame": 579
+  },
+  {
+   "w": "arena,",
+   "start": 19.5,
+   "end": 20.06,
+   "frame": 585
+  },
+  {
+   "w": "they",
+   "start": 20.42,
+   "end": 20.5,
+   "frame": 613
+  },
+  {
+   "w": "will",
+   "start": 20.52,
+   "end": 20.58,
+   "frame": 616
+  },
+  {
+   "w": "still",
+   "start": 20.62,
+   "end": 20.78,
+   "frame": 619
+  },
+  {
+   "w": "sing",
+   "start": 20.82,
+   "end": 20.96,
+   "frame": 625
+  },
+  {
+   "w": "back",
+   "start": 21.1,
+   "end": 21.26,
+   "frame": 633
+  },
+  {
+   "w": "to",
+   "start": 21.32,
+   "end": 21.4,
+   "frame": 640
+  },
+  {
+   "w": "back",
+   "start": 21.44,
+   "end": 21.6,
+   "frame": 643
+  },
+  {
+   "w": "because",
+   "start": 21.66,
+   "end": 22.06,
+   "frame": 650
+  },
+  {
+   "w": "man",
+   "start": 22.28,
+   "end": 22.52,
+   "frame": 668
+  },
+  {
+   "w": "have",
+   "start": 22.54,
+   "end": 22.72,
+   "frame": 676
+  },
+  {
+   "w": "heat",
+   "start": 22.8,
+   "end": 23.02,
+   "frame": 684
+  },
+  {
+   "w": "for",
+   "start": 23.08,
+   "end": 23.2,
+   "frame": 692
+  },
+  {
+   "w": "days.",
+   "start": 23.28,
+   "end": 23.56,
+   "frame": 698
+  },
+  {
+   "w": "and",
+   "start": 23.74,
+   "end": 23.82,
+   "frame": 712
+  },
+  {
+   "w": "that's",
+   "start": 23.88,
+   "end": 24.06,
+   "frame": 716
+  },
+  {
+   "w": "to",
+   "start": 24.1,
+   "end": 24.2,
+   "frame": 723
+  },
+  {
+   "w": "tell",
+   "start": 24.26,
+   "end": 24.42,
+   "frame": 728
+  },
+  {
+   "w": "you",
+   "start": 24.46,
+   "end": 24.54,
+   "frame": 734
+  },
+  {
+   "w": "that",
+   "start": 24.62,
+   "end": 24.8,
+   "frame": 739
+  },
+  {
+   "w": "his",
+   "start": 24.86,
+   "end": 25.02,
+   "frame": 746
+  },
+  {
+   "w": "greatness",
+   "start": 25.04,
+   "end": 25.52,
+   "frame": 751
+  },
+  {
+   "w": "isn't",
+   "start": 25.6,
+   "end": 25.88,
+   "frame": 768
+  },
+  {
+   "w": "tied",
+   "start": 25.94,
+   "end": 26.22,
+   "frame": 778
+  },
+  {
+   "w": "to",
+   "start": 26.28,
+   "end": 26.4,
+   "frame": 788
+  },
+  {
+   "w": "anybody.",
+   "start": 26.62,
+   "end": 27.14,
+   "frame": 799
+  },
+  {
+   "w": "You",
+   "start": 27.4,
+   "end": 27.46,
+   "frame": 822
+  },
+  {
+   "w": "can",
+   "start": 27.5,
+   "end": 27.66,
+   "frame": 825
+  },
+  {
+   "w": "say",
+   "start": 27.74,
+   "end": 27.88,
+   "frame": 832
+  },
+  {
+   "w": "it's",
+   "start": 27.92,
+   "end": 28.1,
+   "frame": 838
+  },
+  {
+   "w": "luck,",
+   "start": 28.18,
+   "end": 28.42,
+   "frame": 845
+  },
+  {
+   "w": "but",
+   "start": 28.54,
+   "end": 28.72,
+   "frame": 856
+  },
+  {
+   "w": "I",
+   "start": 28.98,
+   "end": 29.02,
+   "frame": 869
+  },
+  {
+   "w": "don't",
+   "start": 29.06,
+   "end": 29.22,
+   "frame": 872
+  },
+  {
+   "w": "think",
+   "start": 29.24,
+   "end": 29.4,
+   "frame": 877
+  },
+  {
+   "w": "it's",
+   "start": 29.44,
+   "end": 29.6,
+   "frame": 883
+  },
+  {
+   "w": "luck.",
+   "start": 29.66,
+   "end": 29.92,
+   "frame": 890
+  },
+  {
+   "w": "It's",
+   "start": 30.06,
+   "end": 30.18,
+   "frame": 902
+  },
+  {
+   "w": "more",
+   "start": 30.26,
+   "end": 30.4,
+   "frame": 908
+  },
+  {
+   "w": "of",
+   "start": 30.44,
+   "end": 30.62,
+   "frame": 913
+  },
+  {
+   "w": "talent",
+   "start": 30.66,
+   "end": 31.06,
+   "frame": 920
+  },
+  {
+   "w": "and",
+   "start": 31.2,
+   "end": 31.36,
+   "frame": 936
+  },
+  {
+   "w": "being",
+   "start": 31.48,
+   "end": 31.66,
+   "frame": 944
+  },
+  {
+   "w": "consistent.",
+   "start": 31.74,
+   "end": 32.38,
+   "frame": 952
+  },
+  {
+   "w": "Give",
+   "start": 32.67,
+   "end": 32.83,
+   "frame": 980
+  },
+  {
+   "w": "credit",
+   "start": 32.93,
+   "end": 33.37,
+   "frame": 988
+  },
+  {
+   "w": "where",
+   "start": 33.59,
+   "end": 33.73,
+   "frame": 1008
+  },
+  {
+   "w": "it",
+   "start": 33.75,
+   "end": 33.85,
+   "frame": 1013
+  },
+  {
+   "w": "is",
+   "start": 33.95,
+   "end": 34.09,
+   "frame": 1018
+  },
+  {
+   "w": "due.",
+   "start": 34.15,
+   "end": 34.39,
+   "frame": 1024
+  }
+ ],
+ "segments": [
+  [
+   0.0,
+   23.66
+  ],
+  [
+   28.98,
+   32.62
+  ],
+  [
+   38.98,
+   44.25
+  ],
+  [
+   55.48,
+   56.4
+  ],
+  [
+   57.46,
+   58.8
+  ]
+ ],
+ "cut_starts": [
+  0,
+  710,
+  819,
+  977,
+  1005
+ ],
+ "length_s": 34.83
+}

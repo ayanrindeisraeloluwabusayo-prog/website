@@ -1,2 +1,6 @@
 # Taste Skill working files (screenshots, inspection output)
 .taste-skill/
+
+# Python bytecode caches (created when skill scripts run)
+__pycache__/
+*.pyc

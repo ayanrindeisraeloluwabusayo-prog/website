@@ -43,3 +43,15 @@ added. Before the first real build, run `/impeccable init` to interview the owne
 `PRODUCT.md`. Use its commands (`critique`, `audit`, `polish`, …) to review and refine pages, and
 since its design hook is off, run `.claude/skills/impeccable/scripts/impeccable detect --json
 <changed files>` once a UI change is finished.
+
+## Reference editing styles
+
+`video-styles/` holds frame-by-frame studies of editing styles the owner wants to use (technique
+only, never the source footage, wording or branding). `blue-serif-explainer.md` is the first.
+
+## Explainer videos (blue-explainer-video skill)
+
+The `blue-explainer-video` skill in `.claude/skills/` turns the owner's favourite edit (the "Why a song
+gives you chills" video, `videos/chills-style-test`) into a repeatable process. It covers when to use a
+picture and when to use a motion graphic, the fonts and colours, picture sourcing, and designed sound
+effects. Use it whenever the owner uploads a video or gives a topic for a short explainer.
