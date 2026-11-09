@@ -1,0 +1,116 @@
+{
+  "topic": "Most streamed 2026 Afrobeats songs on Spotify so far",
+  "footnote": "Drahcir_The_Creator",
+  "clipSeconds": 7,
+  "accent": "#1ed760",
+  "videoVolume": 1,
+  "design": {
+    "searchTextSize": 48,
+    "typingFramesPerLetter": 2,
+    "listTextScale": 1,
+    "rowMotion": "vinyl-cascade",
+    "saas": true,
+    "uiSounds": true
+  },
+  "songs": [
+    {
+      "rank": 1,
+      "title": "Jogodo",
+      "artist": "Wizkid ft. Asake",
+      "streams": "86.3M",
+      "cover": "covers/01.png",
+      "video": "videos/01.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 2,
+      "title": "Gratitude",
+      "artist": "Asake",
+      "streams": "75.4M",
+      "cover": "covers/02.png",
+      "video": "videos/02.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 3,
+      "title": "Big Bumbum",
+      "artist": "Kidd Carder ft. Mavo",
+      "streams": "56.6M",
+      "cover": "covers/03.png",
+      "video": "videos/03.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 4,
+      "title": "Slick",
+      "artist": "Victony",
+      "streams": "56.3M",
+      "cover": "covers/04.png",
+      "video": "videos/04.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 5,
+      "title": "Back Outside",
+      "artist": "Sarz ft. Bnxn",
+      "streams": "54.7M",
+      "cover": "covers/05.png",
+      "video": "videos/05.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 6,
+      "title": "Turbulence",
+      "artist": "Wizkid ft. Asake",
+      "streams": "51.4M",
+      "cover": "covers/06.png",
+      "video": "videos/06.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 7,
+      "title": "Chanel",
+      "artist": "Blaqbonez ft. Asake",
+      "streams": "50.3M",
+      "cover": "covers/07.png",
+      "video": "videos/07.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 8,
+      "title": "B4B4",
+      "artist": "Davido ft. Fola, Mayorkun",
+      "streams": "40.5M",
+      "cover": "covers/08.png",
+      "video": "videos/08.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 9,
+      "title": "Heaven Baby",
+      "artist": "Ayra Starr ft. Zayn",
+      "streams": "36.3M",
+      "cover": "covers/09.png",
+      "video": "videos/09.mp4",
+      "clipStart": 0
+    },
+    {
+      "rank": 10,
+      "title": "Elumelu",
+      "artist": "Young Jonn",
+      "streams": "34.5M",
+      "cover": "covers/10.png",
+      "video": "videos/10.mp4",
+      "clipStart": 0
+    }
+  ],
+  "brand": {
+    "name": "Drah Charts",
+    "logo": "brand/dc-logo.png",
+    "handle": "Drahcir_The_Creator",
+    "cta": "Follow",
+    "hookTitle": "TOP 10",
+    "hookLine": "Afrobeats · 2026 so far",
+    "ctaDone": "Following ✓"
+  }
+}
