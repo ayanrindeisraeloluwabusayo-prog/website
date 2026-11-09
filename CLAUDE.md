@@ -107,3 +107,21 @@ The `blue-explainer-video` skill in `.claude/skills/` turns the owner's favourit
 gives you chills" video, `videos/chills-style-test`) into a repeatable process. It covers when to use a
 picture and when to use a motion graphic, the fonts and colours, picture sourcing, and designed sound
 effects. Use it whenever the owner uploads a video or gives a topic for a short explainer.
+
+## Talking-head effects (effects skill)
+
+The `effects` skill (from github.com/Vibha-Ramprakash/claude-video-effects, MIT licence, by
+@vibha.in.progress) adds 51 ready-made effects on top of a talking-to-camera video (words behind the
+head, orbiting reels, spotlight, glass widgets, checklists, stamps, zooms and more), tracking the face.
+It is separate from the `blue-explainer-video` skill:
+- `effects`: the owner asks for a named effect (or `/effects …`) on their footage. It changes the shot
+  itself and keeps their audio.
+- `blue-explainer-video`: the owner wants the blue serif explainer edit (word-by-word captions, cut-aways
+  to pictures and motion graphics, designed sound).
+They can be combined (effects first on the footage, then the explainer edit around it) only when the
+owner asks for both.
+
+Setup in a cloud session: run `bash .claude/skills/effects/scripts/setup.sh` (creates its `.venv`, kept out
+of git), and install the graphics libraries its face tracking needs: `apt-get install -y libegl1 libgles2
+libgl1`. A `TypeError: 'NoneType' object is not callable` printed at the very end of a run is a harmless
+shutdown message from mediapipe; check that the output file exists.
