@@ -2064,6 +2064,9 @@ def fx_place_in_grid(c, e):
 # Optional private effects (not part of the public pack). If fx_private.py sits next to this file, its effects load too.
 _PRIV = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fx_private.py')
 if os.path.exists(_PRIV): exec(open(_PRIV).read(), globals())
+# This project's own pro effects (vertigo, stage-world, paper-cutout, ascii-me, credits-roll).
+_PRO = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fx_pro.py')
+if os.path.exists(_PRO): exec(open(_PRO).read(), globals())
 
 
 # ---------- pack 5: phrase pops starters (added 2 Nov 2026) ----------

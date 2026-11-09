@@ -1,0 +1,9 @@
+{"effects": [
+ {"fx": "vertigo", "start": 3.55, "end": 6.75, "zoom": 1.6},
+ {"fx": "stage-world", "start": 15.55, "end": 23.75,
+  "scenes": "/home/user/website/videos/burna-bigger-than-one-song/public/media/crowd.mp4@0|/home/user/website/videos/burna-bigger-than-one-song/public/media/stadium.jpg@2.55|/home/user/website/videos/burna-bigger-than-one-song/public/media/arena.jpg@3.75|/home/user/website/videos/burna-bigger-than-one-song/public/media/burna2.jpg@4.85", "heat": 6.85},
+ {"fx": "paper-cutout", "start": 29.9, "end": 32.95, "snap": 2.05, "text": "not tied to anybody"},
+ {"fx": "ascii-me", "start": 41.65, "end": 44.4, "text": "TALENTCONSISTENT", "hl": 0.65},
+ {"fx": "credits-roll", "start": 55.4, "end": 60.4, "title": "STARRING",
+  "text": "TALENT::BURNA BOY|CONSISTENCY::BURNA BOY|HEAT FOR DAYS::BURNA BOY|LUCK::NOT CREDITED", "finale": "Give credit where it is due."}
+]}

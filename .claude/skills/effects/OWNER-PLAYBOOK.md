@@ -37,6 +37,22 @@ their wording).
    effects quiet (0.2-0.4), and normalise to -14 LUFS.
 6. Save the final to `videos/<project>/final/` and commit, like the explainer videos.
 
+## The owner wants premium, not the pack's basics
+The owner rejected an edit made only of the pack's ready-made effects as "too basic". Prefer the five
+**pro effects** written for this project (`scripts/fx_pro.py`, loaded by `fx.py`), and design new ones
+in the same way when a line needs something the pack doesn't have. Match each effect to the meaning of
+the line it sits on, not just to a keyword.
+
+| Effect | Use it on | Options |
+|---|---|---|
+| `vertigo` | a claim that should land hard ("you can't deny…") | `zoom` (background stretch, default 1.55) |
+| `stage-world` | crowds, places, scale ("stadium, arena") | `scenes` = `path@seconds\|path@seconds…` (images or clips, switching on cue words), `heat` (seconds into the effect for heat haze + embers) |
+| `paper-cutout` | independence, standing apart, being "cut out" for something | `snap` (seconds into the effect when the strings snap), `text` (hand-written note) |
+| `ascii-me` | "made of", identity, what someone is built from | `text` (letters, no spaces), `hl` (seconds into the effect when they glow gold), `cell` |
+| `credits-roll` | endings, giving credit, a final verdict | `text` (`role::name\|…`), `title`, `finale` (the closing line) |
+
+First used on `videos/burna-effects-test` (plan in `effects-plan.json`).
+
 ## The guide's 40 commands, mapped to this installed version
 **Same name (use directly):** orbit, glass-widgets, scribble, tier-list, checklist, spotlight,
 headline-wall, profile-wall, timeline, moody, red-collage, phone-fan, shortcut-rain, reject-stamp,
@@ -58,8 +74,11 @@ dot-reveal, backdrop-word, countdown (= `countdown-flip`), liquid-glass (= `liqu
 | documentary | `moody` with `grade=bw` or `warm` | plus `slow-push` |
 | giant-captions | captions step above with the key word set big | the blue-explainer `Lockup` does this |
 
-**Not in this version** (say so plainly, never fake it): dolly-zoom, vertigo, pullback, frame-break,
-frame-escape, green-screen, paper-cutout, couch-wall, ui-world, ascii-me. Offer the closest installed
+**Now built here:** dolly-zoom/vertigo → `vertigo`, paper-cutout → `paper-cutout`, ascii-me → `ascii-me`,
+green-screen → `stage-world`.
+
+**Not in this version yet** (say so plainly, never fake it): pullback, frame-break, frame-escape,
+couch-wall, ui-world. Offer the closest installed
 effect, or offer to build it as a new effect. The face tracker and selfie segmenter in `models/` can
 support dolly-zoom/vertigo, pullback, green-screen, paper-cutout and ascii-me. Build only if the owner
 says yes.
