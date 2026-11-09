@@ -1,2 +1,11 @@
 # Taste Skill working files (screenshots, inspection output)
 .taste-skill/
+
+# Python bytecode caches (created when skill scripts run)
+__pycache__/
+*.pyc
+
+# cartoon-3d-short: frames from another creator's videos, kept for private study only (the skill
+# says never to upload or publish them, and this repo is public)
+.claude/skills/cartoon-3d-short/references/frames/
+.claude/skills/cartoon-3d-short/references/sheets/
