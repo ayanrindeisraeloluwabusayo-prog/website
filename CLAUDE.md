@@ -79,6 +79,8 @@ and music, built with three.js inside Remotion. Its style notes come from a crea
 the owner's own stories, characters and shots, never copy theirs, and never publish its reference
 frames (kept out of git on purpose). Some of its "user rules" (2K export, no captions, the original
 author's mix levels) were the original author's preferences: confirm them with the owner first.
+Before writing any cartoon script, read `.claude/skills/cartoon-3d-short/OWNER-STORY-PLAYBOOK.md` (the owner's
+six-beat story formula, do's and don'ts, the look notes and the Nigerian story bank).
 
 ## The owner's video style: SaaS motion design in every video
 
