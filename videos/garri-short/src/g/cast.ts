@@ -437,8 +437,8 @@ export const stage = (id: number, f: number, cam: CamInfo, light: Light): Stage 
     case 15: {
       if (f >= B.open && f < B.grate) {
         // the cut root: green wisps curling out of both white faces, then a small skull pops on "cyanide"
-        wisps(add(TABLE, 0, 0.9, 0.12), 5, 0.22, 0.42, 0.11, 1, 0.55);
-        if (f >= B.cyanide) { const k = smooth((f - B.cyanide) / 6); FX("skull", 200, 200, skullDraw, add(TABLE, 0.02, 1.2 + 0.03 * Math.sin(t * 5), 0.14), 0.2 * k, 0.2 * k, 0.1 * Math.sin(t * 3)); }
+        wisps(add(TABLE, 0, 0.9, 0.12), 5, 0.16, 0.34, 0.07, 1, 0.55);
+        if (f >= B.cyanide) { const k = smooth((f - B.cyanide) / 6); FX("skull", 200, 200, skullDraw, add(TABLE, 0.02, 1.32 + 0.03 * Math.sin(t * 5), 0.14), 0.2 * k, 0.2 * k, 0.1 * Math.sin(t * 3)); }
       }
       if (f >= B.grate && f < 1500) {
         C(2, BIL_O, "bil", add(GRATE, 0, 0, -0.8), { expr: "neutral", ...grateHands(1.2) });
@@ -477,7 +477,7 @@ export const stage = (id: number, f: number, cam: CamInfo, light: Light): Stage 
       milSeated(eat ? "relief" : "nervous", eat ? eatHands(1) : {}, at);
       const ring: [Outfit, string, number, V3, Expr][] = [[BIL_O, "bil", 2, add(at, 1.0, 0, -0.5), "relief"], [SIL_O, "sil", 3, add(at, 1.9, 0, 0.1), "smile"], [HUS_O, "hus", 4, add(at, 0.9, 0, 0.9), "relief_open"]];
       ring.forEach(([o, key, i, p, ex]) => C(i, o, key, p, eat ? { expr: ex, ...eatHands(i) } : { expr: "nervous", look: -1, hands: i === 2 ? [[-34, 0.7], [40, 0.62]] : undefined, hold: i === 2 ? "pole" : null, stick: [0, 176] }));
-      [KID_A, KID_B].forEach((o, i) => C(5 + i, o, i ? "kidb" : "kida", add(at, -0.3 + i * 0.75, 0, 1.25 + 0.2 * i), eat ? { expr: "smile", ...eatHands(5 + i) } : { expr: "nervous" }));
+      [KID_A, KID_B].forEach((o, i) => C(5 + i, o, i ? "kidb" : "kida", add(at, 2.7 + i * 0.75, 0, 0.8 + 0.25 * i), eat ? { expr: "smile", ...eatHands(5 + i) } : { expr: "nervous" }));
       break;
     }
   }

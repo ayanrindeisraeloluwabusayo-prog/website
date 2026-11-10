@@ -48,7 +48,7 @@ export const SHOTS: ShotDef[] = [
   { id: 14, a: 1301, b: 1380, light: "golden", place: "compound", dry: true, sunAz: 100, sunEl: 15 }, // she cannot stand up
   { id: 15, a: 1380, b: 1619, light: "day", place: "compound", sunAz: 120 },  // you see: the hidden poison
   { id: 16, a: 1619, b: 1685, light: "drought", place: "compound", dry: true },// bitter cassava in a drought
-  { id: 17, a: 1685, b: 1821, light: "golden", place: "far", dry: true, sunAz: 25, sunEl: 9 }, // 1981, Mozambique
+  { id: 17, a: 1685, b: 1821, light: "golden", place: "far", dry: true, sunAz: 130, sunEl: 14 }, // 1981, Mozambique
   { id: 18, a: 1821, b: TOTAL, light: "golden", place: "compound", dry: true, sunAz: 105, sunEl: 14 }, // the only safe garri
 ];
 export const XFADE: Record<number, number> = { 11: 8, 15: 6, 17: 8, 18: 10 };
@@ -158,7 +158,7 @@ const CAMS: Record<number, Key[]> = {
     K(1140, FRY, [-0.6, 1.8, 2.5], [0, 1.0, -0.45], 38, 0.005, -0.04),           // rushing: fry
     K(1157, BASINS, [1.6, 1.6, 2.6], [0, 0.5, 0], 40, 0.005),                 // faster than ever
     K(1177, O, [-1.6, 1.4, 8.4], [1.0, 1.1, 3.4], 40, 0.0025),                // the brother-in-law walks in
-    K(1213, O, [-0.7, 0.45, 5.8], [0.2, 0.5, 3.4], 36, 0.004, 0.03),          // his knees (low angle)
+    K(1213, O, [-1.1, 0.5, 6.8], [0.2, 0.55, 3.4], 36, 0.004, 0.03),          // his knees (low angle)
     K(1247, O, [-1.8, 1.0, 7.8], [-0.2, 0.7, 4.7], 40, 0.003, -0.03),        // the children, on their toes
   ],
   14: [
@@ -167,23 +167,23 @@ const CAMS: Record<number, Key[]> = {
     K(1352, WIFE, [3.4, 1.5, 5.2], [1.6, 1.0, 2.2], 42, 0.003),               // the wife watching from her corner
   ],
   15: [
-    K(1380, TABLE, [0.8, 1.25, 1.3], [0, 0.82, 0], 34, 0.003),                // a cassava root on the table
-    K(1414, TABLE, [-0.35, 1.1, 0.8], [0.05, 0.84, 0], 32, 0.004, 0.03),      // cut open: the hidden poison
+    K(1380, TABLE, [0.7, 1.35, 2.0], [0, 0.86, 0], 34, 0.003),                // a cassava root on the table
+    K(1414, TABLE, [-0.1, 1.3, 1.5], [0, 0.9, 0], 34, 0.004, 0.03),      // cut open: the hidden poison
     K(1469, GRATE, [0.5, 1.5, 1.8], [0, 1.1, -0.2], 36, 0.004, -0.03),         // grating breaks it loose
     K(1500, SACK, [2.4, 1.3, 3.8], [0.3, 1.3, 0], 40, 0.002),                 // it needs time: into the air
     K(1560, SACK, [0.9, 0.22, 1.5], [0, 0.2, 0.2], 36, 0.004, 0.03),          // and into the water squeezed out
   ],
   16: [K(1619, FIELD, [-1.4, 0.5, 2.8], [0, 1.0, 0], 38, 0.0035, -0.03)],     // bitter cassava in a drought carries the most
   17: [
-    K(1681, PAPER, [0.25, 0.05, 1.1], [0, 0, 0], 34, 0.003),                  // the old newspaper: 1981
+    K(1681, PAPER, [0.3, 0.0, 1.75], [0, 0, 0], 34, 0.003),                  // the old newspaper: 1981
     K(1732, FAR, [-6, 1.5, 9], [1, 0.9, 0], 42, 0.0025, -0.03),               // a drought and rushed cassava
     K(1766, FAR, [3, 3.0, 9.5], [0, 0.6, -1], 44, 0.001, 0, [-0.01, 0.022, 0.016]), // more than a thousand people (crane up)
   ],
   18: [
     K(1816, SACK, [1.7, 1.0, 2.9], [0.2, 0.9, 0], 38, 0.003),                 // that sour sack in the corner
     K(1859, WIFE, [3.8, 1.7, 5.4], [0.8, 1.0, 0.6], 42, 0.0025, -0.03),       // the family comes to her
-    K(1896, WIFE, [1.5, 1.25, 2.1], [0.2, 0.95, 0.2], 36, 0.003, 0.03),       // she serves it
-    K(1932, SACK, [3.2, 1.5, 5.0], [0.9, 0.9, 0.5], 40, 0.0015),              // the only safe garri: final wide on the corner
+    K(1896, WIFE, [3.6, 1.9, 6.2], [1.7, 1.0, 1.0], 38, 0.003, 0.03),       // she serves it
+    K(1932, SACK, [3.6, 2.7, 6.6], [1.2, 0.8, 1.0], 42, 0.0015),              // the only safe garri: final wide on the corner
   ],
 };
 export const camAt = (id: number, f: number): Cam => {

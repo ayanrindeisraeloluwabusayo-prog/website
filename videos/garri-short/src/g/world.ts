@@ -451,13 +451,15 @@ export class World {
     for (const [dx, dz] of [[-0.4, -0.25], [0.4, -0.25], [-0.4, 0.25], [0.4, 0.25]]) b.add(boxGeo(V(tx + dx - 0.03, 0, tz + dz - 0.03), V(tx + dx + 0.03, 0.72, tz + dz + 0.03)), M.woodDark);
     const rw = new Batch(), rc = new Batch();
     tuber(rw, M.peel, tx, 0.85, tz, 0.25, 0.6, 0.075);
-    { // two halves: the brown skin and the white flesh on the cut faces
-      for (const s of [-1, 1]) {
-        const g = cyl(s < 0 ? 0.075 : 0.05, 0.27, 14, s < 0 ? 0.062 : 0.075); g.rotateZ(Math.PI / 2);
-        rc.add(g, M.peel, M4(tx + s * 0.2, 0.85, tz + s * 0.03, 0, 0.25 + s * 0.25));
-        rc.add(new THREE.CircleGeometry(0.058, 16), M.flesh, M4(tx + s * 0.062, 0.85, tz + s * 0.05, 0, s * Math.PI / 2 + 0.25 + s * 0.25));
+    { // two halves swung open toward the lens: brown skin, white flesh on the cut faces
+      for (const sd of [-1, 1]) {
+        const ry = sd * 0.75, dir = V(Math.cos(ry), 0, -Math.sin(ry)), c = V(tx + sd * 0.24, 0.85, tz - 0.02);
+        const g = cyl(0.07, 0.27, 16); g.rotateZ(Math.PI / 2);
+        rc.add(g, M.peel, M4(c.x, c.y, c.z, 0, ry));
+        const inner = c.clone().addScaledVector(dir, -sd * 0.137), n = dir.clone().multiplyScalar(-sd);
+        rc.add(new THREE.CircleGeometry(0.064, 18), M.flesh, M4(inner.x, inner.y, inner.z, 0, Math.atan2(n.x, n.z)));
       }
-      rc.add(boxGeo(V(tx - 0.012, 0.79, tz - 0.2), V(tx + 0.012, 0.83, tz + 0.2)), M.grater); // the knife
+      rc.add(boxGeo(V(tx - 0.012, 0.79, tz + 0.12), V(tx + 0.012, 0.82, tz + 0.5)), M.grater); // the knife
     }
     rw.build(this.rootWhole); rc.build(this.rootCut); R.add(this.rootWhole, this.rootCut);
     // ---- yam barn (full / empty), maize patch (green / dead), cassava field
