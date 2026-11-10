@@ -211,9 +211,9 @@ const blob = (out: Stage, x: number, y: number, z: number, sc = 1, k = 1) => {
 // ---------------- the cast ----------------
 export type Stage = { places: Place[]; fx: FxPlace[] };
 const HAIR = "#1a1214";
-// skin look: "brown" (default), "soft" (deeper, less saturated browns) or "white" (the neutral blank heads); test
+// skin look: "white" (the owner's choice: neutral blank heads), "brown" or "soft" (deeper browns); test
 // stills can switch it with inputProps { skin: "white" }
-const SKIN_MODE = ((getInputProps() as { skin?: string }).skin ?? "brown") as "brown" | "soft" | "white";
+const SKIN_MODE = ((getInputProps() as { skin?: string }).skin ?? "white") as "brown" | "soft" | "white";
 const SOFT = ["#6f4a38", "#7d5644", "#5f3f30", "#8a6250", "#553729"];
 const skinOf = (i: number) => (SKIN_MODE === "white" ? "#f6f1e8" : SKIN_MODE === "soft" ? SOFT[i] : BROWN[i]);
 const man = (jacket: string, skin: number, extra: Partial<Outfit> = {}): Outfit => ({ jacket, pants: "#3a3442", boots: "#2a2024", hat: "afro", hair: HAIR, skin: skinOf(skin), ...extra });
