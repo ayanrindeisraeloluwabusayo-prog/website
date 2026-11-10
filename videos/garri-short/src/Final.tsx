@@ -3,12 +3,13 @@
 import { AbsoluteFill, Audio, interpolate, OffthreadVideo, staticFile, useCurrentFrame } from "remotion";
 import { loadFont } from "@remotion/fonts";
 import { CAPTIONS } from "./captions";
+import { CAPTIONS2 } from "./captions2";
 
 loadFont({ family: "Inter Tight", url: staticFile("fonts/inter-tight-latin-800-normal.woff2"), weight: "800", format: "woff2" });
 
-const Captions: React.FC = () => {
+const Captions: React.FC<{ caps?: typeof CAPTIONS }> = ({ caps = CAPTIONS }) => {
   const f = useCurrentFrame();
-  const c = CAPTIONS.find((x) => f >= x.from && f < x.to);
+  const c = caps.find((x) => f >= x.from && f < x.to);
   if (!c) return null;
   const k = interpolate(f, [c.from, c.from + 3], [0, 1], { extrapolateRight: "clamp" });
   return (
@@ -25,5 +26,14 @@ export const Final: React.FC = () => (
     <OffthreadVideo src={staticFile("film.mp4")} muted style={{ width: "100%", height: "100%" }} />
     <Captions />
     <Audio src={staticFile("audio/mix.wav")} />
+  </AbsoluteFill>
+);
+
+/** the slower take: the same film stretched to a natural-speed voice */
+export const FinalSlow: React.FC = () => (
+  <AbsoluteFill style={{ background: "#000" }}>
+    <OffthreadVideo src={staticFile("film_slow.mp4")} muted style={{ width: "100%", height: "100%" }} />
+    <Captions caps={CAPTIONS2} />
+    <Audio src={staticFile("audio/mix2.wav")} />
   </AbsoluteFill>
 );

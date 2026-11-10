@@ -9,12 +9,14 @@ import instruments as I
 import sfx_gen as G
 
 FPS = 30
-DUR = 1975 / FPS
+# optional 4th argument: a retime file (old time -> new time anchors) when the picture has been stretched to a slower voice
+RETIME = json.load(open(sys.argv[4]))["anchors"] if len(sys.argv) > 4 else None
+DUR = RETIME[-1][1] if RETIME else 1975 / FPS
 BPM = 112
 BL = 60 / BPM          # beat length (s)
 S16 = BL / 4
 N = ns(DUR)
-F = lambda f: f / FPS  # frame -> seconds
+F = (lambda f: float(np.interp(f / FPS, [p[0] for p in RETIME], [p[1] for p in RETIME]))) if RETIME else (lambda f: f / FPS)  # (original) frame -> seconds
 R = rng(7)
 m2f = I.m2f
 
