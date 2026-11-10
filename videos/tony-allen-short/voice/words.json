@@ -1,0 +1,992 @@
+[
+ {
+  "w": "One",
+  "start": 0.0,
+  "end": 0.186,
+  "frame": 0
+ },
+ {
+  "w": "boy",
+  "start": 0.232,
+  "end": 0.418,
+  "frame": 7
+ },
+ {
+  "w": "from",
+  "start": 0.476,
+  "end": 0.615,
+  "frame": 14
+ },
+ {
+  "w": "Lagos",
+  "start": 0.685,
+  "end": 1.126,
+  "frame": 21
+ },
+ {
+  "w": "learned",
+  "start": 1.196,
+  "end": 1.428,
+  "frame": 36
+ },
+ {
+  "w": "to",
+  "start": 1.451,
+  "end": 1.498,
+  "frame": 44
+ },
+ {
+  "w": "sound",
+  "start": 1.556,
+  "end": 1.788,
+  "frame": 47
+ },
+ {
+  "w": "like",
+  "start": 1.834,
+  "end": 1.974,
+  "frame": 55
+ },
+ {
+  "w": "four",
+  "start": 2.02,
+  "end": 2.218,
+  "frame": 61
+ },
+ {
+  "w": "drummers",
+  "start": 2.264,
+  "end": 2.601,
+  "frame": 68
+ },
+ {
+  "w": "at",
+  "start": 2.647,
+  "end": 2.717,
+  "frame": 79
+ },
+ {
+  "w": "once,",
+  "start": 2.786,
+  "end": 3.204,
+  "frame": 84
+ },
+ {
+  "w": "with",
+  "start": 3.529,
+  "end": 3.692,
+  "frame": 106
+ },
+ {
+  "w": "just",
+  "start": 3.738,
+  "end": 3.936,
+  "frame": 112
+ },
+ {
+  "w": "two",
+  "start": 3.971,
+  "end": 4.168,
+  "frame": 119
+ },
+ {
+  "w": "hands",
+  "start": 4.249,
+  "end": 4.563,
+  "frame": 127
+ },
+ {
+  "w": "and",
+  "start": 4.598,
+  "end": 4.667,
+  "frame": 138
+ },
+ {
+  "w": "two",
+  "start": 4.714,
+  "end": 4.865,
+  "frame": 141
+ },
+ {
+  "w": "feet.",
+  "start": 4.946,
+  "end": 5.399,
+  "frame": 148
+ },
+ {
+  "w": "Lagos,",
+  "start": 5.909,
+  "end": 6.478,
+  "frame": 177
+ },
+ {
+  "w": "the",
+  "start": 6.502,
+  "end": 6.571,
+  "frame": 195
+ },
+ {
+  "w": "late",
+  "start": 6.629,
+  "end": 6.815,
+  "frame": 199
+ },
+ {
+  "w": "nineteen-fifties.",
+  "start": 6.861,
+  "end": 7.906,
+  "frame": 206
+ },
+ {
+  "w": "Tony",
+  "start": 8.603,
+  "end": 8.963,
+  "frame": 258
+ },
+ {
+  "w": "Allen",
+  "start": 9.033,
+  "end": 9.276,
+  "frame": 271
+ },
+ {
+  "w": "doesn't",
+  "start": 9.323,
+  "end": 9.578,
+  "frame": 280
+ },
+ {
+  "w": "touch",
+  "start": 9.613,
+  "end": 9.834,
+  "frame": 288
+ },
+ {
+  "w": "a",
+  "start": 9.88,
+  "end": 9.903,
+  "frame": 296
+ },
+ {
+  "w": "drum",
+  "start": 9.961,
+  "end": 10.182,
+  "frame": 299
+ },
+ {
+  "w": "until",
+  "start": 10.24,
+  "end": 10.461,
+  "frame": 307
+ },
+ {
+  "w": "he's",
+  "start": 10.519,
+  "end": 10.635,
+  "frame": 316
+ },
+ {
+  "w": "eighteen.",
+  "start": 10.681,
+  "end": 11.296,
+  "frame": 320
+ },
+ {
+  "w": "He",
+  "start": 11.622,
+  "end": 11.738,
+  "frame": 349
+ },
+ {
+  "w": "teaches",
+  "start": 11.807,
+  "end": 12.179,
+  "frame": 354
+ },
+ {
+  "w": "himself,",
+  "start": 12.237,
+  "end": 12.817,
+  "frame": 367
+ },
+ {
+  "w": "from",
+  "start": 13.142,
+  "end": 13.317,
+  "frame": 394
+ },
+ {
+  "w": "jazz",
+  "start": 13.386,
+  "end": 13.7,
+  "frame": 402
+ },
+ {
+  "w": "records",
+  "start": 13.781,
+  "end": 14.129,
+  "frame": 413
+ },
+ {
+  "w": "and",
+  "start": 14.164,
+  "end": 14.234,
+  "frame": 425
+ },
+ {
+  "w": "magazine",
+  "start": 14.304,
+  "end": 14.78,
+  "frame": 429
+ },
+ {
+  "w": "lessons",
+  "start": 14.815,
+  "end": 15.128,
+  "frame": 444
+ },
+ {
+  "w": "by",
+  "start": 15.175,
+  "end": 15.279,
+  "frame": 455
+ },
+ {
+  "w": "American",
+  "start": 15.337,
+  "end": 15.697,
+  "frame": 460
+ },
+ {
+  "w": "drummers.",
+  "start": 15.744,
+  "end": 16.278,
+  "frame": 472
+ },
+ {
+  "w": "His",
+  "start": 16.603,
+  "end": 16.765,
+  "frame": 498
+ },
+ {
+  "w": "first",
+  "start": 16.823,
+  "end": 17.055,
+  "frame": 505
+ },
+ {
+  "w": "job",
+  "start": 17.102,
+  "end": 17.334,
+  "frame": 513
+ },
+ {
+  "w": "in",
+  "start": 17.381,
+  "end": 17.439,
+  "frame": 521
+ },
+ {
+  "w": "a",
+  "start": 17.473,
+  "end": 17.497,
+  "frame": 524
+ },
+ {
+  "w": "real",
+  "start": 17.555,
+  "end": 17.717,
+  "frame": 527
+ },
+ {
+  "w": "band?",
+  "start": 17.775,
+  "end": 18.193,
+  "frame": 533
+ },
+ {
+  "w": "Not",
+  "start": 18.89,
+  "end": 19.099,
+  "frame": 567
+ },
+ {
+  "w": "drums.",
+  "start": 19.145,
+  "end": 19.749,
+  "frame": 574
+ },
+ {
+  "w": "Claves:",
+  "start": 20.353,
+  "end": 20.887,
+  "frame": 611
+ },
+ {
+  "w": "two",
+  "start": 20.945,
+  "end": 21.107,
+  "frame": 628
+ },
+ {
+  "w": "little",
+  "start": 21.165,
+  "end": 21.34,
+  "frame": 635
+ },
+ {
+  "w": "wooden",
+  "start": 21.363,
+  "end": 21.572,
+  "frame": 641
+ },
+ {
+  "w": "sticks.",
+  "start": 21.618,
+  "end": 22.187,
+  "frame": 649
+ },
+ {
+  "w": "Click.",
+  "start": 22.338,
+  "end": 22.779,
+  "frame": 670
+ },
+ {
+  "w": "Click.",
+  "start": 23.023,
+  "end": 23.511,
+  "frame": 691
+ },
+ {
+  "w": "Then",
+  "start": 23.836,
+  "end": 24.021,
+  "frame": 715
+ },
+ {
+  "w": "the",
+  "start": 24.068,
+  "end": 24.138,
+  "frame": 722
+ },
+ {
+  "w": "band's",
+  "start": 24.184,
+  "end": 24.428,
+  "frame": 726
+ },
+ {
+  "w": "drummer",
+  "start": 24.463,
+  "end": 24.73,
+  "frame": 734
+ },
+ {
+  "w": "quits.",
+  "start": 24.799,
+  "end": 25.333,
+  "frame": 744
+ },
+ {
+  "w": "Luckily,",
+  "start": 25.937,
+  "end": 26.401,
+  "frame": 778
+ },
+ {
+  "w": "Tony",
+  "start": 26.448,
+  "end": 26.75,
+  "frame": 793
+ },
+ {
+  "w": "was",
+  "start": 26.796,
+  "end": 26.889,
+  "frame": 804
+ },
+ {
+  "w": "standing",
+  "start": 26.924,
+  "end": 27.249,
+  "frame": 808
+ },
+ {
+  "w": "right",
+  "start": 27.295,
+  "end": 27.47,
+  "frame": 819
+ },
+ {
+  "w": "there.",
+  "start": 27.504,
+  "end": 27.899,
+  "frame": 825
+ },
+ {
+  "w": "Unluckily",
+  "start": 28.34,
+  "end": 28.909,
+  "frame": 850
+ },
+ {
+  "w": "for",
+  "start": 28.967,
+  "end": 29.083,
+  "frame": 869
+ },
+ {
+  "w": "every",
+  "start": 29.165,
+  "end": 29.432,
+  "frame": 875
+ },
+ {
+  "w": "other",
+  "start": 29.49,
+  "end": 29.652,
+  "frame": 885
+ },
+ {
+  "w": "drummer",
+  "start": 29.699,
+  "end": 29.966,
+  "frame": 891
+ },
+ {
+  "w": "in",
+  "start": 30.012,
+  "end": 30.07,
+  "frame": 900
+ },
+ {
+  "w": "Lagos,",
+  "start": 30.14,
+  "end": 30.79,
+  "frame": 904
+ },
+ {
+  "w": "he",
+  "start": 30.906,
+  "end": 30.999,
+  "frame": 927
+ },
+ {
+  "w": "was",
+  "start": 31.069,
+  "end": 31.185,
+  "frame": 932
+ },
+ {
+  "w": "ready.",
+  "start": 31.266,
+  "end": 31.754,
+  "frame": 938
+ },
+ {
+  "w": "His",
+  "start": 31.963,
+  "end": 32.148,
+  "frame": 959
+ },
+ {
+  "w": "secret",
+  "start": 32.23,
+  "end": 32.636,
+  "frame": 967
+ },
+ {
+  "w": "is",
+  "start": 32.694,
+  "end": 32.799,
+  "frame": 981
+ },
+ {
+  "w": "independence.",
+  "start": 32.857,
+  "end": 33.669,
+  "frame": 986
+ },
+ {
+  "w": "Try",
+  "start": 34.052,
+  "end": 34.377,
+  "frame": 1022
+ },
+ {
+  "w": "patting",
+  "start": 34.494,
+  "end": 34.83,
+  "frame": 1035
+ },
+ {
+  "w": "your",
+  "start": 34.877,
+  "end": 34.993,
+  "frame": 1046
+ },
+ {
+  "w": "head",
+  "start": 35.051,
+  "end": 35.213,
+  "frame": 1052
+ },
+ {
+  "w": "while",
+  "start": 35.248,
+  "end": 35.422,
+  "frame": 1057
+ },
+ {
+  "w": "rubbing",
+  "start": 35.469,
+  "end": 35.747,
+  "frame": 1064
+ },
+ {
+  "w": "your",
+  "start": 35.794,
+  "end": 35.898,
+  "frame": 1074
+ },
+ {
+  "w": "tummy.",
+  "start": 35.945,
+  "end": 36.432,
+  "frame": 1078
+ },
+ {
+  "w": "Now",
+  "start": 36.943,
+  "end": 37.129,
+  "frame": 1108
+ },
+ {
+  "w": "add",
+  "start": 37.222,
+  "end": 37.501,
+  "frame": 1117
+ },
+ {
+  "w": "both",
+  "start": 37.559,
+  "end": 37.768,
+  "frame": 1127
+ },
+ {
+  "w": "feet,",
+  "start": 37.826,
+  "end": 38.278,
+  "frame": 1135
+ },
+ {
+  "w": "each",
+  "start": 38.453,
+  "end": 38.65,
+  "frame": 1154
+ },
+ {
+  "w": "with",
+  "start": 38.696,
+  "end": 38.824,
+  "frame": 1161
+ },
+ {
+  "w": "its",
+  "start": 38.871,
+  "end": 38.975,
+  "frame": 1166
+ },
+ {
+  "w": "own",
+  "start": 39.021,
+  "end": 39.161,
+  "frame": 1171
+ },
+ {
+  "w": "rhythm.",
+  "start": 39.207,
+  "end": 39.66,
+  "frame": 1176
+ },
+ {
+  "w": "Four",
+  "start": 40.171,
+  "end": 40.473,
+  "frame": 1205
+ },
+ {
+  "w": "limbs,",
+  "start": 40.554,
+  "end": 41.088,
+  "frame": 1217
+ },
+ {
+  "w": "four",
+  "start": 41.216,
+  "end": 41.471,
+  "frame": 1236
+ },
+ {
+  "w": "patterns,",
+  "start": 41.541,
+  "end": 42.33,
+  "frame": 1246
+ },
+ {
+  "w": "one",
+  "start": 42.539,
+  "end": 42.771,
+  "frame": 1276
+ },
+ {
+  "w": "man",
+  "start": 42.818,
+  "end": 43.015,
+  "frame": 1285
+ },
+ {
+  "w": "who",
+  "start": 43.062,
+  "end": 43.166,
+  "frame": 1292
+ },
+ {
+  "w": "sounds",
+  "start": 43.236,
+  "end": 43.491,
+  "frame": 1297
+ },
+ {
+  "w": "like",
+  "start": 43.526,
+  "end": 43.654,
+  "frame": 1306
+ },
+ {
+  "w": "a",
+  "start": 43.677,
+  "end": 43.7,
+  "frame": 1310
+ },
+ {
+  "w": "whole",
+  "start": 43.747,
+  "end": 43.944,
+  "frame": 1312
+ },
+ {
+  "w": "drum",
+  "start": 43.979,
+  "end": 44.188,
+  "frame": 1319
+ },
+ {
+  "w": "section.",
+  "start": 44.258,
+  "end": 44.768,
+  "frame": 1328
+ },
+ {
+  "w": "In",
+  "start": 45.372,
+  "end": 45.511,
+  "frame": 1361
+ },
+ {
+  "w": "nineteen",
+  "start": 45.569,
+  "end": 45.975,
+  "frame": 1367
+ },
+ {
+  "w": "sixty-four",
+  "start": 46.057,
+  "end": 46.66,
+  "frame": 1382
+ },
+ {
+  "w": "he",
+  "start": 46.73,
+  "end": 46.788,
+  "frame": 1402
+ },
+ {
+  "w": "meets",
+  "start": 46.835,
+  "end": 47.032,
+  "frame": 1405
+ },
+ {
+  "w": "a",
+  "start": 47.067,
+  "end": 47.09,
+  "frame": 1412
+ },
+ {
+  "w": "bandleader",
+  "start": 47.16,
+  "end": 47.636,
+  "frame": 1415
+ },
+ {
+  "w": "called",
+  "start": 47.694,
+  "end": 47.926,
+  "frame": 1431
+ },
+ {
+  "w": "Fela",
+  "start": 47.984,
+  "end": 48.251,
+  "frame": 1440
+ },
+ {
+  "w": "Kuti.",
+  "start": 48.309,
+  "end": 48.82,
+  "frame": 1449
+ },
+ {
+  "w": "Together",
+  "start": 49.261,
+  "end": 49.691,
+  "frame": 1478
+ },
+ {
+  "w": "they",
+  "start": 49.749,
+  "end": 49.876,
+  "frame": 1492
+ },
+ {
+  "w": "invent",
+  "start": 49.923,
+  "end": 50.201,
+  "frame": 1498
+ },
+ {
+  "w": "a",
+  "start": 50.236,
+  "end": 50.259,
+  "frame": 1507
+ },
+ {
+  "w": "brand",
+  "start": 50.318,
+  "end": 50.561,
+  "frame": 1510
+ },
+ {
+  "w": "new",
+  "start": 50.619,
+  "end": 50.724,
+  "frame": 1519
+ },
+ {
+  "w": "sound:",
+  "start": 50.794,
+  "end": 51.235,
+  "frame": 1524
+ },
+ {
+  "w": "Afrobeat.",
+  "start": 51.444,
+  "end": 52.28,
+  "frame": 1543
+ },
+ {
+  "w": "Fela",
+  "start": 52.605,
+  "end": 52.918,
+  "frame": 1578
+ },
+ {
+  "w": "later",
+  "start": 52.988,
+  "end": 53.232,
+  "frame": 1590
+ },
+ {
+  "w": "said:",
+  "start": 53.278,
+  "end": 53.754,
+  "frame": 1598
+ },
+ {
+  "w": "without",
+  "start": 54.033,
+  "end": 54.393,
+  "frame": 1621
+ },
+ {
+  "w": "Tony",
+  "start": 54.439,
+  "end": 54.764,
+  "frame": 1633
+ },
+ {
+  "w": "Allen,",
+  "start": 54.834,
+  "end": 55.298,
+  "frame": 1645
+ },
+ {
+  "w": "there",
+  "start": 55.379,
+  "end": 55.542,
+  "frame": 1661
+ },
+ {
+  "w": "would",
+  "start": 55.565,
+  "end": 55.716,
+  "frame": 1667
+ },
+ {
+  "w": "be",
+  "start": 55.751,
+  "end": 55.855,
+  "frame": 1673
+ },
+ {
+  "w": "no",
+  "start": 55.925,
+  "end": 56.053,
+  "frame": 1678
+ },
+ {
+  "w": "Afrobeat.",
+  "start": 56.134,
+  "end": 56.831,
+  "frame": 1684
+ },
+ {
+  "w": "The",
+  "start": 57.214,
+  "end": 57.33,
+  "frame": 1716
+ },
+ {
+  "w": "boy",
+  "start": 57.388,
+  "end": 57.562,
+  "frame": 1722
+ },
+ {
+  "w": "who",
+  "start": 57.597,
+  "end": 57.701,
+  "frame": 1728
+ },
+ {
+  "w": "started",
+  "start": 57.771,
+  "end": 58.073,
+  "frame": 1733
+ },
+ {
+  "w": "with",
+  "start": 58.108,
+  "end": 58.236,
+  "frame": 1743
+ },
+ {
+  "w": "two",
+  "start": 58.282,
+  "end": 58.479,
+  "frame": 1748
+ },
+ {
+  "w": "little",
+  "start": 58.549,
+  "end": 58.781,
+  "frame": 1756
+ },
+ {
+  "w": "sticks",
+  "start": 58.816,
+  "end": 59.141,
+  "frame": 1764
+ },
+ {
+  "w": "ended",
+  "start": 59.188,
+  "end": 59.397,
+  "frame": 1776
+ },
+ {
+  "w": "up",
+  "start": 59.443,
+  "end": 59.524,
+  "frame": 1783
+ },
+ {
+  "w": "called,",
+  "start": 59.594,
+  "end": 60.047,
+  "frame": 1788
+ },
+ {
+  "w": "by",
+  "start": 60.29,
+  "end": 60.453,
+  "frame": 1809
+ },
+ {
+  "w": "Brian",
+  "start": 60.523,
+  "end": 60.952,
+  "frame": 1816
+ },
+ {
+  "w": "Eno,",
+  "start": 61.068,
+  "end": 61.66,
+  "frame": 1832
+ },
+ {
+  "w": "perhaps",
+  "start": 61.811,
+  "end": 62.241,
+  "frame": 1854
+ },
+ {
+  "w": "the",
+  "start": 62.299,
+  "end": 62.38,
+  "frame": 1869
+ },
+ {
+  "w": "greatest",
+  "start": 62.45,
+  "end": 62.798,
+  "frame": 1874
+ },
+ {
+  "w": "drummer",
+  "start": 62.833,
+  "end": 63.193,
+  "frame": 1885
+ },
+ {
+  "w": "who",
+  "start": 63.263,
+  "end": 63.425,
+  "frame": 1898
+ },
+ {
+  "w": "ever",
+  "start": 63.495,
+  "end": 63.657,
+  "frame": 1905
+ },
+ {
+  "w": "lived.",
+  "start": 63.715,
+  "end": 64.366,
+  "frame": 1911
+ }
+]
