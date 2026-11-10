@@ -405,22 +405,22 @@ export const stage = (id: number, f: number, cam: CamInfo, light: Light): Stage 
     case 13: {
       if (f < 1177) {
         workYard(2.4, "grin");
-        if (f < 1157) { const ph = q30((t * 3) % 1); FX(`lines${ph}`, 250, 250, linesDraw(ph), add(f < 1140 ? GRATE : FRY, 0, 1.25, 0.35), 0.9, 0.9); }
+        if (f < 1157) { const ph = q30((t * 3) % 1); FX(`lines${ph}`, 250, 250, linesDraw(ph), add(f < 1140 ? GRATE : FRY, 0.55, 1.3, 0.1), 0.45, 0.45); }
         if (f >= 1140 && f < 1157) { const ph = q30((t * 1.5) % 1); FX(`smoke${ph}`, 250, 250, smokeDraw(ph), add(FRY, 0.1, 1.5 + 0.4 * ph, 0), 0.8, 0.8); }
         if (f >= 1157) [HUS_O, MIL_O].forEach((o, i) => C(i ? 1 : 4, o, i ? "mil" : "hus", add(BASINS, -0.9 + i * 1.6, 0, -1.0), { expr: "grin", hands: [[-36, 0.92], [36, 0.92]] }));
       } else if (f < 1247) {
         // the brother-in-law walks in on legs that will not bend
-        const u = clamp01((f - 1177) / 60), x = 3.4 - 1.8 * u, rock = Math.sin(t * 7) * (u < 1 ? 1 : 0.3);
-        C(2, BIL_O, "bil", [x, 0.02 * Math.abs(rock), 2.6], { expr: f >= B.knees ? "pained" : "nervous", tilt: 4 * rock, hands: [[-34, 0.7], [40, 0.62]], hold: "pole", stick: [0, 176] });
-        if (f >= B.knees) for (const s of [-1, 1]) FX("zig", 90, 170, zigDraw, [x + s * 0.3, 0.45, 2.75], 0.13, 0.25, s * 0.3 + 0.15 * Math.sin(t * 20));
-        C(3, SIL_O, "sil", [-0.4, 0, 1.2], { expr: "nervous", look: 1 });
+        const u = clamp01((f - 1177) / 60), x = 2.0 - 1.8 * u, rock = Math.sin(t * 7) * (u < 1 ? 1 : 0.3);
+        C(2, BIL_O, "bil", [x, 0.02 * Math.abs(rock), 3.4], { expr: f >= B.knees ? "pained" : "nervous", tilt: 4 * rock, hands: [[-34, 0.7], [40, 0.62]], hold: "pole", stick: [0, 176] });
+        if (f >= B.knees) for (const s of [-1, 1]) FX("zig", 90, 170, zigDraw, [x + s * 0.3, 0.45, 3.55], 0.13, 0.25, s * 0.3 + 0.15 * Math.sin(t * 20));
+        C(3, SIL_O, "sil", [-1.4, 0, 2.2], { expr: "nervous", look: 1 });
       } else {
         // the children: up on their toes, arms out, wobbling
         [KID_A, KID_B].forEach((o, i) => {
           const rock = Math.sin(t * 8 + i * 2);
-          C(5 + i, o, i ? "kidb" : "kida", [-3.0 + i * 0.95, f >= B.toes ? 0.07 : 0.02, 2.4 + 0.2 * i], { expr: "nervous", tilt: 5 * rock, hands: [[-70, 0.35 - 0.1 * rock], [70, 0.35 + 0.1 * rock]] });
+          C(5 + i, o, i ? "kidb" : "kida", [-0.7 + i * 0.95, f >= B.toes ? 0.07 : 0.02, 4.6 + 0.2 * i], { expr: "nervous", tilt: 5 * rock, hands: [[-70, 0.35 - 0.1 * rock], [70, 0.35 + 0.1 * rock]] });
         });
-        C(3, SIL_O, "sil", [-0.9, 0, 1.4], { expr: "shock", look: -1, facing: -1, hands: [[-20, -0.15], [20, -0.15]] });
+        C(3, SIL_O, "sil", [1.5, 0, 3.7], { expr: "shock", look: -1, facing: -1, hands: [[-20, -0.15], [20, -0.15]] });
       }
       break;
     }

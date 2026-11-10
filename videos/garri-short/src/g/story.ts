@@ -125,7 +125,7 @@ const CAMS: Record<number, Key[]> = {
   ],
   6: [
     K(516, STOOL, [0.9, 1.35, 3.0], [0, 1.15, 0], 38, 0.0025),                // mother-in-law
-    K(562, STOOL, [-0.6, 1.3, 1.9], [0, 1.25, 0], 36, 0.003, 0.03),           // her line, close
+    K(562, STOOL, [-0.7, 1.45, 3.4], [0, 1.3, 0.45], 36, 0.003, 0.03),           // her line, close
     K(595, WIFE, [1.9, 1.3, 2.3], [-0.3, 1.1, -0.3], 38, 0.003),              // the wife, deadpan, beside the sack
     K(610, O, [-3.5, 1.6, 6.5], [1.2, 1.1, 0], 40, 0.003, -0.03),             // the family laughing
   ],
@@ -136,20 +136,20 @@ const CAMS: Record<number, Key[]> = {
   8: [
     K(683, MARKET, [9, 2.6, 8], [3, 1.0, -2], 44, 0.002),                     // the empty market, late light
     K(718, WIFE_STALL, [-1.4, 1.35, 2.6], [0, 1.15, 0], 38, 0.003, -0.03),    // she waits alone
-    K(749, WIFE_STALL, [1.6, 1.4, 1.5], [1.0, 1.3, 0], 36, 0.004),            // a customer tastes it: sour
+    K(749, WIFE_STALL, [1.5, 1.45, 3.0], [0.65, 1.2, 0], 36, 0.004),            // a customer tastes it: sour
   ],
   9: [K(781, STALL, [0.5, 1.4, 2.0], [0, 1.2, 0], 36, 0.004, 0.03)],          // theirs is quick: counting money
   10: [
     K(809, O, [2.5, 4.5, 11], [-1.5, 0.8, -2], 44, 0.002),                    // the whole compound, pointing
-    K(857, WIFE, [1.3, 1.25, 1.8], [-0.2, 1.2, -0.2], 34, 0.005, 0.03),       // "lazy"
+    K(857, WIFE, [1.5, 1.2, 2.5], [-0.1, 1.05, 0], 34, 0.005, 0.03),       // "lazy"
   ],
   11: [
     K(878, O, [0, 1.2, 9], [0, 9, -30], 46, 0.001),                           // the sky: the rains fail
     K(913, O, [7.5, 0.35, 8.5], [5.5, 0.05, 6], 38, 0.004, 0.03),             // one month: the ground cracks
     K(929, MAIZE, [-2, 2.8, 6], [0, 0.4, 0], 44, 0.003),                      // two
-    K(950, BARN, [1.8, 1.4, 2.6], [0, 1.0, 0], 38, 0.003, -0.03),             // the yams are gone
-    K(983, MAIZE, [-1.6, 0.9, 2.2], [0, 0.9, 0], 38, 0.003),                  // the maize is gone
-    K(1022, FIELD, [1.2, 0.45, 3.2], [0, 1.0, 0], 40, 0.003, 0.03),           // only the bitter cassava survives (low hero angle)
+    K(950, BARN, [2.6, 1.5, 4.4], [0.4, 1.1, 0.2], 38, 0.003, -0.03),             // the yams are gone
+    K(983, MAIZE, [-2.4, 1.3, 4.2], [0.3, 0.9, 0.2], 38, 0.003),                  // the maize is gone
+    K(1022, FIELD, [1.6, 0.5, 4.3], [0, 1.0, 0], 40, 0.003, 0.03),           // only the bitter cassava survives (low hero angle)
     K(1070, O, [-2.8, 1.6, 6.2], [0.4, 0.9, 1.2], 40, 0.003),                 // everybody eats garri, morning...
   ],
   12: [K(1104, O, [2.6, 1.5, 6.4], [0.4, 0.9, 1.2], 40, 0.003, -0.03)],       // ...and night
@@ -157,9 +157,9 @@ const CAMS: Record<number, Key[]> = {
     K(1123, GRATE, [0.6, 1.55, 2.1], [0, 1.1, -0.4], 36, 0.005, 0.04),           // rushing: grate
     K(1140, FRY, [-0.6, 1.8, 2.5], [0, 1.0, -0.45], 38, 0.005, -0.04),           // rushing: fry
     K(1157, BASINS, [1.6, 1.6, 2.6], [0, 0.5, 0], 40, 0.005),                 // faster than ever
-    K(1177, O, [-1.0, 1.4, 7.6], [1.6, 1.1, 2.6], 40, 0.0025),                // the brother-in-law walks in
-    K(1213, O, [0.6, 0.45, 5.0], [1.6, 0.45, 2.6], 36, 0.004, 0.03),          // his knees (low angle)
-    K(1247, O, [-4.6, 1.0, 5.6], [-2.6, 0.75, 2.4], 40, 0.003, -0.03),        // the children, on their toes
+    K(1177, O, [-1.6, 1.4, 8.4], [1.0, 1.1, 3.4], 40, 0.0025),                // the brother-in-law walks in
+    K(1213, O, [-0.7, 0.45, 5.8], [0.2, 0.5, 3.4], 36, 0.004, 0.03),          // his knees (low angle)
+    K(1247, O, [-1.8, 1.0, 7.8], [-0.2, 0.7, 4.7], 40, 0.003, -0.03),        // the children, on their toes
   ],
   14: [
     K(1301, STOOL, [1.6, 1.2, 3.2], [0, 0.95, 0], 40, 0.0025),                // she tries to stand
