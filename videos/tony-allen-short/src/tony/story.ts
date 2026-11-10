@@ -139,7 +139,7 @@ const C9c = (f: number): Shot => { const u = glide((f - 1276) / 70); return { po
 export const FELA: V3 = [CLUB[0] - 1.2, STAGE_Y, -0.9];
 const C10a = (f: number) => dolly(add(FELA, 0.9, 1.6, 4.2), add(FELA, 0.55, 1.3, -0.8), pushK(f, 1361, 0.0018), { fov: 40 });
 const C10b = (f: number) => dolly(add(FELA, 0.8, 1.6, 2.4), add(FELA, 0, 1.55, 0), pushK(f, 1431, 0.003), { fov: 38, roll: -0.03 });
-const C10c = (f: number) => dolly(add(KIT, 2.4, 3.8, 12.5), add(KIT, -0.4, 1.0, 1.0), pushK(f, 1478, 0.0018, 0.006, 30), { fov: 44 });
+const C10c = (f: number) => dolly(add(KIT, 2.4, 2.5, 12.5), add(KIT, -0.4, 1.0, 1.0), pushK(f, 1478, 0.0018, 0.006, 30), { fov: 44 });
 const C10d = (f: number) => dolly(add(FELA, 0.5, 1.6, 2.2), add(FELA, 0, 1.6, 0), pushK(f, 1578, 0.0022), { fov: 38, roll: 0.03 });
 const C10e = (f: number) => dolly(add(KIT, 0.3, 2.0, 3.3), add(head, 0, -0.3, 0), pushK(f, 1621, 0.0025, 0.007, 30), { fov: 38 });
 // shot 11: the claves on the shelf -> pull back to the kit beside them

@@ -395,7 +395,7 @@ export class World {
       .map((t) => twoTone(new THREE.MeshLambertMaterial({ map: t })));
     const cabs = ["#f2b632", "#3d7fd6", "#e2453c"].map((c) => twoTone(new THREE.MeshLambertMaterial({ color: c })));
     wagon(b, M, -2.0, -4, 1, wagSides[0], cabs[0]);
-    wagon(b, M, 2.0, 24, -1, wagSides[1], cabs[1]);
+    wagon(b, M, 2.0, -16, -1, wagSides[1], cabs[1]);
     wagon(b, M, -2.0, 38, 1, wagSides[2], cabs[2]);
     // conga for the street band
     b.add(cyl(0.17, 0.75, 20, 0.15), M.shell, M4(6.4, 0.375, 3.9));
