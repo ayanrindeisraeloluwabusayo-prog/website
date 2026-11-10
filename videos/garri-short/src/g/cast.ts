@@ -1,6 +1,7 @@
 // The garri story's cast as lit flat cards in the 3D world (canvas pool, cardShade, contact blobs, unlit effect
 // cards from the cartoon-3d-short template) and stage(): who stands where, doing what, at every frame.
 import * as THREE from "three";
+import { getInputProps } from "remotion";
 import { Pen, bodyFront, bodySide, fxBurst, fxStars, fxShadow, fxContact, INK, Outfit, Expr, FrontOpts, SideOpts, BROWN } from "./toon";
 import { FPS, V3, B, SACK, WIFE, GRATE, PRESS, FRY, BASINS, STOOL, BARN, MAIZE, FIELD, TABLE, STALL, WIFE_STALL, MARKET, FAR, smooth, clamp01, Light } from "./story";
 import { NOINK } from "./ink";
@@ -210,8 +211,13 @@ const blob = (out: Stage, x: number, y: number, z: number, sc = 1, k = 1) => {
 // ---------------- the cast ----------------
 export type Stage = { places: Place[]; fx: FxPlace[] };
 const HAIR = "#1a1214";
-const man = (jacket: string, skin: number, extra: Partial<Outfit> = {}): Outfit => ({ jacket, pants: "#3a3442", boots: "#2a2024", hat: "afro", hair: HAIR, skin: BROWN[skin], ...extra });
-const woman = (jacket: string, dress: string, gele: string, skin: number, extra: Partial<Outfit> = {}): Outfit => ({ jacket, dress, pants: "#3a3442", boots: "#2a2024", hat: "gele", cap: gele, skin: BROWN[skin], ...extra });
+// skin look: "brown" (default), "soft" (deeper, less saturated browns) or "white" (the neutral blank heads); test
+// stills can switch it with inputProps { skin: "white" }
+const SKIN_MODE = ((getInputProps() as { skin?: string }).skin ?? "brown") as "brown" | "soft" | "white";
+const SOFT = ["#6f4a38", "#7d5644", "#5f3f30", "#8a6250", "#553729"];
+const skinOf = (i: number) => (SKIN_MODE === "white" ? "#f6f1e8" : SKIN_MODE === "soft" ? SOFT[i] : BROWN[i]);
+const man = (jacket: string, skin: number, extra: Partial<Outfit> = {}): Outfit => ({ jacket, pants: "#3a3442", boots: "#2a2024", hat: "afro", hair: HAIR, skin: skinOf(skin), ...extra });
+const woman = (jacket: string, dress: string, gele: string, skin: number, extra: Partial<Outfit> = {}): Outfit => ({ jacket, dress, pants: "#3a3442", boots: "#2a2024", hat: "gele", cap: gele, skin: skinOf(skin), ...extra });
 const WIFE_O = woman("#2f9a8a", "#1f6f9a", "#f2b632", 1);
 const MIL_O = woman("#8a3aa0", "#6a2a86", "#d0402f", 2, { build: "stout" });
 const SIL_O = woman("#e0688a", "#c2466e", "#2f6fc0", 3);
