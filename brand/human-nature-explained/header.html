@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader-latin-500-italic.woff2);font-weight:500;font-style:italic}
+@font-face{font-family:"Inter Tight";src:url(fonts/inter-tight-latin-800-normal.woff2);font-weight:800}
+@font-face{font-family:"Inter Tight";src:url(fonts/inter-tight-latin-500-normal.woff2);font-weight:500}
+*{margin:0;box-sizing:border-box}
+body{width:var(--w);height:var(--h);overflow:hidden;background:#0b0b0b}
+.stage{position:absolute;inset:0;background:radial-gradient(ellipse 60% 90% at var(--lx) 50%,#1c1c1c 0%,#0d0d0d 55%,#080808 100%)}
+.logo{position:absolute;top:50%;left:var(--lx);height:var(--lh);transform:translate(-50%,-50%);
+  -webkit-mask-image:radial-gradient(ellipse 50% 50% at 50% 50%,#000 72%,transparent 100%);mask-image:radial-gradient(ellipse 50% 50% at 50% 50%,#000 72%,transparent 100%)}
+.text{position:absolute;top:50%;left:var(--tx);transform:translateY(-50%);color:#f2f0ec}
+.a{font-family:"Newsreader";font-weight:500;font-size:var(--fs);letter-spacing:-.035em;line-height:.92;display:block;white-space:nowrap}
+.a i{font-style:italic}
+.b{font-family:"Inter Tight";font-weight:800;font-size:calc(var(--fs)*.27);letter-spacing:.42em;color:#F3C21D;display:block;margin-top:calc(var(--fs)*.22)}
+.rule{width:calc(var(--fs)*.9);height:calc(var(--fs)*.035);background:#F3C21D;margin-top:calc(var(--fs)*.3)}
+.tag{font-family:"Inter Tight";font-weight:500;font-size:calc(var(--fs)*.22);color:#a9a6a0;margin-top:calc(var(--fs)*.2);letter-spacing:.01em;white-space:nowrap}
+.guide{position:absolute;border:3px dashed rgba(243,194,29,.7);display:none}
+body.show .guide{display:block}
+</style></head><body><div class="stage"></div>
+<img class="logo" src="logo-factory-white.jpg">
+<div class="text"><span class="a">Human <i>Nature</i></span><span class="b">EXPLAINED</span><div class="rule"></div><div class="tag">Why you do what you do.</div></div>
+<div class="guide" id="g"></div>
+<script>
+const q=new URLSearchParams(location.search), S=document.body.style;
+for(const [k,v] of q) if(k!=="guide") S.setProperty("--"+k,v);
+if(q.get("guide")){const [x,y,w,h]=q.get("guide").split(",");Object.assign(document.getElementById("g").style,{left:x+"px",top:y+"px",width:w+"px",height:h+"px"});document.body.classList.add("show")}
+document.fonts.ready.then(()=>document.body.dataset.ready=1)
+</script></body></html>
