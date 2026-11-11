@@ -4,6 +4,7 @@ import { AbsoluteFill, Audio, interpolate, OffthreadVideo, staticFile, useCurren
 import { loadFont } from "@remotion/fonts";
 import { CAPTIONS } from "./captions";
 import { CAPTIONS2 } from "./captions2";
+import { CAPTIONS3 } from "./captions3";
 
 loadFont({ family: "Inter Tight", url: staticFile("fonts/inter-tight-latin-800-normal.woff2"), weight: "800", format: "woff2" });
 
@@ -35,5 +36,14 @@ export const FinalSlow: React.FC = () => (
     <OffthreadVideo src={staticFile("film_slow.mp4")} muted style={{ width: "100%", height: "100%" }} />
     <Captions caps={CAPTIONS2} />
     <Audio src={staticFile("audio/mix2.wav")} />
+  </AbsoluteFill>
+);
+
+/** the owner's own voice: the film re-timed to their recording */
+export const FinalOwn: React.FC = () => (
+  <AbsoluteFill style={{ background: "#000" }}>
+    <OffthreadVideo src={staticFile("film_own.mp4")} muted style={{ width: "100%", height: "100%" }} />
+    <Captions caps={CAPTIONS3} />
+    <Audio src={staticFile("audio/mix3.wav")} />
   </AbsoluteFill>
 );

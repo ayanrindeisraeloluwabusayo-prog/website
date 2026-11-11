@@ -1,0 +1,1580 @@
+[
+ {
+  "w": "This",
+  "start": 0.07,
+  "end": 0.25,
+  "frame": 2
+ },
+ {
+  "w": "woman",
+  "start": 0.33,
+  "end": 0.67,
+  "frame": 10
+ },
+ {
+  "w": "leaves",
+  "start": 0.75,
+  "end": 1.03,
+  "frame": 22
+ },
+ {
+  "w": "a",
+  "start": 1.13,
+  "end": 1.23,
+  "frame": 34
+ },
+ {
+  "w": "full",
+  "start": 1.29,
+  "end": 1.45,
+  "frame": 39
+ },
+ {
+  "w": "sack",
+  "start": 1.51,
+  "end": 1.79,
+  "frame": 45
+ },
+ {
+  "w": "of",
+  "start": 1.83,
+  "end": 1.95,
+  "frame": 55
+ },
+ {
+  "w": "grated",
+  "start": 2.01,
+  "end": 2.33,
+  "frame": 60
+ },
+ {
+  "w": "cassava",
+  "start": 2.41,
+  "end": 2.83,
+  "frame": 72
+ },
+ {
+  "w": "sitting",
+  "start": 3.015,
+  "end": 3.315,
+  "frame": 90
+ },
+ {
+  "w": "in",
+  "start": 3.335,
+  "end": 3.435,
+  "frame": 100
+ },
+ {
+  "w": "a",
+  "start": 3.475,
+  "end": 3.595,
+  "frame": 104
+ },
+ {
+  "w": "corner",
+  "start": 3.635,
+  "end": 3.935,
+  "frame": 109
+ },
+ {
+  "w": "for",
+  "start": 4.055,
+  "end": 4.215,
+  "frame": 122
+ },
+ {
+  "w": "three",
+  "start": 4.335,
+  "end": 4.495,
+  "frame": 130
+ },
+ {
+  "w": "whole",
+  "start": 4.68,
+  "end": 4.86,
+  "frame": 140
+ },
+ {
+  "w": "days.",
+  "start": 4.939,
+  "end": 5.24,
+  "frame": 148
+ },
+ {
+  "w": "You",
+  "start": 5.745,
+  "end": 5.845,
+  "frame": 172
+ },
+ {
+  "w": "see,",
+  "start": 5.925,
+  "end": 6.085,
+  "frame": 178
+ },
+ {
+  "w": "in",
+  "start": 6.37,
+  "end": 6.43,
+  "frame": 191
+ },
+ {
+  "w": "this",
+  "start": 6.47,
+  "end": 6.63,
+  "frame": 194
+ },
+ {
+  "w": "compound,",
+  "start": 6.67,
+  "end": 7.07,
+  "frame": 200
+ },
+ {
+  "w": "garri",
+  "start": 7.355,
+  "end": 7.595,
+  "frame": 221
+ },
+ {
+  "w": "is",
+  "start": 7.675,
+  "end": 7.755,
+  "frame": 230
+ },
+ {
+  "w": "money.",
+  "start": 7.835,
+  "end": 8.155,
+  "frame": 235
+ },
+ {
+  "w": "Whosoever",
+  "start": 8.66,
+  "end": 9.14,
+  "frame": 260
+ },
+ {
+  "w": "reaches",
+  "start": 9.2,
+  "end": 9.56,
+  "frame": 276
+ },
+ {
+  "w": "the",
+  "start": 9.62,
+  "end": 9.7,
+  "frame": 289
+ },
+ {
+  "w": "market",
+  "start": 9.78,
+  "end": 10.12,
+  "frame": 293
+ },
+ {
+  "w": "first",
+  "start": 10.22,
+  "end": 10.52,
+  "frame": 307
+ },
+ {
+  "w": "on",
+  "start": 10.76,
+  "end": 10.86,
+  "frame": 323
+ },
+ {
+  "w": "Friday",
+  "start": 10.98,
+  "end": 11.4,
+  "frame": 329
+ },
+ {
+  "w": "sells",
+  "start": 11.56,
+  "end": 11.84,
+  "frame": 347
+ },
+ {
+  "w": "first.",
+  "start": 11.9,
+  "end": 12.26,
+  "frame": 357
+ },
+ {
+  "w": "Her",
+  "start": 12.765,
+  "end": 12.925,
+  "frame": 383
+ },
+ {
+  "w": "husband's",
+  "start": 13.045,
+  "end": 13.445,
+  "frame": 391
+ },
+ {
+  "w": "family",
+  "start": 13.505,
+  "end": 13.945,
+  "frame": 405
+ },
+ {
+  "w": "grate,",
+  "start": 14.13,
+  "end": 14.47,
+  "frame": 424
+ },
+ {
+  "w": "press,",
+  "start": 14.755,
+  "end": 15.035,
+  "frame": 443
+ },
+ {
+  "w": "and",
+  "start": 15.195,
+  "end": 15.315,
+  "frame": 456
+ },
+ {
+  "w": "fry",
+  "start": 15.435,
+  "end": 15.655,
+  "frame": 463
+ },
+ {
+  "w": "on",
+  "start": 15.715,
+  "end": 15.795,
+  "frame": 471
+ },
+ {
+  "w": "the",
+  "start": 15.815,
+  "end": 15.875,
+  "frame": 474
+ },
+ {
+  "w": "same",
+  "start": 15.955,
+  "end": 16.135,
+  "frame": 479
+ },
+ {
+  "w": "day.",
+  "start": 16.195,
+  "end": 16.355,
+  "frame": 486
+ },
+ {
+  "w": "By",
+  "start": 16.86,
+  "end": 17.0,
+  "frame": 506
+ },
+ {
+  "w": "evening,",
+  "start": 17.14,
+  "end": 17.44,
+  "frame": 514
+ },
+ {
+  "w": "their",
+  "start": 17.58,
+  "end": 17.72,
+  "frame": 527
+ },
+ {
+  "w": "basins",
+  "start": 17.78,
+  "end": 18.06,
+  "frame": 533
+ },
+ {
+  "w": "are",
+  "start": 18.1,
+  "end": 18.22,
+  "frame": 543
+ },
+ {
+  "w": "full.",
+  "start": 18.3,
+  "end": 18.54,
+  "frame": 549
+ },
+ {
+  "w": "Hers?",
+  "start": 19.045,
+  "end": 19.385,
+  "frame": 571
+ },
+ {
+  "w": "One",
+  "start": 19.67,
+  "end": 19.87,
+  "frame": 590
+ },
+ {
+  "w": "sack",
+  "start": 19.95,
+  "end": 20.21,
+  "frame": 598
+ },
+ {
+  "w": "tied",
+  "start": 20.395,
+  "end": 20.815,
+  "frame": 612
+ },
+ {
+  "w": "tight",
+  "start": 21.0,
+  "end": 21.28,
+  "frame": 630
+ },
+ {
+  "w": "under",
+  "start": 21.465,
+  "end": 21.825,
+  "frame": 644
+ },
+ {
+  "w": "a",
+  "start": 21.885,
+  "end": 21.985,
+  "frame": 657
+ },
+ {
+  "w": "heavy",
+  "start": 22.025,
+  "end": 22.245,
+  "frame": 661
+ },
+ {
+  "w": "stone.",
+  "start": 22.325,
+  "end": 22.645,
+  "frame": 670
+ },
+ {
+  "w": "Her",
+  "start": 23.15,
+  "end": 23.23,
+  "frame": 694
+ },
+ {
+  "w": "mother-in-law",
+  "start": 23.29,
+  "end": 23.95,
+  "frame": 699
+ },
+ {
+  "w": "doesn't",
+  "start": 24.01,
+  "end": 24.27,
+  "frame": 720
+ },
+ {
+  "w": "whisper",
+  "start": 24.31,
+  "end": 24.69,
+  "frame": 729
+ },
+ {
+  "w": "it.",
+  "start": 24.75,
+  "end": 24.89,
+  "frame": 742
+ },
+ {
+  "w": "She",
+  "start": 25.15,
+  "end": 25.27,
+  "frame": 754
+ },
+ {
+  "w": "said,",
+  "start": 25.33,
+  "end": 25.55,
+  "frame": 760
+ },
+ {
+  "w": "\"This",
+  "start": 25.835,
+  "end": 25.995,
+  "frame": 775
+ },
+ {
+  "w": "one",
+  "start": 26.115,
+  "end": 26.235,
+  "frame": 783
+ },
+ {
+  "w": "is",
+  "start": 26.275,
+  "end": 26.375,
+  "frame": 788
+ },
+ {
+  "w": "not",
+  "start": 26.415,
+  "end": 26.535,
+  "frame": 792
+ },
+ {
+  "w": "making",
+  "start": 26.595,
+  "end": 26.875,
+  "frame": 798
+ },
+ {
+  "w": "garri.",
+  "start": 26.915,
+  "end": 27.255,
+  "frame": 807
+ },
+ {
+  "w": "She's",
+  "start": 27.76,
+  "end": 27.96,
+  "frame": 833
+ },
+ {
+  "w": "raising",
+  "start": 28.04,
+  "end": 28.34,
+  "frame": 841
+ },
+ {
+  "w": "it.\"",
+  "start": 28.4,
+  "end": 28.68,
+  "frame": 852
+ },
+ {
+  "w": "Every",
+  "start": 29.185,
+  "end": 29.405,
+  "frame": 876
+ },
+ {
+  "w": "market",
+  "start": 29.445,
+  "end": 29.825,
+  "frame": 883
+ },
+ {
+  "w": "day,",
+  "start": 29.885,
+  "end": 30.145,
+  "frame": 897
+ },
+ {
+  "w": "they",
+  "start": 30.425,
+  "end": 30.545,
+  "frame": 913
+ },
+ {
+  "w": "sell",
+  "start": 30.665,
+  "end": 30.825,
+  "frame": 920
+ },
+ {
+  "w": "out",
+  "start": 30.885,
+  "end": 31.025,
+  "frame": 927
+ },
+ {
+  "w": "before",
+  "start": 31.085,
+  "end": 31.485,
+  "frame": 933
+ },
+ {
+  "w": "noon.",
+  "start": 31.585,
+  "end": 31.905,
+  "frame": 948
+ },
+ {
+  "w": "She",
+  "start": 32.41,
+  "end": 32.47,
+  "frame": 972
+ },
+ {
+  "w": "arrives",
+  "start": 32.57,
+  "end": 32.85,
+  "frame": 977
+ },
+ {
+  "w": "on",
+  "start": 32.91,
+  "end": 32.99,
+  "frame": 987
+ },
+ {
+  "w": "day",
+  "start": 33.05,
+  "end": 33.19,
+  "frame": 991
+ },
+ {
+  "w": "three",
+  "start": 33.25,
+  "end": 33.45,
+  "frame": 998
+ },
+ {
+  "w": "when",
+  "start": 33.635,
+  "end": 33.795,
+  "frame": 1009
+ },
+ {
+  "w": "the",
+  "start": 33.835,
+  "end": 33.935,
+  "frame": 1015
+ },
+ {
+  "w": "customers",
+  "start": 34.015,
+  "end": 34.615,
+  "frame": 1020
+ },
+ {
+  "w": "have",
+  "start": 34.695,
+  "end": 34.855,
+  "frame": 1041
+ },
+ {
+  "w": "gone",
+  "start": 34.895,
+  "end": 35.075,
+  "frame": 1047
+ },
+ {
+  "w": "home.",
+  "start": 35.115,
+  "end": 35.455,
+  "frame": 1053
+ },
+ {
+  "w": "Her",
+  "start": 35.755,
+  "end": 35.895,
+  "frame": 1073
+ },
+ {
+  "w": "garri",
+  "start": 35.975,
+  "end": 36.255,
+  "frame": 1079
+ },
+ {
+  "w": "is",
+  "start": 36.315,
+  "end": 36.455,
+  "frame": 1089
+ },
+ {
+  "w": "sour.",
+  "start": 36.535,
+  "end": 36.795,
+  "frame": 1096
+ },
+ {
+  "w": "The",
+  "start": 37.3,
+  "end": 37.38,
+  "frame": 1119
+ },
+ {
+  "w": "whole",
+  "start": 37.44,
+  "end": 37.58,
+  "frame": 1123
+ },
+ {
+  "w": "compound",
+  "start": 37.64,
+  "end": 38.1,
+  "frame": 1129
+ },
+ {
+  "w": "agrees",
+  "start": 38.2,
+  "end": 38.56,
+  "frame": 1146
+ },
+ {
+  "w": "she's",
+  "start": 38.58,
+  "end": 38.8,
+  "frame": 1157
+ },
+ {
+  "w": "lazy.",
+  "start": 38.88,
+  "end": 39.24,
+  "frame": 1166
+ },
+ {
+  "w": "Then",
+  "start": 39.745,
+  "end": 40.005,
+  "frame": 1192
+ },
+ {
+  "w": "the",
+  "start": 40.19,
+  "end": 40.27,
+  "frame": 1206
+ },
+ {
+  "w": "rain",
+  "start": 40.31,
+  "end": 40.49,
+  "frame": 1209
+ },
+ {
+  "w": "failed",
+  "start": 40.55,
+  "end": 40.75,
+  "frame": 1216
+ },
+ {
+  "w": "to",
+  "start": 40.81,
+  "end": 40.89,
+  "frame": 1224
+ },
+ {
+  "w": "fall.",
+  "start": 40.97,
+  "end": 41.29,
+  "frame": 1229
+ },
+ {
+  "w": "One",
+  "start": 41.795,
+  "end": 41.915,
+  "frame": 1254
+ },
+ {
+  "w": "month,",
+  "start": 41.955,
+  "end": 42.195,
+  "frame": 1259
+ },
+ {
+  "w": "two",
+  "start": 42.48,
+  "end": 42.6,
+  "frame": 1274
+ },
+ {
+  "w": "months.",
+  "start": 42.66,
+  "end": 43.02,
+  "frame": 1280
+ },
+ {
+  "w": "The",
+  "start": 43.525,
+  "end": 43.625,
+  "frame": 1306
+ },
+ {
+  "w": "yams",
+  "start": 43.705,
+  "end": 44.025,
+  "frame": 1311
+ },
+ {
+  "w": "are",
+  "start": 44.085,
+  "end": 44.185,
+  "frame": 1323
+ },
+ {
+  "w": "gone.",
+  "start": 44.245,
+  "end": 44.565,
+  "frame": 1327
+ },
+ {
+  "w": "The",
+  "start": 45.07,
+  "end": 45.15,
+  "frame": 1352
+ },
+ {
+  "w": "maize",
+  "start": 45.23,
+  "end": 45.51,
+  "frame": 1357
+ },
+ {
+  "w": "is",
+  "start": 45.57,
+  "end": 45.67,
+  "frame": 1367
+ },
+ {
+  "w": "gone.",
+  "start": 45.73,
+  "end": 46.05,
+  "frame": 1372
+ },
+ {
+  "w": "Only",
+  "start": 46.555,
+  "end": 46.755,
+  "frame": 1397
+ },
+ {
+  "w": "the",
+  "start": 46.815,
+  "end": 46.935,
+  "frame": 1404
+ },
+ {
+  "w": "bitter",
+  "start": 46.995,
+  "end": 47.255,
+  "frame": 1410
+ },
+ {
+  "w": "cassava",
+  "start": 47.315,
+  "end": 47.874,
+  "frame": 1419
+ },
+ {
+  "w": "are",
+  "start": 47.935,
+  "end": 48.075,
+  "frame": 1438
+ },
+ {
+  "w": "left",
+  "start": 48.135,
+  "end": 48.475,
+  "frame": 1444
+ },
+ {
+  "w": "to",
+  "start": 48.535,
+  "end": 48.594,
+  "frame": 1456
+ },
+ {
+  "w": "survive.",
+  "start": 48.655,
+  "end": 49.115,
+  "frame": 1460
+ },
+ {
+  "w": "So",
+  "start": 49.62,
+  "end": 50.14,
+  "frame": 1489
+ },
+ {
+  "w": "everybody",
+  "start": 50.22,
+  "end": 50.72,
+  "frame": 1507
+ },
+ {
+  "w": "eats",
+  "start": 50.78,
+  "end": 51.24,
+  "frame": 1523
+ },
+ {
+  "w": "garri",
+  "start": 51.42,
+  "end": 51.98,
+  "frame": 1543
+ },
+ {
+  "w": "in",
+  "start": 52.04,
+  "end": 52.1,
+  "frame": 1561
+ },
+ {
+  "w": "the",
+  "start": 52.14,
+  "end": 52.24,
+  "frame": 1564
+ },
+ {
+  "w": "morning",
+  "start": 52.32,
+  "end": 52.94,
+  "frame": 1570
+ },
+ {
+  "w": "and",
+  "start": 53.02,
+  "end": 53.14,
+  "frame": 1591
+ },
+ {
+  "w": "night.",
+  "start": 53.2,
+  "end": 53.56,
+  "frame": 1596
+ },
+ {
+  "w": "The",
+  "start": 53.84,
+  "end": 53.92,
+  "frame": 1615
+ },
+ {
+  "w": "family",
+  "start": 53.98,
+  "end": 54.3,
+  "frame": 1619
+ },
+ {
+  "w": "rush",
+  "start": 54.34,
+  "end": 54.66,
+  "frame": 1630
+ },
+ {
+  "w": "faster",
+  "start": 54.7,
+  "end": 55.06,
+  "frame": 1641
+ },
+ {
+  "w": "than",
+  "start": 55.12,
+  "end": 55.3,
+  "frame": 1654
+ },
+ {
+  "w": "ever",
+  "start": 55.4,
+  "end": 55.62,
+  "frame": 1662
+ },
+ {
+  "w": "because",
+  "start": 55.68,
+  "end": 55.94,
+  "frame": 1670
+ },
+ {
+  "w": "their",
+  "start": 56.11,
+  "end": 56.25,
+  "frame": 1683
+ },
+ {
+  "w": "love",
+  "start": 56.29,
+  "end": 56.41,
+  "frame": 1689
+ },
+ {
+  "w": "for",
+  "start": 56.47,
+  "end": 56.59,
+  "frame": 1694
+ },
+ {
+  "w": "garri,",
+  "start": 56.65,
+  "end": 56.89,
+  "frame": 1700
+ },
+ {
+  "w": "they",
+  "start": 56.95,
+  "end": 57.05,
+  "frame": 1708
+ },
+ {
+  "w": "love",
+  "start": 57.11,
+  "end": 57.27,
+  "frame": 1713
+ },
+ {
+  "w": "it",
+  "start": 57.31,
+  "end": 57.39,
+  "frame": 1719
+ },
+ {
+  "w": "so",
+  "start": 57.45,
+  "end": 57.61,
+  "frame": 1724
+ },
+ {
+  "w": "much.",
+  "start": 57.67,
+  "end": 57.97,
+  "frame": 1730
+ },
+ {
+  "w": "First,",
+  "start": 58.475,
+  "end": 58.795,
+  "frame": 1754
+ },
+ {
+  "w": "it",
+  "start": 59.055,
+  "end": 59.135,
+  "frame": 1772
+ },
+ {
+  "w": "is",
+  "start": 59.255,
+  "end": 59.435,
+  "frame": 1778
+ },
+ {
+  "w": "her",
+  "start": 59.475,
+  "end": 59.595,
+  "frame": 1784
+ },
+ {
+  "w": "husband-in-law.",
+  "start": 59.655,
+  "end": 60.455,
+  "frame": 1790
+ },
+ {
+  "w": "His",
+  "start": 60.655,
+  "end": 60.755,
+  "frame": 1820
+ },
+ {
+  "w": "knee",
+  "start": 60.775,
+  "end": 60.935,
+  "frame": 1823
+ },
+ {
+  "w": "goes",
+  "start": 61.055,
+  "end": 61.275,
+  "frame": 1832
+ },
+ {
+  "w": "stiff.",
+  "start": 61.295,
+  "end": 61.595,
+  "frame": 1839
+ },
+ {
+  "w": "Then",
+  "start": 62.1,
+  "end": 62.28,
+  "frame": 1863
+ },
+ {
+  "w": "the",
+  "start": 62.32,
+  "end": 62.4,
+  "frame": 1870
+ },
+ {
+  "w": "children",
+  "start": 62.46,
+  "end": 62.8,
+  "frame": 1874
+ },
+ {
+  "w": "start",
+  "start": 62.985,
+  "end": 63.365,
+  "frame": 1890
+ },
+ {
+  "w": "walking",
+  "start": 63.445,
+  "end": 63.845,
+  "frame": 1903
+ },
+ {
+  "w": "on",
+  "start": 63.905,
+  "end": 63.985,
+  "frame": 1917
+ },
+ {
+  "w": "their",
+  "start": 64.005,
+  "end": 64.165,
+  "frame": 1920
+ },
+ {
+  "w": "toes.",
+  "start": 64.245,
+  "end": 64.585,
+  "frame": 1927
+ },
+ {
+  "w": "Then",
+  "start": 65.09,
+  "end": 65.25,
+  "frame": 1953
+ },
+ {
+  "w": "one",
+  "start": 65.37,
+  "end": 65.49,
+  "frame": 1961
+ },
+ {
+  "w": "morning,",
+  "start": 65.55,
+  "end": 65.95,
+  "frame": 1966
+ },
+ {
+  "w": "her",
+  "start": 66.235,
+  "end": 66.355,
+  "frame": 1987
+ },
+ {
+  "w": "mother-in-law",
+  "start": 66.435,
+  "end": 67.135,
+  "frame": 1993
+ },
+ {
+  "w": "couldn't",
+  "start": 67.195,
+  "end": 67.495,
+  "frame": 2016
+ },
+ {
+  "w": "stand",
+  "start": 67.675,
+  "end": 67.915,
+  "frame": 2030
+ },
+ {
+  "w": "up",
+  "start": 68.015,
+  "end": 68.475,
+  "frame": 2040
+ },
+ {
+  "w": "from",
+  "start": 68.535,
+  "end": 68.735,
+  "frame": 2056
+ },
+ {
+  "w": "her",
+  "start": 68.775,
+  "end": 68.875,
+  "frame": 2063
+ },
+ {
+  "w": "stool.",
+  "start": 68.975,
+  "end": 69.275,
+  "frame": 2069
+ },
+ {
+  "w": "You",
+  "start": 69.78,
+  "end": 69.84,
+  "frame": 2093
+ },
+ {
+  "w": "see,",
+  "start": 69.92,
+  "end": 70.06,
+  "frame": 2098
+ },
+ {
+  "w": "cassava",
+  "start": 70.345,
+  "end": 70.685,
+  "frame": 2110
+ },
+ {
+  "w": "carries",
+  "start": 70.765,
+  "end": 71.065,
+  "frame": 2123
+ },
+ {
+  "w": "a",
+  "start": 71.145,
+  "end": 71.285,
+  "frame": 2134
+ },
+ {
+  "w": "hidden",
+  "start": 71.325,
+  "end": 71.565,
+  "frame": 2140
+ },
+ {
+  "w": "poison",
+  "start": 71.625,
+  "end": 72.045,
+  "frame": 2149
+ },
+ {
+  "w": "called",
+  "start": 72.125,
+  "end": 72.485,
+  "frame": 2164
+ },
+ {
+  "w": "cyanide.",
+  "start": 72.585,
+  "end": 73.185,
+  "frame": 2178
+ },
+ {
+  "w": "Grating",
+  "start": 73.69,
+  "end": 74.01,
+  "frame": 2211
+ },
+ {
+  "w": "breaks",
+  "start": 74.07,
+  "end": 74.27,
+  "frame": 2222
+ },
+ {
+  "w": "it",
+  "start": 74.33,
+  "end": 74.45,
+  "frame": 2230
+ },
+ {
+  "w": "loose,",
+  "start": 74.55,
+  "end": 74.81,
+  "frame": 2236
+ },
+ {
+  "w": "but",
+  "start": 75.01,
+  "end": 75.23,
+  "frame": 2250
+ },
+ {
+  "w": "it",
+  "start": 75.29,
+  "end": 75.39,
+  "frame": 2259
+ },
+ {
+  "w": "needs",
+  "start": 75.51,
+  "end": 75.65,
+  "frame": 2265
+ },
+ {
+  "w": "time",
+  "start": 75.71,
+  "end": 75.91,
+  "frame": 2271
+ },
+ {
+  "w": "to",
+  "start": 75.99,
+  "end": 76.07,
+  "frame": 2280
+ },
+ {
+  "w": "leak",
+  "start": 76.23,
+  "end": 76.45,
+  "frame": 2287
+ },
+ {
+  "w": "into",
+  "start": 76.635,
+  "end": 76.855,
+  "frame": 2299
+ },
+ {
+  "w": "the",
+  "start": 76.895,
+  "end": 76.975,
+  "frame": 2307
+ },
+ {
+  "w": "air",
+  "start": 77.075,
+  "end": 77.635,
+  "frame": 2312
+ },
+ {
+  "w": "and",
+  "start": 77.655,
+  "end": 77.695,
+  "frame": 2330
+ },
+ {
+  "w": "into",
+  "start": 77.695,
+  "end": 77.875,
+  "frame": 2331
+ },
+ {
+  "w": "the",
+  "start": 77.915,
+  "end": 78.015,
+  "frame": 2337
+ },
+ {
+  "w": "water,",
+  "start": 78.075,
+  "end": 78.335,
+  "frame": 2342
+ },
+ {
+  "w": "squeezed",
+  "start": 78.62,
+  "end": 78.84,
+  "frame": 2359
+ },
+ {
+  "w": "out",
+  "start": 78.94,
+  "end": 79.08,
+  "frame": 2368
+ },
+ {
+  "w": "of",
+  "start": 79.14,
+  "end": 79.22,
+  "frame": 2374
+ },
+ {
+  "w": "the",
+  "start": 79.26,
+  "end": 79.34,
+  "frame": 2378
+ },
+ {
+  "w": "sack.",
+  "start": 79.44,
+  "end": 79.78,
+  "frame": 2383
+ },
+ {
+  "w": "And",
+  "start": 80.285,
+  "end": 80.525,
+  "frame": 2409
+ },
+ {
+  "w": "bitter",
+  "start": 80.705,
+  "end": 80.925,
+  "frame": 2421
+ },
+ {
+  "w": "cassava",
+  "start": 80.985,
+  "end": 81.645,
+  "frame": 2430
+ },
+ {
+  "w": "in",
+  "start": 81.725,
+  "end": 81.805,
+  "frame": 2452
+ },
+ {
+  "w": "a",
+  "start": 81.885,
+  "end": 81.925,
+  "frame": 2457
+ },
+ {
+  "w": "drought",
+  "start": 81.985,
+  "end": 82.325,
+  "frame": 2460
+ },
+ {
+  "w": "carries",
+  "start": 82.405,
+  "end": 82.725,
+  "frame": 2472
+ },
+ {
+  "w": "the",
+  "start": 82.745,
+  "end": 82.825,
+  "frame": 2482
+ },
+ {
+  "w": "most.",
+  "start": 82.885,
+  "end": 83.165,
+  "frame": 2487
+ },
+ {
+  "w": "In",
+  "start": 83.67,
+  "end": 83.97,
+  "frame": 2510
+ },
+ {
+  "w": "Mozambique,",
+  "start": 84.14,
+  "end": 84.68,
+  "frame": 2524
+ },
+ {
+  "w": "a",
+  "start": 84.965,
+  "end": 85.005,
+  "frame": 2549
+ },
+ {
+  "w": "statistic",
+  "start": 85.065,
+  "end": 85.665,
+  "frame": 2552
+ },
+ {
+  "w": "shows",
+  "start": 85.725,
+  "end": 85.965,
+  "frame": 2572
+ },
+ {
+  "w": "that",
+  "start": 86.005,
+  "end": 86.425,
+  "frame": 2580
+ },
+ {
+  "w": "drought",
+  "start": 86.505,
+  "end": 86.825,
+  "frame": 2595
+ },
+ {
+  "w": "and",
+  "start": 86.905,
+  "end": 87.045,
+  "frame": 2607
+ },
+ {
+  "w": "rushed",
+  "start": 87.085,
+  "end": 87.285,
+  "frame": 2613
+ },
+ {
+  "w": "cassava",
+  "start": 87.345,
+  "end": 87.785,
+  "frame": 2620
+ },
+ {
+  "w": "left",
+  "start": 87.885,
+  "end": 88.165,
+  "frame": 2637
+ },
+ {
+  "w": "more",
+  "start": 88.285,
+  "end": 88.405,
+  "frame": 2649
+ },
+ {
+  "w": "than",
+  "start": 88.465,
+  "end": 88.945,
+  "frame": 2654
+ },
+ {
+  "w": "a",
+  "start": 89.045,
+  "end": 89.085,
+  "frame": 2671
+ },
+ {
+  "w": "thousand",
+  "start": 89.165,
+  "end": 89.565,
+  "frame": 2675
+ },
+ {
+  "w": "people",
+  "start": 89.605,
+  "end": 89.945,
+  "frame": 2688
+ },
+ {
+  "w": "unable",
+  "start": 90.045,
+  "end": 90.365,
+  "frame": 2701
+ },
+ {
+  "w": "to",
+  "start": 90.465,
+  "end": 90.545,
+  "frame": 2714
+ },
+ {
+  "w": "walk.",
+  "start": 90.605,
+  "end": 90.885,
+  "frame": 2718
+ },
+ {
+  "w": "So",
+  "start": 91.39,
+  "end": 91.67,
+  "frame": 2742
+ },
+ {
+  "w": "that",
+  "start": 91.75,
+  "end": 91.99,
+  "frame": 2752
+ },
+ {
+  "w": "sour",
+  "start": 92.07,
+  "end": 92.25,
+  "frame": 2762
+ },
+ {
+  "w": "sack",
+  "start": 92.33,
+  "end": 92.71,
+  "frame": 2770
+ },
+ {
+  "w": "in",
+  "start": 92.77,
+  "end": 92.83,
+  "frame": 2783
+ },
+ {
+  "w": "the",
+  "start": 92.87,
+  "end": 92.97,
+  "frame": 2786
+ },
+ {
+  "w": "corner",
+  "start": 93.03,
+  "end": 93.39,
+  "frame": 2791
+ },
+ {
+  "w": "was",
+  "start": 93.45,
+  "end": 93.57,
+  "frame": 2804
+ },
+ {
+  "w": "never",
+  "start": 93.63,
+  "end": 93.85,
+  "frame": 2809
+ },
+ {
+  "w": "a",
+  "start": 93.91,
+  "end": 93.97,
+  "frame": 2817
+ },
+ {
+  "w": "laziness.",
+  "start": 94.01,
+  "end": 94.47,
+  "frame": 2820
+ },
+ {
+  "w": "It",
+  "start": 94.975,
+  "end": 95.055,
+  "frame": 2849
+ },
+ {
+  "w": "was",
+  "start": 95.135,
+  "end": 95.275,
+  "frame": 2854
+ },
+ {
+  "w": "the",
+  "start": 95.295,
+  "end": 95.495,
+  "frame": 2859
+ },
+ {
+  "w": "only",
+  "start": 95.575,
+  "end": 95.775,
+  "frame": 2867
+ },
+ {
+  "w": "safe",
+  "start": 95.875,
+  "end": 96.035,
+  "frame": 2876
+ },
+ {
+  "w": "garri",
+  "start": 96.095,
+  "end": 96.315,
+  "frame": 2883
+ },
+ {
+  "w": "in",
+  "start": 96.335,
+  "end": 96.655,
+  "frame": 2890
+ },
+ {
+  "w": "the",
+  "start": 96.675,
+  "end": 96.755,
+  "frame": 2900
+ },
+ {
+  "w": "compound.",
+  "start": 96.835,
+  "end": 97.435,
+  "frame": 2905
+ }
+]
