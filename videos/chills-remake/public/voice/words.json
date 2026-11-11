@@ -1,0 +1,896 @@
+[
+ {
+  "w": "Why",
+  "start": 0.0,
+  "end": 0.348,
+  "frame": 0
+ },
+ {
+  "w": "does",
+  "start": 0.43,
+  "end": 0.615,
+  "frame": 13
+ },
+ {
+  "w": "a",
+  "start": 0.662,
+  "end": 0.697,
+  "frame": 20
+ },
+ {
+  "w": "song",
+  "start": 0.789,
+  "end": 1.103,
+  "frame": 24
+ },
+ {
+  "w": "you",
+  "start": 1.161,
+  "end": 1.254,
+  "frame": 35
+ },
+ {
+  "w": "love",
+  "start": 1.347,
+  "end": 1.567,
+  "frame": 40
+ },
+ {
+  "w": "give",
+  "start": 1.602,
+  "end": 1.741,
+  "frame": 48
+ },
+ {
+  "w": "you",
+  "start": 1.765,
+  "end": 1.834,
+  "frame": 53
+ },
+ {
+  "w": "goosebumps?",
+  "start": 1.892,
+  "end": 2.635,
+  "frame": 57
+ },
+ {
+  "w": "Not",
+  "start": 3.146,
+  "end": 3.355,
+  "frame": 94
+ },
+ {
+  "w": "just",
+  "start": 3.413,
+  "end": 3.622,
+  "frame": 102
+ },
+ {
+  "w": "any",
+  "start": 3.692,
+  "end": 3.913,
+  "frame": 111
+ },
+ {
+  "w": "song.",
+  "start": 3.994,
+  "end": 4.458,
+  "frame": 120
+ },
+ {
+  "w": "That",
+  "start": 4.737,
+  "end": 4.923,
+  "frame": 142
+ },
+ {
+  "w": "one",
+  "start": 5.004,
+  "end": 5.224,
+  "frame": 150
+ },
+ {
+  "w": "song.",
+  "start": 5.259,
+  "end": 5.677,
+  "frame": 158
+ },
+ {
+  "w": "The",
+  "start": 6.118,
+  "end": 6.246,
+  "frame": 184
+ },
+ {
+  "w": "one",
+  "start": 6.316,
+  "end": 6.49,
+  "frame": 189
+ },
+ {
+  "w": "where",
+  "start": 6.513,
+  "end": 6.653,
+  "frame": 195
+ },
+ {
+  "w": "you",
+  "start": 6.687,
+  "end": 6.769,
+  "frame": 201
+ },
+ {
+  "w": "know",
+  "start": 6.838,
+  "end": 6.978,
+  "frame": 205
+ },
+ {
+  "w": "exactly",
+  "start": 7.047,
+  "end": 7.465,
+  "frame": 211
+ },
+ {
+  "w": "what's",
+  "start": 7.5,
+  "end": 7.686,
+  "frame": 225
+ },
+ {
+  "w": "coming,",
+  "start": 7.732,
+  "end": 8.185,
+  "frame": 232
+ },
+ {
+  "w": "and",
+  "start": 8.429,
+  "end": 8.58,
+  "frame": 253
+ },
+ {
+  "w": "your",
+  "start": 8.626,
+  "end": 8.754,
+  "frame": 259
+ },
+ {
+  "w": "skin",
+  "start": 8.8,
+  "end": 9.044,
+  "frame": 264
+ },
+ {
+  "w": "still",
+  "start": 9.125,
+  "end": 9.334,
+  "frame": 274
+ },
+ {
+  "w": "reacts.",
+  "start": 9.404,
+  "end": 10.019,
+  "frame": 282
+ },
+ {
+  "w": "It",
+  "start": 10.344,
+  "end": 10.472,
+  "frame": 310
+ },
+ {
+  "w": "isn't",
+  "start": 10.519,
+  "end": 10.739,
+  "frame": 316
+ },
+ {
+  "w": "magic.",
+  "start": 10.797,
+  "end": 11.308,
+  "frame": 324
+ },
+ {
+  "w": "It's",
+  "start": 11.355,
+  "end": 11.552,
+  "frame": 341
+ },
+ {
+  "w": "chemistry.",
+  "start": 11.598,
+  "end": 12.318,
+  "frame": 348
+ },
+ {
+  "w": "In",
+  "start": 12.922,
+  "end": 13.061,
+  "frame": 388
+ },
+ {
+  "w": "2011,",
+  "start": 13.108,
+  "end": 14.048,
+  "frame": 393
+ },
+ {
+  "w": "scientists",
+  "start": 14.083,
+  "end": 14.559,
+  "frame": 422
+ },
+ {
+  "w": "in",
+  "start": 14.594,
+  "end": 14.652,
+  "frame": 438
+ },
+ {
+  "w": "Montreal",
+  "start": 14.721,
+  "end": 15.372,
+  "frame": 442
+ },
+ {
+  "w": "scanned",
+  "start": 15.441,
+  "end": 15.755,
+  "frame": 463
+ },
+ {
+  "w": "people's",
+  "start": 15.778,
+  "end": 16.092,
+  "frame": 473
+ },
+ {
+  "w": "brains",
+  "start": 16.138,
+  "end": 16.475,
+  "frame": 484
+ },
+ {
+  "w": "while",
+  "start": 16.521,
+  "end": 16.684,
+  "frame": 496
+ },
+ {
+  "w": "they",
+  "start": 16.707,
+  "end": 16.823,
+  "frame": 501
+ },
+ {
+  "w": "listened",
+  "start": 16.893,
+  "end": 17.172,
+  "frame": 507
+ },
+ {
+  "w": "to",
+  "start": 17.195,
+  "end": 17.241,
+  "frame": 516
+ },
+ {
+  "w": "the",
+  "start": 17.288,
+  "end": 17.357,
+  "frame": 519
+ },
+ {
+  "w": "songs",
+  "start": 17.404,
+  "end": 17.706,
+  "frame": 522
+ },
+ {
+  "w": "that",
+  "start": 17.741,
+  "end": 17.845,
+  "frame": 532
+ },
+ {
+  "w": "gave",
+  "start": 17.891,
+  "end": 18.066,
+  "frame": 537
+ },
+ {
+  "w": "them",
+  "start": 18.1,
+  "end": 18.217,
+  "frame": 543
+ },
+ {
+  "w": "chills.",
+  "start": 18.263,
+  "end": 18.82,
+  "frame": 548
+ },
+ {
+  "w": "They",
+  "start": 19.145,
+  "end": 19.296,
+  "frame": 574
+ },
+ {
+  "w": "found",
+  "start": 19.366,
+  "end": 19.587,
+  "frame": 581
+ },
+ {
+  "w": "dopamine.",
+  "start": 19.645,
+  "end": 20.364,
+  "frame": 589
+ },
+ {
+  "w": "The",
+  "start": 20.748,
+  "end": 20.875,
+  "frame": 622
+ },
+ {
+  "w": "same",
+  "start": 20.956,
+  "end": 21.258,
+  "frame": 629
+ },
+ {
+  "w": "chemical",
+  "start": 21.305,
+  "end": 21.734,
+  "frame": 639
+ },
+ {
+  "w": "your",
+  "start": 21.804,
+  "end": 21.92,
+  "frame": 654
+ },
+ {
+  "w": "brain",
+  "start": 21.955,
+  "end": 22.176,
+  "frame": 659
+ },
+ {
+  "w": "releases",
+  "start": 22.245,
+  "end": 22.71,
+  "frame": 667
+ },
+ {
+  "w": "for",
+  "start": 22.756,
+  "end": 22.884,
+  "frame": 683
+ },
+ {
+  "w": "food,",
+  "start": 22.965,
+  "end": 23.487,
+  "frame": 689
+ },
+ {
+  "w": "for",
+  "start": 23.731,
+  "end": 23.894,
+  "frame": 712
+ },
+ {
+  "w": "love,",
+  "start": 23.975,
+  "end": 24.486,
+  "frame": 719
+ },
+ {
+  "w": "for",
+  "start": 24.73,
+  "end": 24.892,
+  "frame": 742
+ },
+ {
+  "w": "winning.",
+  "start": 24.974,
+  "end": 25.484,
+  "frame": 749
+ },
+ {
+  "w": "But",
+  "start": 26.181,
+  "end": 26.344,
+  "frame": 785
+ },
+ {
+  "w": "here's",
+  "start": 26.39,
+  "end": 26.634,
+  "frame": 792
+ },
+ {
+  "w": "the",
+  "start": 26.657,
+  "end": 26.727,
+  "frame": 800
+ },
+ {
+  "w": "strange",
+  "start": 26.773,
+  "end": 27.168,
+  "frame": 803
+ },
+ {
+  "w": "part.",
+  "start": 27.214,
+  "end": 27.574,
+  "frame": 816
+ },
+ {
+  "w": "The",
+  "start": 27.957,
+  "end": 28.073,
+  "frame": 839
+ },
+ {
+  "w": "dopamine",
+  "start": 28.155,
+  "end": 28.7,
+  "frame": 845
+ },
+ {
+  "w": "didn't",
+  "start": 28.747,
+  "end": 28.979,
+  "frame": 862
+ },
+ {
+  "w": "wait",
+  "start": 29.014,
+  "end": 29.176,
+  "frame": 870
+ },
+ {
+  "w": "for",
+  "start": 29.234,
+  "end": 29.327,
+  "frame": 877
+ },
+ {
+  "w": "the",
+  "start": 29.362,
+  "end": 29.431,
+  "frame": 881
+ },
+ {
+  "w": "best",
+  "start": 29.478,
+  "end": 29.675,
+  "frame": 884
+ },
+ {
+  "w": "moment.",
+  "start": 29.745,
+  "end": 30.151,
+  "frame": 892
+ },
+ {
+  "w": "It",
+  "start": 30.476,
+  "end": 30.627,
+  "frame": 914
+ },
+ {
+  "w": "started",
+  "start": 30.697,
+  "end": 31.045,
+  "frame": 921
+ },
+ {
+  "w": "before",
+  "start": 31.092,
+  "end": 31.428,
+  "frame": 933
+ },
+ {
+  "w": "it,",
+  "start": 31.475,
+  "end": 31.661,
+  "frame": 944
+ },
+ {
+  "w": "while",
+  "start": 31.986,
+  "end": 32.183,
+  "frame": 960
+ },
+ {
+  "w": "the",
+  "start": 32.206,
+  "end": 32.276,
+  "frame": 966
+ },
+ {
+  "w": "music",
+  "start": 32.334,
+  "end": 32.659,
+  "frame": 970
+ },
+ {
+  "w": "was",
+  "start": 32.705,
+  "end": 32.81,
+  "frame": 981
+ },
+ {
+  "w": "still",
+  "start": 32.845,
+  "end": 33.054,
+  "frame": 985
+ },
+ {
+  "w": "building.",
+  "start": 33.112,
+  "end": 33.588,
+  "frame": 993
+ },
+ {
+  "w": "Your",
+  "start": 34.029,
+  "end": 34.215,
+  "frame": 1021
+ },
+ {
+  "w": "brain",
+  "start": 34.261,
+  "end": 34.517,
+  "frame": 1028
+ },
+ {
+  "w": "was",
+  "start": 34.575,
+  "end": 34.679,
+  "frame": 1037
+ },
+ {
+  "w": "predicting",
+  "start": 34.749,
+  "end": 35.167,
+  "frame": 1042
+ },
+ {
+  "w": "the",
+  "start": 35.225,
+  "end": 35.294,
+  "frame": 1057
+ },
+ {
+  "w": "peak,",
+  "start": 35.341,
+  "end": 35.794,
+  "frame": 1060
+ },
+ {
+  "w": "and",
+  "start": 36.072,
+  "end": 36.235,
+  "frame": 1082
+ },
+ {
+  "w": "paying",
+  "start": 36.305,
+  "end": 36.56,
+  "frame": 1089
+ },
+ {
+  "w": "you",
+  "start": 36.606,
+  "end": 36.676,
+  "frame": 1098
+ },
+ {
+  "w": "for",
+  "start": 36.723,
+  "end": 36.815,
+  "frame": 1102
+ },
+ {
+  "w": "the",
+  "start": 36.862,
+  "end": 36.931,
+  "frame": 1106
+ },
+ {
+  "w": "wait.",
+  "start": 36.966,
+  "end": 37.338,
+  "frame": 1109
+ },
+ {
+  "w": "And",
+  "start": 37.663,
+  "end": 37.814,
+  "frame": 1130
+ },
+ {
+  "w": "not",
+  "start": 37.884,
+  "end": 38.046,
+  "frame": 1137
+ },
+ {
+  "w": "everyone",
+  "start": 38.092,
+  "end": 38.441,
+  "frame": 1143
+ },
+ {
+  "w": "feels",
+  "start": 38.487,
+  "end": 38.777,
+  "frame": 1155
+ },
+ {
+  "w": "it.",
+  "start": 38.824,
+  "end": 39.01,
+  "frame": 1165
+ },
+ {
+  "w": "A",
+  "start": 39.451,
+  "end": 39.544,
+  "frame": 1184
+ },
+ {
+  "w": "2016",
+  "start": 39.66,
+  "end": 40.461,
+  "frame": 1190
+ },
+ {
+  "w": "study",
+  "start": 40.531,
+  "end": 40.821,
+  "frame": 1216
+ },
+ {
+  "w": "found",
+  "start": 40.89,
+  "end": 41.065,
+  "frame": 1227
+ },
+ {
+  "w": "that",
+  "start": 41.088,
+  "end": 41.204,
+  "frame": 1233
+ },
+ {
+  "w": "people",
+  "start": 41.25,
+  "end": 41.529,
+  "frame": 1238
+ },
+ {
+  "w": "who",
+  "start": 41.564,
+  "end": 41.657,
+  "frame": 1247
+ },
+ {
+  "w": "get",
+  "start": 41.715,
+  "end": 41.854,
+  "frame": 1251
+ },
+ {
+  "w": "chills",
+  "start": 41.901,
+  "end": 42.284,
+  "frame": 1257
+ },
+ {
+  "w": "have",
+  "start": 42.342,
+  "end": 42.493,
+  "frame": 1270
+ },
+ {
+  "w": "more",
+  "start": 42.539,
+  "end": 42.713,
+  "frame": 1276
+ },
+ {
+  "w": "connections",
+  "start": 42.759,
+  "end": 43.363,
+  "frame": 1283
+ },
+ {
+  "w": "between",
+  "start": 43.688,
+  "end": 44.013,
+  "frame": 1311
+ },
+ {
+  "w": "the",
+  "start": 44.048,
+  "end": 44.118,
+  "frame": 1321
+ },
+ {
+  "w": "part",
+  "start": 44.164,
+  "end": 44.338,
+  "frame": 1325
+ },
+ {
+  "w": "of",
+  "start": 44.373,
+  "end": 44.419,
+  "frame": 1331
+ },
+ {
+  "w": "the",
+  "start": 44.454,
+  "end": 44.524,
+  "frame": 1334
+ },
+ {
+  "w": "brain",
+  "start": 44.559,
+  "end": 44.745,
+  "frame": 1337
+ },
+ {
+  "w": "that",
+  "start": 44.779,
+  "end": 44.896,
+  "frame": 1343
+ },
+ {
+  "w": "hears,",
+  "start": 44.954,
+  "end": 45.522,
+  "frame": 1349
+ },
+ {
+  "w": "and",
+  "start": 45.731,
+  "end": 45.882,
+  "frame": 1372
+ },
+ {
+  "w": "the",
+  "start": 45.929,
+  "end": 45.998,
+  "frame": 1378
+ },
+ {
+  "w": "parts",
+  "start": 46.045,
+  "end": 46.324,
+  "frame": 1381
+ },
+ {
+  "w": "that",
+  "start": 46.358,
+  "end": 46.486,
+  "frame": 1391
+ },
+ {
+  "w": "feel.",
+  "start": 46.544,
+  "end": 47.02,
+  "frame": 1396
+ },
+ {
+  "w": "So",
+  "start": 47.624,
+  "end": 47.763,
+  "frame": 1429
+ },
+ {
+  "w": "the",
+  "start": 47.821,
+  "end": 47.891,
+  "frame": 1435
+ },
+ {
+  "w": "next",
+  "start": 47.937,
+  "end": 48.111,
+  "frame": 1438
+ },
+ {
+  "w": "time",
+  "start": 48.135,
+  "end": 48.297,
+  "frame": 1444
+ },
+ {
+  "w": "a",
+  "start": 48.32,
+  "end": 48.355,
+  "frame": 1450
+ },
+ {
+  "w": "song",
+  "start": 48.413,
+  "end": 48.657,
+  "frame": 1452
+ },
+ {
+  "w": "stops",
+  "start": 48.727,
+  "end": 49.017,
+  "frame": 1462
+ },
+ {
+  "w": "you",
+  "start": 49.04,
+  "end": 49.11,
+  "frame": 1471
+ },
+ {
+  "w": "in",
+  "start": 49.168,
+  "end": 49.214,
+  "frame": 1475
+ },
+ {
+  "w": "your",
+  "start": 49.261,
+  "end": 49.365,
+  "frame": 1478
+ },
+ {
+  "w": "tracks,",
+  "start": 49.412,
+  "end": 50.004,
+  "frame": 1482
+ },
+ {
+  "w": "that's",
+  "start": 50.445,
+  "end": 50.689,
+  "frame": 1513
+ },
+ {
+  "w": "your",
+  "start": 50.724,
+  "end": 50.84,
+  "frame": 1522
+ },
+ {
+  "w": "brain,",
+  "start": 50.886,
+  "end": 51.397,
+  "frame": 1527
+ },
+ {
+  "w": "enjoying",
+  "start": 51.513,
+  "end": 51.908,
+  "frame": 1545
+ },
+ {
+  "w": "the",
+  "start": 51.954,
+  "end": 52.024,
+  "frame": 1559
+ },
+ {
+  "w": "wait.",
+  "start": 52.059,
+  "end": 52.663,
+  "frame": 1562
+ }
+]
