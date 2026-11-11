@@ -1,0 +1,40 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader-latin-500-normal.woff2);font-weight:500}
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader-latin-500-italic.woff2);font-weight:500;font-style:italic}
+@font-face{font-family:"Inter Tight";src:url(fonts/inter-tight-latin-800-normal.woff2);font-weight:800}
+@font-face{font-family:"Inter Tight";src:url(fonts/inter-tight-latin-500-normal.woff2);font-weight:500}
+:root{--blue:#0243F1;--deep:#011A8C;--paper:#ECEBEF;--hot:#F3C21D;--ink:#0b1030}
+*{box-sizing:border-box}body{margin:0;background:#dfe0e6;font-family:"Inter Tight";width:1800px;padding:36px}
+h1{font-family:"Newsreader";font-weight:500;font-size:44px;margin:0 0 6px;color:var(--ink);letter-spacing:-.02em}
+p.sub{margin:0 0 26px;font-size:20px;color:#444a66;font-weight:500}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.card{background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 6px 24px rgba(10,16,48,.12)}
+.hero{height:330px;display:flex;align-items:center;justify-content:center;gap:26px;background:radial-gradient(ellipse 80% 70% at 50% 40%,#1f5cff 0%,var(--blue) 50%,var(--deep) 100%);position:relative}
+.hero svg.mark{width:190px;height:190px;flex:none}
+.wm{color:var(--paper);line-height:.9}
+.wm .a{font-family:"Newsreader";font-weight:500;font-size:62px;letter-spacing:-.035em;transform:scaleX(.88);transform-origin:left;display:block;white-space:nowrap}
+.wm .b{font-family:"Inter Tight";font-weight:800;font-size:21px;letter-spacing:.34em;text-transform:uppercase;color:var(--hot);display:block;margin-top:12px}
+.row{display:flex;align-items:center;gap:18px;padding:18px 22px}
+.tile{width:92px;height:92px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none}
+.tile svg{width:62px;height:62px}
+.t-paper{background:var(--paper)}.t-blue{background:var(--blue)}.t-ink{background:var(--ink)}
+.cap{font-size:19px;color:var(--ink);font-weight:500;line-height:1.25}
+.cap b{font-weight:800;font-size:23px;display:block;margin-bottom:3px}
+.num{position:absolute;top:14px;left:18px;font-weight:800;font-size:26px;color:var(--paper);opacity:.9}
+</style></head><body>
+<h1>Human Nature Explained: six logo directions</h1>
+<p class="sub">Each shows the logo with the name, then how it looks as a small round profile picture on white, blue and dark.</p>
+<div class="grid" id="g"></div>
+<script type="module">
+import { MARKS } from "./marks.js";
+const O = [["openHead","1. The Open Mind","The top of the head lifts like a lid and a question curls out."],
+["fingerprint","2. The Fingerprint Question","A fingerprint whose middle line is a question mark: why are you, you?"],
+["pulse","3. The Pulse","H and N joined by a heartbeat line. Bold and simple."],
+["eye","4. The Spiral Eye","An eye with a spiral inside: watching how people behave."],
+["asterisk","5. The Human Asterisk","Six little people form a star, like a footnote that explains."],
+["tree","6. The Tree in the Head","A tree grows inside a head: nature inside the human."]];
+const svg=(k,ink,hot,bg,cls="")=>`<svg class="${cls}" viewBox="0 0 200 200">${MARKS[k](ink,hot,bg)}</svg>`;
+document.getElementById("g").innerHTML=O.map(([k,t,d],i)=>`<div class="card"><div class="hero"><span class="num">${i+1}</span>${svg(k,"#ECEBEF","#F3C21D","#0243F1","mark")}<div class="wm"><span class="a">Human</span><span class="a"><i>Nature</i></span><span class="b">Explained</span></div></div>
+<div class="row"><div class="tile t-paper">${svg(k,"#0243F1","#F3A000","#ECEBEF")}</div><div class="tile t-blue">${svg(k,"#ECEBEF","#F3C21D","#0243F1")}</div><div class="tile t-ink">${svg(k,"#ECEBEF","#F3C21D","#0b1030")}</div><div class="cap"><b>${t}</b>${d}</div></div></div>`).join("");
+document.body.dataset.ready="1";
+</script></body></html>
