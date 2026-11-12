@@ -24,3 +24,8 @@ Voice: ElevenLabs (Brian). Music and sound effects: original, made by `make_musi
 - `v-hate.jpg`: https://pixabay.com/photos/business-smartphone-call-cell-phone-19148/ by PublicDomainPictures
 - `v-friends.jpg`: https://pixabay.com/photos/happy-holidays-women-talking-laugh-2567915/ by StockSnap
 - `v-fine.jpg`: https://pixabay.com/photos/black-and-white-people-couple-happy-2590810/ by StockSnap
+
+## 3D person
+- `public/avatar/` (man.fbx and textures): "Male_Adult_12" from the Microsoft Rocketbox avatar library,
+  https://github.com/microsoft/Microsoft-Rocketbox, MIT License, Copyright (c) 2020 Microsoft.
+  Textures converted from TGA to JPG.
