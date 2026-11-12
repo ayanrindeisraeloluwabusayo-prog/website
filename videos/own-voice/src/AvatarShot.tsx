@@ -5,7 +5,10 @@ import * as THREE from "three";
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { ThreeCanvas } from "@remotion/three";
 import { useThree } from "@react-three/fiber";
-import { key, Man, Ready, useMan } from "./Avatar";
+import { key, Man, Ready, Studio, useMan } from "./Avatar";
+import { cochleaGeometry, JAW_CURVE, jawGeometry, teeth } from "./anatomy";
+import { holdPhone, PERSON, Phone } from "./Grip";
+import { restPose } from "./pose";
 import { BlueStage } from "./motion";
 import { Grain, p } from "./kit";
 import { Lockup } from "./lockup";
@@ -16,7 +19,6 @@ const BONE = "#efe7d2", GOLD = "#F3C21D";
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const ease = (t: number) => t * t * (3 - 2 * t);
 const v = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
-const mix = (a: THREE.Vector3, b: THREE.Vector3, t: number) => a.clone().lerp(b, t).normalize();
 
 const rimMaterial = (color: string) =>
   new THREE.ShaderMaterial({
@@ -26,23 +28,11 @@ const rimMaterial = (color: string) =>
     transparent: true, blending: THREE.AdditiveBlending, depthWrite: false,
   });
 
-/** Turn `bone` so that the line from it to `child` points along `dir` (world space). */
-const aim = (bone: THREE.Bone, child: THREE.Bone, dir: THREE.Vector3) => {
-  bone.updateWorldMatrix(true, true);
-  const a = bone.getWorldPosition(v(0, 0, 0)), b = child.getWorldPosition(v(0, 0, 0));
-  const delta = new THREE.Quaternion().setFromUnitVectors(b.sub(a).normalize(), dir.clone().normalize());
-  const world = bone.getWorldQuaternion(new THREE.Quaternion()).premultiply(delta);
-  const parent = bone.parent!.getWorldQuaternion(new THREE.Quaternion()).invert();
-  bone.quaternion.copy(parent.multiply(world));
-  bone.updateWorldMatrix(false, true);
-};
-
 // The inside of the head is built in "head units" (1 unit = 17 cm-ish model units), centred between the ears.
-const S = 14.5, ORIGIN = v(0, 168.2, 2.0);
+
 const AIR = new THREE.CatmullRomCurve3([v(0, -0.48, 0.85), v(0.22, -0.5, 1.15), v(0.72, -0.4, 0.9), v(0.92, -0.2, 0.3), v(0.56, -0.08, 0.0)]);
-const BONEPATH = new THREE.CatmullRomCurve3([v(0, -0.54, 0.6), v(0.1, -0.72, 0.56), v(0.3, -0.66, 0.3), v(0.4, -0.45, 0.04), v(0.4, -0.1, 0.0)]);
-const JAW = new THREE.CatmullRomCurve3([v(-0.42, -0.1, 0), v(-0.4, -0.5, 0.02), v(-0.24, -0.68, 0.4), v(0, -0.74, 0.6), v(0.24, -0.68, 0.4), v(0.4, -0.5, 0.02), v(0.42, -0.1, 0)]);
-const TEETH = new THREE.CatmullRomCurve3([v(-0.24, -0.5, 0.4), v(-0.12, -0.5, 0.6), v(0, -0.5, 0.66), v(0.12, -0.5, 0.6), v(0.24, -0.5, 0.4)]);
+const BONEPATH = new THREE.CatmullRomCurve3([0.5, 0.58, 0.66, 0.74, 0.82, 0.9, 0.97, 1].map((u) => JAW_CURVE.getPoint(u)));
+const EAR = v(0.43, -0.08, -0.02);
 
 const Scene: React.FC<{ man: Man }> = ({ man }) => {
   const f = useCurrentFrame();
@@ -56,23 +46,14 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
   const bone = interpolate(f, [150, 176], [0, 1], clamp);
   const talk = f > 30 ? 0.3 + 0.7 * Math.abs(Math.sin(f * 0.55) * Math.cos(f * 0.21)) : 0;
 
-  // remember the rest pose once, and start every frame from it
-  const rest = useMemo(() => Object.fromEntries(Object.entries(man.bones).map(([k, b]) => [k, b.quaternion.clone()])), [man]);
-  for (const [k, b] of Object.entries(man.bones)) b.quaternion.copy(rest[k]);
-  man.root.updateMatrixWorld(true);
-
-  // pose: left arm hangs, right arm brings the phone from the belly up to the mouth, the jaw moves with the words
-  aim(B("Bip01 L UpperArm"), B("Bip01 L Forearm"), v(0.16, -1, 0.02));
-  aim(B("Bip01 L Forearm"), B("Bip01 L Hand"), v(0.06, -1, 0.22));
-  aim(B("Bip01 R UpperArm"), B("Bip01 R Forearm"), mix(v(-0.14, -1, 0.1), v(-0.36, -0.56, 0.75), lift));
-  aim(B("Bip01 R Forearm"), B("Bip01 R Hand"), mix(v(0.25, -0.35, 0.9), v(0.7, 0.68, 0.2), lift));
-  aim(B("Bip01 R Hand"), B("Bip01 R Finger1"), mix(v(0.3, 0.2, 0.9), v(0.5, 0.85, 0.1), lift));
-  const down = 0.1 * (1 - lift) + 0.02 * Math.sin(f / 9);
-  aim(B("Bip01 Head"), B("Bip01 MNose"), v(-0.05 * (1 - push), 0.47 - down * 2.2, 0.88));
-  aim(B("Bip01 MJaw"), B("Bip01 MBottomLip"), v(0, -0.1 - 0.16 * talk, 0.98));
-  man.root.updateMatrixWorld(true);
-  const hand = B("Bip01 R Hand").getWorldPosition(v(0, 0, 0));
-  const headPos = B("Bip01 Head").getWorldPosition(v(0, 0, 0));
+  // pose: he holds the phone (the grip from Grip.tsx), brings it up and speaks
+  const rest = useMemo(() => restPose(man), [man]);
+  const phone = holdPhone(man, rest, lift, talk);
+  // fit the inside of the head to this person's face: eyes at (0, 0.03, 0.5) and lips at y = -0.5 in head units
+  const eye = B("Bip01 LEye").getWorldPosition(v(0, 0, 0)).add(B("Bip01 REye").getWorldPosition(v(0, 0, 0))).multiplyScalar(0.5);
+  const lip = B("Bip01 MBottomLip").getWorldPosition(v(0, 0, 0));
+  const S = (eye.y - lip.y) / 0.53;
+  const origin = v(0, eye.y - 0.03 * S, eye.z - 0.5 * S);
 
   // materials: the head (and hair, eyes, teeth) turns to glass
   const mats = man.meshes[0].material as THREE.MeshStandardMaterial[];
@@ -95,12 +76,13 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
 
   // camera: waist-up, then a three-quarter close-up of the head, then a slow drift
   const drift = Math.max(0, f - 112) * 0.03;
-  camera.position.copy(v(5, 147, 152).lerp(v(44 - drift, 170, 62 + drift), push));
-  camera.lookAt(v(0, 147, 0).lerp(v(1.5, 170.4, 3), push));
+  camera.position.copy(v(5, eye.y - 21, 152).lerp(v(48 - drift, eye.y - 2, 74 + drift), push));
+  camera.lookAt(v(0, eye.y - 21, 0).lerp(v(1.5, eye.y - 1.5, 3), push));
 
-  const jawGeo = useMemo(() => new THREE.TubeGeometry(JAW, 80, 0.045, 14), []);
-  const teethGeo = useMemo(() => new THREE.TubeGeometry(TEETH, 40, 0.035, 10), []);
-  const boneGeo = useMemo(() => new THREE.TubeGeometry(BONEPATH, 60, 0.07, 12), []);
+  const jawGeo = useMemo(jawGeometry, []);
+  const cochGeo = useMemo(cochleaGeometry, []);
+  const lower = useMemo(() => teeth(false), []), upper = useMemo(() => teeth(true), []);
+  const boneGeo = useMemo(() => new THREE.TubeGeometry(BONEPATH, 60, 0.1, 12), []);
   const boneMat = (extra = 0) => <meshStandardMaterial color={BONE} roughness={0.45} emissive={extra > 0 ? GOLD : BONE} emissiveIntensity={0.22 + 1.2 * extra} transparent opacity={glass} />;
 
   const ghost = <meshStandardMaterial color={BONE} roughness={0.5} emissive={BONE} emissiveIntensity={0.3} transparent opacity={0.34 * glass} depthWrite={false} />;
@@ -120,20 +102,14 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
 
   return (
     <>
-      <hemisphereLight args={["#ffffff", "#3a4c9a", 1.5]} />
-      <directionalLight position={[200, 320, 400]} intensity={2.3} />
-      <directionalLight position={[-300, 200, -220]} intensity={1.6} color="#8fb0ff" />
+      <Studio />
       <primitive object={man.root} />
       <primitive object={shell} />
 
-      {/* the phone, in his hand */}
-      <group position={hand.clone().add(v(1.5, 5.5 * lift + 3, 3.5))} rotation={[-0.2 - 0.9 * (1 - lift), 0.55, 0.1]}>
-        <mesh><boxGeometry args={[7.2, 14.5, 0.8]} /><meshStandardMaterial color="#0d0f15" roughness={0.3} transparent={glass > 0} opacity={1 - 0.75 * glass} /></mesh>
-        <mesh position={[0, 0, -0.45]} rotation={[0, Math.PI, 0]}><planeGeometry args={[6.4, 13.4]} /><meshBasicMaterial color="#3d74ff" transparent opacity={(1 - 0.75 * glass) * (0.8 + 0.2 * Math.sin(f / 3))} /></mesh>
-      </group>
+      <Phone at={phone} opacity={1 - 0.8 * glass} />
 
       {/* inside the head */}
-      <group position={headPos.clone().add(ORIGIN).sub(v(0, 158.7, 0.8))} scale={S}>
+      <group position={origin} scale={S}>
         <group visible={glass > 0.02}>
           <mesh position={[0, 0.2, -0.1]} scale={[0.9, 0.98, 1.08]}><sphereGeometry args={[0.46, 48, 36]} />{ghost}</mesh>
           <mesh position={[0, -0.3, 0.3]} scale={[1, 0.7, 0.9]}><sphereGeometry args={[0.27, 32, 24]} />{ghost}</mesh>
@@ -143,11 +119,18 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
           
           <mesh geometry={jawGeo}>{boneMat(bone)}</mesh>
           <mesh geometry={boneGeo} material={rimGold} visible={bone > 0} />
-          <mesh geometry={teethGeo}><meshStandardMaterial color="#ffffff" roughness={0.3} transparent opacity={glass} /></mesh>
-          <mesh position={[0.4, -0.1, 0]}><sphereGeometry args={[0.05, 16, 16]} /><meshBasicMaterial color={bone > 0.6 ? GOLD : "#ffffff"} transparent opacity={glass} depthTest={false} /></mesh>
-          <mesh position={[0.4, -0.1, 0]} scale={1 + 0.5 * Math.max(air, bone) * (0.6 + 0.4 * Math.sin(f / 3))}>
-            <sphereGeometry args={[0.12, 16, 16]} />
-            <meshBasicMaterial color={bone > 0.6 ? GOLD : "#ffffff"} transparent opacity={0.3 * glass * Math.max(air, bone)} blending={THREE.AdditiveBlending} depthWrite={false} depthTest={false} />
+          {[...lower, ...upper].map((t, i) => (
+            <mesh key={i} position={t.pos} rotation={[0, t.rot, 0]}>
+              <boxGeometry args={[t.w, t.h, 0.035]} />
+              <meshStandardMaterial color="#ffffff" roughness={0.25} emissive="#ffffff" emissiveIntensity={0.15} transparent opacity={glass} />
+            </mesh>
+          ))}
+          <mesh geometry={cochGeo} position={EAR.clone().add(v(-0.06, 0.02, 0))}>
+            <meshStandardMaterial color={BONE} roughness={0.4} emissive={bone > 0.6 ? GOLD : "#ffffff"} emissiveIntensity={0.3 + 1.6 * Math.max(air, bone)} transparent opacity={glass} depthTest={false} />
+          </mesh>
+          <mesh position={EAR.clone().add(v(-0.05, 0.02, 0))} scale={1 + 0.5 * Math.max(air, bone) * (0.6 + 0.4 * Math.sin(f / 3))}>
+            <sphereGeometry args={[0.13, 16, 16]} />
+            <meshBasicMaterial color={bone > 0.6 ? GOLD : "#ffffff"} transparent opacity={0.28 * glass * Math.max(air, bone)} blending={THREE.AdditiveBlending} depthWrite={false} depthTest={false} />
           </mesh>
           {bone > 0 ? dots(BONEPATH, 6, 1, GOLD, 0.026, 0.02) : null}
         </group>
@@ -170,7 +153,7 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
 export const AvatarShot: React.FC = () => {
   const f = useCurrentFrame();
   const { width, height } = useVideoConfig();
-  const { man, handle } = useMan("Male_Adult_04", true);
+  const { man, handle } = useMan(PERSON[0], PERSON[1]);
   const tag: React.CSSProperties = { position: "absolute", fontFamily: SANS2, fontWeight: 800, fontSize: 46, letterSpacing: "0.1em" };
   return (
     <AbsoluteFill style={{ background: "#000" }}>
@@ -178,7 +161,7 @@ export const AvatarShot: React.FC = () => {
       <ThreeCanvas width={width} height={height} gl={{ alpha: true, antialias: true }} camera={{ fov: 30, near: 1, far: 5000 }}>
         {man ? <><Scene man={man} /><Ready handle={handle} /></> : null}
       </ThreeCanvas>
-      <div style={{ ...tag, right: 60, top: 1010, color: "#fff", opacity: p(f, 124, 12) }}>AIR</div>
+      <div style={{ ...tag, right: 60, top: 930, color: "#fff", opacity: p(f, 124, 12) }}>AIR</div>
       <div style={{ ...tag, left: 70, top: 1560, color: GOLD, opacity: p(f, 160, 12) }}>BONE</div>
       <Grain amount={0.14} />
       <Lockup top={230} until={103} lines={[
