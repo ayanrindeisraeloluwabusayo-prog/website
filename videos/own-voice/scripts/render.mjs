@@ -4,7 +4,7 @@ import { renderMedia, selectComposition } from "@remotion/renderer";
 import path from "node:path";
 const [out, from, to, scale = "1", conc = "2", id = "Film"] = process.argv.slice(2);
 const browserExecutable = "/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell";
-const chromiumOptions = { gl: "angle" };
+const chromiumOptions = { gl: process.env.GL || "angle" };
 const serveUrl = await bundle({ entryPoint: path.resolve("src/index.ts"), publicDir: path.resolve("public") });
 const composition = await selectComposition({ serveUrl, id, browserExecutable, chromiumOptions });
 const t0 = Date.now(); let last = 0;
