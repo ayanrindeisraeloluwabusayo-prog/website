@@ -4,7 +4,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import * as THREE from "three";
 import { FBXLoader } from "three/examples/jsm/loaders/FBXLoader.js";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
-import { AbsoluteFill, continueRender, delayRender, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, continueRender, delayRender, getInputProps, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { ThreeCanvas } from "@remotion/three";
 import { useThree } from "@react-three/fiber";
 import { BlueStage } from "./motion";
@@ -32,8 +32,8 @@ export const loadMan = async (id = "Male_Adult_12", hasOpacity = false): Promise
       const mats = Array.isArray(m.material) ? m.material : [m.material];
       const made = mats.map((old) => {
         const head = /head/i.test(old.name);
-        if (/opac/i.test(old.name)) return new THREE.MeshStandardMaterial({ name: old.name, map: oc, transparent: true, alphaTest: 0.35, side: THREE.DoubleSide, roughness: 0.75, metalness: 0 });
-        return new THREE.MeshStandardMaterial({ name: old.name, map: head ? hc : bc, normalMap: head ? hn : bn, roughness: head ? 0.55 : 0.8, metalness: 0 });
+        if (/opac/i.test(old.name)) return new THREE.MeshBasicMaterial({ name: old.name, map: oc, color: 0x8a8a8a, transparent: true, alphaTest: 0.06, depthWrite: false, side: THREE.DoubleSide, visible: !!(getInputProps() as { haircards?: boolean }).haircards });  // the wispy hair-card layer draws as flat panels here, so it stays off  // hair cards: unlit, so the separate cards do not catch the light as flat panels
+        return new THREE.MeshStandardMaterial({ name: old.name, map: head ? hc : bc, normalMap: head ? hn : bn, roughness: head ? 0.72 : 0.8, metalness: 0, envMapIntensity: head ? 0.25 : 1 });
       });
       m.material = Array.isArray(m.material) ? made : made[0];
       m.frustumCulled = false;
