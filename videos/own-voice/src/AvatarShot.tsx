@@ -75,7 +75,8 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
   const headPos = B("Bip01 Head").getWorldPosition(v(0, 0, 0));
 
   // materials: the head (and hair, eyes, teeth) turns to glass
-  const [body, head] = man.meshes[0].material as THREE.MeshStandardMaterial[];
+  const mats = man.meshes[0].material as THREE.MeshStandardMaterial[];
+  const head = mats.find((m) => /head/i.test(m.name))!, body = mats.find((m) => /body/i.test(m.name))!;
   head.transparent = glass > 0; head.opacity = 1 - 0.9 * glass; head.depthWrite = glass < 0.3;
   head.color.set(glass > 0.5 ? "#a9c8ff" : "#ffffff");
   body.color.set("#ffffff");
@@ -83,7 +84,7 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
   const shell = useMemo(() => {
     const src = man.meshes[0];
     const hidden = new THREE.MeshBasicMaterial({ visible: false });
-    const m = new THREE.SkinnedMesh(src.geometry, [hidden, rim]);
+    const m = new THREE.SkinnedMesh(src.geometry, (src.material as THREE.Material[]).map((x) => (/head/i.test(x.name) ? rim : hidden)));
     m.bind(src.skeleton, src.bindMatrix);
     m.frustumCulled = false;
     return m;
@@ -169,7 +170,7 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
 export const AvatarShot: React.FC = () => {
   const f = useCurrentFrame();
   const { width, height } = useVideoConfig();
-  const { man, handle } = useMan();
+  const { man, handle } = useMan("Male_Adult_04", true);
   const tag: React.CSSProperties = { position: "absolute", fontFamily: SANS2, fontWeight: 800, fontSize: 46, letterSpacing: "0.1em" };
   return (
     <AbsoluteFill style={{ background: "#000" }}>
