@@ -15,6 +15,9 @@ import { Lockup } from "./lockup";
 import { SANS2, ws } from "./type";
 
 export const SHOT_FRAMES = 210;
+/** Film version: part A (he speaks, glass head, air path) is frames 0..HEAD_A, part B (bone path) follows. */
+export const HEAD_A = 182, HEAD_B = 82;
+export const HeadShot: React.FC = () => <AvatarShot film />;
 const BONE = "#efe7d2", GOLD = "#F3C21D";
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const ease = (t: number) => t * t * (3 - 2 * t);
@@ -34,17 +37,21 @@ const AIR = new THREE.CatmullRomCurve3([v(0, -0.48, 0.85), v(0.22, -0.5, 1.15), 
 const BONEPATH = new THREE.CatmullRomCurve3([0.5, 0.58, 0.66, 0.74, 0.82, 0.9, 0.97, 1].map((u) => JAW_CURVE.getPoint(u)));
 const EAR = v(0.43, -0.08, -0.02);
 
-const Scene: React.FC<{ man: Man }> = ({ man }) => {
+const Scene: React.FC<{ man: Man; film: boolean }> = ({ man, film }) => {
   const f = useCurrentFrame();
   const { camera } = useThree();
   const B = (n: string) => man.bones[key(n)];
 
-  const lift = ease(interpolate(f, [4, 28], [0, 1], clamp));
-  const push = ease(interpolate(f, [52, 112], [0, 1], clamp));
-  const glass = ease(interpolate(f, [80, 102], [0, 1], clamp));
-  const air = interpolate(f, [108, 140], [0, 1], clamp);
-  const bone = interpolate(f, [150, 176], [0, 1], clamp);
-  const talk = f > 30 ? 0.3 + 0.7 * Math.abs(Math.sin(f * 0.55) * Math.cos(f * 0.21)) : 0;
+  // two timelines: the short test clip, and the film version cut to Brian's words (see HEAD_A / HEAD_B below)
+  const T = film ? { lift: [0, 22], push: [44, 96], glass: [70, 96], air: [101, 131], bone: [HEAD_A, HEAD_A + 24], talk: 12 } : { lift: [4, 28], push: [52, 112], glass: [80, 102], air: [108, 140], bone: [150, 176], talk: 30 };
+  const lift = film ? 0.35 + 0.65 * ease(interpolate(f, T.lift, [0, 1], clamp)) : ease(interpolate(f, T.lift, [0, 1], clamp));
+  const push = ease(interpolate(f, T.push, [0, 1], clamp));
+  const glass = ease(interpolate(f, T.glass, [0, 1], clamp));
+  const air = interpolate(f, T.air, [0, 1], clamp);
+  const bone = interpolate(f, T.bone, [0, 1], clamp);
+  const deep = film ? interpolate(f, [HEAD_A + 30, HEAD_A + 44], [0, 1], clamp) : 0;
+  const partB = film && f >= HEAD_A;
+  const talk = f > T.talk ? 0.3 + 0.7 * Math.abs(Math.sin(f * 0.55) * Math.cos(f * 0.21)) : 0;
 
   // pose: he holds the phone (the grip from Grip.tsx), brings it up and speaks
   const rest = useMemo(() => restPose(man), [man]);
@@ -58,7 +65,8 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
   // materials: the head (and hair, eyes, teeth) turns to glass
   const mats = man.meshes[0].material as THREE.MeshStandardMaterial[];
   const head = mats.find((m) => /head/i.test(m.name))!, body = mats.find((m) => /body/i.test(m.name))!;
-  head.transparent = glass > 0; head.opacity = 1 - 0.9 * glass; head.depthWrite = glass < 0.3;
+  if (!head.transparent) { head.transparent = true; head.needsUpdate = true; }   // always see-through capable, so the fade works mid-clip
+  head.opacity = 1 - 0.9 * glass; head.depthWrite = glass < 0.3;
   head.color.set(glass > 0.5 ? "#a9c8ff" : "#ffffff");
   body.color.set("#ffffff");
   const rim = useMemo(() => rimMaterial("#cfe6ff"), []);
@@ -76,8 +84,17 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
 
   // camera: waist-up, then a three-quarter close-up of the head, then a slow drift
   const drift = Math.max(0, f - 112) * 0.03;
-  camera.position.copy(v(5, eye.y - 21, 152).lerp(v(48 - drift, eye.y - 2, 74 + drift), push));
-  camera.lookAt(v(0, eye.y - 21, 0).lerp(v(1.5, eye.y - 1.5, 3), push));
+  if (partB) {
+    const k = (f - HEAD_A) / 82;                                   // after the cut: closer, lower, more from the side
+    camera.position.copy(v(60 - 6 * k, eye.y - 7, 50 - 6 * k));
+    camera.lookAt(v(0, eye.y - 4.5, 4));
+  } else if (film) {
+    camera.position.copy(v(5, eye.y + 2, 150).lerp(v(48 - drift, eye.y - 2, 74 + drift), push));
+    camera.lookAt(v(0, eye.y + 2, 0).lerp(v(1.5, eye.y + 4, 3), push));
+  } else {
+    camera.position.copy(v(5, eye.y - 21, 152).lerp(v(48 - drift, eye.y - 2, 74 + drift), push));
+    camera.lookAt(v(0, eye.y - 21, 0).lerp(v(1.5, eye.y - 1.5, 3), push));
+  }
 
   const jawGeo = useMemo(jawGeometry, []);
   const cochGeo = useMemo(cochleaGeometry, []);
@@ -117,11 +134,11 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
             <mesh key={sd} position={[sd * 0.2, 0.03, 0.3]} scale={[1, 0.9, 0.6]}><sphereGeometry args={[0.11, 20, 16]} /><meshBasicMaterial color="#16245e" transparent opacity={0.5 * glass} /></mesh>
           ))}
           
-          <mesh geometry={jawGeo}>{boneMat(bone)}</mesh>
+          <mesh geometry={jawGeo}>{boneMat(bone * (1 + 0.8 * deep * (0.5 + 0.5 * Math.sin(f / 2.5))))}</mesh>
           <mesh geometry={boneGeo} material={rimGold} visible={bone > 0} />
           {[...lower, ...upper].map((t, i) => (
             <mesh key={i} position={t.pos} rotation={[0, t.rot, 0]}>
-              <boxGeometry args={[t.w, t.h, 0.035]} />
+              <capsuleGeometry args={[t.w * 0.48, t.h * 0.45, 4, 10]} />
               <meshStandardMaterial color="#ffffff" roughness={0.25} emissive="#ffffff" emissiveIntensity={0.15} transparent opacity={glass} />
             </mesh>
           ))}
@@ -150,7 +167,7 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
   );
 };
 
-export const AvatarShot: React.FC = () => {
+export const AvatarShot: React.FC<{ film?: boolean }> = ({ film = false }) => {
   const f = useCurrentFrame();
   const { width, height } = useVideoConfig();
   const { man, handle } = useMan(PERSON[0], PERSON[1]);
@@ -159,8 +176,16 @@ export const AvatarShot: React.FC = () => {
     <AbsoluteFill style={{ background: "#000" }}>
       <BlueStage glowY={52} />
       <ThreeCanvas width={width} height={height} gl={{ alpha: true, antialias: true }} camera={{ fov: 30, near: 1, far: 5000 }}>
-        {man ? <><Scene man={man} /><Ready handle={handle} /></> : null}
+        {man ? <><Scene man={man} film={film} /><Ready handle={handle} /></> : null}
       </ThreeCanvas>
+      {film ? (
+        <>
+          <div style={{ ...tag, right: 60, top: 1000, color: "#fff", opacity: f < HEAD_A ? p(f, 116, 12) : 0 }}>AIR</div>
+          <div style={{ ...tag, left: 70, top: 1640, color: GOLD, opacity: p(f, HEAD_A + 8, 12) }}>BONE</div>
+          <div style={{ ...tag, left: 70, top: 1702, fontSize: 34, fontWeight: 600, color: "#fff", opacity: p(f, HEAD_A + 30, 12) }}>+ DEEP NOTES</div>
+        </>
+      ) : (
+        <>
       <div style={{ ...tag, right: 60, top: 930, color: "#fff", opacity: p(f, 124, 12) }}>AIR</div>
       <div style={{ ...tag, left: 70, top: 1560, color: GOLD, opacity: p(f, 160, 12) }}>BONE</div>
       <Grain amount={0.14} />
@@ -176,6 +201,8 @@ export const AvatarShot: React.FC = () => {
         { words: ws("and through the", 150, 6), align: "flex-start", indent: 40 },
         { kind: "serif", words: ws("bone.", 168) },
       ]} />
+        </>
+      )}
     </AbsoluteFill>
   );
 };

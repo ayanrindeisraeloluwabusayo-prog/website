@@ -12,7 +12,7 @@ import { BlueField, FilmBurn, Grain, InvertFlash, p, Paper, PixelGlitch } from "
 import { Lockup } from "./lockup";
 import { Filters, Scrim, Shot, Vignette } from "./media";
 import { EndCard } from "./graphics3";
-import { EqBars, RatingBars, Ripples, TwoPaths, VoiceNote } from "./graphics4";
+import { EqBars, RatingBars, Ripples, VoiceNote } from "./graphics4";
 import { fr, say, WORDS } from "./speech";
 
 export const FRAMES = 1685;
@@ -111,12 +111,10 @@ export const Video: React.FC = () => {
         ]} />
       </Scene>
 
-      {/* 5. "When you speak, the sound reaches your ears two ways." (pictures: a mouth, then an ear) */}
+      {/* 5. "When you speak, the sound reaches your ears two ways." (3D: the man speaks into his phone, his head turns to glass) */}
       <Scene from={354} to={455}>
-        <Shot src="v-speak.jpg" from={354} to={396} pos="50% 40%" zoom={[1.02, 1.12]} grade="contrast(1.1)" />
-        <Shot src="v-ear.jpg" from={396} to={455} pos="45% 35%" zoom={[1.2, 1.08]} grade="contrast(1.08) saturate(0.85)" />
-        <Scrim side="top" strength={0.72} />
-        <Grain amount={0.2} />
+        <Shot src="head3d_a.mp4" video from={354} to={536} zoom={[1, 1]} />
+        <Grain amount={0.16} />
         <Lockup top={240} until={fr(32) - 1} lines={[
           { words: say(29, 30), align: "flex-start", indent: 60 },
           { kind: "serif", words: say(31) },
@@ -128,12 +126,10 @@ export const Video: React.FC = () => {
         ]} />
       </Scene>
 
-      {/* 6. "Through the air, like everyone else hears it." (motion: the white path round the head) */}
+      {/* 6. "Through the air, like everyone else hears it." (3D: the white path from his mouth to his ear) */}
       <Scene from={455} to={536}>
-        <BlueStage glowY={62} />
-        <LineHead />
-        <TwoPaths airAt={fr(39)} />
-        <Grain amount={0.2} />
+        <Shot src="head3d_a.mp4" video from={354} to={536} zoom={[1, 1]} />
+        <Grain amount={0.16} />
         <Lockup top={230} lines={[
           { words: say(39, 40), align: "flex-start", indent: 60 },
           { kind: "serif", words: say(41) },
@@ -153,12 +149,10 @@ export const Video: React.FC = () => {
         ]} />
       </Scene>
 
-      {/* 8. "Bone carries the deep notes better." (motion: the yellow path through the head) */}
+      {/* 8. "Bone carries the deep notes better." (3D: the jawbone lights up and carries the sound to the inner ear) */}
       <Scene from={602} to={684}>
-        <BlueStage glowY={62} />
-        <LineHead />
-        <TwoPaths airAt={560} boneAt={fr(54)} deep={fr(57)} />
-        <Grain amount={0.2} />
+        <Shot src="head3d_b.mp4" video from={602} to={684} zoom={[1, 1]} />
+        <Grain amount={0.16} />
         <Lockup top={230} lines={[
           { words: say(54, 56), align: "flex-start", indent: 40 },
           { kind: "serif", words: say(57, 58) },

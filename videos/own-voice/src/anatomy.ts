@@ -5,7 +5,7 @@ import * as THREE from "three";
 const V = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
 
 /** Half the jaw line, from the joint by the ear, down the back edge, round the corner and along to the chin. */
-const HALF: [number, number, number][] = [[0.43, -0.08, -0.02], [0.43, -0.3, -0.03], [0.42, -0.52, 0.0], [0.38, -0.62, 0.14], [0.27, -0.68, 0.36], [0.13, -0.7, 0.54], [0, -0.71, 0.6]];
+const HALF: [number, number, number][] = [[0.43, -0.08, -0.02], [0.43, -0.3, -0.03], [0.42, -0.52, 0.0], [0.38, -0.6, 0.14], [0.27, -0.655, 0.36], [0.13, -0.675, 0.54], [0, -0.68, 0.6]];
 export const JAW_CURVE = new THREE.CatmullRomCurve3([...HALF.map(([x, y, z]) => V(-x, y, z)), ...HALF.slice(0, -1).reverse().map(([x, y, z]) => V(x, y, z))]);
 
 /** Sweep a flat oval along the jaw line: tall and thin, taller at the back (the ramus) than at the chin. */
