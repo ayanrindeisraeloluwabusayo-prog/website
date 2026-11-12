@@ -1,0 +1,878 @@
+[
+ {
+  "w": "Why",
+  "start": 0.0,
+  "end": 0.255,
+  "frame": 0
+ },
+ {
+  "w": "do",
+  "start": 0.313,
+  "end": 0.395,
+  "frame": 9
+ },
+ {
+  "w": "you",
+  "start": 0.464,
+  "end": 0.557,
+  "frame": 14
+ },
+ {
+  "w": "hate",
+  "start": 0.65,
+  "end": 0.871,
+  "frame": 20
+ },
+ {
+  "w": "your",
+  "start": 0.906,
+  "end": 1.033,
+  "frame": 27
+ },
+ {
+  "w": "own",
+  "start": 1.091,
+  "end": 1.219,
+  "frame": 33
+ },
+ {
+  "w": "voice",
+  "start": 1.289,
+  "end": 1.718,
+  "frame": 39
+ },
+ {
+  "w": "on",
+  "start": 1.765,
+  "end": 1.927,
+  "frame": 53
+ },
+ {
+  "w": "a",
+  "start": 1.962,
+  "end": 1.997,
+  "frame": 59
+ },
+ {
+  "w": "voice",
+  "start": 2.043,
+  "end": 2.31,
+  "frame": 61
+ },
+ {
+  "w": "note?",
+  "start": 2.357,
+  "end": 2.694,
+  "frame": 71
+ },
+ {
+  "w": "You",
+  "start": 3.135,
+  "end": 3.262,
+  "frame": 94
+ },
+ {
+  "w": "press",
+  "start": 3.332,
+  "end": 3.634,
+  "frame": 100
+ },
+ {
+  "w": "play,",
+  "start": 3.704,
+  "end": 4.145,
+  "frame": 111
+ },
+ {
+  "w": "and",
+  "start": 4.168,
+  "end": 4.249,
+  "frame": 125
+ },
+ {
+  "w": "a",
+  "start": 4.284,
+  "end": 4.319,
+  "frame": 129
+ },
+ {
+  "w": "stranger",
+  "start": 4.365,
+  "end": 4.783,
+  "frame": 131
+ },
+ {
+  "w": "answers.",
+  "start": 4.841,
+  "end": 5.445,
+  "frame": 145
+ },
+ {
+  "w": "Higher.",
+  "start": 5.689,
+  "end": 6.316,
+  "frame": 171
+ },
+ {
+  "w": "Thinner.",
+  "start": 6.641,
+  "end": 7.245,
+  "frame": 199
+ },
+ {
+  "w": "Not",
+  "start": 7.755,
+  "end": 8.011,
+  "frame": 233
+ },
+ {
+  "w": "you.",
+  "start": 8.092,
+  "end": 8.603,
+  "frame": 243
+ },
+ {
+  "w": "But",
+  "start": 8.986,
+  "end": 9.172,
+  "frame": 270
+ },
+ {
+  "w": "it",
+  "start": 9.23,
+  "end": 9.311,
+  "frame": 277
+ },
+ {
+  "w": "is",
+  "start": 9.369,
+  "end": 9.52,
+  "frame": 281
+ },
+ {
+  "w": "you.",
+  "start": 9.601,
+  "end": 10.008,
+  "frame": 288
+ },
+ {
+  "w": "Here's",
+  "start": 10.449,
+  "end": 10.716,
+  "frame": 313
+ },
+ {
+  "w": "what's",
+  "start": 10.739,
+  "end": 10.913,
+  "frame": 322
+ },
+ {
+  "w": "happening.",
+  "start": 10.948,
+  "end": 11.494,
+  "frame": 328
+ },
+ {
+  "w": "When",
+  "start": 11.877,
+  "end": 12.063,
+  "frame": 356
+ },
+ {
+  "w": "you",
+  "start": 12.098,
+  "end": 12.179,
+  "frame": 363
+ },
+ {
+  "w": "speak,",
+  "start": 12.26,
+  "end": 12.643,
+  "frame": 368
+ },
+ {
+  "w": "the",
+  "start": 12.678,
+  "end": 12.771,
+  "frame": 380
+ },
+ {
+  "w": "sound",
+  "start": 12.864,
+  "end": 13.177,
+  "frame": 386
+ },
+ {
+  "w": "reaches",
+  "start": 13.259,
+  "end": 13.56,
+  "frame": 398
+ },
+ {
+  "w": "your",
+  "start": 13.607,
+  "end": 13.746,
+  "frame": 408
+ },
+ {
+  "w": "ears",
+  "start": 13.804,
+  "end": 14.036,
+  "frame": 414
+ },
+ {
+  "w": "two",
+  "start": 14.095,
+  "end": 14.269,
+  "frame": 423
+ },
+ {
+  "w": "ways.",
+  "start": 14.338,
+  "end": 14.907,
+  "frame": 430
+ },
+ {
+  "w": "Through",
+  "start": 15.232,
+  "end": 15.499,
+  "frame": 457
+ },
+ {
+  "w": "the",
+  "start": 15.534,
+  "end": 15.604,
+  "frame": 466
+ },
+ {
+  "w": "air,",
+  "start": 15.673,
+  "end": 16.138,
+  "frame": 470
+ },
+ {
+  "w": "like",
+  "start": 16.312,
+  "end": 16.498,
+  "frame": 489
+ },
+ {
+  "w": "everyone",
+  "start": 16.533,
+  "end": 16.893,
+  "frame": 496
+ },
+ {
+  "w": "else",
+  "start": 16.916,
+  "end": 17.09,
+  "frame": 507
+ },
+ {
+  "w": "hears",
+  "start": 17.125,
+  "end": 17.345,
+  "frame": 514
+ },
+ {
+  "w": "it.",
+  "start": 17.403,
+  "end": 17.612,
+  "frame": 522
+ },
+ {
+  "w": "And",
+  "start": 17.938,
+  "end": 18.216,
+  "frame": 538
+ },
+ {
+  "w": "through",
+  "start": 18.274,
+  "end": 18.483,
+  "frame": 548
+ },
+ {
+  "w": "the",
+  "start": 18.518,
+  "end": 18.588,
+  "frame": 556
+ },
+ {
+  "w": "bones",
+  "start": 18.634,
+  "end": 18.89,
+  "frame": 559
+ },
+ {
+  "w": "of",
+  "start": 18.924,
+  "end": 18.982,
+  "frame": 568
+ },
+ {
+  "w": "your",
+  "start": 19.029,
+  "end": 19.145,
+  "frame": 571
+ },
+ {
+  "w": "skull.",
+  "start": 19.203,
+  "end": 19.76,
+  "frame": 576
+ },
+ {
+  "w": "Bone",
+  "start": 20.143,
+  "end": 20.492,
+  "frame": 604
+ },
+ {
+  "w": "carries",
+  "start": 20.538,
+  "end": 20.921,
+  "frame": 616
+ },
+ {
+  "w": "the",
+  "start": 20.991,
+  "end": 21.072,
+  "frame": 630
+ },
+ {
+  "w": "deep",
+  "start": 21.142,
+  "end": 21.362,
+  "frame": 634
+ },
+ {
+  "w": "notes",
+  "start": 21.455,
+  "end": 21.722,
+  "frame": 644
+ },
+ {
+  "w": "better.",
+  "start": 21.78,
+  "end": 22.256,
+  "frame": 653
+ },
+ {
+  "w": "So",
+  "start": 22.86,
+  "end": 23.023,
+  "frame": 686
+ },
+ {
+  "w": "inside",
+  "start": 23.104,
+  "end": 23.487,
+  "frame": 693
+ },
+ {
+  "w": "your",
+  "start": 23.522,
+  "end": 23.65,
+  "frame": 706
+ },
+ {
+  "w": "head,",
+  "start": 23.708,
+  "end": 24.102,
+  "frame": 711
+ },
+ {
+  "w": "your",
+  "start": 24.277,
+  "end": 24.439,
+  "frame": 728
+ },
+ {
+  "w": "voice",
+  "start": 24.509,
+  "end": 24.799,
+  "frame": 735
+ },
+ {
+  "w": "sounds",
+  "start": 24.834,
+  "end": 25.112,
+  "frame": 745
+ },
+ {
+  "w": "deeper",
+  "start": 25.194,
+  "end": 25.519,
+  "frame": 756
+ },
+ {
+  "w": "and",
+  "start": 25.577,
+  "end": 25.658,
+  "frame": 767
+ },
+ {
+  "w": "richer",
+  "start": 25.739,
+  "end": 26.088,
+  "frame": 772
+ },
+ {
+  "w": "than",
+  "start": 26.181,
+  "end": 26.355,
+  "frame": 785
+ },
+ {
+  "w": "it",
+  "start": 26.401,
+  "end": 26.471,
+  "frame": 792
+ },
+ {
+  "w": "really",
+  "start": 26.517,
+  "end": 26.784,
+  "frame": 796
+ },
+ {
+  "w": "is.",
+  "start": 26.854,
+  "end": 27.295,
+  "frame": 806
+ },
+ {
+  "w": "A",
+  "start": 27.736,
+  "end": 27.818,
+  "frame": 832
+ },
+ {
+  "w": "recording",
+  "start": 27.934,
+  "end": 28.433,
+  "frame": 838
+ },
+ {
+  "w": "only",
+  "start": 28.503,
+  "end": 28.7,
+  "frame": 855
+ },
+ {
+  "w": "catches",
+  "start": 28.758,
+  "end": 29.13,
+  "frame": 863
+ },
+ {
+  "w": "the",
+  "start": 29.176,
+  "end": 29.246,
+  "frame": 875
+ },
+ {
+  "w": "air.",
+  "start": 29.315,
+  "end": 29.71,
+  "frame": 879
+ },
+ {
+  "w": "The",
+  "start": 30.035,
+  "end": 30.163,
+  "frame": 901
+ },
+ {
+  "w": "bass",
+  "start": 30.221,
+  "end": 30.453,
+  "frame": 907
+ },
+ {
+  "w": "is",
+  "start": 30.511,
+  "end": 30.593,
+  "frame": 915
+ },
+ {
+  "w": "gone.",
+  "start": 30.662,
+  "end": 31.15,
+  "frame": 920
+ },
+ {
+  "w": "That",
+  "start": 31.533,
+  "end": 31.754,
+  "frame": 946
+ },
+ {
+  "w": "shock",
+  "start": 31.835,
+  "end": 32.172,
+  "frame": 955
+ },
+ {
+  "w": "is",
+  "start": 32.241,
+  "end": 32.334,
+  "frame": 967
+ },
+ {
+  "w": "so",
+  "start": 32.404,
+  "end": 32.625,
+  "frame": 972
+ },
+ {
+  "w": "common,",
+  "start": 32.706,
+  "end": 33.182,
+  "frame": 981
+ },
+ {
+  "w": "psychologists",
+  "start": 33.217,
+  "end": 33.925,
+  "frame": 997
+ },
+ {
+  "w": "gave",
+  "start": 33.96,
+  "end": 34.111,
+  "frame": 1019
+ },
+ {
+  "w": "it",
+  "start": 34.145,
+  "end": 34.204,
+  "frame": 1024
+ },
+ {
+  "w": "a",
+  "start": 34.227,
+  "end": 34.25,
+  "frame": 1027
+ },
+ {
+  "w": "name",
+  "start": 34.308,
+  "end": 34.482,
+  "frame": 1029
+ },
+ {
+  "w": "back",
+  "start": 34.517,
+  "end": 34.656,
+  "frame": 1036
+ },
+ {
+  "w": "in",
+  "start": 34.703,
+  "end": 34.749,
+  "frame": 1041
+ },
+ {
+  "w": "1966.",
+  "start": 34.796,
+  "end": 35.933,
+  "frame": 1044
+ },
+ {
+  "w": "Voice",
+  "start": 36.375,
+  "end": 36.723,
+  "frame": 1091
+ },
+ {
+  "w": "confrontation.",
+  "start": 36.769,
+  "end": 37.64,
+  "frame": 1103
+ },
+ {
+  "w": "And",
+  "start": 38.151,
+  "end": 38.302,
+  "frame": 1145
+ },
+ {
+  "w": "here's",
+  "start": 38.36,
+  "end": 38.557,
+  "frame": 1151
+ },
+ {
+  "w": "the",
+  "start": 38.592,
+  "end": 38.662,
+  "frame": 1158
+ },
+ {
+  "w": "twist.",
+  "start": 38.708,
+  "end": 39.277,
+  "frame": 1161
+ },
+ {
+  "w": "In",
+  "start": 39.521,
+  "end": 39.66,
+  "frame": 1186
+ },
+ {
+  "w": "a",
+  "start": 39.707,
+  "end": 39.741,
+  "frame": 1191
+ },
+ {
+  "w": "2013",
+  "start": 39.823,
+  "end": 40.833,
+  "frame": 1195
+ },
+ {
+  "w": "study,",
+  "start": 40.902,
+  "end": 41.448,
+  "frame": 1227
+ },
+ {
+  "w": "people",
+  "start": 41.622,
+  "end": 41.936,
+  "frame": 1249
+ },
+ {
+  "w": "heard",
+  "start": 41.982,
+  "end": 42.168,
+  "frame": 1259
+ },
+ {
+  "w": "their",
+  "start": 42.203,
+  "end": 42.354,
+  "frame": 1266
+ },
+ {
+  "w": "own",
+  "start": 42.423,
+  "end": 42.656,
+  "frame": 1273
+ },
+ {
+  "w": "voice",
+  "start": 42.725,
+  "end": 43.015,
+  "frame": 1282
+ },
+ {
+  "w": "without",
+  "start": 43.05,
+  "end": 43.364,
+  "frame": 1292
+ },
+ {
+  "w": "knowing",
+  "start": 43.41,
+  "end": 43.642,
+  "frame": 1302
+ },
+ {
+  "w": "it",
+  "start": 43.689,
+  "end": 43.735,
+  "frame": 1311
+ },
+ {
+  "w": "was",
+  "start": 43.77,
+  "end": 43.875,
+  "frame": 1313
+ },
+ {
+  "w": "theirs.",
+  "start": 43.921,
+  "end": 44.49,
+  "frame": 1318
+ },
+ {
+  "w": "They",
+  "start": 44.815,
+  "end": 44.989,
+  "frame": 1344
+ },
+ {
+  "w": "rated",
+  "start": 45.059,
+  "end": 45.337,
+  "frame": 1352
+ },
+ {
+  "w": "it",
+  "start": 45.384,
+  "end": 45.465,
+  "frame": 1362
+ },
+ {
+  "w": "more",
+  "start": 45.558,
+  "end": 45.755,
+  "frame": 1367
+ },
+ {
+  "w": "attractive",
+  "start": 45.79,
+  "end": 46.266,
+  "frame": 1374
+ },
+ {
+  "w": "than",
+  "start": 46.29,
+  "end": 46.417,
+  "frame": 1389
+ },
+ {
+  "w": "anyone",
+  "start": 46.499,
+  "end": 46.801,
+  "frame": 1395
+ },
+ {
+  "w": "else",
+  "start": 46.835,
+  "end": 46.986,
+  "frame": 1405
+ },
+ {
+  "w": "did.",
+  "start": 47.021,
+  "end": 47.369,
+  "frame": 1411
+ },
+ {
+  "w": "So",
+  "start": 47.695,
+  "end": 47.834,
+  "frame": 1431
+ },
+ {
+  "w": "the",
+  "start": 47.892,
+  "end": 47.962,
+  "frame": 1437
+ },
+ {
+  "w": "voice",
+  "start": 48.02,
+  "end": 48.252,
+  "frame": 1441
+ },
+ {
+  "w": "you",
+  "start": 48.287,
+  "end": 48.38,
+  "frame": 1449
+ },
+ {
+  "w": "hate,",
+  "start": 48.472,
+  "end": 48.89,
+  "frame": 1454
+ },
+ {
+  "w": "is",
+  "start": 49.169,
+  "end": 49.332,
+  "frame": 1475
+ },
+ {
+  "w": "the",
+  "start": 49.378,
+  "end": 49.459,
+  "frame": 1481
+ },
+ {
+  "w": "only",
+  "start": 49.552,
+  "end": 49.831,
+  "frame": 1487
+ },
+ {
+  "w": "one",
+  "start": 49.9,
+  "end": 50.028,
+  "frame": 1497
+ },
+ {
+  "w": "your",
+  "start": 50.051,
+  "end": 50.179,
+  "frame": 1502
+ },
+ {
+  "w": "friends",
+  "start": 50.226,
+  "end": 50.458,
+  "frame": 1507
+ },
+ {
+  "w": "have",
+  "start": 50.481,
+  "end": 50.597,
+  "frame": 1514
+ },
+ {
+  "w": "ever",
+  "start": 50.632,
+  "end": 50.794,
+  "frame": 1519
+ },
+ {
+  "w": "heard.",
+  "start": 50.852,
+  "end": 51.224,
+  "frame": 1526
+ },
+ {
+  "w": "And",
+  "start": 51.282,
+  "end": 51.433,
+  "frame": 1538
+ },
+ {
+  "w": "they",
+  "start": 51.479,
+  "end": 51.595,
+  "frame": 1544
+ },
+ {
+  "w": "like",
+  "start": 51.665,
+  "end": 51.828,
+  "frame": 1550
+ },
+ {
+  "w": "it",
+  "start": 51.863,
+  "end": 51.921,
+  "frame": 1556
+ },
+ {
+  "w": "just",
+  "start": 51.955,
+  "end": 52.118,
+  "frame": 1559
+ },
+ {
+  "w": "fine.",
+  "start": 52.153,
+  "end": 52.548,
+  "frame": 1565
+ }
+]
