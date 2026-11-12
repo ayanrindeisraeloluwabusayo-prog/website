@@ -17,6 +17,7 @@ import { fr, say, WORDS } from "./speech";
 
 export const FRAMES = 1685;
 const END = 1590;
+const MUSIC = "music.wav";
 
 const talking = (f: number) => {
   for (let i = 0; i < WORDS.length; i++) {
@@ -38,7 +39,7 @@ const musicLevel = (f: number) => {
 
 const Sfx: React.FC<{ at: number; src: string; volume?: number }> = ({ at, src, volume = 0.4 }) => (
   <Sequence from={at} durationInFrames={150} layout="none">
-    <Audio src={staticFile(`sfx2/${src}.wav`)} volume={volume * 0.7} />
+    <Audio src={staticFile(`sfx2/${src}.wav`)} volume={volume * 0.4} />
   </Sequence>
 );
 
@@ -341,7 +342,7 @@ export const Video: React.FC = () => {
 
       {/* sound: voice on top, a soft original bed under it, effects only where something happens */}
       <Audio src={staticFile("voice/voice.mp3")} />
-      <Audio src={staticFile("music.wav")} volume={(x) => musicLevel(x)} />
+      <Audio src={staticFile(MUSIC)} volume={(x) => musicLevel(x)} />
       <Sfx at={fr(13)} src="pop" volume={0.4} />             {/* play is pressed */}
       <Sfx at={fr(18)} src="glitch-a" volume={0.2} />        {/* the voice turns higher */}
       <Sfx at={fr(19)} src="glitch-b" volume={0.2} />        {/* ...and thinner */}
