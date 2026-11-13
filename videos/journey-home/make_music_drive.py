@@ -6,7 +6,7 @@ import wave
 import numpy as np
 
 SR = 44100
-DUR = 66.0
+DUR = 68.0
 t = np.arange(int(SR * DUR)) / SR
 rng = np.random.default_rng(7)
 
