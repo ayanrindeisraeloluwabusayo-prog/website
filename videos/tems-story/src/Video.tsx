@@ -10,7 +10,7 @@ import { BlueStage } from "./motion";
 import { BlueField, FilmBurn, FLASH, Grain, InvertFlash, Paper, PixelGlitch } from "./kit";
 import { Lockup } from "./lockup";
 import { Filters, Scrim } from "./media";
-import { BrassetCard, Climb, Counter, Doors, FlatLine, InviteGrid, Resign, Ticket, Tutorials } from "./graphics6";
+import { CreatorCard, Climb, Counter, Doors, FlatLine, InviteGrid, Resign, Ticket, Tutorials } from "./graphics6";
 import { CLIP, fr, say, V0, WORDS } from "./speech";
 import { SANS2, SERIF2 } from "./type";
 
@@ -221,10 +221,10 @@ export const Video: React.FC = () => {
         <Lockup top={220} lines={[{ words: say(146, 147), align: "flex-start", indent: 60 }, { kind: "serif", words: say(148, 149) }]} />
       </Scene>
 
-      {/* 13. End card: the owner's music page, Brasset the Creator */}
+      {/* 13. End card: the owner's music page, Drahcir_The_Creator */}
       <Scene from={END} to={FRAMES}>
         <BlueField glow={0.5} />
-        <BrassetCard from={END + 2} />
+        <CreatorCard from={END + 2} />
         <Grain amount={0.18} />
       </Scene>
 

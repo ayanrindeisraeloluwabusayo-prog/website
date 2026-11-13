@@ -1,5 +1,5 @@
 // Motion graphics for the Tems story, in the kit's language: white on blue, one yellow accent, Inter Tight labels.
-import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
+import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame } from "remotion";
 import { FLASH, H, p, W } from "./kit";
 import { SANS2, SERIF2 } from "./type";
 
@@ -192,19 +192,25 @@ export const Counter: React.FC<{ from: number; dur?: number }> = ({ from, dur = 
   );
 };
 
-/** End card for the owner's music page, Brasset the Creator (no logo yet: the name lands, then the call to action). */
-export const BrassetCard: React.FC<{ from: number }> = ({ from }) => {
+/** End card for the owner's music page, Drahcir_The_Creator: the DC scorpion logo lands in a rounded card (as on the
+ *  Human Nature Explained end card), then the name wipes in, then the handle and the call to action. */
+export const CreatorCard: React.FC<{ from: number }> = ({ from }) => {
   const f = useCurrentFrame();
-  const k = p(f, from, 16), sub = p(f, from + 12, 14), cta = p(f, from + 28, 14);
+  const k = p(f, from, 16), name = p(f, from + 12, 16), cta = p(f, from + 30, 14);
+  const GOLD = "#C9A467";
   return (
-    <AbsoluteFill style={{ alignItems: "center" }}>
-      <div style={{ position: "absolute", top: 760, width: "100%", textAlign: "center", color: "#fff", opacity: k, transform: `translateY(${(1 - k) * 60}px) scale(${0.9 + 0.1 * k})` }}>
-        <div style={{ fontFamily: SERIF2, fontWeight: 500, fontSize: 190, letterSpacing: "-0.045em", lineHeight: 1 }}>Brasset</div>
+    <AbsoluteFill style={{ alignItems: "center", perspective: 1600 }}>
+      <div style={{ position: "absolute", top: 420, width: 470, height: 523, borderRadius: 40, overflow: "hidden", opacity: k, background: "#000",
+        transform: `translateY(${(1 - k) * 80}px) rotateX(${(1 - k) * 18}deg) scale(${0.85 + 0.15 * k})`,
+        boxShadow: "0 70px 110px rgba(0,0,0,0.55), 0 14px 30px rgba(0,0,0,0.35)" }}>
+        <Img src={staticFile("media/drahcir-logo.jpg")} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
       </div>
-      <div style={{ position: "absolute", top: 990, width: "100%", textAlign: "center", clipPath: `inset(0 ${(1 - sub) * 100}% 0 0)` }}>
-        <div style={{ fontFamily: SANS2, fontWeight: 800, fontSize: 46, letterSpacing: "0.42em", color: FLASH, marginLeft: "0.42em" }}>THE CREATOR</div>
+      <div style={{ position: "absolute", top: 1030, width: "100%", textAlign: "center", color: "#fff", clipPath: `inset(0 ${(1 - name) * 100}% 0 0)` }}>
+        <div style={{ fontFamily: SERIF2, fontWeight: 500, fontSize: 130, letterSpacing: "-0.04em", lineHeight: 1 }}>Drahcir</div>
+        <div style={{ fontFamily: SANS2, fontWeight: 800, fontSize: 40, letterSpacing: "0.42em", color: GOLD, marginTop: 22, marginLeft: "0.42em" }}>THE CREATOR</div>
       </div>
-      <div style={{ position: "absolute", top: 1240, opacity: cta, transform: `translateY(${(1 - cta) * 20}px)`, fontFamily: SANS2, fontSize: 46, color: "rgba(255,255,255,0.9)" }}>Follow for more</div>
+      <div style={{ position: "absolute", top: 1300, opacity: cta, fontFamily: SANS2, fontWeight: 600, fontSize: 38, color: "rgba(255,255,255,0.8)" }}>@Drahcir_The_Creator</div>
+      <div style={{ position: "absolute", top: 1400, opacity: cta, transform: `translateY(${(1 - cta) * 20}px)`, fontFamily: SANS2, fontSize: 46, color: "rgba(255,255,255,0.9)" }}>Follow for more</div>
     </AbsoluteFill>
   );
 };
