@@ -1,0 +1,998 @@
+[
+ {
+  "w": "You've",
+  "start": 0.0,
+  "end": 0.267,
+  "frame": 0
+ },
+ {
+  "w": "noticed",
+  "start": 0.313,
+  "end": 0.58,
+  "frame": 9
+ },
+ {
+  "w": "this,",
+  "start": 0.604,
+  "end": 0.778,
+  "frame": 18
+ },
+ {
+  "w": "right?",
+  "start": 0.824,
+  "end": 1.184,
+  "frame": 25
+ },
+ {
+  "w": "Going",
+  "start": 1.695,
+  "end": 2.032,
+  "frame": 51
+ },
+ {
+  "w": "somewhere",
+  "start": 2.113,
+  "end": 2.659,
+  "frame": 63
+ },
+ {
+  "w": "takes",
+  "start": 2.775,
+  "end": 3.077,
+  "frame": 83
+ },
+ {
+  "w": "forever.",
+  "start": 3.123,
+  "end": 3.727,
+  "frame": 94
+ },
+ {
+  "w": "Coming",
+  "start": 3.936,
+  "end": 4.238,
+  "frame": 118
+ },
+ {
+  "w": "back?",
+  "start": 4.296,
+  "end": 4.76,
+  "frame": 129
+ },
+ {
+  "w": "Gone",
+  "start": 5.364,
+  "end": 5.631,
+  "frame": 161
+ },
+ {
+  "w": "in",
+  "start": 5.666,
+  "end": 5.724,
+  "frame": 170
+ },
+ {
+  "w": "a",
+  "start": 5.77,
+  "end": 5.805,
+  "frame": 173
+ },
+ {
+  "w": "blink.",
+  "start": 5.851,
+  "end": 6.304,
+  "frame": 176
+ },
+ {
+  "w": "Same",
+  "start": 6.583,
+  "end": 6.92,
+  "frame": 197
+ },
+ {
+  "w": "road.",
+  "start": 6.978,
+  "end": 7.442,
+  "frame": 209
+ },
+ {
+  "w": "Same",
+  "start": 7.767,
+  "end": 8.081,
+  "frame": 233
+ },
+ {
+  "w": "distance.",
+  "start": 8.139,
+  "end": 8.789,
+  "frame": 244
+ },
+ {
+  "w": "So",
+  "start": 9.172,
+  "end": 9.334,
+  "frame": 275
+ },
+ {
+  "w": "what",
+  "start": 9.404,
+  "end": 9.567,
+  "frame": 282
+ },
+ {
+  "w": "changed?",
+  "start": 9.625,
+  "end": 10.159,
+  "frame": 289
+ },
+ {
+  "w": "Not",
+  "start": 10.855,
+  "end": 11.076,
+  "frame": 326
+ },
+ {
+  "w": "the",
+  "start": 11.111,
+  "end": 11.192,
+  "frame": 333
+ },
+ {
+  "w": "road.",
+  "start": 11.273,
+  "end": 11.703,
+  "frame": 338
+ },
+ {
+  "w": "You.",
+  "start": 11.877,
+  "end": 12.481,
+  "frame": 356
+ },
+ {
+  "w": "Most",
+  "start": 13.084,
+  "end": 13.317,
+  "frame": 393
+ },
+ {
+  "w": "people",
+  "start": 13.351,
+  "end": 13.595,
+  "frame": 401
+ },
+ {
+  "w": "think",
+  "start": 13.642,
+  "end": 13.804,
+  "frame": 409
+ },
+ {
+  "w": "it's",
+  "start": 13.851,
+  "end": 13.955,
+  "frame": 416
+ },
+ {
+  "w": "because",
+  "start": 14.002,
+  "end": 14.338,
+  "frame": 420
+ },
+ {
+  "w": "you",
+  "start": 14.396,
+  "end": 14.489,
+  "frame": 432
+ },
+ {
+  "w": "know",
+  "start": 14.536,
+  "end": 14.663,
+  "frame": 436
+ },
+ {
+  "w": "the",
+  "start": 14.71,
+  "end": 14.779,
+  "frame": 441
+ },
+ {
+  "w": "way",
+  "start": 14.826,
+  "end": 14.954,
+  "frame": 445
+ },
+ {
+  "w": "back.",
+  "start": 15.023,
+  "end": 15.476,
+  "frame": 451
+ },
+ {
+  "w": "In",
+  "start": 15.917,
+  "end": 16.068,
+  "frame": 478
+ },
+ {
+  "w": "2011,",
+  "start": 16.138,
+  "end": 17.101,
+  "frame": 484
+ },
+ {
+  "w": "scientists",
+  "start": 17.252,
+  "end": 17.775,
+  "frame": 518
+ },
+ {
+  "w": "in",
+  "start": 17.81,
+  "end": 17.868,
+  "frame": 534
+ },
+ {
+  "w": "the",
+  "start": 17.914,
+  "end": 17.984,
+  "frame": 537
+ },
+ {
+  "w": "Netherlands",
+  "start": 18.031,
+  "end": 18.437,
+  "frame": 541
+ },
+ {
+  "w": "tested",
+  "start": 18.483,
+  "end": 18.832,
+  "frame": 554
+ },
+ {
+  "w": "that.",
+  "start": 18.867,
+  "end": 19.192,
+  "frame": 566
+ },
+ {
+  "w": "They",
+  "start": 19.517,
+  "end": 19.679,
+  "frame": 586
+ },
+ {
+  "w": "sent",
+  "start": 19.726,
+  "end": 19.888,
+  "frame": 592
+ },
+ {
+  "w": "people",
+  "start": 19.923,
+  "end": 20.167,
+  "frame": 598
+ },
+ {
+  "w": "home",
+  "start": 20.213,
+  "end": 20.399,
+  "frame": 606
+ },
+ {
+  "w": "on",
+  "start": 20.434,
+  "end": 20.492,
+  "frame": 613
+ },
+ {
+  "w": "a",
+  "start": 20.538,
+  "end": 20.562,
+  "frame": 616
+ },
+ {
+  "w": "different",
+  "start": 20.62,
+  "end": 20.887,
+  "frame": 619
+ },
+ {
+  "w": "road.",
+  "start": 20.921,
+  "end": 21.339,
+  "frame": 628
+ },
+ {
+  "w": "Same",
+  "start": 21.781,
+  "end": 22.071,
+  "frame": 653
+ },
+ {
+  "w": "length.",
+  "start": 22.129,
+  "end": 22.617,
+  "frame": 664
+ },
+ {
+  "w": "And",
+  "start": 22.86,
+  "end": 23.011,
+  "frame": 686
+ },
+ {
+  "w": "the",
+  "start": 23.058,
+  "end": 23.127,
+  "frame": 692
+ },
+ {
+  "w": "trip",
+  "start": 23.174,
+  "end": 23.429,
+  "frame": 695
+ },
+ {
+  "w": "home...",
+  "start": 23.487,
+  "end": 23.998,
+  "frame": 705
+ },
+ {
+  "w": "still",
+  "start": 24.602,
+  "end": 24.88,
+  "frame": 738
+ },
+ {
+  "w": "felt",
+  "start": 24.95,
+  "end": 25.148,
+  "frame": 748
+ },
+ {
+  "w": "shorter.",
+  "start": 25.194,
+  "end": 25.682,
+  "frame": 756
+ },
+ {
+  "w": "So",
+  "start": 26.285,
+  "end": 26.413,
+  "frame": 789
+ },
+ {
+  "w": "it's",
+  "start": 26.471,
+  "end": 26.599,
+  "frame": 794
+ },
+ {
+  "w": "not",
+  "start": 26.68,
+  "end": 26.889,
+  "frame": 800
+ },
+ {
+  "w": "the",
+  "start": 26.947,
+  "end": 27.028,
+  "frame": 808
+ },
+ {
+  "w": "road",
+  "start": 27.11,
+  "end": 27.284,
+  "frame": 813
+ },
+ {
+  "w": "you",
+  "start": 27.33,
+  "end": 27.411,
+  "frame": 820
+ },
+ {
+  "w": "know.",
+  "start": 27.469,
+  "end": 27.841,
+  "frame": 824
+ },
+ {
+  "w": "It's",
+  "start": 28.12,
+  "end": 28.305,
+  "frame": 844
+ },
+ {
+  "w": "the",
+  "start": 28.352,
+  "end": 28.433,
+  "frame": 851
+ },
+ {
+  "w": "one",
+  "start": 28.503,
+  "end": 28.735,
+  "frame": 855
+ },
+ {
+  "w": "you",
+  "start": 28.781,
+  "end": 28.874,
+  "frame": 863
+ },
+ {
+  "w": "expect.",
+  "start": 28.956,
+  "end": 29.559,
+  "frame": 869
+ },
+ {
+  "w": "Here's",
+  "start": 29.838,
+  "end": 30.093,
+  "frame": 895
+ },
+ {
+  "w": "the",
+  "start": 30.117,
+  "end": 30.186,
+  "frame": 904
+ },
+ {
+  "w": "trick.",
+  "start": 30.233,
+  "end": 30.627,
+  "frame": 907
+ },
+ {
+  "w": "On",
+  "start": 31.138,
+  "end": 31.312,
+  "frame": 934
+ },
+ {
+  "w": "the",
+  "start": 31.347,
+  "end": 31.417,
+  "frame": 940
+ },
+ {
+  "w": "way",
+  "start": 31.487,
+  "end": 31.649,
+  "frame": 945
+ },
+ {
+  "w": "out,",
+  "start": 31.719,
+  "end": 31.916,
+  "frame": 952
+ },
+ {
+  "w": "you",
+  "start": 31.951,
+  "end": 32.032,
+  "frame": 959
+ },
+ {
+  "w": "guessed",
+  "start": 32.113,
+  "end": 32.345,
+  "frame": 963
+ },
+ {
+  "w": "it",
+  "start": 32.368,
+  "end": 32.426,
+  "frame": 971
+ },
+ {
+  "w": "would",
+  "start": 32.461,
+  "end": 32.601,
+  "frame": 974
+ },
+ {
+  "w": "take,",
+  "start": 32.635,
+  "end": 32.891,
+  "frame": 979
+ },
+ {
+  "w": "say,",
+  "start": 33.019,
+  "end": 33.193,
+  "frame": 991
+ },
+ {
+  "w": "an",
+  "start": 33.216,
+  "end": 33.274,
+  "frame": 996
+ },
+ {
+  "w": "hour.",
+  "start": 33.32,
+  "end": 33.785,
+  "frame": 1000
+ },
+ {
+  "w": "It",
+  "start": 34.029,
+  "end": 34.156,
+  "frame": 1021
+ },
+ {
+  "w": "took",
+  "start": 34.203,
+  "end": 34.423,
+  "frame": 1026
+ },
+ {
+  "w": "longer.",
+  "start": 34.505,
+  "end": 34.911,
+  "frame": 1035
+ },
+ {
+  "w": "Your",
+  "start": 35.085,
+  "end": 35.283,
+  "frame": 1053
+ },
+ {
+  "w": "brain",
+  "start": 35.341,
+  "end": 35.584,
+  "frame": 1060
+ },
+ {
+  "w": "felt",
+  "start": 35.666,
+  "end": 35.863,
+  "frame": 1070
+ },
+ {
+  "w": "cheated.",
+  "start": 35.909,
+  "end": 36.444,
+  "frame": 1077
+ },
+ {
+  "w": "So",
+  "start": 36.769,
+  "end": 36.896,
+  "frame": 1103
+ },
+ {
+  "w": "on",
+  "start": 36.966,
+  "end": 37.047,
+  "frame": 1109
+ },
+ {
+  "w": "the",
+  "start": 37.082,
+  "end": 37.152,
+  "frame": 1112
+ },
+ {
+  "w": "way",
+  "start": 37.21,
+  "end": 37.314,
+  "frame": 1116
+ },
+ {
+  "w": "back,",
+  "start": 37.384,
+  "end": 37.663,
+  "frame": 1122
+ },
+ {
+  "w": "it",
+  "start": 37.697,
+  "end": 37.779,
+  "frame": 1131
+ },
+ {
+  "w": "braces",
+  "start": 37.837,
+  "end": 38.278,
+  "frame": 1135
+ },
+ {
+  "w": "itself.",
+  "start": 38.336,
+  "end": 38.893,
+  "frame": 1150
+ },
+ {
+  "w": "Long",
+  "start": 39.067,
+  "end": 39.334,
+  "frame": 1172
+ },
+ {
+  "w": "trip.",
+  "start": 39.392,
+  "end": 39.845,
+  "frame": 1182
+ },
+ {
+  "w": "Get",
+  "start": 40.124,
+  "end": 40.321,
+  "frame": 1204
+ },
+ {
+  "w": "ready.",
+  "start": 40.379,
+  "end": 40.832,
+  "frame": 1211
+ },
+ {
+  "w": "Then",
+  "start": 41.343,
+  "end": 41.529,
+  "frame": 1240
+ },
+ {
+  "w": "the",
+  "start": 41.564,
+  "end": 41.633,
+  "frame": 1247
+ },
+ {
+  "w": "trip",
+  "start": 41.691,
+  "end": 41.912,
+  "frame": 1251
+ },
+ {
+  "w": "is",
+  "start": 41.958,
+  "end": 42.04,
+  "frame": 1259
+ },
+ {
+  "w": "just...",
+  "start": 42.098,
+  "end": 42.643,
+  "frame": 1263
+ },
+ {
+  "w": "normal.",
+  "start": 43.154,
+  "end": 43.7,
+  "frame": 1295
+ },
+ {
+  "w": "And",
+  "start": 43.909,
+  "end": 44.071,
+  "frame": 1317
+ },
+ {
+  "w": "normal",
+  "start": 44.153,
+  "end": 44.478,
+  "frame": 1325
+ },
+ {
+  "w": "feels",
+  "start": 44.559,
+  "end": 44.838,
+  "frame": 1337
+ },
+ {
+  "w": "fast.",
+  "start": 44.907,
+  "end": 45.464,
+  "frame": 1347
+ },
+ {
+  "w": "But",
+  "start": 45.848,
+  "end": 45.999,
+  "frame": 1375
+ },
+ {
+  "w": "here's",
+  "start": 46.045,
+  "end": 46.231,
+  "frame": 1381
+ },
+ {
+  "w": "the",
+  "start": 46.254,
+  "end": 46.324,
+  "frame": 1388
+ },
+ {
+  "w": "twist.",
+  "start": 46.358,
+  "end": 46.858,
+  "frame": 1391
+ },
+ {
+  "w": "In",
+  "start": 47.136,
+  "end": 47.264,
+  "frame": 1414
+ },
+ {
+  "w": "2015,",
+  "start": 47.322,
+  "end": 48.251,
+  "frame": 1420
+ },
+ {
+  "w": "researchers",
+  "start": 48.321,
+  "end": 48.877,
+  "frame": 1450
+ },
+ {
+  "w": "checked",
+  "start": 48.935,
+  "end": 49.226,
+  "frame": 1468
+ },
+ {
+  "w": "how",
+  "start": 49.261,
+  "end": 49.353,
+  "frame": 1478
+ },
+ {
+  "w": "the",
+  "start": 49.423,
+  "end": 49.493,
+  "frame": 1483
+ },
+ {
+  "w": "trips",
+  "start": 49.528,
+  "end": 49.795,
+  "frame": 1486
+ },
+ {
+  "w": "felt",
+  "start": 49.841,
+  "end": 50.155,
+  "frame": 1495
+ },
+ {
+  "w": "while",
+  "start": 50.433,
+  "end": 50.665,
+  "frame": 1513
+ },
+ {
+  "w": "people",
+  "start": 50.689,
+  "end": 50.909,
+  "frame": 1521
+ },
+ {
+  "w": "were",
+  "start": 50.932,
+  "end": 51.049,
+  "frame": 1528
+ },
+ {
+  "w": "still",
+  "start": 51.072,
+  "end": 51.246,
+  "frame": 1532
+ },
+ {
+  "w": "on",
+  "start": 51.292,
+  "end": 51.339,
+  "frame": 1539
+ },
+ {
+  "w": "the",
+  "start": 51.374,
+  "end": 51.443,
+  "frame": 1541
+ },
+ {
+  "w": "road.",
+  "start": 51.49,
+  "end": 51.873,
+  "frame": 1545
+ },
+ {
+  "w": "Both",
+  "start": 52.384,
+  "end": 52.639,
+  "frame": 1572
+ },
+ {
+  "w": "felt",
+  "start": 52.686,
+  "end": 52.86,
+  "frame": 1581
+ },
+ {
+  "w": "about",
+  "start": 52.894,
+  "end": 53.069,
+  "frame": 1587
+ },
+ {
+  "w": "the",
+  "start": 53.103,
+  "end": 53.173,
+  "frame": 1593
+ },
+ {
+  "w": "same.",
+  "start": 53.22,
+  "end": 53.661,
+  "frame": 1597
+ },
+ {
+  "w": "The",
+  "start": 54.102,
+  "end": 54.241,
+  "frame": 1623
+ },
+ {
+  "w": "shortcut",
+  "start": 54.311,
+  "end": 54.81,
+  "frame": 1629
+ },
+ {
+  "w": "only",
+  "start": 54.868,
+  "end": 55.066,
+  "frame": 1646
+ },
+ {
+  "w": "shows",
+  "start": 55.112,
+  "end": 55.344,
+  "frame": 1653
+ },
+ {
+  "w": "up",
+  "start": 55.402,
+  "end": 55.484,
+  "frame": 1662
+ },
+ {
+  "w": "after",
+  "start": 55.553,
+  "end": 55.832,
+  "frame": 1667
+ },
+ {
+  "w": "you",
+  "start": 55.89,
+  "end": 55.971,
+  "frame": 1677
+ },
+ {
+  "w": "arrive,",
+  "start": 56.064,
+  "end": 56.598,
+  "frame": 1682
+ },
+ {
+  "w": "when",
+  "start": 56.645,
+  "end": 56.807,
+  "frame": 1699
+ },
+ {
+  "w": "you",
+  "start": 56.842,
+  "end": 56.912,
+  "frame": 1705
+ },
+ {
+  "w": "look",
+  "start": 56.97,
+  "end": 57.132,
+  "frame": 1709
+ },
+ {
+  "w": "back.",
+  "start": 57.19,
+  "end": 57.678,
+  "frame": 1716
+ },
+ {
+  "w": "So",
+  "start": 58.189,
+  "end": 58.34,
+  "frame": 1746
+ },
+ {
+  "w": "the",
+  "start": 58.398,
+  "end": 58.467,
+  "frame": 1752
+ },
+ {
+  "w": "trip",
+  "start": 58.525,
+  "end": 58.769,
+  "frame": 1756
+ },
+ {
+  "w": "home",
+  "start": 58.827,
+  "end": 59.048,
+  "frame": 1765
+ },
+ {
+  "w": "was",
+  "start": 59.083,
+  "end": 59.199,
+  "frame": 1772
+ },
+ {
+  "w": "never",
+  "start": 59.292,
+  "end": 59.524,
+  "frame": 1779
+ },
+ {
+  "w": "shorter.",
+  "start": 59.582,
+  "end": 60.093,
+  "frame": 1787
+ },
+ {
+  "w": "Your",
+  "start": 60.476,
+  "end": 60.65,
+  "frame": 1814
+ },
+ {
+  "w": "memory",
+  "start": 60.708,
+  "end": 60.987,
+  "frame": 1821
+ },
+ {
+  "w": "just",
+  "start": 61.045,
+  "end": 61.23,
+  "frame": 1831
+ },
+ {
+  "w": "tells",
+  "start": 61.265,
+  "end": 61.509,
+  "frame": 1838
+ },
+ {
+  "w": "it",
+  "start": 61.544,
+  "end": 61.614,
+  "frame": 1846
+ },
+ {
+  "w": "that",
+  "start": 61.648,
+  "end": 61.799,
+  "frame": 1849
+ },
+ {
+  "w": "way.",
+  "start": 61.857,
+  "end": 62.194,
+  "frame": 1856
+ }
+]

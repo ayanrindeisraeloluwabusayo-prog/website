@@ -1,8 +1,20 @@
-# Why does the journey back home always feel shorter? (draft 1, for the owner's approval)
+# Why does the journey back home always feel shorter? (draft 2: story-style rewrite; draft 1 kept below for reference)
 
 Format: blue explainer edit + 3D glass head (option B). Voice: Brian (ElevenLabs), natural pace. About 50 s.
 
-## Script (about 150 words)
+## Script, draft 2 (recorded: public/voice/voice.mp3, Brian, looser settings: stability 0.32, style 0.35)
+
+You've noticed this, right? Going somewhere takes forever. Coming back? Gone in a blink. Same road. Same distance. So what changed? Not the road. You.
+
+Most people think it's because you know the way back. In 2011, scientists in the Netherlands tested that. They sent people home on a different road. Same length. And the trip home... still felt shorter. So it's not the road you know. It's the one you expect.
+
+Here's the trick. On the way out, you guessed it would take, say, an hour. It took longer. Your brain felt cheated. So on the way back, it braces itself. Long trip. Get ready. Then the trip is just... normal. And normal feels fast.
+
+But here's the twist. In 2015, researchers checked how the trips felt while people were still on the road. Both felt about the same. The shortcut only shows up after you arrive, when you look back.
+
+So the trip home was never shorter. Your memory just tells it that way.
+
+## Script, draft 1 (replaced)
 Why does the journey back home always feel shorter?
 Same road. Same distance.
 But going, it felt like forever. Coming back, you blinked, and you were home.
