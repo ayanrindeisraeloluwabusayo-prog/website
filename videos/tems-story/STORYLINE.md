@@ -36,3 +36,6 @@ someone counted them.
   over them is a fair-use judgement the owner makes; the owner supplies any clips. Freely licensed photos of Tems
   from Wikimedia Commons where they exist. Everything else: our graphics (headlines, quote cards, a timeline,
   the invite-by-listening idea, chart climb, stream counter).
+
+## Update after the owner sent the clip
+The clip is a big hall, not a small room, and her words are: "Spotify told me they were gonna invite my fans, and I was like, Are you sure? They said I don't have fans in Nigeria. So I was... I'm a bit confused." The video now opens on her own voice and the owner narrates the rest (script.txt).
