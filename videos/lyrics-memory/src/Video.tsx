@@ -3,7 +3,7 @@
 // Same pictures, graphics and 3D shot; each version is laid out against its own word timings.
 // Facts: Wallace (1994), J. Exp. Psych.: LMC 20, 1471-1485; Jacobsen et al. (2015), Brain. See SCRIPTS.md.
 import React from "react";
-import { AbsoluteFill, Audio, OffthreadVideo, Sequence, staticFile, useCurrentFrame } from "remotion";
+import { AbsoluteFill, Audio, getInputProps, OffthreadVideo, Sequence, staticFile, useCurrentFrame } from "remotion";
 import { StudyPage } from "./art";
 import { BlueStage } from "./motion";
 import { BlueField, FilmBurn, FLASH, Grain, InvertFlash, Paper, PixelGlitch } from "./kit";
@@ -54,6 +54,9 @@ const Head: React.FC<{ at: number }> = ({ at }) => (
     </Sequence>
   </AbsoluteFill>
 );
+
+// Optional music swap for A/B listening tests: --props {"music":"music_pulse.wav","musicGain":1} or {"music":"none"}.
+const { music: MUSIC = "", musicGain: MUSIC_GAIN = 1 } = getInputProps() as { music?: string; musicGain?: number };
 
 const Edit: React.FC<{ v: Version }> = ({ v }) => {
   const f = useCurrentFrame();
@@ -134,7 +137,7 @@ const Edit: React.FC<{ v: Version }> = ({ v }) => {
       {v.cuts.map((c, i) => (c.kind === "burn" ? <FilmBurn key={i} at={F(c.at) - 5} /> : c.kind === "flash" ? <InvertFlash key={i} at={F(c.at) - 2} /> : <PixelGlitch key={i} at={F(c.at) - 4} />))}
 
       <Audio src={staticFile(`media/${v.voice}`)} />
-      <Audio src={staticFile(v.music)} volume={(x) => musicLevel(x)} />
+      {MUSIC !== "none" && <Audio src={staticFile(MUSIC || v.music)} volume={(x) => musicLevel(x) * MUSIC_GAIN} />}
       {v.sfx.map(([at, src, vol], i) => <Sfx key={i} at={at >= 0 ? F(at) : -at} src={src} volume={vol} />)}
       <Sfx at={v.end + 2} src="pop" volume={0.4} />
     </AbsoluteFill>
