@@ -12,3 +12,4 @@ Music the owner sends to use under their videos. The owner chooses which sound g
 3. One "drop" (music stops for a beat) on the video's twist line, back in on the next beat.
 4. Gentle EQ dip at 2.5 kHz so the voice cuts through; the edit ducks the music whenever the narrator talks.
 5. Music sits about 14 dB under the voice; sound effects stay at their normal (quiet) level.
+| `slow-spooky.mp3` | Slow, dark, bass-heavy bed, 86.4 s. A deep thump at 50.9 s, a big end hit at 82.5 s. | Doorway-forgetting (`videos/doorway-forgetting/public/music_slow_spooky.wav`): kept 0-36.5 s, jump on the beat to 64.1 s, end hit lands right after the last word; one-beat silence under "That's the door." |
