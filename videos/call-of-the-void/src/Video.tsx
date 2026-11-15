@@ -36,7 +36,7 @@ const LAYERS: Layer[] = [
   { from: 82, to: 88, pic: "v-spiral.jpg", zoom: [1.0, 1.25] }, { from: 88, to: 95, g: "blue" },
   { from: 95, to: 134, clip: "void_alarm.mp4", start: 95 }, { from: 134, to: 155, g: "guess", cues: [137, 145, 149] },
   { from: 155, to: 163, pic: "v-bench.jpg", pos: "80% 50%" }, { from: 163, to: 174, clip: "void_saved.mp4", start: 163 },
-  { from: 174, to: 999, pic: "v-sunset.jpg", pos: "46% 50%", zoom: [1.0, 1.08] },
+  { from: 174, to: 999, pic: "v-terrace.jpg", pos: "32% 50%", zoom: [1.0, 1.12] },
 ];
 
 const BEATS: Beat[] = [
@@ -95,7 +95,7 @@ const Clip: React.FC<{ src: string; at: number }> = ({ src, at }) => (
 );
 
 // music level: "musicGain" input prop lets a listening test override it
-const { musicGain: MUSIC_GAIN = 0.71 } = getInputProps() as { musicGain?: number };
+const { musicGain: MUSIC_GAIN = 0.745 } = getInputProps() as { musicGain?: number };
 
 export const VoidVideo: React.FC = () => {
 
