@@ -3,26 +3,21 @@
 Dark psychology series. Blue explainer edit, story flow, free "mix" voice (Kokoro am_michael) at the approved slower
 pace (about 3.2 words a second). Draft for the owner's approval.
 
-## Script (~200 words, about 63 s)
+## Script (story-flow rewrite, 242 words, about 76 s at 3.2 words a second)
 
-The more people who see you in trouble, the less likely any one of them is to help.
+Written to video-styles/story-narration.md (the rules from the owner's five reference narrators).
 
-It started with a murder. New York, 1964. A young woman called Kitty Genovese was attacked outside her home.
-Two weeks later, a newspaper reported that thirty-eight people watched, and nobody called the police.
+It's the middle of the night in New York, 1964, and a young woman called Kitty Genovese is attacked right outside her home, and two weeks later a newspaper tells the world that thirty-eight of her neighbours watched and not one of them called the police.
 
-The story shocked the world. So two psychologists tested it.
-They put students in separate rooms, talking over an intercom. Then one voice began to have a seizure.
-When students thought they were the only one listening, eighty-five percent rushed to get help.
-When they thought four others could hear it too, only thirty-one percent did.
-Everyone assumed someone else would act. They called it the bystander effect.
+Now, that story shocked people so much that two psychologists decided to test it, so they sat students in separate rooms, talking over an intercom, and then one of the voices started having a seizure.
 
-But here's the twist. The story that started it all was wrong.
-There were never thirty-eight silent witnesses. Only a handful saw anything clearly.
-One neighbour shouted, and scared the attacker away. Another ran down and held Kitty until help came.
-In 2016, the same newspaper admitted its story was grossly exaggerated.
+And here's the strange part. When a student believed they were the only one listening, eighty-five percent of them rushed out to get help, but when they believed four other people could hear it too, that number dropped to thirty-one percent, because everybody assumed somebody else would do it.
 
-So the effect is real. But the legend isn't.
-And if you ever need help in a crowd, don't shout at everyone. Point at one person.
+They called it the bystander effect, and you see, the more people who watch you in trouble, the less likely any one of them is to move.
+
+But here's the twist nobody tells you. The story that started all of it was wrong, because there were never thirty-eight silent witnesses, only a handful saw anything clearly, one neighbour shouted and scared the attacker off, and another ran down and held Kitty until help came, and in 2016 the same newspaper admitted its story was grossly exaggerated.
+
+So the effect is real, but the legend isn't, and if you ever need help in a crowd, don't shout at everyone, point at one person.
 
 ## Picture plan
 - Photos (feeling): a crowd walking past on a city street, people on phones, an old New York street at night,
