@@ -44,6 +44,23 @@ added. Before the first real build, run `/impeccable init` to interview the owne
 since its design hook is off, run `.claude/skills/impeccable/scripts/impeccable detect --json
 <changed files>` once a UI change is finished.
 
+## Blender (realistic 3D shots)
+
+Fourteen video-relevant skills from github.com/arjun988/blender-skills (MIT), renamed with a `blender-` prefix
+(`blender-director` routes to the rest: `blender-lighting`, `blender-camera-cinematography`, `blender-rendering`,
+`blender-materials`, `blender-lookdev`, `blender-compositing`, `blender-character-artist`, `blender-rigging`,
+`blender-animation`, `blender-modeler`, `blender-stylized-style`, `blender-cartoon-style`, `blender-horror-style`).
+Their shared notes are in `.claude/skills/blender-references/`; the other 80 skills (game engines, game genres) were
+left out on purpose and are listed in `blender-references/NOT-INSTALLED.md`.
+
+The skills assume Blender running on a computer with the BlenderMCP add-on. In a cloud session there is no add-on:
+write a Python script and run it headless (`blender -b --python scene.py -- args`), as in `videos/blender-test/scene.py`.
+Setup in a cloud session: `apt-get update && apt-get install -y --no-install-recommends blender python3-numpy`
+(Blender 4.0; numpy is needed by its FBX importer). That build has no denoiser and no graphics card, so renders use
+Cycles on the processor: about 25 s for a 540x960 frame at 48 samples, so plan short shots (a 2 s move at 720x1280 is
+about 40 minutes). Use Blender for hero shots where real glass, skin and light matter; the three.js shots inside
+Remotion stay the fast default. Clear the FBX's stored animation (`animation_data_clear()`) before posing the man.
+
 ## Video (Remotion)
 
 The official Remotion skills (`remotion-best-practices` routes to the rest: `remotion-create`,

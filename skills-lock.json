@@ -50,6 +50,104 @@
       "computedHash": "8bd257b845985f4b35b603b510a126604176521094af79c4b7347ffeb8a8f7ab",
       "installMode": "copy"
     },
+    "blender-animation": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/animation/SKILL.md",
+      "computedHash": "234da4594905955de2f4eeefc270c85f4b90d584bafe6e1302f905e4d7852c73",
+      "installMode": "copy"
+    },
+    "blender-camera-cinematography": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/camera-cinematography/SKILL.md",
+      "computedHash": "8713ceb64ba7241490af0403cedaca1dd6e1126e4ece37c11786e269d564d838",
+      "installMode": "copy"
+    },
+    "blender-cartoon-style": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/cartoon-style/SKILL.md",
+      "computedHash": "72b0b489d6666ffa0d370969b91c8a30246124e6153a07bd72f341222bb61305",
+      "installMode": "copy"
+    },
+    "blender-character-artist": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/character-artist/SKILL.md",
+      "computedHash": "60c0482a304a00b3109a611faa4645cef386f382004152d47f105329766699e7",
+      "installMode": "copy"
+    },
+    "blender-compositing": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/compositing/SKILL.md",
+      "computedHash": "52bfb86f2dfcf03b0f41c388f089ebeee5be934ae4575221b9997b185724b276",
+      "installMode": "copy"
+    },
+    "blender-director": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/blender-director/SKILL.md",
+      "computedHash": "9008b265c3ed6c348bcb0573016f0aa808df806240787a16158cb60b8f17b4a2",
+      "installMode": "copy"
+    },
+    "blender-horror-style": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/horror-style/SKILL.md",
+      "computedHash": "40e27240294ee12b28bbac17383412ba91e8eb7d6e46604430a2ea9017711b5b",
+      "installMode": "copy"
+    },
+    "blender-lighting": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/lighting/SKILL.md",
+      "computedHash": "2e23439a2ed6504c3920eeab8db25c5de9a303d4c059ee6b47bbb771e2b66fc0",
+      "installMode": "copy"
+    },
+    "blender-lookdev": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/lookdev/SKILL.md",
+      "computedHash": "2879b6fc9c238b44cc153418ffe25684536164cca241bb39d1c82d5784d9cd0f",
+      "installMode": "copy"
+    },
+    "blender-materials": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/materials/SKILL.md",
+      "computedHash": "b3def0f673b3232bde1e08060f04f54bc6b0523142023eb9b361f5e2c2a5d3f8",
+      "installMode": "copy"
+    },
+    "blender-modeler": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/blender-modeler/SKILL.md",
+      "computedHash": "26ef1a6ae1638de10bd6f7a11e46d2b0ad262fdb708d535ca1ad7b469fb2a0be",
+      "installMode": "copy"
+    },
+    "blender-rendering": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/rendering/SKILL.md",
+      "computedHash": "f5be430e28ddbcc85cce4548c20d830bdb8ae718c3561541ee3545c27a1205d1",
+      "installMode": "copy"
+    },
+    "blender-rigging": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/rigging/SKILL.md",
+      "computedHash": "8cf4570496e25f56b4f63c5d968c4ccc4510474482430a66dbee63bb20bdd654",
+      "installMode": "copy"
+    },
+    "blender-stylized-style": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/stylized-style/SKILL.md",
+      "computedHash": "7005000cfc2e73ad8e91308f0171bab4c87f8a572a45803773613baed653df23",
+      "installMode": "copy"
+    },
     "break-ui": {
       "source": "emilkowalski/skills",
       "sourceType": "github",
