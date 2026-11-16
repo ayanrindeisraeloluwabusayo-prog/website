@@ -1,6 +1,6 @@
 # Why do you feel like a fraud, even when you are doing well? (impostor syndrome)
 
-Test of the "famous anchor" idea: same script style as before (short lines, opens on the viewer), then a real,
+Script style: **Star Proof** (see video-styles/script-styles.md). same script style as before (short lines, opens on the viewer), then a real,
 checked moment from famous people, then the science. Draft for the owner's approval.
 
 ## Script (~200 words, about 63 s at the approved slower voice)
@@ -21,8 +21,9 @@ They called it the impostor phenomenon.
 But here's the twist. They thought it was mostly women.
 Then in 2020, a review of sixty-two studies found men feel it just as much.
 
-So that voice isn't proof that you're a fraud.
-It's the same voice Michelle Obama hears.
+So that voice isn't proof that you're a fraud. Michelle Obama hears it too.
+And next time someone praises your work, do what those two psychologists asked the women to do.
+Write it down. And notice how fast you try to explain it away.
 
 ## Facts and where each comes from
 - Michelle Obama, Royal Festival Hall (Southbank Centre), London, 3 December 2018, in conversation with Chimamanda Ngozi
@@ -36,4 +37,7 @@ It's the same voice Michelle Obama hears.
 - Bravata et al. (2020). Prevalence, predictors, and treatment of impostor syndrome: a systematic review. Journal of
   General Internal Medicine, 35(4), 1252-1275. 62 studies; rates from 9 % to 82 % depending on the test used; men and women
   affected at similar rates.
+- The closing tip comes from the 1978 paper: the women were asked to keep a record of the positive feedback they
+  received and of how they stopped themselves accepting it. It is offered as something to try, not as a proven cure
+  (the 2020 review found treatments have been little studied).
 - Nothing is diagnosed: both famous people are quoted in their own public words only.

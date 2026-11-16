@@ -121,6 +121,11 @@ songs) unless the owner names it. Treat each new request as its own project.
 `video-styles/` holds frame-by-frame studies of editing styles the owner wants to use (technique
 only, never the source footage, wording or branding). `blue-serif-explainer.md` is the first.
 
+## Named script styles
+
+The owner chooses how a script is written by name: **You First**, **Star Proof** or **Story Flow**. The rules for each are
+in `video-styles/script-styles.md`. Use the named style exactly, and fact-check everything before showing a script.
+
 ## Explainer videos (blue-explainer-video skill)
 
 The `blue-explainer-video` skill in `.claude/skills/` turns the owner's favourite edit (the "Why a song
