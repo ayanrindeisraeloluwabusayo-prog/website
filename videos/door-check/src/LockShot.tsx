@@ -12,6 +12,8 @@ import { reach, restPose, toRest } from "./pose";
 import { BlueStage } from "./motion";
 
 export const LOCK_FRAMES = 75;
+/** the push-in lasts this many frames (longer clips move more slowly) */
+let MOVE = 75;
 
 const GOLD = "#F3C21D";
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
@@ -87,7 +89,7 @@ const Scene: React.FC<{ man: Man; blurAt?: number }> = ({ man, blurAt = 1e9 }) =
   rim.uniforms.k.value = 1.8 - 0.6 * blur;
 
   // the same move as the Blender version: a three-quarter view that slowly pushes in
-  const t = ease(interpolate(f, [0, LOCK_FRAMES - 1], [0, 1], clamp));
+  const t = ease(interpolate(f, [0, MOVE - 1], [0, 1], clamp));
   const dist = 132 - 30 * t, ang = ((24 - 9 * t) * Math.PI) / 180;
   camera.position.copy(v(Math.sin(ang) * dist, eye.y + 1, Math.cos(ang) * dist));
   camera.lookAt(v(0, eye.y - 7 + 4 * t, 0));
@@ -111,7 +113,8 @@ const Scene: React.FC<{ man: Man; blurAt?: number }> = ({ man, blurAt = 1e9 }) =
   );
 };
 
-export const LockShot: React.FC<{ blurAt?: number }> = ({ blurAt }) => {
+export const LockShot: React.FC<{ blurAt?: number; move?: number }> = ({ blurAt, move = 75 }) => {
+  MOVE = move;
   const { width, height } = useVideoConfig();
   const { man, handle } = useMan(PERSON[0], PERSON[1]);
   return (

@@ -58,9 +58,9 @@ write a Python script and run it headless (`blender -b --python scene.py -- args
 Setup in a cloud session: `apt-get update && apt-get install -y --no-install-recommends blender python3-numpy`
 (Blender 4.0; numpy is needed by its FBX importer). That build has no denoiser and no graphics card, so renders use
 Cycles on the processor: about 25 s for a 540x960 frame at 48 samples, so plan short shots (a 2 s move at 720x1280 is
-about 40 minutes). Use Blender for hero shots where real glass, skin and light matter; the three.js shots inside
-Remotion stay the fast default. Before building the 3D shots of each new video, ask the owner: keep the current 3D man, or make
-him more real with Blender? Never switch on your own. Clear the FBX's stored animation (`animation_data_clear()`) before posing the man.
+about 40 minutes). The owner compared both on the door-check video and chose the current three.js man ("A") for every video: do not use
+Blender in the owner's videos. Keep it only for a separate animation project if the owner asks for it by name.
+Clear the FBX's stored animation (`animation_data_clear()`) before posing the man.
 
 ## Video (Remotion)
 
