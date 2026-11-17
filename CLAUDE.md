@@ -123,7 +123,8 @@ only, never the source footage, wording or branding). `blue-serif-explainer.md` 
 
 ## Named script styles
 
-The owner chooses how a script is written by name: **You First**, **Star Proof** or **Story Flow**. The rules for each are
+The owner chooses how a script is written by name: **You First**, **Star Proof**, **Story Flow** or **Full Blend**
+(all three in one script; the owner's preferred mix). The rules for each are
 in `video-styles/script-styles.md`. Use the named style exactly, and fact-check everything before showing a script.
 
 ## Explainer videos (blue-explainer-video skill)

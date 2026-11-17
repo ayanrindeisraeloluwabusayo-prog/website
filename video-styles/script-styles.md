@@ -1,6 +1,6 @@
 # The owner's named script styles
 
-The owner picks a style by name ("use You First", "use Star Proof"). Every fact in every style must be real and
+The owner picks a style by name ("use You First", "use Star Proof", "use Full Blend"). Every fact in every style must be real and
 checked before the script is shown; nothing is made up.
 
 ## You First
@@ -21,6 +21,15 @@ Everything in You First, in the same order, plus a famous person.
 5. The close does two things, in this order: it goes back to the famous person, then it turns to the viewer with
    something they can do or take away, so the last line is for them ("...Michelle Obama hears it too. And next time
    someone praises your work, write it down.").
+
+## Full Blend
+All three styles in one script, each doing one job. The owner's preferred mix (first used on the impostor video).
+1. **You First opens** (about 8 s): short lines that put the viewer inside the feeling.
+2. **Star Proof next** (about 15 s): "Now listen to this." then the famous person's real, checked words or moment.
+3. **Story Flow carries the science** (about 35 s): one flowing story, sentences joined by "now", "and you see", "so".
+   The turn is always worded **"But here's the twist:"** (never "the strange part").
+4. **Close:** back to the famous person, then to the viewer with something they can do ("...because Michelle Obama
+   hears it too. And next time someone praises your work, write it down...").
 
 ## Story Flow
 The style of the owner's five reference narrators (lyrics and journey-home videos); full rules in story-narration.md.
