@@ -1,0 +1,14 @@
+{
+ "id": "REPLACE_WITH_KAGGLE_USERNAME/animate-cartoon-character",
+ "title": "animate-cartoon-character",
+ "code_file": "animate-character.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [],
+ "competition_sources": [],
+ "kernel_sources": []
+}
