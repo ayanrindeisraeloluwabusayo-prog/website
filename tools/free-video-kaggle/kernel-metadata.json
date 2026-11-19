@@ -1,0 +1,14 @@
+{
+ "id": "REPLACE_WITH_KAGGLE_USERNAME/wan-free-clips",
+ "title": "wan-free-clips",
+ "code_file": "wan-free-clips.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "machine_shape": "NvidiaTeslaT4",
+ "dataset_sources": [],
+ "competition_sources": [],
+ "kernel_sources": []
+}
