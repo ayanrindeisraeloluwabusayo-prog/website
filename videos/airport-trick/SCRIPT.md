@@ -1,17 +1,8 @@
-# The airport trick (Full Blend)
+# The airport trick (Full Blend, v2)
 
-You're standing at the baggage carousel. Seven minutes. It feels like forever.
-
-Now listen to this. According to The New York Times, a Houston airport kept getting complaints about slow luggage. So they hired more baggage handlers, and the wait dropped to about eight minutes. But the complaints kept coming.
-
-So they looked closer. Passengers walked about one minute to baggage claim, then stood there waiting for seven. So the airport moved the arrival gates farther away, and sent the bags to the farthest carousel. Now people walked six times longer to get their bags. And the complaints dropped to almost zero.
-
-But here's the twist: the bags didn't arrive any faster. The wait was the same. Only the empty part got shorter.
-
-In 1985, a business expert called David Maister wrote it down as a rule: occupied time feels shorter than unoccupied time. Standing still, your mind has nothing to do but count the seconds. Walking, it's busy.
-
-So that airport never sped up the bags. It just stopped people from watching the clock. Next time you have to wait, give your hands or your feet something to do. The minutes go faster when you're not counting them.
+You land. You're tired. And now you're standing at the baggage belt, staring at the same empty rubber going round and round. Now listen to this. According to The New York Times, a Houston airport kept getting complaints about slow luggage, so they hired more baggage handlers and got the wait down to about eight minutes, and the complaints kept coming. And you see, when they looked closer, passengers were walking for about one minute to baggage claim and then standing there for seven, so the airport moved the arrival gates farther away and sent the bags to the farthest belt. Now people walked six times longer, and the complaints dropped to almost zero. The bags didn't come any faster. Now, in 1985, a business professor called David Maister wrote this down as a rule: occupied time feels shorter than unoccupied time, because when you're just standing there, your mind has nothing to do but count the seconds. But here's the twist: in 2014, psychologists at the University of Virginia left people alone in a plain room for fifteen minutes with nothing but their thoughts and a button that gave them an electric shock. Most of them had said they would pay money to avoid that shock. Two out of three men and one in four women pressed it anyway. So that Houston airport never sped up a single bag. It just took away the empty minutes. Next time you have to wait, give your feet or your hands something to do, and the wait will feel shorter.
 
 ## Sources (checked)
-- Alex Stone, "Why Waiting Is Torture", The New York Times, 18 Aug 2012: complaints about baggage waits at a Houston airport; more handlers cut the average wait to 8 minutes, complaints continued; 1-minute walk + 7-minute wait; gates moved away and bags sent to the outermost carousel; walk six times longer; complaints fell to near zero. The airport never confirmed it publicly, so the script says "according to The New York Times".
-- David H. Maister, "The Psychology of Waiting Lines" (1985): first proposition, "Occupied time feels shorter than unoccupied time".
+- Alex Stone, "Why Waiting Is Torture", The New York Times, 18 Aug 2012 (8-minute wait, 1-minute walk + 7-minute wait, gates moved, outermost carousel, walk 6x longer, complaints near zero). Not confirmed by the airport, hence "according to".
+- David H. Maister, "The Psychology of Waiting Lines" (1985): "Occupied time feels shorter than unoccupied time."
+- Wilson et al., "Just think: The challenges of the disengaged mind", Science 345(6192), 2014: 15 minutes alone; 12 of 18 men (67%) and 6 of 24 women (25%) shocked themselves, among those who had said they would pay to avoid the shock.
