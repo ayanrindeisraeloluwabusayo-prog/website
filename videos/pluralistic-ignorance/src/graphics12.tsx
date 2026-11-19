@@ -21,25 +21,25 @@ export const Emperor: React.FC<{ from: number; nakedAt: number; silentAt: number
   const k = p(f, from, 14), nk = p(f, nakedAt, 14), si = p(f, silentAt, 12);
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: 90, top: 820, width: 900, height: 860, background: "#f1ece0", borderRadius: 10, opacity: k,
+      <div style={{ position: "absolute", left: 90, top: 700, width: 900, height: 1000, background: "#f1ece0", borderRadius: 10, opacity: k,
         transform: `translateY(${(1 - k) * 60}px) rotate(${-1.5 + 0.5 * k}deg)`, boxShadow: "0 50px 100px rgba(0,0,0,0.5)", color: INK, overflow: "hidden" }}>
         <div style={{ position: "absolute", left: 50, top: 40, ...lab, fontSize: 26, opacity: 0.7 }}>HANS CHRISTIAN ANDERSEN · 1837</div>
         <div style={{ position: "absolute", left: 50, top: 82, fontFamily: SERIF2, fontSize: 64, lineHeight: 1.05 }}>The Emperor’s<br />New Clothes</div>
-        <svg width={900} height={860} style={{ position: "absolute", inset: 0 }}>
+        <svg width={900} height={1000} style={{ position: "absolute", inset: 0 }}>
           {/* the emperor: crown, body drawn as a dotted outline ("the clothes") that fades away */}
-          <g transform="translate(450 520)">
-            <path d="M -34 -150 L -20 -126 L 0 -150 L 20 -126 L 34 -150 L 30 -112 L -30 -112 Z" fill={FLASH} stroke={INK} strokeWidth={4} />
-            <circle cx={0} cy={-80} r={34} fill="#e9c7a8" stroke={INK} strokeWidth={4} />
+          <g transform="translate(450 560) scale(1.6)">
+            <path d="M -34 -112 L -20 -88 L 0 -112 L 20 -88 L 34 -112 L 30 -74 L -30 -74 Z" fill={FLASH} stroke={INK} strokeWidth={4} />
+            <circle cx={0} cy={-42} r={34} fill="#e9c7a8" stroke={INK} strokeWidth={4} />
             <path d="M -60 120 C -60 -10, 60 -10, 60 120 Z" fill="#e9c7a8" stroke={INK} strokeWidth={4} />
             <path d="M -78 130 C -78 -24, 78 -24, 78 130 Z" fill="none" stroke="#7a3fb0" strokeWidth={6} strokeDasharray="10 12" opacity={1 - nk} />
-            <text x={0} y={175} textAnchor="middle" fill={INK} fontSize={26} {...lab} opacity={nk}>NAKED</text>
+            <text x={0} y={162} textAnchor="middle" fill={INK} fontSize={20} {...lab} opacity={nk}>NAKED</text>
           </g>
           {[0, 1, 2, 3, 4, 5, 6, 7].map((i) => {
-            const x = 90 + i * 103 + (i > 3 ? 40 : -40), y = 790;
+            const x = 70 + i * 108, y = 940;
             return (
               <g key={i}>
-                <Person x={x} y={y} s={1.5} color="#4b4e6d" />
-                <text x={x} y={y - 75} textAnchor="middle" fill={INK} fontSize={34} fontFamily={SANS2} fontWeight={900} opacity={si * (0.6 + 0.4 * Math.sin(f / 6 + i))}>…</text>
+                <Person x={x} y={y} s={2.0} color="#4b4e6d" />
+                <text x={x} y={y - 92} textAnchor="middle" fill={INK} fontSize={34} fontFamily={SANS2} fontWeight={900} opacity={si * (0.6 + 0.4 * Math.sin(f / 6 + i))}>…</text>
               </g>
             );
           })}
@@ -54,10 +54,10 @@ export const SmokeRoom: React.FC<{ from: number; smokeAt: number }> = ({ from, s
   const f = useCurrentFrame();
   const k = p(f, from, 14);
   const t = Math.max(0, f - smokeAt);
-  const puffs = Array.from({ length: 26 }, (_, i) => {
-    const age = t - i * 4; if (age <= 0) return null;
-    const u = Math.min(1, age / 110);
-    return { x: 880 - u * (300 + (i % 5) * 70), y: 1000 + u * (80 + (i % 4) * 90) - Math.sin(i) * 20, r: 30 + u * 120, o: 0.5 * (1 - 0.5 * u) };
+  const puffs = Array.from({ length: 40 }, (_, i) => {
+    const age = t - i * 2.5; if (age <= 0) return null;
+    const u = Math.min(1, age / 70);
+    return { x: 880 - u * (250 + (i % 6) * 95), y: 990 + u * (60 + (i % 5) * 110) - Math.sin(i) * 20, r: 40 + u * 170, o: 0.72 * (1 - 0.35 * u) };
   });
   return (
     <AbsoluteFill style={{ opacity: k }}>

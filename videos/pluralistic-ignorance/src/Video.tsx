@@ -52,7 +52,7 @@ const BEATS: Beat[] = [
   { from: 18, key: [20, 21] }, { from: 22, key: [25, 25] }, { from: 26, key: [29, 30] }, { from: 31, key: [32, 32] }, { from: 35, key: [38, 39] },
   { from: 40, key: [41, 41] }, { from: 42, key: [43, 44] }, { from: 45, key: [48, 48] }, { from: 49, key: [52, 52] }, { from: 53, key: [54, 57] },
   { from: 58, key: [64, 64] }, { from: 65, key: [71, 71] }, { from: 72, key: [80, 80] }, { from: 81, key: [83, 83] }, { from: 84, key: [86, 87] },
-  { from: 88, key: [89, 89] }, { from: 90, key: [95, 96] }, { from: 97, key: [99, 99] }, { from: 100, key: [103, 107] }, { from: 108, key: [110, 112] },
+  { from: 88, key: [89, 89] }, { from: 90, key: [95, 96] }, { from: 97, key: [99, 99] }, { from: 100, key: [103, 104] }, { from: 108, key: [110, 112] },
   { from: 113, key: [119, 119] }, { from: 120, key: [124, 124] }, { from: 125, key: [129, 129] }, { from: 130, key: [132, 132] },
   { from: 136, key: [143, 143] }, { from: 144, key: [144, 147] }, { from: 148, key: [151, 151] }, { from: 153, key: [159, 159] },
   { from: 160, key: [162, 162] }, { from: 165, key: [166, 166] }, { from: 168, key: [169, 171] }, { from: 172, key: [173, 173] },
@@ -107,7 +107,7 @@ const Clip: React.FC<{ src: string; at: number }> = ({ src, at }) => (
 );
 
 // music level: "musicGain" input prop lets a listening test override it
-const { musicGain: MUSIC_GAIN = 0.71 } = getInputProps() as { musicGain?: number };
+const { musicGain: MUSIC_GAIN = 1.1 } = getInputProps() as { musicGain?: number };
 
 export const Plural: React.FC = () => {
 
