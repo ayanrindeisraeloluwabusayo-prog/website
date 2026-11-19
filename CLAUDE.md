@@ -121,6 +121,11 @@ songs) unless the owner names it. Treat each new request as its own project.
 `video-styles/` holds frame-by-frame studies of editing styles the owner wants to use (technique
 only, never the source footage, wording or branding). `blue-serif-explainer.md` is the first.
 
+## Delivery
+
+Send the owner one file per finished video: the under-30 MB copy only (about 2.5-2.8 Mb/s video, AAC audio). Do not
+send or keep a separate full-quality copy unless the owner asks for one.
+
 ## Named script styles
 
 The owner chooses how a script is written by name: **You First**, **Star Proof**, **Story Flow** or **Full Blend**
