@@ -26,3 +26,18 @@ Voice: Kokoro-82M (open source, Apache-2.0), voice am_michael. Music: "twinkle s
 - `a-sunset.jpg`: https://pixabay.com/photos/airport-terminal-man-travel-1822133/ by ClickerHappy
 - `a-bags.jpg`: https://pixabay.com/photos/luggage-suitcases-baggage-bags-933487/ by tookapic
 - `a-clock.jpg`: https://pixabay.com/photos/carriage-clock-timepiece-time-797833/ by stevepb
+
+## Video clips (Pixabay Content License)
+
+- `v-land.mp4`: https://pixabay.com/videos/id-176930/ phgvu307
+- `v-tired.mp4`: https://pixabay.com/videos/id-1383/ Activedia
+- `v-belt.mp4`: https://pixabay.com/videos/id-5628/ Coverr-Free-Footage
+- `v-belt2.mp4`: https://pixabay.com/videos/id-5643/ Coverr-Free-Footage
+- `v-watch.mp4`: https://pixabay.com/videos/id-43295/ dayanandgarg
+- `v-walk.mp4`: https://pixabay.com/videos/id-36510/ Joker911
+- `v-walk2.mp4`: https://pixabay.com/videos/id-3593/ Life-Of-Vids
+- `v-bags.mp4`: https://pixabay.com/videos/id-3585/ Life-Of-Vids
+- `v-clock.mp4`: https://pixabay.com/videos/id-7549/ PIRO4D
+- `v-bench.mp4`: https://pixabay.com/videos/id-382902/ klaatubaradanikto
+- `v-feet.mp4`: https://pixabay.com/videos/id-3627/ Coverr-Free-Footage
+- `v-sunset.mp4`: https://pixabay.com/videos/id-189895/ Valentin_Aleksandrov

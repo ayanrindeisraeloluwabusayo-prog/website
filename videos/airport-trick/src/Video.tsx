@@ -36,21 +36,21 @@ export const FRAMES = END + 92;
 const WAIT_AT = 142;
 
 const LAYERS: Layer[] = [
-  { from: 0, to: 2, pic: "a-land.jpg" }, { from: 2, to: 4, pic: "a-tired.jpg", pos: "50% 40%" },
-  { from: 4, to: 12, pic: "a-belt.jpg", zoom: [1.0, 1.15] }, { from: 12, to: 22, pic: "a-belt2.jpg", zoom: [1.15, 1.0] },
+  { from: 0, to: 2, pic: "v-land.mp4" }, { from: 2, to: 4, pic: "v-tired.mp4" },
+  { from: 4, to: 12, pic: "v-belt.mp4", zoom: [1.0, 1.15] }, { from: 12, to: 22, pic: "v-belt2.mp4", zoom: [1.15, 1.0] },
   { from: 22, to: 26, g: "blue" }, { from: 26, to: 35, g: "nyt" },
   { from: 35, to: 41, pic: "a-claim.jpg" }, { from: 41, to: 48, pic: "a-crowd.jpg", pos: "60% 50%" },
   { from: 48, to: 56, g: "wait" }, { from: 56, to: 61, g: "complaints" },
-  { from: 61, to: 68, pic: "a-watch.jpg", pos: "45% 50%" }, { from: 68, to: 84, g: "journey", cues: [70] },
-  { from: 84, to: 93, pic: "a-walk.jpg", pos: "55% 50%" }, { from: 93, to: 101, pic: "a-walk2.jpg", pos: "60% 50%" },
+  { from: 61, to: 68, pic: "v-watch.mp4" }, { from: 68, to: 84, g: "journey", cues: [70] },
+  { from: 84, to: 93, pic: "v-walk.mp4" }, { from: 93, to: 101, pic: "v-walk2.mp4" },
   { from: 101, to: 107, g: "journey2", cues: [103] }, { from: 107, to: 114, g: "drop", cues: [110] },
-  { from: 114, to: 120, pic: "a-bags.jpg" }, { from: 120, to: 127, g: "blue" }, { from: 127, to: 135, g: "p85" },
-  { from: 135, to: WAIT_AT, pic: "a-clock.jpg", pos: "35% 50%" }, { from: WAIT_AT, to: 158, clip: "wait.mp4", start: WAIT_AT },
+  { from: 114, to: 120, pic: "v-bags.mp4" }, { from: 120, to: 127, g: "blue" }, { from: 127, to: 135, g: "p85" },
+  { from: 135, to: WAIT_AT, pic: "v-clock.mp4" }, { from: WAIT_AT, to: 158, clip: "wait.mp4", start: WAIT_AT },
   { from: 158, to: 162, g: "blue" }, { from: 162, to: 170, g: "p14" }, { from: 170, to: 194, g: "room", cues: [187] },
-  { from: 194, to: 207, pic: "a-bench.jpg", pos: "50% 50%" }, { from: 207, to: 220, g: "bars", cues: [210, 215] },
-  { from: 220, to: 230, pic: "a-belt2.jpg", zoom: [1.0, 1.12] }, { from: 230, to: 237, pic: "a-walk.jpg", pos: "40% 50%" },
-  { from: 237, to: 243, pic: "a-watch.jpg", pos: "45% 50%" }, { from: 243, to: 252, pic: "a-feet.jpg", pos: "50% 60%" },
-  { from: 252, to: 999, pic: "a-sunset.jpg", pos: "55% 50%", zoom: [1.15, 1.0] },
+  { from: 194, to: 207, pic: "v-bench.mp4", pos: "70% 50%" }, { from: 207, to: 220, g: "bars", cues: [210, 215] },
+  { from: 220, to: 230, pic: "v-belt.mp4", zoom: [1.0, 1.12] }, { from: 230, to: 237, pic: "v-walk.mp4" },
+  { from: 237, to: 243, pic: "v-watch.mp4" }, { from: 243, to: 252, pic: "v-feet.mp4" },
+  { from: 252, to: 999, pic: "v-sunset.mp4", zoom: [1.15, 1.0] },
 ];
 
 const BEATS: Beat[] = [
@@ -132,7 +132,7 @@ export const Airport: React.FC = () => {
           <Scene key={i} from={a} to={b}>
             {"pic" in l ? (
               <>
-                <Shot src={l.pic} from={a} to={b} pos={l.pos ?? "50% 45%"} zoom={l.zoom ?? (i % 2 ? [1.12, 1.02] : [1.02, 1.12])} grade={l.grade ?? "contrast(1.06)"} />
+                <Shot src={l.pic} video={l.pic.endsWith(".mp4")} from={a} to={b} pos={l.pos ?? "50% 45%"} zoom={l.zoom ?? (i % 2 ? [1.12, 1.02] : [1.02, 1.12])} grade={l.grade ?? "contrast(1.06)"} />
                 <Scrim side="top" strength={0.7} />
               </>
             ) : "clip" in l ? (
