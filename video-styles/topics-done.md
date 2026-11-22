@@ -6,3 +6,6 @@ pluralistic ignorance (nobody asks questions in class / emperor's new clothes), 
 Scripted, not made: social loafing (owner not interested), left-digit pricing (₦9,999).
 Owner has seen these suggested before (avoid repeating unless asked): phantom vibration, own voice on recordings,
 hypnic jerk, forgetting names, return-trip effect, can't tickle yourself, slowest queue, hangry, faces in things.
+Offered from topic-scout (Nov 2026): talking to yourself, can't stop thinking about someone (white bear), zoning out
+(mind-wandering), always wanting more (hedonic adaptation), the word "because" (Xerox study), false memories,
+laughing more with others, overthinking/replaying bad memories.
