@@ -1,7 +1,8 @@
 # The owner's named script styles
 
 The owner picks a style by name ("use You First", "use Star Proof", "use Full Blend"). Every fact in every style must be real and
-checked before the script is shown; nothing is made up.
+checked before the script is shown; nothing is made up. Prices and money are in US dollars (most viewers are
+outside Nigeria): never naira.
 
 ## You First
 The style of the doorway, call-of-the-void and bystander videos.
@@ -25,7 +26,8 @@ Everything in You First, in the same order, plus a famous person.
 ## Full Blend
 All three styles in one script, each doing one job. The owner's preferred mix (first used on the impostor video).
 1. **You First opens** (about 8 s): short lines that put the viewer inside the feeling.
-2. **Star Proof next** (about 15 s): "Now listen to this." then the famous person's real, checked words or moment.
+2. **Star Proof next** (about 15 s): open it with a curious "Remember when…?" question that pulls the viewer in (the owner finds
+   "Now listen to this" rude; don't use it), then the famous person's real, checked words or moment.
 3. **Story Flow carries the science** (about 35 s): one flowing story, sentences joined by "now", "and you see", "so".
    The turn is always worded **"But here's the twist:"** (never "the strange part").
 4. **Close:** back to the famous person, then to the viewer with something they can do ("...because Michelle Obama
