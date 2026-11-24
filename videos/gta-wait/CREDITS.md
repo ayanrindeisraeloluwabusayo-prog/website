@@ -1,0 +1,1 @@
+- Photos (Pixabay Content License): g-pad.jpg https://pixabay.com/photos/game-controller-joystick-joypad-1532747/ (quakeboy); g-room.jpg https://pixabay.com/photos/interior-design-home-office-8922413/ (Setupx3D); g-hands.jpg https://pixabay.com/photos/gaming-tv-players-player-home-2259191/ (JESHOOTS-com)

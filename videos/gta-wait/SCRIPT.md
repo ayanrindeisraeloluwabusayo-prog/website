@@ -1,0 +1,10 @@
+# Why the wait for GTA 6 felt so good (Full Blend draft)
+
+You've been waiting for this game for years. You watched every trailer, every leak, every rumour. And somehow, the waiting itself felt good. Remember when the first GTA 6 trailer dropped in December 2023? It pulled more than ninety million views in twenty-four hours, a world record for a game reveal. Ninety million people, excited about something they couldn't even play yet. Now, scientists have a name for this, anticipation, and in the 1990s a neuroscientist called Wolfram Schultz showed what it does to your brain. He gave monkeys a sip of juice right after a light or a sound, and you see, after a while their dopamine neurons stopped firing for the juice, and started firing for the signal. The brain's reward chemical was all about the waiting, not the getting. But here's the twist: the waiting can be better than the thing itself. In 2010, Dutch researchers followed more than fifteen hundred people around their holidays, and the happiest ones were the people who were about to go away. After they came back, most of them were no happier than people who never left. So those ninety million people weren't wasting their time. The hype was part of the fun. Next time you finish something big, don't let the excitement die. Find your next thing to look forward to.
+
+## Sources (checked)
+- GTA 6 trailer, 5 Dec 2023: 90+ million YouTube views in 24 hours; Guinness: most viewed videogame reveal on YouTube in 24 hours.
+- Schultz, W., Dayan, P., & Montague, P. R. (1997). A neural substrate of prediction and reward. Science, 275(5306), 1593-1599 (monkey dopamine recordings; firing shifts to the cue that predicts juice).
+- Nawijn, J., Marchand, M. A., Veenhoven, R., & Vingerhoets, A. J. (2010). Vacationers happier, but most not happier after a holiday. Applied Research in Quality of Life, 5(1). 1,530 Dutch adults: vacationers happier before the trip; after it, most no happier than non-vacationers.
+- GTA 6 released 19 November 2026 (GTA V: September 2013).
+- Rule: no Rockstar footage, logo, characters or trailer clips; "GTA 6" only as plain text in our fonts.
