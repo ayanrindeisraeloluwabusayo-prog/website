@@ -126,6 +126,12 @@ only, never the source footage, wording or branding). `blue-serif-explainer.md` 
 Send the owner one file per finished video: the under-30 MB copy only (about 2.5-2.8 Mb/s video, AAC audio). Do not
 send or keep a separate full-quality copy unless the owner asks for one.
 
+## Thumbnails
+
+Every video gets a thumbnail in the video's own look (blue serif explainer style), chosen by the owner from 4
+previewed options, then baked into the video's first frames and exported as `final/<name>-thumbnail.jpg`. One
+design must work on TikTok, YouTube Shorts and Instagram alike (rules in the `blue-explainer-video` skill, step 8).
+
 ## Named script styles
 
 The owner chooses how a script is written by name: **You First**, **Star Proof**, **Story Flow** or **Full Blend**

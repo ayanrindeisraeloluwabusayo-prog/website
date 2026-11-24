@@ -34,7 +34,7 @@ Each video is its own project: never link it to Drah Charts or to another video 
 
 ## The process
 
-Work through these steps in order. After steps 3 and 7, show the owner the result and wait for their
+Work through these steps in order. After steps 3, 7 and 8, show the owner the result and wait for their
 answer before going on.
 
 ### 1. Script and beats
@@ -109,6 +109,24 @@ Commit the project, but not `node_modules`, `out/` or the generated audio. Media
 to commit. **Save the finished video too:** copy it to `videos/<project>/final/<name>.mp4` and commit it
 (the owner wants the video file kept). When a video is changed later, replace that file with the new
 render.
+
+### 8. Thumbnail (every video)
+Every video gets a thumbnail, previewed before the final render. The owner noticed their best-performing
+videos had the most provocative, enticing first image.
+1. **Offer 4 options** side by side (one sheet, labelled A–D), all in this edit's look: electric blue
+   (#0243F1 / deep #011A8C), the Newsreader serif headline with **one gold word** (#F3C21D), small Inter Tight
+   capitals for the setup line, real photos or one of the video's own graphics, light grain. Make them
+   provocative and curious (a question at the viewer, a myth crossed out in red, a big number contrast,
+   the study as proof), never misleading, never brand logos. Put your own pick first and say why.
+2. **One design for every platform.** Build it at 1080×1920. Keep the headline and key image inside the
+   centre 1080×1440 (3:4, y 240–1680: what Instagram's profile grid shows), leave the right 140 px and the
+   bottom 300 px free of text (TikTok, Shorts and Reels put buttons and captions there), and make the
+   headline readable at phone-feed size (serif 250+ px).
+3. **Bake it into the video:** the chosen thumbnail is the video's first 2 frames, so every platform's
+   default cover is the thumbnail. Also export it as `final/<name>-thumbnail.jpg` (1080×1920) for
+   platforms that let the owner upload a cover.
+4. Code lives in `src/Thumbs.tsx` (one composition per option); the mosquito project
+   (`videos/mosquito`) is the first worked example.
 
 ## Things that went wrong before (avoid them)
 - **All pictures, no graphics.** The owner rejected this. The motion graphics are half the style.
