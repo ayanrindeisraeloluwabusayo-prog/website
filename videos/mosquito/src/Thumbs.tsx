@@ -19,10 +19,10 @@ const Person: React.FC<{ x: number; y: number; s: number; color: string }> = ({ 
 export const ThumbA: React.FC = () => (
   <AbsoluteFill style={{ background: "#000" }}>
     <Photo src="m-bloodfed.jpg" pos="45% 50%" scale={1.05} filter="contrast(1.12) saturate(1.1)" />
-    <AbsoluteFill style={{ background: `linear-gradient(180deg, ${BLUE_DEEP}f2 0%, ${BLUE}cc 30%, transparent 55%, transparent 75%, #000c 100%)` }} />
-    <div style={{ position: "absolute", left: 70, top: 220, ...lab, fontSize: 46 }}>WHY DOES IT ALWAYS BITE</div>
-    <div style={{ position: "absolute", left: 50, top: 300, ...serif(330), color: FLASH, textShadow: "0 10px 40px rgba(0,0,0,0.5)" }}>you?</div>
-    <div style={{ position: "absolute", left: 0, right: 0, bottom: 170, textAlign: "center", ...lab, fontSize: 40 }}>…AND NOT YOUR FRIEND</div>
+    <AbsoluteFill style={{ background: `linear-gradient(180deg, ${BLUE_DEEP}f2 0%, ${BLUE}cc 34%, transparent 58%, transparent 70%, #000c 92%)` }} />
+    <div style={{ position: "absolute", left: 70, top: 300, ...lab, fontSize: 46 }}>WHY DOES IT ALWAYS BITE</div>
+    <div style={{ position: "absolute", left: 50, top: 380, ...serif(330), color: FLASH, textShadow: "0 10px 40px rgba(0,0,0,0.5)" }}>you?</div>
+    <div style={{ position: "absolute", left: 0, right: 140, top: 1540, textAlign: "center", ...lab, fontSize: 40 }}>…AND NOT YOUR FRIEND</div>
     <Grain amount={0.14} />
   </AbsoluteFill>
 );
