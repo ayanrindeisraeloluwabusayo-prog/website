@@ -132,6 +132,12 @@ Every video gets a thumbnail in the video's own look (blue serif explainer style
 previewed options, then baked into the video's first frames and exported as `final/<name>-thumbnail.jpg`. One
 design must work on TikTok, YouTube Shorts and Instagram alike (rules in the `blue-explainer-video` skill, step 8).
 
+## Music choice
+
+Choose each video's music yourself from `sound-library/` by feel (the topic's mood, the message, the edit's pace
+against the track's rhythm and beat). Never default to Slow Spooky; vary the tracks. The owner names a track only
+when they want a specific one.
+
 ## Named script styles
 
 The owner chooses how a script is written by name: **You First**, **Star Proof**, **Story Flow** or **Full Blend**

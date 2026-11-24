@@ -16,3 +16,9 @@ Music the owner sends to use under their videos. The owner chooses which sound g
 | `twinkle-spooky.mp3` | Sparse, twinkling music-box style spooky bed, ~123 bpm, 76.7 s. A quiet break at ~60-62 s, a big end hit at 72.7 s. | Call of the void (`videos/call-of-the-void/public/music_twinkle_spooky.wav`): kept 0-23.3 s, jump on the beat to 39.2 s, quiet break lands under "why did I just step back?", end hit lands on the last word ("live"); one-beat silence under "jump". |
 
 Also used: `slow-spooky.mp3` in Bystander effect (`videos/bystander-effect/public/music_slow_spooky.wav`): kept 0-24.4 s, jump on the beat to 36.9 s, the track's thump lands on "31 percent did", end hit right after "point at one person"; silence under "And nobody stops".
+
+
+## Choosing a track (owner's rule)
+Pick the track for each video by its feel: match the topic's mood, the message and the pace of the edit to the
+track's rhythm and beat. Slow Spooky is not a default; rotate between tracks and only use what truly fits. The owner
+names a track only when they want a specific one.
