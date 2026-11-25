@@ -30,3 +30,11 @@ Finished examples to copy from: `videos/bedtime-phone`, `videos/feeling-watched`
 ## Other standing rules
 - Keys only through the environment settings, never in chat. `YOUTUBE_API_KEY` and `PIXABAY_API_KEY` live there.
 - Free tools only (X/Twitter API is paid; not connected). No PRs unless asked. Commit and push after changes.
+
+## Graphics look (owner's correction, 25 Nov 2026)
+- The reference for in-video motion graphics is `videos/mosquito` (and the videos before it). Big words and numbers inside
+  graphics use the thin serif (SERIF2), with no 3D extruded edge, no glow and no heavy 900-weight block letters; labels are
+  small, spaced capitals; shapes are simple and light, with plenty of empty blue around them.
+- The chunky extruded, glowing block letters (the `big()` helper that started in `gta-wait/src/gtg.tsx`) are for
+  THUMBNAILS ONLY. They crept into gta-wait, bedtime-phone, feeling-watched, spotlight-effect and deja-vu and made them
+  look "off"; never use them inside a video again.
