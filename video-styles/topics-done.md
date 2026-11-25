@@ -21,3 +21,4 @@ Made (25 Nov 2026): bedtime procrastination (phone at night), feeling watched (g
 Offered (25 Nov 2026, round 2): mess up when someone watches (social facilitation, Bond & Titus 1983), presentation nerves don't show (illusion of transparency, Savitsky & Gilovich 2003), can't stop thinking about unfinished work (Zeigarnik / Masicampo & Baumeister 2011), awkward giving compliments (Zhao & Epley 2021), office gossip (Dunbar 1997), forgetting what you crammed (spacing effect, Cepeda 2006).
 Made (25 Nov 2026): déjà vu (Cleary & Claxton 2018; St Andrews fMRI).
 Scripted (25 Nov 2026): time slows in an accident (Stetson, Fiesta & Eagleman 2007), can't remember being a baby (Akhtar 2018; Bauer & Larkina 2014; Yates et al. 2025).
+Scripted (25 Nov 2026): alone with thoughts / shock (Wilson 2014, full video), Dunning-Kruger (1999, lemon-juice robber), forgetting dreams (Lyon 2013; Izawa 2019).
