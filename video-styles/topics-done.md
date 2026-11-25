@@ -9,6 +9,10 @@ hypnic jerk, forgetting names, return-trip effect, can't tickle yourself, slowes
 Offered from topic-scout (Nov 2026): talking to yourself, can't stop thinking about someone (white bear), zoning out
 (mind-wandering), always wanting more (hedonic adaptation), the word "because" (Xerox study), false memories,
 laughing more with others, overthinking/replaying bad memories.
+Offered (25 Nov 2026): the liking gap ("no one likes me"), bedtime procrastination, feeling watched (gaze
+bias), the spotlight effect, nostalgia makes you feel warmer.
+Made since: left-digit pricing ($99.99), talking to yourself, the new phone (hedonic adaptation), one insult vs ten
+compliments, mosquitoes, GTA 6 anticipation.
 
 ## Saved for later (owner's own ideas)
 - Why mosquitoes bite you and not the person next to you (the science behind "mosquito magnets"). Owner asked to talk
