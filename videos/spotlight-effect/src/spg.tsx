@@ -7,8 +7,7 @@ import { SANS2, SERIF2 } from "./type";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const lab = { fontFamily: SANS2, fontWeight: 800, letterSpacing: "0.14em" } as const;
-const big = (size: number, face = "#fff", depth = FLASH): React.CSSProperties => ({ fontFamily: SANS2, fontWeight: 900, fontSize: size, lineHeight: 0.9, letterSpacing: "-0.04em", color: face,
-  textShadow: `${Array.from({ length: 12 }, (_, i) => `${i + 1}px ${i + 1}px 0 ${i < 6 ? depth : BLUE_DEEP}`).join(", ")}, 0 0 70px rgba(243,194,29,0.6)` });
+const big = (size: number, face = "#fff", _depth?: string): React.CSSProperties => ({ fontFamily: SERIF2, fontWeight: 400, fontSize: Math.round(size * 0.8), lineHeight: 0.95, letterSpacing: "-0.01em", color: face });
 const note = (text: string, top = 1640) => (
   <div style={{ position: "absolute", left: 0, right: 0, top, textAlign: "center", ...lab, fontSize: 22, color: "rgba(255,255,255,0.7)" }}>{text}</div>
 );
@@ -56,7 +55,7 @@ export const Shirt: React.FC<{ from: number; stampAt: number; proud?: boolean }>
         )}
       </svg>
       <div style={{ position: "absolute", left: 0, right: 0, top: 1380, textAlign: "center", opacity: s, transform: `rotate(-6deg) scale(${2 - s})` }}>
-        <span style={{ display: "inline-block", padding: "8px 32px 14px", border: `10px solid ${proud ? FLASH : "#ff3b3b"}`, borderRadius: 22, ...big(proud ? 120 : 96, proud ? FLASH : "#ff3b3b", "#fff") }}>{proud ? "PROUD" : "EMBARRASSING"}</span>
+        <span style={{ display: "inline-block", padding: "8px 32px 14px", border: `4px solid ${proud ? FLASH : "#ff3b3b"}`, borderRadius: 22, ...big(proud ? 120 : 96, proud ? FLASH : "#ff3b3b", "#fff") }}>{proud ? "proud" : "embarrassing"}</span>
       </div>
     </AbsoluteFill>
   );
@@ -106,8 +105,8 @@ export const Named: React.FC<{ from: number }> = ({ from }) => {
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 240, top: 600, width: 600, height: 900, background: "linear-gradient(180deg, rgba(255,240,180,0) 0%, rgba(255,240,180,0.35) 100%)", clipPath: "polygon(42% 0, 58% 0, 100% 100%, 0 100%)", opacity: k }} />
       <div style={{ position: "absolute", left: 0, right: 0, top: 1060, textAlign: "center", fontFamily: SERIF2, fontSize: 120, color: "#fff", opacity: k }}>the</div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1190, textAlign: "center", ...big(170, FLASH, "#fff"), opacity: k, transform: `scale(${1.2 - 0.2 * k})` }}>SPOTLIGHT</div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1360, textAlign: "center", ...big(170, "#fff"), opacity: p(f, from + 6, 12) }}>EFFECT</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1190, textAlign: "center", ...big(170, FLASH, "#fff"), opacity: k, transform: `scale(${1.2 - 0.2 * k})` }}>spotlight</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1360, textAlign: "center", ...big(170, "#fff"), opacity: p(f, from + 6, 12) }}>effect</div>
     </AbsoluteFill>
   );
 };
@@ -118,7 +117,7 @@ export const Detail: React.FC<{ from: number; mistakeAt: number }> = ({ from, mi
   const x = interpolate(f, [from, mistakeAt + 30], [180, 640], clamp);
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1080, textAlign: "center", ...big(190, "#fff"), opacity: p(f, mistakeAt - 4, 8) }}>MISTAKE</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1080, textAlign: "center", ...big(190, "#fff"), opacity: p(f, mistakeAt - 4, 8) }}>mistake</div>
       <div style={{ position: "absolute", left: x, top: 980, width: 300, height: 300, borderRadius: 150, border: `18px solid ${FLASH}`, background: "rgba(255,255,255,0.12)", boxShadow: "0 0 50px rgba(243,194,29,0.6)", opacity: p(f, from, 8) }}>
         <div style={{ position: "absolute", left: 240, top: 250, width: 40, height: 170, borderRadius: 20, background: FLASH, transform: "rotate(-45deg)", transformOrigin: "top" }} />
       </div>
@@ -132,8 +131,8 @@ export const Same: React.FC<{ from: number; proudAt: number; sameAt: number }> =
   return (
     <AbsoluteFill>
       <div style={{ opacity: 1 - p(f, sameAt - 4, 8) }}><Shirt from={from} stampAt={proudAt} proud /></div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1000, textAlign: "center", ...big(170, FLASH, "#fff"), opacity: p(f, sameAt, 8), transform: `scale(${1.5 - 0.5 * p(f, sameAt, 8)})` }}>SAME</div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1180, textAlign: "center", ...big(130, "#fff"), opacity: p(f, sameAt + 4, 10) }}>RESULT</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1000, textAlign: "center", ...big(170, FLASH, "#fff"), opacity: p(f, sameAt, 8), transform: `scale(${1.5 - 0.5 * p(f, sameAt, 8)})` }}>same</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1180, textAlign: "center", ...big(130, "#fff"), opacity: p(f, sameAt + 4, 10) }}>result</div>
     </AbsoluteFill>
   );
 };
@@ -143,8 +142,8 @@ export const Most: React.FC<{ from: number }> = ({ from }) => {
   const f = useCurrentFrame();
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 900, textAlign: "center", ...big(150, "#fff"), opacity: p(f, from, 8) }}>MOST PEOPLE</div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1080, textAlign: "center", ...big(150, FLASH, "#fff"), opacity: p(f, from + 8, 8), transform: `scale(${1.4 - 0.4 * p(f, from + 8, 8)})` }}>DIDN'T SEE IT</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 900, textAlign: "center", ...big(150, "#fff"), opacity: p(f, from, 8) }}>most people</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1080, textAlign: "center", ...big(150, FLASH, "#fff"), opacity: p(f, from + 8, 8), transform: `scale(${1.4 - 0.4 * p(f, from + 8, 8)})` }}>didn't see it</div>
     </AbsoluteFill>
   );
 };

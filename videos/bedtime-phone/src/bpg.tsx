@@ -2,13 +2,12 @@
 // "Netflix" appears only as plain text in our own type (no logo, no brand colours).
 import React from "react";
 import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
-import { BLUE_DEEP, FLASH, p } from "./kit";
+import { FLASH, p } from "./kit";
 import { SANS2, SERIF2 } from "./type";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const lab = { fontFamily: SANS2, fontWeight: 800, letterSpacing: "0.14em" } as const;
-const big = (size: number, face = "#fff", depth = FLASH): React.CSSProperties => ({ fontFamily: SANS2, fontWeight: 900, fontSize: size, lineHeight: 0.9, letterSpacing: "-0.04em", color: face,
-  textShadow: `${Array.from({ length: 12 }, (_, i) => `${i + 1}px ${i + 1}px 0 ${i < 6 ? depth : BLUE_DEEP}`).join(", ")}, 0 0 70px rgba(243,194,29,0.6)` });
+const big = (size: number, face = "#fff", _depth?: string): React.CSSProperties => ({ fontFamily: SERIF2, fontWeight: 400, fontSize: Math.round(size * 0.8), lineHeight: 0.95, letterSpacing: "-0.01em", color: face });
 const note = (text: string, top = 1640) => (
   <div style={{ position: "absolute", left: 0, right: 0, top, textAlign: "center", ...lab, fontSize: 22, color: "rgba(255,255,255,0.7)" }}>{text}</div>
 );
@@ -47,12 +46,12 @@ export const Rival: React.FC<{ from: number; revealAt: number; final?: boolean }
         const at = from + 6 + i * 7;
         const strike = p(f, at + 5, 6);
         return <div key={t} style={{ position: "absolute", left: 190, width: 700, top: 880 + i * 150, height: 120, borderRadius: 24, background: "rgba(10,14,50,0.8)", border: "4px solid rgba(255,255,255,0.5)",
-          display: "flex", alignItems: "center", justifyContent: "center", ...lab, fontSize: 46, color: "#fff", opacity: p(f, at, 6) * (1 - 0.6 * r) }}>
+          display: "flex", alignItems: "center", justifyContent: "center", ...lab, fontSize: 29, color: "#fff", opacity: p(f, at, 6) * (1 - 0.6 * r) }}>
           {t}
           <div style={{ position: "absolute", left: 40, right: 40, top: 56, height: 8, background: "#ff3b3b", transform: `scaleX(${strike})`, transformOrigin: "left" }} />
         </div>;
       })}
-      <div style={{ position: "absolute", left: 0, right: 0, top: final ? 960 : 1360, textAlign: "center", ...big(final ? 300 : 260, FLASH, "#fff"), opacity: r, transform: `scale(${1.6 - 0.6 * r})` }}>SLEEP</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: final ? 960 : 1360, textAlign: "center", ...big(final ? 300 : 260, FLASH, "#fff"), opacity: r, transform: `scale(${1.6 - 0.6 * r})` }}>sleep</div>
       {final ? <div style={{ position: "absolute", left: 0, right: 0, top: 1300, textAlign: "center", fontFamily: SERIF2, fontSize: 96, color: "#fff", opacity: p(f, from + 8, 10) }}>your sleep, every night</div> : null}
     </AbsoluteFill>
   );
@@ -111,7 +110,7 @@ export const Survey: React.FC<{ from: number; linkAt: number; sleepAt: number }>
       <div style={{ position: "absolute", left: 0, right: 0, top: 1170, textAlign: "center", ...lab, fontSize: 40, color: "#fff", opacity: 1 - p(f, linkAt - 4, 8) }}>{shown} PEOPLE SURVEYED</div>
       {chips.map(([t, at], i) => (
         <div key={t} style={{ position: "absolute", left: 160, right: 160, top: 900 + i * 230, height: 150, borderRadius: 30, background: i === 2 ? FLASH : "rgba(5,10,45,0.92)", border: "5px solid " + (i === 2 ? FLASH : "#fff"),
-          display: "flex", alignItems: "center", justifyContent: "center", ...lab, fontSize: 46, color: i === 2 ? "#111" : "#fff", opacity: p(f, at, 8), transform: `translateY(${(1 - p(f, at, 10)) * 60}px)` }}>
+          display: "flex", alignItems: "center", justifyContent: "center", ...lab, fontSize: 29, color: i === 2 ? "#111" : "#fff", opacity: p(f, at, 8), transform: `translateY(${(1 - p(f, at, 10)) * 60}px)` }}>
           {t}
           {i < 2 ? <div style={{ position: "absolute", bottom: -78, left: "50%", marginLeft: -20, width: 0, height: 0, borderLeft: "20px solid transparent", borderRight: "20px solid transparent", borderTop: `40px solid ${FLASH}`, opacity: p(f, chips[i + 1][1], 6) }} /> : null}
         </div>
@@ -129,7 +128,7 @@ export const Revenge: React.FC<{ from: number; stampAt: number }> = ({ from, sta
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 0, right: 0, top: 1180, textAlign: "center", fontFamily: SERIF2, fontSize: 130, color: "#fff", lineHeight: 0.95, opacity: p(f, from, 10) }}>bedtime<br />procrastination</div>
       <div style={{ position: "absolute", left: 0, right: 0, top: 880, textAlign: "center", opacity: s, transform: `rotate(-6deg) scale(${2.2 - 1.2 * s})` }}>
-        <span style={{ display: "inline-block", padding: "10px 40px 20px", border: `12px solid ${FLASH}`, borderRadius: 24, ...big(190, FLASH, "#fff") }}>REVENGE</span>
+        <span style={{ display: "inline-block", padding: "10px 40px 20px", border: `4px solid ${FLASH}`, borderRadius: 24, ...big(190, FLASH, "#fff") }}>revenge</span>
       </div>
       {note("A LATER INTERNET NAME FOR THE SAME HABIT", 1560)}
     </AbsoluteFill>
@@ -154,7 +153,7 @@ export const Day: React.FC<{ from: number; yoursAt: number }> = ({ from, yoursAt
         return el;
       })}
       <div style={{ position: "absolute", left: 840, top: 900, width: 150 * glow, height: 280, borderRadius: 14, background: FLASH, boxShadow: `0 0 ${80 * glow}px rgba(243,194,29,0.9)` }} />
-      <div style={{ position: "absolute", left: 780, width: 270, top: 1210, textAlign: "center", ...big(80, FLASH, "#fff"), opacity: glow }}>YOURS</div>
+      <div style={{ position: "absolute", left: 780, width: 270, top: 1210, textAlign: "center", ...big(80, FLASH, "#fff"), opacity: glow }}>yours</div>
       <div style={{ position: "absolute", left: 90, right: 90, top: 1340, display: "flex", justifyContent: "space-between", ...lab, fontSize: 24, color: "rgba(255,255,255,0.7)" }}><span>MORNING</span><span>LATE NIGHT</span></div>
     </AbsoluteFill>
   );
@@ -179,7 +178,7 @@ export const Binge: React.FC<{ from: number; worseAt: number; tiredAt: number; t
       <div style={{ position: "absolute", left: 170, right: 170, top: 960, padding: "40px 30px", borderRadius: 30, background: "rgba(5,10,45,0.95)", border: `6px solid ${FLASH}`, textAlign: "center",
         opacity: tv, transform: `scale(${1.3 - 0.3 * tv}) rotate(-3deg)` }}>
         <div style={{ ...lab, fontSize: 40, color: "#fff" }}>ORDINARY TV</div>
-        <div style={{ ...big(110, FLASH, "#fff"), marginTop: 16 }}>NO LINK</div>
+        <div style={{ ...big(110, FLASH, "#fff"), marginTop: 16 }}>no link</div>
       </div>
       {note("EXELMANS & VAN DEN BULCK · 2017 · 423 ADULTS AGED 18-25 · ILLUSTRATION", 1520)}
     </AbsoluteFill>

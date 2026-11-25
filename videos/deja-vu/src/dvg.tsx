@@ -1,13 +1,12 @@
 // Motion graphics for the déjà vu video: white on blue, gold for the key fact. The Matrix only as quoted text.
 import React from "react";
 import { AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame } from "remotion";
-import { BLUE_DEEP, FLASH, p } from "./kit";
+import { FLASH, p } from "./kit";
 import { SANS2, SERIF2 } from "./type";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const lab = { fontFamily: SANS2, fontWeight: 800, letterSpacing: "0.14em" } as const;
-const big = (size: number, face = "#fff", depth = FLASH): React.CSSProperties => ({ fontFamily: SANS2, fontWeight: 900, fontSize: size, lineHeight: 0.9, letterSpacing: "-0.04em", color: face,
-  textShadow: `${Array.from({ length: 12 }, (_, i) => `${i + 1}px ${i + 1}px 0 ${i < 6 ? depth : BLUE_DEEP}`).join(", ")}, 0 0 70px rgba(243,194,29,0.6)` });
+const big = (size: number, face = "#fff", _depth?: string): React.CSSProperties => ({ fontFamily: SERIF2, fontWeight: 400, fontSize: Math.round(size * 0.8), lineHeight: 0.95, letterSpacing: "-0.01em", color: face });
 const note = (text: string, top = 1640) => (
   <div style={{ position: "absolute", left: 0, right: 0, top, textAlign: "center", ...lab, fontSize: 22, color: "rgba(255,255,255,0.7)" }}>{text}</div>
 );
@@ -29,7 +28,7 @@ export const Replay: React.FC<{ from: number }> = ({ from }) => {
           <div style={{ width: `${loop * 100}%`, height: "100%", borderRadius: 7, background: FLASH }} />
         </div>
       </div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1430, textAlign: "center", ...big(110, "#fff") }}>REPLAY</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1430, textAlign: "center", ...big(110, "#fff") }}>replay</div>
     </AbsoluteFill>
   );
 };
@@ -77,7 +76,7 @@ export const MemGlitch: React.FC<{ from: number }> = ({ from }) => {
     <AbsoluteFill>
       {slices.map((i) => {
         const off = Math.sin((f - from) * 1.7 + i * 2.1) * 40 * (((f - from) % 12) < 5 ? 1 : 0.15);
-        return <div key={i} style={{ position: "absolute", left: 0, right: 0, top: 1000, textAlign: "center", ...big(190, i === 2 ? FLASH : "#fff"), clipPath: `inset(${i * 20}% 0 ${80 - i * 20}% 0)`, transform: `translateX(${off}px)`, opacity: p(f, from, 6) }}>MEMORY</div>;
+        return <div key={i} style={{ position: "absolute", left: 0, right: 0, top: 1000, textAlign: "center", ...big(190, i === 2 ? FLASH : "#fff"), clipPath: `inset(${i * 20}% 0 ${80 - i * 20}% 0)`, transform: `translateX(${off}px)`, opacity: p(f, from, 6) }}>memory</div>;
       })}
       <div style={{ position: "absolute", left: 0, right: 0, top: 1260, textAlign: "center", ...lab, fontSize: 40, color: FLASH, opacity: p(f, from + 6, 8) }}>GLITCH</div>
     </AbsoluteFill>
@@ -121,7 +120,7 @@ export const Rooms: React.FC<{ from: number; sameAt: number; forgetAt: number }>
     <AbsoluteFill>
       {plan(100, "#fff", "rgba(255,255,255,0.08)", p(f, from, 8) * fade, "EARLIER ROOM")}
       {plan(600, FLASH, "rgba(243,194,29,0.12)", p(f, from + 8, 8), "NEW ROOM")}
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1330, textAlign: "center", ...big(120, FLASH, "#fff"), opacity: p(f, sameAt, 8) }}>SAME LAYOUT</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1330, textAlign: "center", ...big(120, FLASH, "#fff"), opacity: p(f, sameAt, 8) }}>same layout</div>
       <div style={{ position: "absolute", left: 0, right: 0, top: 1470, textAlign: "center", fontFamily: SERIF2, fontSize: 80, color: "#fff", opacity: p(f, forgetAt, 10) }}>but you don't remember it</div>
       {note("CLEARY & CLAXTON · PSYCHOLOGICAL SCIENCE · 2018 · ILLUSTRATION", 1600)}
     </AbsoluteFill>
@@ -154,8 +153,8 @@ export const Guess: React.FC<{ from: number; guessAt: number }> = ({ from, guess
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 340, top: 820, width: 400, height: 400, borderRadius: 200, background: FLASH, border: "14px solid #fff", transform: `scaleX(${f < guessAt ? flip : 1})`,
         display: "flex", alignItems: "center", justifyContent: "center", ...big(120, "#111", "#fff"), textShadow: "none", opacity: p(f, from, 8) }}>50/50</div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1300, textAlign: "center", ...big(110, "#fff"), opacity: p(f, guessAt, 8) }}>NO BETTER</div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1420, textAlign: "center", ...big(110, FLASH, "#fff"), opacity: p(f, guessAt + 5, 8) }}>THAN A GUESS</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1300, textAlign: "center", ...big(110, "#fff"), opacity: p(f, guessAt, 8) }}>no better</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1420, textAlign: "center", ...big(110, FLASH, "#fff"), opacity: p(f, guessAt + 5, 8) }}>than a guess</div>
     </AbsoluteFill>
   );
 };

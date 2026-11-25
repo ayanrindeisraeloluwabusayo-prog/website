@@ -7,8 +7,7 @@ import { SANS2, SERIF2 } from "./type";
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const lab = { fontFamily: SANS2, fontWeight: 800, letterSpacing: "0.14em" } as const;
 const RED = "#ff3b3b";
-const big = (size: number, face = "#fff", depth = FLASH): React.CSSProperties => ({ fontFamily: SANS2, fontWeight: 900, fontSize: size, lineHeight: 0.9, letterSpacing: "-0.04em", color: face,
-  textShadow: `${Array.from({ length: 12 }, (_, i) => `${i + 1}px ${i + 1}px 0 ${i < 6 ? depth : BLUE_DEEP}`).join(", ")}, 0 0 70px rgba(243,194,29,0.6)` });
+const big = (size: number, face = "#fff", _depth?: string): React.CSSProperties => ({ fontFamily: SERIF2, fontWeight: 400, fontSize: Math.round(size * 0.8), lineHeight: 0.95, letterSpacing: "-0.01em", color: face });
 const note = (text: string, top = 1640) => (
   <div style={{ position: "absolute", left: 0, right: 0, top, textAlign: "center", ...lab, fontSize: 22, color: "rgba(255,255,255,0.7)" }}>{text}</div>
 );
@@ -16,7 +15,7 @@ const Stamp: React.FC<{ at: number; text: string; top: number; color?: string; s
   const f = useCurrentFrame();
   const s = p(f, at, 7);
   return <div style={{ position: "absolute", left: 0, right: 0, top, textAlign: "center", opacity: s, transform: `rotate(${rot}deg) scale(${2 - s})` }}>
-    <span style={{ display: "inline-block", padding: "8px 36px 16px", border: `10px solid ${color}`, borderRadius: 22, ...big(size, color, "#fff") }}>{text}</span>
+    <span style={{ display: "inline-block", padding: "8px 36px 16px", border: `4px solid ${color}`, borderRadius: 22, ...big(size, color, "#fff") }}>{text}</span>
   </div>;
 };
 
@@ -43,7 +42,7 @@ export const Turn: React.FC<{ from: number; nobodyAt: number }> = ({ from, nobod
       <div style={{ position: "absolute", left: 0, right: 0, top: 930, height: 140, opacity: gone * 0.4, display: "flex", justifyContent: "center", gap: 90 }}>
         <div style={{ width: 230, height: 128, borderRadius: "50%", border: "4px dashed #fff" }} /><div style={{ width: 230, height: 128, borderRadius: "50%", border: "4px dashed #fff" }} />
       </div>
-      <Stamp at={nobodyAt} text="NOBODY" top={1200} />
+      <Stamp at={nobodyAt} text="nobody" top={1200} />
     </AbsoluteFill>
   );
 };
@@ -69,7 +68,7 @@ export const Lean: React.FC<{ from: number; leanAt: number; meAt: number }> = ({
   const k = interpolate(f, [leanAt, leanAt + 30], [0.5, 0.86], { ...clamp, easing: (x) => 1 - Math.pow(1 - x, 3) });
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 800, textAlign: "center", ...big(170, "#fff"), opacity: 1 - p(f, leanAt, 10) }}>50 / 50 ?</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 800, textAlign: "center", ...big(170, "#fff"), opacity: 1 - p(f, leanAt, 10) }}>50 / 50?</div>
       <div style={{ position: "absolute", left: 120, right: 120, top: 1060, height: 150, borderRadius: 75, overflow: "hidden", background: "rgba(255,255,255,0.25)", display: "flex", opacity: p(f, from, 10) }}>
         <div style={{ width: `${k * 100}%`, background: FLASH, boxShadow: "0 0 40px rgba(243,194,29,0.7)" }} />
       </div>
@@ -107,7 +106,7 @@ export const Gap: React.FC<{ from: number; fillAt: number }> = ({ from, fillAt }
       <div style={{ position: "absolute", left: 190, right: 190, top: 900, height: 420, borderRadius: 30, border: "8px dashed rgba(255,255,255,0.7)", background: `rgba(243,194,29,${0.9 * fill})`, opacity: p(f, from, 8),
         display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ ...big(260, "#fff"), opacity: 1 - p(f, fillAt, 3), position: "absolute" }}>?</div>
-        <div style={{ ...big(112, "#111", "#fff"), textShadow: "none", opacity: fill, transform: `scale(${1.3 - 0.3 * fill})` }}>WATCHED</div>
+        <div style={{ ...big(112, "#111", "#fff"), textShadow: "none", opacity: fill, transform: `scale(${1.3 - 0.3 * fill})` }}>watched</div>
       </div>
     </AbsoluteFill>
   );
@@ -120,7 +119,7 @@ export const Careful: React.FC<{ brokenAt: number; carefulAt: number }> = ({ bro
     <div style={{ position: "absolute", left: 140, right: 140, top, height: 190, borderRadius: 30, background: good ? FLASH : "rgba(5,10,45,0.9)", border: `5px solid ${good ? FLASH : "#fff"}`,
       display: "flex", alignItems: "center", gap: 40, padding: "0 50px", opacity: p(f, at, 8), transform: `translateX(${(1 - p(f, at, 12)) * 120}px)` }}>
       <div style={{ ...big(110, good ? "#111" : RED, "#fff"), textShadow: "none" }}>{good ? "✓" : "✗"}</div>
-      <div style={{ ...lab, fontSize: 64, color: good ? "#111" : "#fff", textDecoration: good ? "none" : "line-through", textDecorationColor: RED }}>{text}</div>
+      <div style={{ ...lab, fontSize: 40, color: good ? "#111" : "#fff", textDecoration: good ? "none" : "line-through", textDecorationColor: RED }}>{text}</div>
     </div>
   );
   return <AbsoluteFill>{row(900, "BROKEN", brokenAt, false)}{row(1160, "CAREFUL", carefulAt, true)}</AbsoluteFill>;
@@ -151,7 +150,7 @@ export const Cost: React.FC<{ missAt: number; turnAt: number }> = ({ missAt, tur
       <div style={{ ...big(120, color, "#fff"), marginTop: 14 }}>{value}</div>
     </div>
   );
-  return <AbsoluteFill>{card(860, "MISS A REAL STARE", "DANGER", RED, missAt)}{card(1200, "TURN FOR NOTHING", "1 SECOND", FLASH, turnAt)}</AbsoluteFill>;
+  return <AbsoluteFill>{card(860, "MISS A REAL STARE", "danger", RED, missAt)}{card(1200, "TURN FOR NOTHING", "1 second", FLASH, turnAt)}</AbsoluteFill>;
 };
 
 /** FEELING ≠ PROOF. */
@@ -159,9 +158,9 @@ export const Proof: React.FC<{ from: number; notAt: number }> = ({ from, notAt }
   const f = useCurrentFrame();
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 860, textAlign: "center", ...big(170, "#fff"), opacity: p(f, from, 10) }}>FEELING</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 860, textAlign: "center", ...big(170, "#fff"), opacity: p(f, from, 10) }}>feeling</div>
       <div style={{ position: "absolute", left: 0, right: 0, top: 1040, textAlign: "center", ...big(170, FLASH, "#fff"), opacity: p(f, notAt, 8), transform: `scale(${1.5 - 0.5 * p(f, notAt, 8)})` }}>≠</div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1220, textAlign: "center", ...big(170, "#fff"), opacity: p(f, notAt + 6, 10) }}>PROOF</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1220, textAlign: "center", ...big(170, "#fff"), opacity: p(f, notAt + 6, 10) }}>proof</div>
     </AbsoluteFill>
   );
 };
@@ -174,8 +173,8 @@ export const Safe: React.FC<{ from: number; tipAt: number }> = ({ from, tipAt })
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 535, top: 1100, width: 10, height: 330, background: "#fff", opacity: p(f, from, 8) }} />
       <div style={{ position: "absolute", left: 140, right: 140, top: 1080, height: 12, background: "#fff", transform: `rotate(${t}deg)`, opacity: p(f, from, 8) }}>
-        <div style={{ position: "absolute", left: -20, top: -200, width: 300, textAlign: "center", ...big(110, FLASH, "#fff") }}>SAFE</div>
-        <div style={{ position: "absolute", right: -20, top: -150, width: 300, textAlign: "center", ...big(80, "#fff") }}>SORRY</div>
+        <div style={{ position: "absolute", left: -20, top: -200, width: 300, textAlign: "center", ...big(110, FLASH, "#fff") }}>safe</div>
+        <div style={{ position: "absolute", right: -20, top: -150, width: 300, textAlign: "center", ...big(80, "#fff") }}>sorry</div>
       </div>
     </AbsoluteFill>
   );
