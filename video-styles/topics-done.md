@@ -27,3 +27,7 @@ Offered (25 Nov 2026, round 4, everyday life, from YouTube comments): deja vu (C
 of your tongue (Brown & McNeill 1966; Warriner & Humphreys 2008), running up the stairs after switching off the light
 (darkness startle, Grillon et al. 1997), laughing when someone falls (benign violation, McGraw & Warren 2010).
 Made (25 Nov 2026): déjà vu (Cleary et al. 2012; Cleary & Claxton 2018), thumbnail C.
+Offered (25 Nov 2026, round 5, ranked by YouTube engagement): time slows in an accident (Stetson, Fiesta & Eagleman 2007),
+can't remember being a baby (Yates et al. 2025 Science), shock yourself rather than sit alone with your thoughts (Wilson et al.
+2014), Dunning-Kruger (Kruger & Dunning 1999), why we forget dreams (Eichenlaub et al. 2014), does money buy happiness
+(Killingsworth, Kahneman & Mellers 2023).
