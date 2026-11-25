@@ -37,9 +37,9 @@ const LEAD1 = SNAP_AT - (W[144].at - W[140].at);
 const LEAD2 = CHECK_AT + 28 - (W[228].at - W[220].at);
 
 const LAYERS: Layer[] = [
-  { from: 0, to: 9, pic: "v-walk.mp4", pos: "50% 30%" }, { from: 9, to: 12, pic: "v-talk.mp4", pos: "50% 30%" }, { from: 12, to: 22, pic: "v-think.mp4", pos: "40% 35%" },
+  { from: 0, to: 9, pic: "v-walk.mp4", pos: "50% 30%" }, { from: 9, to: 12, pic: "v-talk.mp4", pos: "50% 30%" }, { from: 12, to: 22, pic: "d-7266131.jpg", pos: "45% 50%" },
   { from: 22, to: 33, g: "replay" }, { from: 33, to: 47, g: "cat", cues: [46] }, { from: 47, to: 59, g: "trinity" },
-  { from: 59, to: 68, pic: "v-glitch.mp4" }, { from: 68, to: 74, g: "memglitch" }, { from: 74, to: 86, g: "twothirds", cues: [77] },
+  { from: 59, to: 68, pic: "v-kaleido.mp4" }, { from: 68, to: 74, g: "memglitch" }, { from: 74, to: 86, g: "twothirds", cues: [77] },
   { from: 86, to: 94, pic: "v-young.mp4", pos: "60% 30%" }, { from: 94, to: 97, g: "blue" }, { from: 97, to: 113, g: "p18" },
   { from: 113, to: 133, g: "rooms", cues: [121, 129] }, { from: 133, to: 140, pic: "v-door.mp4" },
   { from: 140, to: 148, clip: "deja.mp4", start: 140, lead: LEAD1 }, { from: 148, to: 153, pic: "v-darkdoor.mp4" }, { from: 153, to: 157, g: "blue" },
@@ -106,7 +106,7 @@ const Clip: React.FC<{ src: string; at: number }> = ({ src, at }) => (
 );
 
 // music level: "musicGain" input prop lets a listening test override it
-const { musicGain: MUSIC_GAIN = 0.85 } = getInputProps() as { musicGain?: number };
+const { musicGain: MUSIC_GAIN = 1.13 } = getInputProps() as { musicGain?: number };
 
 export const DejaVu: React.FC = () => {
 

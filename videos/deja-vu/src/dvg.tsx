@@ -37,7 +37,7 @@ export const Replay: React.FC<{ from: number }> = ({ from }) => {
 /** The same black cat crosses the frame twice; "×2" stamps on the second pass. */
 export const Cat: React.FC<{ from: number; twiceAt: number }> = ({ from, twiceAt }) => {
   const f = useCurrentFrame();
-  const pass = (start: number) => interpolate(f, [start, start + 26], [-700, 1080], clamp);
+  const pass = (start: number, dur = 26) => interpolate(f, [start, start + dur], [-700, 1080], clamp);
   const card = (x: number, op: number) => (
     <div style={{ position: "absolute", left: x, top: 880, width: 640, height: 430, borderRadius: 26, overflow: "hidden", border: "6px solid #fff", opacity: op, boxShadow: "0 30px 60px rgba(0,0,0,0.5)" }}>
       <Img src={staticFile("media/d-2690236.jpg")} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "40% 60%" }} />
@@ -45,7 +45,7 @@ export const Cat: React.FC<{ from: number; twiceAt: number }> = ({ from, twiceAt
   );
   return (
     <AbsoluteFill>
-      {card(pass(from + 2), 1)}
+      {card(pass(from + 2, Math.max(26, twiceAt - 22 - from)), 1)}
       {card(pass(twiceAt - 20), 0.9)}
       <div style={{ position: "absolute", left: 0, right: 0, top: 1360, textAlign: "center", ...big(200, FLASH, "#fff"), opacity: p(f, twiceAt, 8), transform: `scale(${1.6 - 0.6 * p(f, twiceAt, 8)})` }}>×2</div>
     </AbsoluteFill>

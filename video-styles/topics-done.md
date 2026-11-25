@@ -19,4 +19,4 @@ compliments, mosquitoes, GTA 6 anticipation.
   about it later; fact-check fully before scripting.
 Made (25 Nov 2026): bedtime procrastination (phone at night), feeling watched (gaze prior), spotlight effect.
 Offered (25 Nov 2026, round 2): mess up when someone watches (social facilitation, Bond & Titus 1983), presentation nerves don't show (illusion of transparency, Savitsky & Gilovich 2003), can't stop thinking about unfinished work (Zeigarnik / Masicampo & Baumeister 2011), awkward giving compliments (Zhao & Epley 2021), office gossip (Dunbar 1997), forgetting what you crammed (spacing effect, Cepeda 2006).
-Scripted (25 Nov 2026): déjà vu (Cleary & Claxton 2018; St Andrews fMRI).
+Made (25 Nov 2026): déjà vu (Cleary & Claxton 2018; St Andrews fMRI).
