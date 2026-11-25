@@ -26,3 +26,4 @@ Offered (25 Nov 2026, round 4, everyday life, from YouTube comments): deja vu (C
 (sensory-specific satiety, Rolls et al. 1981), time speeds up as you get older (Wittmann & Lehnhoff 2005), word on the tip
 of your tongue (Brown & McNeill 1966; Warriner & Humphreys 2008), running up the stairs after switching off the light
 (darkness startle, Grillon et al. 1997), laughing when someone falls (benign violation, McGraw & Warren 2010).
+Made (25 Nov 2026): déjà vu (Cleary et al. 2012; Cleary & Claxton 2018), thumbnail C.
