@@ -70,7 +70,7 @@ export const Room: React.FC<{ from: number; at: number; pct: number; label: stri
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 0, right: 0, top: 780, textAlign: "center", ...lab, fontSize: 34, color: "#fff", opacity: p(f, from, 8) }}>{label}</div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 850, textAlign: "center", ...big(230, FLASH, "#fff") }}>{prefix && f >= at + 24 ? `${prefix}25%` : `${Math.round(k * 100)}%`}</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 850, textAlign: "center", ...big(230, FLASH, "#fff") }}>{prefix ? `${prefix}25%` : `${Math.round(k * 100)}%`}</div>
       <div style={{ position: "absolute", left: 170, width: 740, top: 1120, display: "flex", flexWrap: "wrap", gap: 22, opacity: p(f, from, 10) }}>
         {Array.from({ length: 40 }, (_, i) => <div key={i} style={{ width: 70, height: 70, borderRadius: 35, background: i < lit ? FLASH : "rgba(255,255,255,0.2)", boxShadow: i < lit ? "0 0 24px rgba(243,194,29,0.8)" : "none" }} />)}
       </div>
