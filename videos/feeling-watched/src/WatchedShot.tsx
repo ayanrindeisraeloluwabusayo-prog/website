@@ -1,23 +1,19 @@
-// 3D shot for "Why the new phone stops feeling exciting": the man holds his new phone; a gold glow of excitement in his
-// glass head starts big, then fades as he gets used to it. The screen goes dark (a break); when it lights again the
-// glow flares back. A picture of hedonic adaptation, not anatomy.
+// 3D shot for "Why you feel like someone is watching you": the man stands in the dark with a glass head; pairs of eyes
+// float around him, dim and looking every which way (uncertain). At LOOK_AT they all swing round to stare at him and his
+// head lights up gold: the brain's default answer, "you're being watched". A picture of the idea, not a real scene.
 import React, { useMemo } from "react";
 import * as THREE from "three";
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { ThreeCanvas } from "@remotion/three";
 import { useThree } from "@react-three/fiber";
 import { key, Man, Ready, Studio, useMan } from "./Avatar";
-import { holdPhone, Phone, PERSON } from "./Grip";
-import { restPose } from "./pose";
+import { PERSON } from "./Grip";
+import { reach, restPose, toRest } from "./pose";
 import { BlueStage } from "./motion";
 
-export const WAIT_FRAMES = 230;
-/** the screen goes dark at OFF_AT and lights again at ON_AT; the glow flares back then */
-export const OFF_AT = 140, ON_AT = 166;
-/** frames between clock ticks, and the frame of the first tick */
-export const TICK = 12;
-export const FIRST_TICK = 30;
-export const TICKS = Array.from({ length: Math.floor((WAIT_FRAMES - FIRST_TICK) / TICK) }, (_, i) => FIRST_TICK + i * TICK);
+export const WAIT_FRAMES = 150;
+/** frame where every eye turns to stare at him */
+export const LOOK_AT = 54;
 
 const GOLD = "#F3C21D";
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
@@ -35,12 +31,48 @@ const rimMaterial = (color: string, skinned: boolean) =>
     transparent: true, blending: THREE.AdditiveBlending, depthWrite: false,
   });
 
+
+// eye pairs: [x, height above his eyes, depth behind him, size]
+const PAIRS: [number, number, number, number][] = [
+  [-30, 24, 40, 1], [29, 10, 60, 1.05], [-27, -26, 30, 0.95], [33, -38, 80, 0.9], [-35, 44, 100, 0.85],
+  [21, 40, 50, 0.9], [-12, 58, 70, 0.8], [38, 62, 120, 0.75], [-40, -6, 110, 0.8], [14, -58, 45, 0.85],
+];
+
+const EyePair: React.FC<{ pos: THREE.Vector3; target: THREE.Vector3; wander: number; size: number; look: number; f: number; i: number }> = ({ pos, target, wander, size, look, f, i }) => {
+  // before LOOK_AT each pair drifts its gaze around; after, it turns to face the target
+  const lost = new THREE.Vector3(Math.sin(f * 0.05 + i * 1.7) * 80, Math.cos(f * 0.04 + i) * 40, Math.cos(f * 0.05 + i * 2.3) * 80).add(pos).add(new THREE.Vector3(0, 0, 200));
+  const aimAt = lost.lerp(target, look);
+  const m = new THREE.Matrix4().lookAt(aimAt, pos, new THREE.Vector3(0, 1, 0));
+  const q = new THREE.Quaternion().setFromRotationMatrix(m);
+  const blink = Math.abs(Math.sin(f * 0.07 + i * 3)) > 0.985 ? 0.15 : 1;
+  const r = 3.6 * size, op = (0.35 + 0.65 * look) * wander;
+  return (
+    <group position={pos} quaternion={q}>
+      {[-1, 1].map((s) => (
+        <group key={s} position={[s * r * 1.5, 0, 0]} scale={[1, blink, 1]}>
+          <mesh scale={[1.35, 0.75, 0.5]}><sphereGeometry args={[r, 24, 16]} /><meshBasicMaterial color="#ffffff" transparent opacity={op} /></mesh>
+          <mesh position={[0, 0, r * 0.42]}><sphereGeometry args={[r * 0.48, 20, 14]} /><meshBasicMaterial color="#0b1a6e" transparent opacity={op} /></mesh>
+          <mesh position={[0, 0, r * 0.62]}><sphereGeometry args={[r * 0.24, 16, 12]} /><meshBasicMaterial color="#000" transparent opacity={op} /></mesh>
+          <mesh scale={[1.6, 1, 0.6]}><sphereGeometry args={[r * 1.15, 20, 14]} /><meshBasicMaterial color={GOLD} transparent opacity={0.18 * look * wander} blending={THREE.AdditiveBlending} depthWrite={false} /></mesh>
+        </group>
+      ))}
+    </group>
+  );
+};
+
 const Scene: React.FC<{ man: Man }> = ({ man }) => {
   const f = useCurrentFrame();
   const { camera } = useThree();
   const B = (n: string) => man.bones[key(n)];
   const rest = useMemo(() => restPose(man), [man]);
-  const at = holdPhone(man, rest, 0);
+  toRest(man, rest);
+  man.root.updateMatrixWorld(true);
+  for (const sd of ["L", "R"] as const) {
+    const hip = B(`Bip01 ${sd} Thigh`).getWorldPosition(v(0, 0, 0));
+    const out = hip.x >= B("Bip01 Pelvis").getWorldPosition(v(0, 0, 0)).x ? 1 : -1;
+    reach(man, sd, hip.clone().add(v(out * 13, -22, 6)), hip.clone().add(v(out * 40, 0, -60)));
+  }
+  man.root.updateMatrixWorld(true);
 
   const eye = B("Bip01 LEye").getWorldPosition(v(0, 0, 0)).add(B("Bip01 REye").getWorldPosition(v(0, 0, 0))).multiplyScalar(0.5);
   const lip = B("Bip01 MBottomLip").getWorldPosition(v(0, 0, 0));
@@ -64,42 +96,37 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
   }, [man, rim]);
   rim.uniforms.k.value = 1.7 * glass;
 
-  // camera: waist-up, a slow push towards the head
+  // camera: starts wide to show the eyes around him, then pushes in on the head after they all turn
   const push = ease(interpolate(f, [0, WAIT_FRAMES], [0, 1], clamp));
-  camera.position.copy(v(14, eye.y - 10, 175).lerp(v(8, eye.y - 4, 120), push));
-  camera.lookAt(v(0, eye.y - 14, 0).lerp(v(0, eye.y - 8, 0), push));
+  camera.position.copy(v(10, eye.y - 4, 300).lerp(v(6, eye.y - 2, 150), push));
+  camera.lookAt(v(0, eye.y - 2, 0));
 
-  const on = interpolate(f, [16, 24], [0, 1], clamp);
-  const fade = interpolate(f, [26, 100], [1, 0.18], { ...clamp, easing: (t) => 1 - Math.pow(1 - t, 2) });
-  const back = interpolate(f, [ON_AT, ON_AT + 10], [0, 1], clamp);
-  const level = Math.max(fade, back);
-  const screen = f >= OFF_AT && f < ON_AT ? 0 : 1;
-  const pulse = 1 + 0.08 * Math.sin(f / 4) * level;
-  const r = (0.03 + 0.11 * level) * pulse;
-  const flare = Math.max(0, 1 - (f - ON_AT) / 14) * (f >= ON_AT ? 1 : 0);
-
+  const look = ease(interpolate(f, [LOOK_AT, LOOK_AT + 10], [0, 1], clamp));
+  const flare = Math.max(0, 1 - (f - LOOK_AT) / 18) * (f >= LOOK_AT ? 1 : 0);
+  const alarm = look * (1 + 0.1 * Math.sin(f / 3));
   return (
     <>
       <Studio />
       <primitive object={man.root} />
       <primitive object={shell} />
-      <Phone at={at} glow={screen} />
+      {PAIRS.map(([x, h, back, size], i) => {
+        const pos = v(eye.x + x, eye.y + h, eye.z - back);
+        const wander = interpolate(f, [4 + i * 3, 16 + i * 3], [0, 1], clamp);
+        return <EyePair key={i} pos={pos} target={eye} wander={wander} size={size} look={look} f={f} i={i} />;
+      })}
       <group position={centre} scale={S}>
         <mesh scale={[0.9, 0.98, 1.05]}>
           <sphereGeometry args={[0.46, 48, 36]} />
           <meshStandardMaterial color="#efe7d2" roughness={0.5} emissive="#efe7d2" emissiveIntensity={0.3} transparent opacity={0.16 * glass} depthWrite={false} />
         </mesh>
-        <group position={[0.02, 0.05, 0.1]} visible={on > 0.01}>
-          <mesh><sphereGeometry args={[r, 24, 18]} /><meshBasicMaterial color={GOLD} transparent opacity={on * (0.35 + 0.65 * level)} depthTest={false} /></mesh>
-          <mesh><sphereGeometry args={[r * 2.2, 24, 18]} /><meshBasicMaterial color={GOLD} transparent opacity={on * 0.3 * level} blending={THREE.AdditiveBlending} depthWrite={false} depthTest={false} /></mesh>
-          <mesh><sphereGeometry args={[r * 4 + 0.4 * flare, 24, 18]} /><meshBasicMaterial color={GOLD} transparent opacity={on * (0.12 * level + 0.25 * flare)} blending={THREE.AdditiveBlending} depthWrite={false} depthTest={false} /></mesh>
-        </group>
+        <mesh><sphereGeometry args={[0.12 * alarm + 0.02, 24, 18]} /><meshBasicMaterial color={GOLD} transparent opacity={Math.min(1, alarm)} depthTest={false} /></mesh>
+        <mesh><sphereGeometry args={[0.32 * alarm + 0.3 * flare, 24, 18]} /><meshBasicMaterial color={GOLD} transparent opacity={0.3 * alarm + 0.4 * flare} blending={THREE.AdditiveBlending} depthWrite={false} depthTest={false} /></mesh>
       </group>
     </>
   );
 };
 
-export const NoveltyShot: React.FC = () => {
+export const WatchedShot: React.FC = () => {
   const { width, height } = useVideoConfig();
   const { man, handle } = useMan(PERSON[0], PERSON[1]);
   return (
