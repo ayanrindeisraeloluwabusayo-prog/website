@@ -16,5 +16,15 @@ description: Find fresh, very relatable everyday topics for the owner's psycholo
 4. Offer them with the real search phrase people typed, a one-line hook, and the study behind it. Never repeat a topic
    from `topics-done.md`, and add the ones the owner sees to that file.
 
+## YouTube comments (the owner's preferred source: what people actually say, not what they search)
+
+Run `python3 .claude/skills/topic-scout/scripts/yt_comments.py > /tmp/claude-0/yt.tsv` (needs `YOUTUBE_API_KEY`, a free
+YouTube Data API v3 key the owner keeps in the environment variables; host `youtube.googleapis.com` is allowed). It searches
+relatable school, work, uni, public and family videos and keeps only top comments that sound like a shared feeling
+("literally me", "I thought I was the only one", "why do I…"), sorted by likes. Add seeds as arguments for a theme.
+Read the comments, group the ones that describe the same hidden feeling in different words, and name it; only offer a
+feeling that comes up again and again, with a few real (short, anonymous) example comments, the like counts, and the
+study behind it. One run uses about a fifth of the free daily quota. Never quote usernames.
+
 Reddit is not wired in yet: anonymous reading is blocked from cloud sessions. It needs a free Reddit "script" app
 key (saved through the environment's credential form) and `oauth.reddit.com` allowed.
