@@ -170,3 +170,8 @@ Setup in a cloud session: run `bash .claude/skills/effects/scripts/setup.sh` (cr
 of git), and install the graphics libraries its face tracking needs: `apt-get install -y libegl1 libgles2
 libgl1`. A `TypeError: 'NoneType' object is not callable` printed at the very end of a run is a harmless
 shutdown message from mediapipe; check that the output file exists.
+
+## The owner's video recipe
+
+Before making any psychology video, read `video-styles/OWNER-VIDEO-RECIPE.md` (voice, stock clips, 3D shot, music level,
+thumbnail and delivery settings agreed in chat).
