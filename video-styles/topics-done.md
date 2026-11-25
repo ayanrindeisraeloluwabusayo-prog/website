@@ -22,3 +22,7 @@ Offered (25 Nov 2026, round 2): mess up when someone watches (social facilitatio
 Offered (25 Nov 2026, round 3, from YouTube comments): calling the teacher "mom" (misnaming, Deffler et al. 2016),
 doing fun things alone in public (Ratner & Hamilton 2015), Sunday evening dread (Berns et al. 2006), fear of phone calls
 (Kumar & Epley 2021), mind going blank in the exam (Ramirez & Beilock 2011), feeling left out (Eisenberger et al. 2003).
+Offered (25 Nov 2026, round 4, everyday life, from YouTube comments): deja vu (Cleary et al. 2012), always room for dessert
+(sensory-specific satiety, Rolls et al. 1981), time speeds up as you get older (Wittmann & Lehnhoff 2005), word on the tip
+of your tongue (Brown & McNeill 1966; Warriner & Humphreys 2008), running up the stairs after switching off the light
+(darkness startle, Grillon et al. 1997), laughing when someone falls (benign violation, McGraw & Warren 2010).
