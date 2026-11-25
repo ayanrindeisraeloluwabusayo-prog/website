@@ -17,4 +17,4 @@ compliments, mosquitoes, GTA 6 anticipation.
 ## Saved for later (owner's own ideas)
 - Why mosquitoes bite you and not the person next to you (the science behind "mosquito magnets"). Owner asked to talk
   about it later; fact-check fully before scripting.
-Scripted, waiting for approval (25 Nov 2026): bedtime procrastination (phone at night), feeling watched (gaze prior), spotlight effect.
+Made (25 Nov 2026): bedtime procrastination (phone at night), feeling watched (gaze prior), spotlight effect.
