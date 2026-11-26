@@ -38,3 +38,4 @@ Scripted (26 Nov 2026): walking and the brain (Darwin; Oppezzo 2014; Erickson 20
 Scripted (26 Nov 2026): born scared of snakes and spiders? (Indiana Jones; Hoehl 2017; DeLoache & LoBue 2009; Cook & Mineka 1989).
 Made (26 Nov 2026): the dying brain.
 Made (26 Nov 2026): walking and the brain.
+Made (26 Nov 2026): born scared of snakes and spiders.
