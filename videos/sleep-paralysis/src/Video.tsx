@@ -38,7 +38,7 @@ const LAYERS: Layer[] = [
   { from: 0, to: 6, pic: "v-bedroom.mp4" }, { from: 6, to: 10, pic: "v-eyes.mp4", pos: "50% 35%" }, { from: 10, to: 17, pic: "v-awake.mp4", pos: "50% 40%" },
   { from: 17, to: 28, pic: "v-shadow.mp4" }, { from: 28, to: 54, pic: "v-window.mp4" }, { from: 54, to: 60, pic: "v-moon.mp4" }, { from: 60, to: 69, g: "blue" },
   { from: 69, to: 87, g: "switch", cues: [74] }, { from: 87, to: 98, pic: "v-sleeper.mp4" }, { from: 98, to: 108, clip: "awake3d.mp4", start: 98, lead: LEAD },
-  { from: 108, to: 126, g: "spill", cues: [118, 120, 122] }, { from: 126, to: 130, g: "p11" }, { from: 130, to: 144, g: "meta", cues: [136, 141] },
+  { from: 108, to: 126, g: "spill", cues: [118, 120, 122] }, { from: 126, to: 130, g: "p11" }, { from: 130, to: 144, g: "meta", cues: [130, 141] },
   { from: 144, to: 165, g: "rates", cues: [145, 156] }, { from: 165, to: 169, g: "blue" }, { from: 169, to: 180, pic: "v-eyes.mp4", pos: "50% 35%" },
   { from: 180, to: 207, g: "countries", cues: [181, 198] }, { from: 207, to: 225, g: "results", cues: [209, 216] },
   { from: 225, to: 239, pic: "v-window.mp4" }, { from: 239, to: 247, pic: "v-bedroom.mp4" }, { from: 247, to: 999, pic: "v-calm.mp4" },
