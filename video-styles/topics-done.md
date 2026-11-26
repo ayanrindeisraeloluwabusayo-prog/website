@@ -45,3 +45,6 @@ why we need an explanation for everything (Gazzaniga split-brain interpreter). D
 Offered (26 Nov 2026, round 9, Google suggestions + YouTube): uncanny valley (Steckenfinger & Ghazanfar 2009; Mathur & Reichling
 2015), fear of snakes and spiders (Hoehl et al. 2017; LoBue & DeLoache), walking boosts creativity (Oppezzo & Schwartz 2014),
 what the brain does when you die (Xu, Borjigin et al. 2023 PNAS).
+Offered (26 Nov 2026, round 10, Google + YouTube): what makes a good life (Harvard Study of Adult Development, Waldinger),
+why some people are left-handed (Papadatou-Pastou et al. 2020; Faurie & Raymond 2005), why we love sad songs (Vuoskoski et al.
+2012), why being scared is fun (Andersen, Clasen et al. 2020 haunted house).
