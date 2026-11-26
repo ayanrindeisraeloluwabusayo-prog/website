@@ -34,3 +34,4 @@ Made (26 Nov 2026): mirror vs photos (Mita 1977; selfie nose 2018; Epley 2008).
 Made (26 Nov 2026): sleep paralysis.
 Made (26 Nov 2026): boredom is good; fake smiles.
 Scripted (26 Nov 2026): the dying brain (Sharon Stone; van Lommel 2001; Borjigin 2023; Yale BrainEx 2019).
+Scripted (26 Nov 2026): walking and the brain (Darwin; Oppezzo 2014; Erickson 2011; Bratman 2015).
