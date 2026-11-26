@@ -84,11 +84,11 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
           <meshStandardMaterial color="#efe7d2" roughness={0.5} emissive="#efe7d2" emissiveIntensity={0.3} transparent opacity={0.16 * glass} depthWrite={false} />
         </mesh>
         {[-1, 1].map((sd) => (
-          <group key={sd} position={[0.16 * sd, -0.08, -0.05]} rotation={[0.3, sd * 0.5, sd * 0.2]} scale={appear * (0.8 + 0.5 * grow)}>
+          <group key={sd} position={[0.24 * sd, -0.2, -0.38]} rotation={[0.3, sd * 0.5, sd * 0.2]} scale={appear * (0.8 + 0.5 * grow)}>
             <mesh rotation={[0, 0, Math.PI * 0.15]}><torusGeometry args={[0.1, 0.028 + 0.012 * grow, 12, 40, Math.PI * 1.3]} /><meshStandardMaterial color={GOLD} emissive={GOLD} emissiveIntensity={0.5 + 0.8 * flash} roughness={0.4} depthTest={false} /></mesh>
           </group>
         ))}
-        <mesh position={[0, -0.08, -0.05]}><sphereGeometry args={[0.3 + 0.15 * flash, 24, 18]} /><meshBasicMaterial color={GOLD} transparent opacity={0.12 * grow + 0.35 * flash} blending={THREE.AdditiveBlending} depthWrite={false} depthTest={false} /></mesh>
+        <mesh position={[0, -0.2, -0.38]}><sphereGeometry args={[0.3 + 0.15 * flash, 24, 18]} /><meshBasicMaterial color={GOLD} transparent opacity={0.12 * grow + 0.35 * flash} blending={THREE.AdditiveBlending} depthWrite={false} depthTest={false} /></mesh>
       </group>
     </>
   );

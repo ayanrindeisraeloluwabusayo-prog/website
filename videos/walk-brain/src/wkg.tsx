@@ -23,7 +23,7 @@ export const Flints: React.FC<{ from: number; knockAt: number }> = ({ from, knoc
         <ellipse cx="300" cy="210" rx="240" ry="150" fill="none" stroke="rgba(255,255,255,0.7)" strokeWidth="10" strokeDasharray="2 18" strokeLinecap="round" />
         <circle cx={300 + Math.cos(a) * 240} cy={210 + Math.sin(a) * 150} r="16" fill={FLASH} />
         {Array.from({ length: 6 }, (_, i) => (
-          <path key={i} d={`M${60 + (i % 3) * 22} ${54 - Math.floor(i / 3) * 18} l10 -12 l12 4 l2 12 l-14 6 Z`} fill={i < left ? "#fff" : "transparent"} stroke={i < left ? "#fff" : "rgba(255,255,255,0.25)"} strokeWidth="2" />
+          <path key={i} transform="translate(-40 -40) scale(2.2)" d={`M${60 + (i % 3) * 22} ${54 - Math.floor(i / 3) * 18} l10 -12 l12 4 l2 12 l-14 6 Z`} fill={i < left ? "#fff" : "transparent"} stroke={i < left ? "#fff" : "rgba(255,255,255,0.25)"} strokeWidth="2" />
         ))}
       </svg>
       <div style={{ position: "absolute", left: 0, right: 0, top: 1480, textAlign: "center", ...lab, fontSize: 26, color: "#fff", opacity: p(f, knockAt, 10) }}>ONE FLINT KNOCKED AWAY EACH LAP</div>
