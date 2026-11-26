@@ -32,3 +32,4 @@ Made (26 Nov 2026): birth order (Rohrer, Egloff & Schmukle 2015).
 Made (26 Nov 2026): no inner voice (Nedergaard & Lupyan 2024; Hurlburt).
 Made (26 Nov 2026): mirror vs photos (Mita 1977; selfie nose 2018; Epley 2008).
 Made (26 Nov 2026): sleep paralysis.
+Made (26 Nov 2026): boredom is good; fake smiles.
