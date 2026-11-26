@@ -22,4 +22,4 @@ Offered (25 Nov 2026, round 2): mess up when someone watches (social facilitatio
 Made (25 Nov 2026): déjà vu (Cleary & Claxton 2018; St Andrews fMRI).
 Made (25 Nov 2026): time slows in an accident (Stetson, Fiesta & Eagleman 2007), can't remember being a baby (Akhtar 2018; Bauer & Larkina 2014; Yates et al. 2025).
 Made (26 Nov 2026): alone with thoughts / shock (Wilson 2014, full video), Dunning-Kruger (1999, lemon-juice robber), forgetting dreams (Lyon 2013; Izawa 2019).
-Scripted (26 Nov 2026): halo effect (Thorndike 1920; Nisbett & Wilson 1977).
+Made (26 Nov 2026): halo effect (Thorndike 1920; Nisbett & Wilson 1977).
