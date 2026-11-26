@@ -26,7 +26,7 @@ export const ThumbA: React.FC = () => (
     <Photo src="t-monitor.jpg" pos="50% 50%" scale={1.05} filter="saturate(1.05) contrast(1.08)" />
     <AbsoluteFill style={{ background: `linear-gradient(180deg, ${BLUE_DEEP}f2 0%, ${BLUE_DEEP}55 36%, transparent 48%, transparent 60%, ${BLUE_DEEP}f2 100%)` }} />
     <div style={{ position: "absolute", left: 0, right: 0, top: 260, textAlign: "center" }}><Big text="YOUR LAST" size={170} /></div>
-    <div style={{ position: "absolute", left: 0, right: 0, top: 460, textAlign: "center" }}><Big text="30 SECONDS" size={165} face={FLASH} depth="#fff" /></div>
+    <div style={{ position: "absolute", left: 0, right: 0, top: 460, textAlign: "center" }}><Big text="MOMENTS" size={200} face={FLASH} depth="#fff" /></div>
     <div style={{ position: "absolute", left: 40, right: 140, top: 1320, textAlign: "center", ...serif(105) }}>the brain <span style={{ color: FLASH }}>lights up</span></div>
     <div style={{ position: "absolute", left: 0, right: 140, top: 1570, textAlign: "center", ...lab, fontSize: 36 }}>WHAT SCIENCE SAW</div>
     <Grain amount={0.12} />
