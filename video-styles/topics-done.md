@@ -42,3 +42,6 @@ smile (Gunnery, Hall & Ruben 2013), mirror vs photo face (Mita, Dermer & Knight 
 Offered (26 Nov 2026, round 8, Google suggestions + YouTube engagement): why we kiss (Jankowiak et al. 2015; not universal),
 why we like spicy food (Rozin & Schiller 1980, benign masochism), dogs and oxytocin gaze (Nagasawa et al. 2015 Science),
 why we need an explanation for everything (Gazzaniga split-brain interpreter). Dropped: can't see your nose (no solid study).
+Offered (26 Nov 2026, round 9, Google suggestions + YouTube): uncanny valley (Steckenfinger & Ghazanfar 2009; Mathur & Reichling
+2015), fear of snakes and spiders (Hoehl et al. 2017; LoBue & DeLoache), walking boosts creativity (Oppezzo & Schwartz 2014),
+what the brain does when you die (Xu, Borjigin et al. 2023 PNAS).
