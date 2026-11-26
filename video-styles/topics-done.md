@@ -35,3 +35,4 @@ Made (26 Nov 2026): sleep paralysis.
 Made (26 Nov 2026): boredom is good; fake smiles.
 Scripted (26 Nov 2026): the dying brain (Sharon Stone; van Lommel 2001; Borjigin 2023; Yale BrainEx 2019).
 Scripted (26 Nov 2026): walking and the brain (Darwin; Oppezzo 2014; Erickson 2011; Bratman 2015).
+Scripted (26 Nov 2026): born scared of snakes and spiders? (Indiana Jones; Hoehl 2017; DeLoache & LoBue 2009; Cook & Mineka 1989).
