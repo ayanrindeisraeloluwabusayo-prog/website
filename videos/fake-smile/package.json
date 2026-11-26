@@ -1,0 +1,39 @@
+{
+  "name": "blue-explainer-test",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio"
+  },
+  "dependencies": {
+    "@fontsource/arimo": "^5.3.0",
+    "@fontsource/bodoni-moda": "^5.3.0",
+    "@fontsource/dm-serif-display": "^5.3.0",
+    "@fontsource/geist": "^5.3.0",
+    "@fontsource/gloock": "^5.3.0",
+    "@fontsource/hanken-grotesk": "^5.3.0",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/inter-tight": "^5.3.0",
+    "@fontsource/libre-caslon-display": "^5.3.0",
+    "@fontsource/newsreader": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0",
+    "@react-three/fiber": "9.1.2",
+    "@remotion/captions": "4.0.541",
+    "@remotion/cli": "4.0.541",
+    "@remotion/effects": "4.0.541",
+    "@remotion/fonts": "^4.0.541",
+    "@remotion/media-utils": "4.0.541",
+    "@remotion/rough-notation": "4.0.541",
+    "@remotion/three": "4.0.541",
+    "@remotion/transitions": "4.0.541",
+    "@types/three": "0.176.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.541",
+    "three": "0.176.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "5.9.3"
+  }
+}

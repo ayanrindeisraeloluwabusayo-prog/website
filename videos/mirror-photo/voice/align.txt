@@ -1,0 +1,22 @@
+unmatched [(91, 'mere'), (162, 'thirty'), (163, 'percent')]
+heard: You check the mirror, you look good. Then someone takes a photo and you think, is that really me? Remember when Apple added a switch to iPhones in 2020 that saves your selfies flipped, the way the mirror shows you? People had been asking for it for years. And you see, back in 1977, three American psychologists photographed women students and printed each picture two ways, normal and flipped like a mirror. The women mostly preferred the flipped version of themselves. Their close friends preferred the normal one. It's called the mirror exposure effect. We like what we see most often. You've seen your mirror face thousands of times and no face is perfectly even. So a photo shows you a slightly unfamiliar version of yourself. But here's the twist. The camera can change your face too. In 2018, researchers at Rutgers and Stanford worked out that a selfie taken about a foot away makes the base of your nose look about 30 % wider than a photo taken from five feet. And in a 2008 study at the University of Chicago, people picked a version of their face that had been made more attractive as their real face. So a bad photo isn't proof you look bad. It's a view you're not used to. Next time, flip the photo, step back, and let someone shoot from a few feet away.
+0 You check the mirror. You look good. Then someone takes a photo, 0.0
+12 and you think: is that really me? Remember when Apple added a 3.48
+24 switch to iPhones in 2020 that saves your selfies flipped, the way 7.26
+36 the mirror shows you? People had been asking for it for years. 12.14
+48 And you see, back in 1977, three American psychologists photographed women students 16.2
+60 and printed each picture two ways: normal, and flipped like a mirror. 22.14
+72 The women mostly preferred the flipped version of themselves. Their close friends 26.4
+84 preferred the normal one. It's called the mere exposure effect: we like 30.36
+96 what we see most often. You've seen your mirror face thousands of 34.52
+108 times, and no face is perfectly even, so a photo shows you 37.88
+120 a slightly unfamiliar version of yourself. But here's the twist: the camera 42.0
+132 can change your face too. In 2018, researchers at Rutgers and Stanford 46.16
+144 worked out that a selfie taken about a foot away makes the 51.44
+156 base of your nose look about thirty percent wider than a photo 54.86
+168 taken from five feet. And in a 2008 study at the University 58.54
+180 of Chicago, people picked a version of their face that had been 62.6
+192 made more attractive as their real face. So a bad photo isn't 65.92
+204 proof you look bad. It's a view you're not used to. Next 69.98
+216 time, flip the photo, step back, and let someone shoot from a 73.4
+228 few feet away. 77.54

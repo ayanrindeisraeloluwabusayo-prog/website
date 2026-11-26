@@ -1,0 +1,24 @@
+unmatched [(132, 'Jacques'), (136, 'thirty-five'), (141, 'thirty-six'), (142, 'thousand'), (145, 'eight'), (148, 'hundred'), (162, 'one'), (164, 'four.')]
+heard: You wake up in the dark, your eyes are open, but you can't move, you can't speak, and you feel like someone is in the room with you. Remember when Kendall Jenner told her family on keeping up with the Kardashians, I wake up in the middle of the night and I can't move. She was scared to fall asleep, and you see it has a name, sleep paralysis. When you dream, your brain switches off most of your muscles, so you don't act out your dreams. Now, sometimes you wake up before that switch turns back on. Your mind is awake, but your body is still asleep and pieces of the dream spill into the room. A shadow, a figure, a weight on your chest. In 2011, psychologists Brian Sharpless and Jack Barber pulled together 35 studies with more than 36 ,000 people. About 8 in every 100 people have had it at least once. Among students it was more than 1 in 4. But here's the twist, what you believe about it can change how bad it gets. In Egypt, many people blame it on a jinn, a spirit. Researchers compared people there with people in Denmark, where most see it as a brain glitch. In Egypt, it was more common, and those who blamed spirits were more frightened and stayed frozen longer. So if it happens to you, you're not cursed, and you're not in danger. It's your brain waking up a little early. Next time, remind yourself it will pass, breathe slowly, and try to wiggle one finger or toe.
+0 You wake up in the dark. Your eyes are open. But you 0.0
+12 can't move. You can't speak. And you feel like someone is in 2.8
+24 the room with you. Remember when Kendall Jenner told her family on 6.22
+36 Keeping Up with the Kardashians, "I wake up in the middle of 9.84
+48 the night and I can't move"? She was scared to fall asleep. 12.76
+60 And you see, it has a name: sleep paralysis. When you dream, 16.36
+72 your brain switches off most of your muscles, so you don't act 20.1
+84 out your dreams. Now, sometimes you wake up before that switch turns 23.04
+96 back on. Your mind is awake, but your body is still asleep, 26.96
+108 and pieces of the dream spill into the room: a shadow, a 30.86
+120 figure, a weight on your chest. In 2011, psychologists Brian Sharpless and 34.42
+132 Jacques Barber pulled together thirty-five studies with more than thirty-six thousand people. 40.16
+144 About eight in every hundred people have had it at least once. 45.12
+156 Among students, it was more than one in four. But here's the 48.56
+168 twist: what you believe about it can change how bad it gets. 51.92
+180 In Egypt, many people blame it on a jinn, a spirit. Researchers 55.42
+192 compared people there with people in Denmark, where most see it as 59.72
+204 a brain glitch. In Egypt, it was more common, and those who 63.24
+216 blamed spirits were more frightened and stayed frozen longer. So if it 66.64
+228 happens to you, you're not cursed, and you're not in danger. It's 70.72
+240 your brain waking up a little early. Next time, remind yourself it 73.96
+252 will pass, breathe slowly, and try to wiggle one finger or toe. 77.96

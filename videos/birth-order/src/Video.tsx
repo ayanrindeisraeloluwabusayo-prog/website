@@ -97,7 +97,7 @@ const Clip: React.FC<{ src: string; at: number }> = ({ src, at }) => (
 );
 
 // music level: "musicGain" input prop lets a listening test override it
-const { musicGain: MUSIC_GAIN = 1 } = getInputProps() as { musicGain?: number };
+const { musicGain: MUSIC_GAIN = 0.746 } = getInputProps() as { musicGain?: number };
 
 export const BirthOrder: React.FC = () => {
 

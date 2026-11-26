@@ -1,0 +1,21 @@
+unmatched [(29, '"smize",'), (50, 'Duchenne,'), (101, 'Duchenne'), (148, 'ten'), (151, 'put-on'), (165, 'Researchers'), (169, 'put-on'), (204, 'smize'), (207, 'practised.')]
+heard: Someone smiles at you. Big smile, teeth and all, but something feels off. Is it real? Remember when Tyra Banks told the models on America's next top model to smile, to smile with their eyes? She was onto something. And you see, back in the 1860s, a French doctor, Guillaume d 'Achene, used electric currents to move the muscles of people's faces. He noticed that a real smile of joy also uses a muscle around the eyes. The one that makes them crinkle. And he believed most people can't move it on purpose. Scientists still call a smile with crinkled eyes a dutch -end smile. And for a long time, it was treated as the sign of a real one. But here's the twist. The eyes can fake it too. In a 2013 study at Northeastern University in Boston, people were asked to smile on purpose. And about seven in 10 of those put -on smiles had the eye crinkle anyway. So the better clue may be timing. The searchers have found that put -on smiles tend to switch on faster and drop away more suddenly, while a real smile builds and fades slowly. So don't just watch the eyes. Watch how a smile leaves the face. Even Tyra's smiles can be practiced. Next time someone smiles at you, notice how slowly it fades.
+0 Someone smiles at you. Big smile, teeth and all. But something feels 0.0
+12 off. Is it real? Remember when Tyra Banks told the models on 4.02
+24 America's Next Top Model to "smize", to smile with their eyes? She 7.98
+36 was onto something. And you see, back in the 1860s, a French 12.32
+48 doctor, Guillaume Duchenne, used electric currents to move the muscles of people's 17.96
+60 faces. He noticed that a real smile of joy also uses a 23.16
+72 muscle around the eyes, the one that makes them crinkle, and he 27.16
+84 believed most people can't move it on purpose. Scientists still call a 30.76
+96 smile with crinkled eyes a Duchenne smile, and for a long time 34.68
+108 it was treated as the sign of a real one. But here's 38.78
+120 the twist: the eyes can fake it too. In a 2013 study 41.84
+132 at Northeastern University in Boston, people were asked to smile on purpose, 45.9
+144 and about seven in ten of those put-on smiles had the eye 50.98
+156 crinkle anyway. So the better clue may be timing. Researchers have found 54.34
+168 that put-on smiles tend to switch on faster and drop away more 57.96
+180 suddenly, while a real smile builds and fades slowly. So don't just 61.48
+192 watch the eyes. Watch how a smile leaves the face. Even Tyra's 65.74
+204 smize can be practised. Next time someone smiles at you, notice how 69.9
+216 slowly it fades. 74.16

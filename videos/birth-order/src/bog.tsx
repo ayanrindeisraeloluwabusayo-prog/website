@@ -21,7 +21,7 @@ export const Roles: React.FC<{ from: number; midAt: number; youngAt: number }> =
   const kids = [{ s: 190, t: "OLDEST", d: "BOSSY · RESPONSIBLE" }, { s: 160, t: "MIDDLE", d: "PEACEMAKER · UNNOTICED" }, { s: 130, t: "YOUNGEST", d: "SPOILED · FUNNY · REBEL" }];
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: 80, right: 80, top: 1180, display: "flex", justifyContent: "space-around", alignItems: "flex-end" }}>
+      <div style={{ position: "absolute", left: 80, right: 80, top: 980, display: "flex", justifyContent: "space-around", alignItems: "flex-end" }}>
         {kids.map((k, i) => (
           <div key={i} style={{ opacity: p(f, from + i * 3, 6), transform: `translateY(${(1 - p(f, from + i * 3, 10)) * 30}px)`, textAlign: "center" }}>
             <Person color={active === i ? FLASH : "rgba(255,255,255,0.4)"} size={k.s} />
@@ -29,7 +29,7 @@ export const Roles: React.FC<{ from: number; midAt: number; youngAt: number }> =
           </div>
         ))}
       </div>
-      <div key={active} style={{ position: "absolute", left: 0, right: 0, top: 1560, textAlign: "center", ...lab, fontSize: 28, color: "#fff", opacity: p(f, [from, midAt, youngAt][active] + 4, 8) }}>{kids[active].d}</div>
+      <div key={active} style={{ position: "absolute", left: 0, right: 0, top: 1400, textAlign: "center", ...lab, fontSize: 28, color: "#fff", opacity: p(f, [from, midAt, youngAt][active] + 4, 8) }}>{kids[active].d}</div>
     </AbsoluteFill>
   );
 };
@@ -101,7 +101,7 @@ export const Tiny: React.FC<{ from: number; firstAt: number; selfAt: number }> =
       <div style={{ position: "absolute", left: 0, right: 0, top: 790, textAlign: "center", ...lab, fontSize: 24, color: "rgba(255,255,255,0.8)", opacity: p(f, from, 8) }}>INTELLIGENCE SCORES</div>
       {bar(150, 440, "FIRSTBORNS", true, firstAt)}
       {bar(590, 420, "LATER-BORNS", false, firstAt + 4)}
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1440, textAlign: "center", ...serif(120, FLASH), opacity: p(f, firstAt + 24, 10) }}>very slightly</div>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 1440, textAlign: "center", ...serif(120, FLASH), opacity: p(f, firstAt + 24, 10) }}>a tiny gap</div>
       <div style={{ position: "absolute", left: 0, right: 0, top: 1580, textAlign: "center", ...lab, fontSize: 24, color: "#fff", opacity: p(f, selfAt, 10) }}>AND FELT A LITTLE MORE INTELLECTUAL</div>
     </AbsoluteFill>
   );

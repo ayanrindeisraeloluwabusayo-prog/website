@@ -1,0 +1,22 @@
+unmatched [(18, 'J.K.'), (19, 'Rowling'), (64, 'Sandi'), (67, 'Rebekah'), (121, 'bored'), (225, 'ten')]
+heard: You're stuck in a queue, no phone, nothing to do. Every minute feels like an hour. Remember when J .K. Bowling was stuck on a delayed train from Manchester to London in 1990. Her pen didn't work, so she just sat there and thought. And on that train, she has said, the idea for Harry Potter came to her. And you see, in 2014, psychologists Sandy Mann and Rebecca Cadman at the University of Central Lancashire in England put boredom to the test. They gave people one of the dullest jobs they could think of, copying numbers out of a phone book. Then everyone had to come up with as many uses as they could for a pair of plastic cups. The board group came up with more ideas than people who skipped the boring job. But here's the twist, the more boring it got, the better. In a second study, some people didn't even write the numbers down. They just read them. And they came up with the most ideas of all. The researchers think that when a task is too dull to hold your attention, your mind starts to wander, and wandering is where new ideas come from. So boredom isn't wasted time. It's your brain making room to think. Next time you're bored, don't grab your phone straight away. Sit with it for 10 minutes, like rowling on that train and see what shows up.
+0 You're stuck in a queue. No phone. Nothing to do. Every minute 0.0
+12 feels like an hour. Remember when J.K. Rowling was stuck on a 3.94
+24 delayed train from Manchester to London in 1990? Her pen didn't work, 7.88
+36 so she just sat there and thought. And on that train, she 13.1
+48 has said, the idea for Harry Potter came to her. And you 16.06
+60 see, in 2014, psychologists Sandi Mann and Rebekah Cadman, at the University 19.46
+72 of Central Lancashire in England, put boredom to the test. They gave 25.84
+84 people one of the dullest jobs they could think of: copying numbers 30.6
+96 out of a phone book. Then everyone had to come up with 34.44
+108 as many uses as they could for a pair of plastic cups. 37.42
+120 The bored group came up with more ideas than people who skipped 40.86
+132 the boring job. But here's the twist: the more boring it got, 44.16
+144 the better. In a second study, some people didn't even write the 48.38
+156 numbers down. They just read them. And they came up with the 51.78
+168 most ideas of all. The researchers think that when a task is 55.28
+180 too dull to hold your attention, your mind starts to wander, and 59.04
+192 wandering is where new ideas come from. So boredom isn't wasted time. 62.86
+204 It's your brain making room to think. Next time you're bored, don't 67.56
+216 grab your phone straight away. Sit with it for ten minutes, like 71.1
+228 Rowling on that train, and see what shows up. 74.56
