@@ -23,7 +23,7 @@ export const Banner: React.FC<{ children: React.ReactNode; rot?: number; bg?: st
 
 export const ThumbA: React.FC = () => (
   <AbsoluteFill style={{ background: "#000" }}>
-    <Photo src="t-lips.jpg" pos="50% 50%" scale={1.05} filter="saturate(1.05) contrast(1.08)" />
+    <Photo src="t-selfie.jpg" pos="50% 50%" scale={1.05} filter="saturate(1.05) contrast(1.08)" />
     <AbsoluteFill style={{ background: `linear-gradient(180deg, ${BLUE_DEEP}f2 0%, ${BLUE_DEEP}55 36%, transparent 48%, transparent 60%, ${BLUE_DEEP}f2 100%)` }} />
     <div style={{ position: "absolute", left: 0, right: 0, top: 260, textAlign: "center" }}><Big text="REAL" size={230} /></div>
     <div style={{ position: "absolute", left: 0, right: 0, top: 460, textAlign: "center" }}><Big text="OR FAKE?" size={180} face={FLASH} depth="#fff" /></div>

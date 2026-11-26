@@ -35,25 +35,25 @@ export const FRAMES = END + 92;
 const LEAD = KEY_AT - (W[156].at - W[150].at);
 
 const LAYERS: Layer[] = [
-  { from: 0, to: 4, pic: "v-lips.mp4" }, { from: 4, to: 9, pic: "v-selfie.mp4", pos: "50% 30%" }, { from: 9, to: 16, pic: "v-man.mp4", pos: "50% 30%" },
-  { from: 16, to: 29, pic: "v-shoot.mp4" }, { from: 29, to: 39, g: "smize", cues: [31] }, { from: 39, to: 46, g: "blue" },
+  { from: 0, to: 4, pic: "v-joy.mp4", pos: "50% 30%" }, { from: 4, to: 9, pic: "v-selfie.mp4", pos: "50% 30%" }, { from: 9, to: 16, pic: "v-man.mp4", pos: "50% 30%" },
+  { from: 16, to: 39, g: "smize", cues: [31] }, { from: 39, to: 46, g: "blue" },
   { from: 46, to: 61, g: "currents", cues: [49] }, { from: 61, to: 92, g: "muscle", cues: [72, 81, 87] }, { from: 92, to: 118, pic: "v-grandpa.mp4", pos: "50% 30%" },
-  { from: 118, to: 122, g: "blue" }, { from: 122, to: 128, pic: "v-field.mp4" }, { from: 128, to: 137, g: "p13" }, { from: 137, to: 150, g: "seven", cues: [145] },
+  { from: 118, to: 122, g: "blue" }, { from: 122, to: 128, pic: "v-man.mp4", pos: "50% 30%" }, { from: 128, to: 137, g: "p13" }, { from: 137, to: 150, g: "seven", cues: [145] },
   { from: 150, to: 158, clip: "eye3d.mp4", start: 150, lead: LEAD }, { from: 158, to: 189, g: "timing", cues: [173, 183] },
-  { from: 189, to: 202, pic: "v-joy.mp4", pos: "50% 30%" }, { from: 202, to: 208, pic: "v-shoot.mp4" }, { from: 208, to: 999, pic: "v-friends.mp4" },
+  { from: 189, to: 202, pic: "v-field.mp4" }, { from: 202, to: 208, pic: "v-selfie.mp4", pos: "50% 30%" }, { from: 208, to: 999, pic: "v-friends.mp4" },
 ];
 
 const BEATS: Beat[] = [
   [0, 1, 1], [2, 3, 3], [4, 6, 6], [7, 8, 8], [9, 12, 12], [13, 15, 15], [16, 19, 19], [20, 22, 22], [23, 27, 27], [28, 29, 29],
-  [30, 34, 34], [35, 38, 38], [39, 45, 45], [46, 48, 48], [49, 50, 50], [51, 53, 53], [54, 60, 57], [61, 66, 66], [67, 68, 68],
-  [69, 75, 72], [76, 81, 81], [82, 91, 87], [92, 92, 92], [93, 99, 98], [100, 102, 102], [103, 109, 107], [110, 117, 116],
-  [118, 121, 121], [122, 127, 125], [128, 131, 130], [132, 136, 133], [137, 143, 143], [144, 148, 148], [149, 152, 152], [153, 157, 156],
+  [30, 34, 34], [35, 38, 38], [39, 45, 45], [46, 48, 48], [49, 50, 50], [51, 53, 53], [54, 57, 57], [61, 66, 66], [67, 68, 68],
+  [69, 72, 72], [76, 81, 81], [82, 87, 87], [92, 92, 92], [93, 99, 98], [100, 102, 102], [103, 109, 107], [110, 117, 116],
+  [118, 121, 121], [122, 127, 125], [128, 131, 130], [132, 133, 133], [137, 143, 143], [144, 148, 148], [149, 152, 152], [153, 157, 156],
   [158, 164, 164], [165, 170, 170], [171, 175, 175], [176, 180, 180], [181, 185, 185], [186, 188, 187], [189, 194, 194], [195, 201, 199],
   [202, 204, 204], [205, 207, 207], [208, 213, 211], [214, 218, 216],
 ].map(([from, a, b]) => ({ from, key: [Math.min(a, b), Math.max(a, b)] as [number, number] }));
 
 const CUTS: { at: number; kind: "burn" | "flash" | "glitch" }[] = [
-  { at: 4, kind: "flash" }, { at: 9, kind: "glitch" }, { at: 16, kind: "burn" }, { at: 29, kind: "flash" }, { at: 39, kind: "burn" },
+  { at: 4, kind: "flash" }, { at: 9, kind: "glitch" }, { at: 16, kind: "burn" }, { at: 39, kind: "burn" },
   { at: 46, kind: "flash" }, { at: 61, kind: "burn" }, { at: 92, kind: "flash" }, { at: 118, kind: "glitch" }, { at: 122, kind: "burn" },
   { at: 128, kind: "flash" }, { at: 137, kind: "burn" }, { at: 150, kind: "flash" }, { at: 158, kind: "burn" }, { at: 189, kind: "flash" },
   { at: 202, kind: "burn" }, { at: 208, kind: "flash" },
@@ -61,7 +61,7 @@ const CUTS: { at: number; kind: "burn" | "flash" | "glitch" }[] = [
 
 // [word index, or -frame for an exact frame], sound, volume (all sounds are played at 0.4x)
 const SFX: [number, string, number][] = [
-  [0, "whoosh-film", 0.3], [15, "glitch-a", 0.15], [29, "shutter", 0.25], [31, "chime", 0.2], [52, "spark", 0.2], [72, "pop", 0.2], [81, "chime", 0.2],
+  [0, "whoosh-film", 0.3], [15, "glitch-a", 0.15], [31, "chime", 0.2], [52, "spark", 0.2], [72, "pop", 0.2], [81, "chime", 0.2],
   [128, "paper", 0.3], [145, "pop", 0.2], [-(F(150) - LEAD + KEY_AT), "spark", 0.4], [173, "marker", 0.2], [183, "chime", 0.2], [204, "shutter", 0.2],
 ];
 
