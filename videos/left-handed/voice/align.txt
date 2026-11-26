@@ -1,0 +1,21 @@
+unmatched [(14, 'ten'), (70, 'ten'), (78, 'left-handed.'), (114, 'nudge'), (115, 'it'), (145, 'thumbs.'), (152, 'seventy-five'), (157, 'ten'), (159, 'twelve.'), (164, 'sixty'), (172, 'right-handed.'), (179, 'left-handed.'), (182, 'left-handed'), (215, 'ten')]
+heard: Pick up a pen, which hand did you use? For about nine in every 10 people, it's the right. Remember when Barack Obama, in his first days as president in 2009, signed papers with his left hand and joked, that's right. I'm a lefty, get used to it. And you see, he's in good company. In 2020, a review of studies covering more than two million people found that about 10 and a half percent of us are left -handed. So is it in the genes, partly? Studies of tens of thousands of twins found that genes explain only about a quarter of it. There's no single lefty gene. Dozens of tiny genetic differences each nudged a little. But here's the twist. Your hand may be chosen before you're born. In Belfast, psychologist Peter Hepper used ultrasound to watch babies in the womb sucking their thumb. Years later, he checked back with 75 of them, now aged 10 to 12. Every one of the 60 who had sucked their right thumb was right -handed. Most who sucked their left were left -handed. So being left -handed isn't a mistake and it isn't just from your parents. It's a mix of genes and chance that starts in the womb. Next time someone calls lefties odd, remind them. One in 10 people and at least one president would disagree.
+0 Pick up a pen. Which hand did you use? For about nine 0.0
+12 in every ten people, it's the right. Remember when Barack Obama, in 3.1
+24 his first days as president in 2009, signed papers with his left 6.72
+36 hand and joked, "That's right. I'm a lefty. Get used to it"? 10.66
+48 And you see, he's in good company. In 2020, a review of 14.7
+60 studies covering more than two million people found that about ten and 18.66
+72 a half percent of us are left-handed. So is it in the 22.26
+84 genes? Partly. Studies of tens of thousands of twins found that genes 25.06
+96 explain only about a quarter of it. There's no single lefty gene. 29.5
+108 Dozens of tiny genetic differences each nudge it a little. But here's 34.2
+120 the twist: your hand may be chosen before you're born. In Belfast, 37.7
+132 psychologist Peter Hepper used ultrasound to watch babies in the womb sucking 42.06
+144 their thumbs. Years later, he checked back with seventy-five of them, now 46.58
+156 aged ten to twelve. Every one of the sixty who had sucked 50.38
+168 their right thumb was right-handed. Most who sucked their left were left-handed. 53.98
+180 So being left-handed isn't a mistake, and it isn't just from your 57.9
+192 parents. It's a mix of genes and chance that starts in the 61.72
+204 womb. Next time someone calls lefties odd, remind them: one in ten 65.04
+216 people, and at least one president, would disagree. 69.52
