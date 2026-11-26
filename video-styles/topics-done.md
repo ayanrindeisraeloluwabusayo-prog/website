@@ -24,3 +24,4 @@ Made (25 Nov 2026): time slows in an accident (Stetson, Fiesta & Eagleman 2007),
 Made (26 Nov 2026): alone with thoughts / shock (Wilson 2014, full video), Dunning-Kruger (1999, lemon-juice robber), forgetting dreams (Lyon 2013; Izawa 2019).
 Made (26 Nov 2026): halo effect (Thorndike 1920; Nisbett & Wilson 1977).
 Scripted (26 Nov 2026): lonely around people (Surgeon General 2023; Wheeler, Reis & Nezlek 1983; Cacioppo EEG).
+Scripted (26 Nov 2026): aphantasia (Zeman 2015; Wicken 2021), birth order (Rohrer 2015), no inner voice (Nedergaard & Lupyan 2024; Hurlburt).
