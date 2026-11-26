@@ -14,6 +14,7 @@ Music the owner sends to use under their videos. The owner chooses which sound g
 5. Music sits about 14 dB under the voice; sound effects stay at their normal (quiet) level.
 | `slow-spooky.mp3` | Slow, dark, bass-heavy bed, 86.4 s. A deep thump at 50.9 s, a big end hit at 82.5 s. | Doorway-forgetting (`videos/doorway-forgetting/public/music_slow_spooky.wav`): kept 0-46.9 s, jump on the beat to 65.2 s, end hit lands on the last word ("reason"); one-beat silence under "That's the door." |
 | `twinkle-spooky.mp3` | Sparse, twinkling music-box style spooky bed, ~123 bpm, 76.7 s. A quiet break at ~60-62 s, a big end hit at 72.7 s. | Call of the void (`videos/call-of-the-void/public/music_twinkle_spooky.wav`): kept 0-23.3 s, jump on the beat to 39.2 s, quiet break lands under "why did I just step back?", end hit lands on the last word ("live"); one-beat silence under "jump". |
+| `pon-pon-beat.mp3` | "New Pon Pon Beat" (sent by the owner, 26 Nov 2026). A steady, bass-heavy groove, ~103 bpm, 88.5 s; even energy throughout (dips slightly at ~24-32 s and ~60-84 s), strong hits at 12.1 s and 33.5 s, and a big swell/end hit at ~84.6-85 s (good for an end card). More upbeat and rhythmic than the spooky tracks: suits lighter, everyday or confident topics. | Not used yet |
 
 Also used: `slow-spooky.mp3` in Bystander effect (`videos/bystander-effect/public/music_slow_spooky.wav`): kept 0-24.4 s, jump on the beat to 36.9 s, the track's thump lands on "31 percent did", end hit right after "point at one person"; silence under "And nobody stops".
 
