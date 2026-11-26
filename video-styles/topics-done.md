@@ -48,3 +48,6 @@ what the brain does when you die (Xu, Borjigin et al. 2023 PNAS).
 Offered (26 Nov 2026, round 10, Google + YouTube): what makes a good life (Harvard Study of Adult Development, Waldinger),
 why some people are left-handed (Papadatou-Pastou et al. 2020; Faurie & Raymond 2005), why we love sad songs (Vuoskoski et al.
 2012), why being scared is fun (Andersen, Clasen et al. 2020 haunted house).
+Offered (26 Nov 2026, round 11, Google + YouTube): why people lie / a few prolific liars (Serota, Levine & Boster 2010), falling
+in love looks like OCD (Marazziti et al. 1999), why we cry / tears carry a chemical signal (Gelstein et al. 2011 Science), why we're
+so hard on ourselves (Breines & Chen 2012, self-compassion), imaginary friends (Taylor et al. 2004).
