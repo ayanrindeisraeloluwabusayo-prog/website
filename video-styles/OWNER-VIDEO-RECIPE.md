@@ -18,7 +18,7 @@ Finished examples to copy from: `videos/bedtime-phone`, `videos/feeling-watched`
 - One 3D shot per video with our three.js Rocketbox man "A" (glass head, rim shader), never Blender. Land its key moment on
   a word with a `lead` offset. Examples: `WatchedShot.tsx`, `SpotShot.tsx`, `NoveltyShot.tsx`.
 - Brand names only as plain text in our fonts; no logos. Real people in studies are never shown.
-- Music from `sound-library/` chosen by feel; never default to Slow Spooky; vary tracks. Fit it so a silence "drop" sits just
+- Music from `sound-library/` chosen by feel for each video, from ALL tracks including the owner's Pon Pon beat (upbeat, bass groove) and its sounds; no default track (owner, 26 Nov 2026). Never default to Slow Spooky; vary tracks. Fit it so a silence "drop" sits just
   before "But here's the twist" and the final hit lands on the end card. Music about 16.6 dB under the voice
   (measure voice vs mix-minus-voice over voiced 0.4 s blocks; adjust MUSIC_GAIN). SFX at x0.4.
 - Render: `GL=angle node scripts/render.mjs out/raw.mp4 0 <FRAMES-1> 1 3 <Comp>` (3D shots themselves with `GL=swangle`).
