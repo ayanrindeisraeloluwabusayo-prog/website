@@ -33,3 +33,4 @@ Made (26 Nov 2026): no inner voice (Nedergaard & Lupyan 2024; Hurlburt).
 Made (26 Nov 2026): mirror vs photos (Mita 1977; selfie nose 2018; Epley 2008).
 Made (26 Nov 2026): sleep paralysis.
 Made (26 Nov 2026): boredom is good; fake smiles.
+Scripted (26 Nov 2026): the dying brain (Sharon Stone; van Lommel 2001; Borjigin 2023; Yale BrainEx 2019).
