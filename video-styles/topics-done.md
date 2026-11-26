@@ -31,3 +31,7 @@ Offered (25 Nov 2026, round 5, ranked by YouTube engagement): time slows in an a
 can't remember being a baby (Yates et al. 2025 Science), shock yourself rather than sit alone with your thoughts (Wilson et al.
 2014), Dunning-Kruger (Kruger & Dunning 1999), why we forget dreams (Eichenlaub et al. 2014), does money buy happiness
 (Killingsworth, Kahneman & Mellers 2023).
+Made earlier (found 26 Nov 2026, was missing here): procrastination ("You're not lazy", videos/procrastination).
+Offered (26 Nov 2026, round 6, ranked by YouTube engagement): Milgram obedience (1963), 36 questions to fall in love (Aron et al.
+1997), no inner voice (Nedergaard & Lupyan 2024), spotting liars (Bond & DePaulo 2006), birth order (Rohrer et al. 2015),
+heartbreak hurts like pain (Kross et al. 2011), aphantasia (Zeman et al. 2015), lonely in a crowd (Cacioppo & Hawkley 2009).
