@@ -37,7 +37,7 @@ const LEAD = KEY_AT - (W[164].at - W[159].at);
 const LAYERS: Layer[] = [
   { from: 0, to: 4, pic: "v-handmirror.mp4", pos: "50% 40%" }, { from: 4, to: 7, pic: "v-bathroom.mp4" }, { from: 7, to: 15, pic: "v-selfie.mp4", pos: "50% 35%" },
   { from: 15, to: 19, pic: "v-lens.mp4" }, { from: 19, to: 40, g: "phone", cues: [24] }, { from: 40, to: 48, pic: "v-couple.mp4" }, { from: 48, to: 51, g: "blue" },
-  { from: 51, to: 54, g: "p77" }, { from: 54, to: 88, g: "prints", cues: [66, 68, 75, 84] }, { from: 88, to: 101, pic: "v-boymirror.mp4", pos: "40% 40%" },
+  { from: 51, to: 54, g: "p77" }, { from: 54, to: 88, g: "prints", cues: [57, 68, 75, 84] }, { from: 88, to: 101, pic: "v-boymirror.mp4", pos: "40% 40%" },
   { from: 101, to: 115, g: "uneven", cues: [113] }, { from: 115, to: 126, pic: "v-makeup.mp4" }, { from: 126, to: 130, g: "blue" },
   { from: 130, to: 137, pic: "v-selfie.mp4", pos: "50% 35%" }, { from: 137, to: 159, g: "distance", cues: [152] }, { from: 159, to: 172, clip: "selfie3d.mp4", start: 159, lead: LEAD },
   { from: 172, to: 199, g: "morph", cues: [194] }, { from: 199, to: 215, pic: "v-handmirror.mp4", pos: "50% 40%" }, { from: 215, to: 999, pic: "v-photographer.mp4", pos: "50% 40%" },

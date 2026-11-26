@@ -29,3 +29,4 @@ Scripted (26 Nov 2026): boredom is good (Mann & Cadman 2014), fake smiles (Duche
 Scripted (26 Nov 2026): sleep paralysis (Kendall Jenner; Sharpless & Barber 2011; Jalal & Hinton Egypt/Denmark).
 Made (26 Nov 2026): aphantasia (Catmull; Zeman 2015; Ross 2016; Wicken 2021).
 Made (26 Nov 2026): birth order (Rohrer, Egloff & Schmukle 2015).
+Made (26 Nov 2026): no inner voice (Nedergaard & Lupyan 2024; Hurlburt).
