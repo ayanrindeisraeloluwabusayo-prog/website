@@ -27,3 +27,4 @@ Made (26 Nov 2026): lonely around people (Surgeon General 2023; Wheeler, Reis & 
 Scripted (26 Nov 2026): aphantasia (Zeman 2015; Wicken 2021), birth order (Rohrer 2015), no inner voice (Nedergaard & Lupyan 2024; Hurlburt).
 Scripted (26 Nov 2026): boredom is good (Mann & Cadman 2014), fake smiles (Duchenne; Gunnery 2013), mirror vs photos (Mita 1977; selfie nose 2018; Epley 2008).
 Scripted (26 Nov 2026): sleep paralysis (Kendall Jenner; Sharpless & Barber 2011; Jalal & Hinton Egypt/Denmark).
+Made (26 Nov 2026): aphantasia (Catmull; Zeman 2015; Ross 2016; Wicken 2021).
