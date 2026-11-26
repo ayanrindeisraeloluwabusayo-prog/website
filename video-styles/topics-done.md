@@ -39,3 +39,4 @@ Scripted (26 Nov 2026): born scared of snakes and spiders? (Indiana Jones; Hoehl
 Made (26 Nov 2026): the dying brain.
 Made (26 Nov 2026): walking and the brain.
 Made (26 Nov 2026): born scared of snakes and spiders.
+Scripted (27 Nov 2026): why some people are left-handed (Obama; Papadatou-Pastou 2020; Medland twins; Hepper thumb sucking).
