@@ -1,0 +1,23 @@
+unmatched [(71, 'hearts'), (78, 'percent,'), (81, 'near-death'), (98, 'Borjigin'), (147, 'surged,')]
+heard: Your heart stops, your breathing stops, and then what does your brain do? Most of us imagine it simply switches off like a light. Remember when Sharon Stone said that after a bleed in her brain in 2001, she saw a giant vortex of white light and felt pulled toward it. And you see, she's not alone. In a 2001 study in the Netherlands, of 344 people brought back after their heart stopped, about one in five, 18%, described a near -death experience. Now, for years, scientists thought the dying brain just goes quiet. So in 2023, Jimo Borgigen and her team at the University of Michigan recorded the brain waves of four patients as their life support was switched off. But here's the twist. In two of them, the brain didn't fade. It lit up. Fast brain waves called gamma waves, linked to awareness and memory, surge, especially in areas tied to seeing and dreaming. We don't know if they experienced anything, but the brain was busier than anyone expected and brain cells don't all die at once. In 2019, scientists at Yale pumped a special fluid through pig brains four hours after death and some cells started working again, though there was no sign of awareness. So the end may not be a light switch. It may be one last burst of activity. Next time someone tells you about a tunnel of light, don't laugh. Their brain may have been working harder than ever.
+0 Your heart stops. Your breathing stops. And then, what does your brain 0.0
+12 do? Most of us imagine it simply switches off, like a light. 3.84
+24 Remember when Sharon Stone said that after a bleed in her brain 7.94
+36 in 2001, she saw a giant vortex of white light, and felt 11.16
+48 pulled toward it? And you see, she's not alone. In a 2001 15.5
+60 study in the Netherlands, of 344 people brought back after their hearts 19.7
+72 stopped, about one in five, 18 percent, described a near-death experience. Now, 24.3
+84 for years scientists thought the dying brain just goes quiet. So in 30.44
+96 2023, Jimo Borjigin and her team at the University of Michigan recorded 34.5
+108 the brain waves of four patients as their life support was switched 40.28
+120 off. But here's the twist: in two of them, the brain didn't 43.94
+132 fade. It lit up. Fast brain waves called gamma waves, linked to 47.26
+144 awareness and memory, surged, especially in areas tied to seeing and dreaming. 51.62
+156 We don't know if they experienced anything. But the brain was busier 56.5
+168 than anyone expected. And brain cells don't all die at once. In 60.32
+180 2019, scientists at Yale pumped a special fluid through pig brains four 64.48
+192 hours after death, and some cells started working again, though there was 69.82
+204 no sign of awareness. So the end may not be a light 73.94
+216 switch. It may be one last burst of activity. Next time someone 76.96
+228 tells you about a tunnel of light, don't laugh. Their brain may 81.1
+240 have been working harder than ever. 84.7
