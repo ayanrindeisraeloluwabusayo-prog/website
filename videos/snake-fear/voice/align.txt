@@ -1,0 +1,22 @@
+unmatched [(24, '"Snakes.'), (65, 'six-month-old'), (87, 'a'), (88, 'sign'), (106, 'DeLoache'), (109, 'LoBue,')]
+heard: There's a spider on the wall. Your body freezes before you even think. Remember when Indiana Jones looked down into a pit and said, snake, why'd it have to be snakes? A hero who wasn't afraid of anything else. And you see millions of us feel the same. So are we born with it? In 2017, researchers at the Max Planck Institute in Leipzig showed six month old babies pictures of spiders and snakes and of flowers and fish. The babies pupils got bigger for the spiders and snakes, assigned their brains were on alert. But here's the twist, babies aren't actually afraid. In studies by Judy DeLoach and Vanessa Loebew, babies watched videos of snakes while hearing a happy or a frightened voice. They looked longer at the snakes when the voice sounded frightened, but they showed no fear themselves. What we're born with isn't the fear. It's a fast lane for learning it. Monkeys raised in a lab weren't scared of snakes at all until they watched another monkey panic at one. Then they picked up the fear fast. But when a video was edited to make the monkey seem to panic at flowers, they never learned to fear flowers. So if you're scared of spiders, your brain isn't broken. It was built to learn that fear quickly. Next time you see a spider, stay calm. Someone small might be watching you.
+0 There's a spider on the wall. Your body freezes before you even 0.0
+12 think. Remember when Indiana Jones looked down into a pit and said, 3.44
+24 "Snakes. Why'd it have to be snakes?" A hero who wasn't afraid 7.41
+36 of anything else. And you see, millions of us feel the same. 10.6
+48 So are we born with it? In 2017, researchers at the Max 14.08
+60 Planck Institute in Leipzig showed six-month-old babies pictures of spiders and snakes, 18.42
+72 and of flowers and fish. The babies' pupils got bigger for the 23.38
+84 spiders and snakes, a sign their brains were on alert. But here's 27.1
+96 the twist: babies aren't actually afraid. In studies by Judy DeLoache and 31.12
+108 Vanessa LoBue, babies watched videos of snakes while hearing a happy or 35.74
+120 a frightened voice. They looked longer at the snakes when the voice 40.06
+132 sounded frightened, but they showed no fear themselves. What we're born with 43.24
+144 isn't the fear. It's a fast lane for learning it. Monkeys raised 47.24
+156 in a lab weren't scared of snakes at all, until they watched 51.18
+168 another monkey panic at one. Then they picked up the fear fast. 54.24
+180 But when a video was edited to make the monkey seem to 58.3
+192 panic at flowers, they never learned to fear flowers. So if you're 60.68
+204 scared of spiders, your brain isn't broken. It was built to learn 64.32
+216 that fear quickly. Next time you see a spider, stay calm. Someone 67.76
+228 small might be watching you. 71.86
