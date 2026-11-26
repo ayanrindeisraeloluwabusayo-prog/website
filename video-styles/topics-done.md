@@ -35,3 +35,7 @@ Made earlier (found 26 Nov 2026, was missing here): procrastination ("You're not
 Offered (26 Nov 2026, round 6, ranked by YouTube engagement): Milgram obedience (1963), 36 questions to fall in love (Aron et al.
 1997), no inner voice (Nedergaard & Lupyan 2024), spotting liars (Bond & DePaulo 2006), birth order (Rohrer et al. 2015),
 heartbreak hurts like pain (Kross et al. 2011), aphantasia (Zeman et al. 2015), lonely in a crowd (Cacioppo & Hawkley 2009).
+Offered (26 Nov 2026, round 7, ranked by YouTube engagement): boredom makes you creative (Mann & Cadman 2014), fake vs real
+smile (Gunnery, Hall & Ruben 2013), mirror vs photo face (Mita, Dermer & Knight 1977), Stanford prison experiment was flawed
+(Le Texier 2019), secondhand cringe (Krach et al. 2011), night owls as ancient night guards (Samson et al. 2017), sleep paralysis
+(Sharpless & Barber 2011), synesthesia (Simner et al. 2006).
