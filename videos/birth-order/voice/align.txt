@@ -1,0 +1,20 @@
+unmatched [(45, 'psychologists'), (52, 'a'), (53, 'hundred'), (80, 'twenty'), (81, 'thousand'), (105, 'organised,'), (127, 'firstborns')]
+heard: The oldest is the bossy, responsible one. The middle child is the peacemaker nobody notices. The youngest is the spoiled, funny rebel. Almost everyone believes it. Remember when someone guessed your birth order just from your personality and felt clever about it. And you see, colleges have argued about this for about 100 years, ever since Alfred Adler said birth order shapes who we become. So in 2015, researchers in Germany tested it properly. They looked at more than 20 ,000 adults from Germany, the US and Britain, and compared brothers and sisters within the same families, outgoing or shy, calm or anxious, kind, organized, imaginative. On every one of these personality traits, birth order made no real difference. The only thing they found was tiny. Firstborn scored very slightly higher on intelligence and saw themselves as a little more intellectual. But here's the twist. If it isn't real, why does it feel so true? Because when we compare siblings, we're comparing people of different ages. Of course, the oldest seems more mature. They are older. The stereotype is built on age, not birth order. So the next time someone says you're such a middle child, you can tell them science checked, who you are isn't decided by when you arrived.
+0 The oldest is the bossy, responsible one. The middle child is the 0.0
+12 peacemaker nobody notices. The youngest is the spoiled, funny rebel. Almost everyone 3.62
+24 believes it. Remember when someone guessed your birth order just from your 8.48
+36 personality, and felt clever about it? And you see, psychologists have argued 12.08
+48 about this for about a hundred years, ever since Alfred Adler said 16.62
+60 birth order shapes who we become. So in 2015, researchers in Germany 20.3
+72 tested it properly. They looked at more than twenty thousand adults from 25.18
+84 Germany, the US and Britain, and compared brothers and sisters within the 28.92
+96 same families. Outgoing or shy, calm or anxious, kind, organised, imaginative: on 32.92
+108 every one of these personality traits, birth order made no real difference. 39.04
+120 The only thing they found was tiny: firstborns scored very slightly higher 43.3
+132 on intelligence, and saw themselves as a little more intellectual. But here's 47.6
+144 the twist: if it isn't real, why does it feel so true? 51.88
+156 Because when we compare siblings, we're comparing people of different ages. Of 55.18
+168 course the oldest seems more mature. They are older. The stereotype is 58.86
+180 built on age, not birth order. So the next time someone says 63.16
+192 "you're such a middle child", you can tell them science checked. Who 66.9
+204 you are isn't decided by when you arrived. 70.56

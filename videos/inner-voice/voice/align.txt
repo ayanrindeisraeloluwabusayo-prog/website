@@ -1,0 +1,21 @@
+unmatched [(57, 'psychologists'), (58, 'Johanne'), (67, 'Lupyan,'), (77, 'anendophasia,'), (149, 'Hurlburt')]
+heard: Right now, as you listen to this, is there a voice in your head talking along? For many people, there's a running commentary all day long, but some people have nothing, no inner voice at all. Remember when that question went viral online and people couldn't believe others didn't have one. And you see, in 2024, the psychologist, Johann Nedergaard at the University of Copenhagen and Gary Lupien at the University of Wisconsin gave it a name, Anandafasia, a life without inner speech. They compared people who say they almost never hear an inner voice with people who hear one almost constantly. The quiet group did worse at holding a list of words in memory and was slower to tell whether the names of two pictures rhymed. But here's the twist. Even for people who do have an inner voice, it's quieter than they think. When the psychologist, Russell Hurlbert, beeped people at random moments and asked what was in their mind right then, inner speech showed up only just over a quarter of the time. So whether your head is noisy or silent, there's no single right way to think. Some think in words, some in pictures, some in feelings. Ask the person next to you if they hear their own voice. You might be surprised.
+0 Right now, as you listen to this, is there a voice in 0.0
+12 your head, talking along? For many people, there's a running commentary all 2.76
+24 day long. But some people have nothing. No inner voice at all. 7.3
+36 Remember when that question went viral online, and people couldn't believe others 11.98
+48 didn't have one? And you see, in 2024, the psychologists Johanne Nedergaard, 16.0
+60 at the University of Copenhagen, and Gary Lupyan, at the University of 22.06
+72 Wisconsin, gave it a name: anendophasia, a life without inner speech. They 26.96
+84 compared people who say they almost never hear an inner voice with 32.22
+96 people who hear one almost constantly. The quiet group did worse at 35.74
+108 holding a list of words in memory, and was slower to tell 39.96
+120 whether the names of two pictures rhymed. But here's the twist: even 43.2
+132 for people who do have an inner voice, it's quieter than they 47.54
+144 think. When the psychologist Russell Hurlburt beeped people at random moments and 50.94
+156 asked what was in their mind right then, inner speech showed up 55.28
+168 only just over a quarter of the time. So whether your head 58.44
+180 is noisy or silent, there's no single right way to think. Some 61.38
+192 think in words, some in pictures, some in feelings. Ask the person 65.7
+204 next to you if they hear their own voice. You might be 69.5
+216 surprised. 72.48

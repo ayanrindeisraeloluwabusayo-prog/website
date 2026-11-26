@@ -1,0 +1,131 @@
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093018936.87 MB
+Memory reported by /proc/meminfo MemAvailable: 14878.56 MB
+You might have inadvertently set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093018872.54 MB
+Memory reported by /proc/meminfo MemAvailable: 14866.62 MB
+You might have inadvertently set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093019266.14 MB
+Memory reported by /proc/meminfo MemAvailable: 14962.86 MB
+You might have inadvertently set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093019177.62 MB
+Memory reported by /proc/meminfo MemAvailable: 14939.33 MB
+You might have inadvertently set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093019167.54 MB
+Memory reported by /proc/meminfo MemAvailable: 14931.43 MB
+You might have inadvertently set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+Detected differing memory amounts:
+Memory reported by CGroup: 8796093019167.54 MB
+Memory reported by /proc/meminfo MemAvailable: 14931.43 MB
+You might have inadvertently set the --memory flag of `docker run` to a value that is higher than the global Docker memory limit.
+Using the lower amount of memory for calculation.
+frames 25 4s
+frames 50 7s
+frames 75 10s
+frames 100 13s
+frames 125 17s
+frames 150 21s
+frames 175 25s
+frames 200 29s
+frames 225 32s
+frames 250 35s
+frames 275 38s
+frames 300 40s
+frames 325 42s
+frames 350 45s
+frames 375 47s
+frames 400 50s
+frames 425 52s
+frames 450 54s
+frames 475 57s
+frames 500 61s
+frames 525 64s
+frames 550 67s
+frames 575 71s
+frames 600 75s
+frames 625 78s
+frames 650 82s
+frames 675 85s
+frames 700 90s
+frames 725 93s
+frames 750 96s
+frames 775 99s
+frames 800 102s
+frames 825 107s
+frames 850 111s
+frames 875 116s
+frames 900 121s
+frames 925 126s
+frames 950 132s
+frames 975 135s
+frames 1000 138s
+frames 1025 142s
+frames 1050 146s
+frames 1075 150s
+frames 1100 155s
+frames 1125 159s
+frames 1150 162s
+frames 1175 164s
+frames 1200 166s
+frames 1225 169s
+frames 1250 172s
+frames 1275 175s
+frames 1300 177s
+frames 1325 179s
+frames 1350 181s
+frames 1375 183s
+frames 1400 186s
+frames 1425 189s
+frames 1450 192s
+frames 1475 194s
+frames 1500 197s
+frames 1525 199s
+frames 1550 202s
+frames 1575 204s
+frames 1600 207s
+frames 1625 211s
+frames 1650 215s
+frames 1675 220s
+frames 1700 224s
+frames 1725 228s
+frames 1750 232s
+frames 1775 236s
+frames 1800 241s
+frames 1825 244s
+frames 1850 246s
+frames 1875 248s
+frames 1900 251s
+frames 1925 253s
+frames 1950 255s
+frames 1975 257s
+frames 2000 260s
+frames 2025 262s
+frames 2050 264s
+frames 2075 266s
+frames 2100 270s
+frames 2125 274s
+frames 2150 277s
+frames 2175 281s
+frames 2200 284s
+frames 2225 287s
+frames 2250 289s
+frames 2275 291s
+frames 2300 294s
+frames 2325 298s
+frames 2350 302s
+frames 2375 306s
+frames 2400 309s
+frames 2425 313s
+frames 2450 317s
+frames 2475 321s
+frames 2500 323s
+done out/raw.mp4 327s
