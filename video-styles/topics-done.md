@@ -39,3 +39,6 @@ Offered (26 Nov 2026, round 7, ranked by YouTube engagement): boredom makes you 
 smile (Gunnery, Hall & Ruben 2013), mirror vs photo face (Mita, Dermer & Knight 1977), Stanford prison experiment was flawed
 (Le Texier 2019), secondhand cringe (Krach et al. 2011), night owls as ancient night guards (Samson et al. 2017), sleep paralysis
 (Sharpless & Barber 2011), synesthesia (Simner et al. 2006).
+Offered (26 Nov 2026, round 8, Google suggestions + YouTube engagement): why we kiss (Jankowiak et al. 2015; not universal),
+why we like spicy food (Rozin & Schiller 1980, benign masochism), dogs and oxytocin gaze (Nagasawa et al. 2015 Science),
+why we need an explanation for everything (Gazzaniga split-brain interpreter). Dropped: can't see your nose (no solid study).
