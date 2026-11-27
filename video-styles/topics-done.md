@@ -43,3 +43,4 @@ Scripted (27 Nov 2026): why some people are left-handed (Obama; Papadatou-Pastou
 Scripted (27 Nov 2026): why people lie and who lies most (Armstrong; DePaulo 1996; Debey 2015; Serota 2010).
 Made (27 Nov 2026): left-handedness.
 Made (27 Nov 2026): why people lie.
+Scripted (27 Nov 2026): the dress (Taylor Swift tweet; Lafer-Sousa 2015; Wallisch 2017).
