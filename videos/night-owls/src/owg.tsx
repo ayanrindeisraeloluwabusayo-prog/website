@@ -55,7 +55,7 @@ export const Scores: React.FC<{ from: number; at: [number, number, number] }> = 
   const col = (i: number, label: string, icon: React.ReactNode, h: number, gold: boolean) => (
     <div key={i} style={{ position: "absolute", left: 110 + i * 300, top: 800, width: 260, textAlign: "center", opacity: p(f, at[i] - 4, 8) }}>
       <div style={{ height: 150, display: "flex", alignItems: "center", justifyContent: "center" }}>{icon}</div>
-      <div style={{ ...lab, fontSize: 22, color: gold ? FLASH : "#fff", marginTop: 10, height: 40 }}>{label}</div>
+      <div style={{ ...lab, fontSize: 26, color: gold ? FLASH : "#fff", marginTop: 10, height: 40 }}>{label}</div>
       <div style={{ height: 380, display: "flex", alignItems: "flex-end", justifyContent: "center", borderBottom: "4px solid rgba(255,255,255,0.5)" }}>
         <div style={{ width: 130, height: 380 * h * grow(f, at[i]), borderRadius: "12px 12px 0 0", background: gold ? FLASH : "rgba(255,255,255,0.55)" }} />
       </div>
@@ -63,9 +63,9 @@ export const Scores: React.FC<{ from: number; at: [number, number, number] }> = 
   );
   return (
     <AbsoluteFill style={{ opacity: p(f, from, 6) }}>
-      {col(0, "MORNING", <Sun color="#fff" size={120} />, 0.72, false)}
-      {col(1, "IN BETWEEN", <svg viewBox="0 0 100 100" style={{ width: 120, height: 120 }}><circle cx="50" cy="50" r="30" fill="none" stroke="#fff" strokeWidth="6" /><path d="M50 20 A30 30 0 0 1 50 80 Z" fill="#fff" /></svg>, 0.8, false)}
-      {col(2, "NIGHT OWL", <Moon color={FLASH} size={120} />, 0.88, true)}
+      {col(0, "MORNING", <Sun color="#fff" size={160} />, 0.72, false)}
+      {col(1, "IN BETWEEN", <svg viewBox="0 0 100 100" style={{ width: 160, height: 160 }}><circle cx="50" cy="50" r="30" fill="none" stroke="#fff" strokeWidth="6" /><path d="M50 20 A30 30 0 0 1 50 80 Z" fill="#fff" /></svg>, 0.8, false)}
+      {col(2, "NIGHT OWL", <Moon color={FLASH} size={160} />, 0.88, true)}
       <div style={{ position: "absolute", left: 750, width: 300, top: 1400, textAlign: "center", ...serif(90, FLASH), opacity: p(f, at[2] + 14, 10) }}>+13.5%</div>
       {note("IMPERIAL COLLEGE LONDON · BMJ PUBLIC HEALTH · 2024 · ILLUSTRATION", 1560)}
     </AbsoluteFill>
@@ -116,7 +116,7 @@ export const Sweet: React.FC<{ from: number; lowAt: number; highAt: number }> = 
         <path d={`M${x(4)} 400 C${x(5.5)} 330 ${x(6.5)} 120 ${x(8)} 110 C${x(9.5)} 120 ${x(10)} 300 ${x(10.3)} 380`} fill="none" stroke={FLASH} strokeWidth="10" strokeLinecap="round" pathLength={1} strokeDasharray="1" strokeDashoffset={1 - draw} />
         {[4, 5, 6, 7, 8, 9, 10].map((h) => <text key={h} x={x(h)} y="505" textAnchor="middle" fill="#fff" fontFamily={SANS2} fontWeight={800} fontSize="26">{h}h</text>)}
         <text x={x(5)} y="300" textAnchor="middle" fill="#fff" fontFamily={SERIF2} fontSize="56" opacity={p(f, lowAt, 10)}>lower</text>
-        <text x={x(10)} y="230" textAnchor="middle" fill="#fff" fontFamily={SERIF2} fontSize="56" opacity={p(f, highAt, 10)}>lower</text>
+        <text x="880" y="150" textAnchor="end" fill="#fff" fontFamily={SERIF2} fontSize="56" opacity={p(f, highAt, 10)}>lower</text>
         <text x={x(8)} y="80" textAnchor="middle" fill={FLASH} fontFamily={SANS2} fontWeight={800} fontSize="24" letterSpacing="3" opacity={p(f, from + 24, 10)}>7-9 HOURS</text>
       </svg>
       {note("IMPERIAL COLLEGE LONDON · BMJ PUBLIC HEALTH · 2024 · ILLUSTRATION", 1500)}
@@ -130,7 +130,7 @@ export const Link: React.FC<{ from: number; eduAt: number; smallAt: number }> = 
   const row = (top: number, text: string, at: number, gold: boolean) => (
     <div style={{ position: "absolute", left: 140, right: 140, top, display: "flex", alignItems: "center", gap: 30, opacity: p(f, at, 8), transform: `translateY(${(1 - p(f, at, 12)) * 24}px)` }}>
       <div style={{ width: 22, height: 22, borderRadius: 11, background: gold ? FLASH : "#fff", flex: "none" }} />
-      <div style={{ ...serif(78, gold ? FLASH : "#fff") }}>{text}</div>
+      <div style={{ ...serif(68, gold ? FLASH : "#fff") }}>{text}</div>
     </div>
   );
   return (

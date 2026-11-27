@@ -73,7 +73,7 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
   const appear = ease(interpolate(f, [8, 24], [0, 1], clamp));
   const busy = ease(interpolate(f, [KEY_AT - 4, KEY_AT + 12], [0, 1], clamp));
   const flash = f >= KEY_AT ? Math.max(0, 1 - (f - KEY_AT) / 16) : 0;
-  const phone = v(0.15, -1.55, 1.25);
+  const phone = v(1.3, -0.2, 0.5);
   const tgt = v(0.08, 0.05, 0.1);
   const mid = phone.clone().add(tgt).multiplyScalar(0.5);
   const dir = tgt.clone().sub(phone);
@@ -91,8 +91,8 @@ const Scene: React.FC<{ man: Man }> = ({ man }) => {
           <sphereGeometry args={[0.46, 48, 36]} />
           <meshStandardMaterial color="#efe7d2" roughness={0.5} emissive="#efe7d2" emissiveIntensity={0.3} transparent opacity={0.16 * glass} depthWrite={false} />
         </mesh>
-        <mesh position={phone} rotation={[-0.5, 0.35, 0.08]} scale={appear}>
-          <boxGeometry args={[0.36, 0.05, 0.7]} />
+        <mesh position={phone} rotation={[0.1, 0.55, -0.12]} scale={appear * 1.4}>
+          <boxGeometry args={[0.36, 0.7, 0.05]} />
           <meshStandardMaterial color="#14171f" roughness={0.35} metalness={0.4} />
         </mesh>
         <mesh position={mid} quaternion={q}><cylinderGeometry args={[0.008, 0.008, len, 8]} /><meshBasicMaterial color={GOLD} transparent opacity={0.55 * appear} depthTest={false} /></mesh>

@@ -43,7 +43,7 @@ export const Rooms: React.FC<{ from: number; at: [number, number, number]; bestA
     return (
       <div key={i} style={{ position: "absolute", left: 110 + i * 300, top: 820, width: 260, textAlign: "center", opacity: p(f, at[i], 8) }}>
         <div style={{ height: 200, display: "flex", alignItems: "center", justifyContent: "center" }}>{icon}</div>
-        <div style={{ ...lab, fontSize: 21, color: gold ? FLASH : "#fff", marginTop: 14, height: 56 }}>{label}</div>
+        <div style={{ ...lab, fontSize: 25, color: gold ? FLASH : "#fff", marginTop: 14, height: 56 }}>{label}</div>
         <div style={{ height: 320, display: "flex", alignItems: "flex-end", justifyContent: "center", borderBottom: "4px solid rgba(255,255,255,0.5)" }}>
           <div style={{ width: 120, height: h, borderRadius: "12px 12px 0 0", background: gold ? FLASH : "rgba(255,255,255,0.55)" }} />
         </div>
@@ -52,9 +52,9 @@ export const Rooms: React.FC<{ from: number; at: [number, number, number]; bestA
   };
   return (
     <AbsoluteFill style={{ opacity: p(f, from, 6) }}>
-      {col(0, "ON THE DESK", <Phone color="#fff" size={80} down />)}
-      {col(1, "POCKET OR BAG", <svg viewBox="0 0 100 100" style={{ width: 150, height: 150 }}><path d="M18 30 L82 30 L76 88 L24 88 Z M36 30 C36 12 64 12 64 30" fill="none" stroke="#fff" strokeWidth="5" strokeLinejoin="round" /></svg>)}
-      {col(2, "ANOTHER ROOM", <svg viewBox="0 0 100 100" style={{ width: 150, height: 150 }}><rect x="26" y="10" width="48" height="82" rx="3" fill="none" stroke={FLASH} strokeWidth="5" /><circle cx="64" cy="54" r="4" fill={FLASH} /></svg>)}
+      {col(0, "ON THE DESK", <Phone color="#fff" size={105} down />)}
+      {col(1, "POCKET OR BAG", <svg viewBox="0 0 100 100" style={{ width: 190, height: 190 }}><path d="M18 30 L82 30 L76 88 L24 88 Z M36 30 C36 12 64 12 64 30" fill="none" stroke="#fff" strokeWidth="5" strokeLinejoin="round" /></svg>)}
+      {col(2, "ANOTHER ROOM", <svg viewBox="0 0 100 100" style={{ width: 190, height: 190 }}><rect x="26" y="10" width="48" height="82" rx="3" fill="none" stroke={FLASH} strokeWidth="5" /><circle cx="64" cy="54" r="4" fill={FLASH} /></svg>)}
       <div style={{ position: "absolute", left: 0, right: 0, top: 1440, textAlign: "center", ...lab, fontSize: 22, color: "rgba(255,255,255,0.8)", opacity: p(f, bestAt, 8) }}>MEMORY & PROBLEM-SOLVING SCORES · ILLUSTRATION</div>
       {note("WARD, DUKE, GNEEZY & BOS · 2017 · UNIVERSITY OF TEXAS · ~800 PEOPLE", 1520)}
     </AbsoluteFill>
