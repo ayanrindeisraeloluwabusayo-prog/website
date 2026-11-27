@@ -41,3 +41,4 @@ Made (26 Nov 2026): walking and the brain.
 Made (26 Nov 2026): born scared of snakes and spiders.
 Scripted (27 Nov 2026): why some people are left-handed (Obama; Papadatou-Pastou 2020; Medland twins; Hepper thumb sucking).
 Scripted (27 Nov 2026): why people lie and who lies most (Armstrong; DePaulo 1996; Debey 2015; Serota 2010).
+Made (27 Nov 2026): left-handedness.
