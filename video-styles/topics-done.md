@@ -44,3 +44,4 @@ Scripted (27 Nov 2026): why people lie and who lies most (Armstrong; DePaulo 199
 Made (27 Nov 2026): left-handedness.
 Made (27 Nov 2026): why people lie.
 Scripted (27 Nov 2026): the dress (Taylor Swift tweet; Lafer-Sousa 2015; Wallisch 2017).
+Scripted (27 Nov 2026): the McGurk effect (Yanny/Laurel; McGurk & MacDonald 1976; Basu Mallick 2015).
