@@ -1,0 +1,21 @@
+unmatched [(20, 'Oprah'), (110, 'feelings.'), (121, 'a'), (122, 'thousand'), (127, 'seventy-seven,'), (156, 'a'), (157, 'thousand'), (170, 'ten'), (182, 'five'), (183, 'percent')]
+heard: Someone asks how you are. You say fine, you're not. That's a lie. Remember when Lance Armstrong sat down with Opera Winfrey in 2013 and admitted that his seven Tour de France wins were built on doping, calling it one big lie. For years, he'd looked the world in the eye and denied it. And you see, most of us lie too, just smaller. In 1996, psychologist Bella DePaulo had people keep a diary of every conversation for a week. College students told about two lies a day. Other adults told about one. Most lies weren't meant to hurt anyone. People lied to look better, feel better, or spare someone's feeling. So who lies the most? A 2015 study of about 1 ,000 people, aged six to 77, found that lying peaks in the teenage years then drops as we get older. But here's the twist, most people hardly lie at all. In 2010, researchers asked 1 ,000 Americans how many lies they'd told in the last day. Six in 10 said none, and half of all the lies came from just 5 % of people. A small group of prolific liars does most of the lying for everyone. So if it feels like everyone lies, it's really a few people lying a lot. Next time someone tells you everybody lies, you can tell them most people don't.
+0 Someone asks how you are. You say "fine". You're not. That's a 0.0
+12 lie. Remember when Lance Armstrong sat down with Oprah Winfrey in 2013 3.8
+24 and admitted that his seven Tour de France wins were built on 8.06
+36 doping, calling it "one big lie"? For years, he'd looked the world 11.14
+48 in the eye and denied it. And you see, most of us 15.0
+60 lie too, just smaller. In 1996, psychologist Bella DePaulo had people keep 17.88
+72 a diary of every conversation for a week. College students told about 23.78
+84 two lies a day. Other adults told about one. Most lies weren't 27.98
+96 meant to hurt anyone. People lied to look better, feel better, or 31.74
+108 spare someone's feelings. So who lies the most? A 2015 study of 35.06
+120 about a thousand people, aged six to seventy-seven, found that lying peaks 39.6
+132 in the teenage years, then drops as we get older. But here's 44.32
+144 the twist: most people hardly lie at all. In 2010, researchers asked 47.92
+156 a thousand Americans how many lies they'd told in the last day. 52.87
+168 Six in ten said none. And half of all the lies came 56.46
+180 from just five percent of people. A small group of prolific liars 59.78
+192 does most of the lying for everyone. So if it feels like 63.64
+204 everyone lies, it's really a few people lying a lot. Next time 66.72
+216 someone tells you "everybody lies", you can tell them: most people don't. 70.58
