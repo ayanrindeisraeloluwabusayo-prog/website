@@ -1,0 +1,22 @@
+unmatched [(3, 'one'), (4, 'a.m.'), (58, 'twenty-six'), (59, 'thousand'), (90, 'thirteen'), (91, 'percent'), (138, 'twelve,'), (140, 'twenty'), (142, 'twelve'), (146, 'scorers.')]
+heard: You're up at 1A, M, again, and everyone calls you lazy. But a big study says night owls might be the sharper ones. Remember when someone told you, early to bed, early to rise makes a man healthy, wealthy, and wise. Science has been checking that. In 2024, a team at Imperial College London looked at more than 26 ,000 adults in the UK biobank. They sorted them into morning people and night owls, then tested their memory, reasoning, and reaction time. The night owls scored higher, up to about 13 % higher than the morning people. Even people in between beat the early birds. And you see, this isn't the first time. In 2009, a study of young Americans found that the teenagers with the highest IQs grew up to go to bed later, around half past 12, against 20 to 12 for the lowest score. But here's the twist, staying up late won't make you smarter. In the same Imperial study, what mattered most was sleep itself. People who slept less than seven hours or more than nine scored lower whatever time they went to bed. And it's only a link. The study didn't account for education and other research finds the gap is small. So if you're a night owl, you're not broken. Just guard your seven to nine hours. Your brain does its best work after you sleep.
+0 You're up at one a.m. again, and everyone calls you lazy. But 0.0
+12 a big study says night owls might be the sharper ones. Remember 4.0
+24 when someone told you, "Early to bed, early to rise makes a 7.16
+36 man healthy, wealthy and wise"? Science has been checking that. In 2024, 10.98
+48 a team at Imperial College London looked at more than twenty-six thousand 16.54
+60 adults in the UK Biobank. They sorted them into morning people and 20.4
+72 night owls, then tested their memory, reasoning and reaction time. The night 24.38
+84 owls scored higher: up to about thirteen percent higher than the morning 29.38
+96 people. Even people in between beat the early birds. And you see, 33.08
+108 this isn't the first time. In 2009, a study of young Americans 36.76
+120 found that the teenagers with the highest IQs grew up to go 40.58
+132 to bed later: around half past twelve, against twenty to twelve for 44.0
+144 the lowest scorers. But here's the twist: staying up late won't make 48.2
+156 you smarter. In the same Imperial study, what mattered most was sleep 51.76
+168 itself. People who slept less than seven hours, or more than nine, 55.68
+180 scored lower, whatever time they went to bed. And it's only a 59.38
+192 link: the study didn't account for education, and other research finds the 62.76
+204 gap is small. So if you're a night owl, you're not broken. 66.54
+216 Just guard your seven to nine hours. Your brain does its best 69.78
+228 work after you sleep. 73.24
