@@ -51,3 +51,6 @@ why some people are left-handed (Papadatou-Pastou et al. 2020; Faurie & Raymond 
 Offered (26 Nov 2026, round 11, Google + YouTube): why people lie / a few prolific liars (Serota, Levine & Boster 2010), falling
 in love looks like OCD (Marazziti et al. 1999), why we cry / tears carry a chemical signal (Gelstein et al. 2011 Science), why we're
 so hard on ourselves (Breines & Chen 2012, self-compassion), imaginary friends (Taylor et al. 2004).
+Offered (27 Nov 2026, round 12, scored incl. last-12-months views): invisible gorilla (Simons & Chabris 1999), rubber hand illusion
+(Botvinick & Cohen 1998), the dress (Wallisch 2017), McGurk effect (McGurk & MacDonald 1976), phone nearby drains your brain
+(Ward et al. 2017), person swap / change blindness (Simons & Levin 1998). Full ranked list: video-styles/topic-leaderboard.md.
