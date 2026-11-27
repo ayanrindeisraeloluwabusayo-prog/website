@@ -107,3 +107,14 @@ the rest were tested and dropped (low numbers, off-topic results, medical, or al
 | 98 | first impression 0.1s | 1.63 | 760 | – | 21 | 1 | 0 | – |  |
 | 99 | morbid curiosity | 1.52 | 1k | – | 5 | 0 | 0 | – |  |
 | 100 | smiling makes you happier | 1.34 | 460 | 1k | 4 | 0 | 0 | – |  |
+
+## Google-first round (27 Nov 2026): Google suggestion score, YouTube scoring pending (daily search limit)
+
+| Topic | Google score (what people type) | Study | Note |
+|---|---|---|---|
+| Is it true early Christmas decorators are happier? | 44 + 39 ("study shows people who decorate for christmas early...") | Werner, Peterson-Lewis & Brown 1989, J. Environmental Psychology | "happier" claim has no study; the real finding: decorated homes look friendlier. Timely: late Nov - Dec |
+| Why we swear when we're hurt (and is it a sign of intelligence?) | 38 + 36 + 32 | Stephens et al. 2009 NeuroReport; Jay & Jay 2015 Language Sciences | swearing lets people hold a hand in ice water longer; daily swearers get less benefit |
+| Why we instinctively say "ow" | 49 | Swee & Schirmer 2015, Journal of Pain | saying ow ~20% more pain tolerance; hearing it doesn't help. Could merge with swearing |
+| Night owls score higher on thinking tests | 55 + 54 ("study shows people who stay up late / sleep late") | Imperial College, BMJ Public Health 2024 (26,820 people) | correlation only; night owl topic offered before (sentinel) |
+| Why we compare ourselves to others | 93 | Vogel et al. 2014, Psychology of Popular Media Culture | Facebook upward comparisons lower self-esteem |
+| Why we pretend to be something we're not | 169 (top search) | no single strong study found | dropped for now |

@@ -54,3 +54,6 @@ so hard on ourselves (Breines & Chen 2012, self-compassion), imaginary friends (
 Offered (27 Nov 2026, round 12, scored incl. last-12-months views): invisible gorilla (Simons & Chabris 1999), rubber hand illusion
 (Botvinick & Cohen 1998), the dress (Wallisch 2017), McGurk effect (McGurk & MacDonald 1976), phone nearby drains your brain
 (Ward et al. 2017), person swap / change blindness (Simons & Levin 1998). Full ranked list: video-styles/topic-leaderboard.md.
+Offered (27 Nov 2026, round 13, Google-first): early Christmas decorators happier? (Werner et al. 1989), swearing and pain
+(Stephens et al. 2009; Jay & Jay 2015), saying "ow" (Swee & Schirmer 2015), night owls smarter (Imperial, BMJ Public Health 2024),
+why we compare ourselves (Vogel et al. 2014).
