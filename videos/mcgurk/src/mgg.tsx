@@ -109,7 +109,7 @@ export const Range: React.FC<{ from: number; allAt: number; neverAt: number; yea
       <div style={{ position: "absolute", left: 100, top: 1130, ...serif(70), opacity: p(f, neverAt, 8) }}>0%</div>
       <div style={{ position: "absolute", right: 100, top: 1130, ...serif(70, FLASH), opacity: p(f, allAt, 8) }}>100%</div>
       <div style={{ position: "absolute", left: 0, right: 0, top: 1320, textAlign: "center", ...serif(100), opacity: p(f, yearAt, 10) }}>a year later: <span style={{ color: FLASH }}>same</span></div>
-      {note("BASU MALLICK, MAGNOTTI & BEAUCHAMP · 2015 · BAYLOR COLLEGE OF MEDICINE", 1520)}
+      {note("BASU MALLICK ET AL. · 2015 · BAYLOR COLLEGE OF MEDICINE", 1520)}
     </AbsoluteFill>
   );
 };
