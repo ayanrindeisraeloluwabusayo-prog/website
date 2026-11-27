@@ -1,0 +1,24 @@
+unmatched [(5, '"ga".'), (10, '"ba"'), (24, '"da",'), (38, 'four-second'), (51, 'Yanni'), (85, 'MacDonald'), (87, 'a'), (181, '"ba".'), (186, '"da"'), (209, 'a'), (210, 'hundred'), (215, 'made-up')]
+heard: Watch a man's lips say gah. Now play the sound bah over the top. What do you hear? Most people hear a third sound, dah, a sound nobody made. Remember when the internet split in 2018 over a four second clip that said Yanny or Laurel. Ellen DeGeneres heard Laurel. The singer Yanny heard Yanny. Our ears aren't as sure as we think. And you see, scientists found this one by accident. In the 1970s at the University of Surrey in England, Harry McGurk and John Mac Donald asked the technician to dub one sound onto a video of a different sound. When they played it back, they heard something that wasn't there. In 1976, they published it as hearing lips and seeing voices. Your brain doesn't wait for your ears. It mixes what you hear with what you see and when the two disagree, it makes a best guess. That's why it's easier to follow someone in a noisy room when you can see their face. And even when you know the trick, it still works. Close your eyes and you hear bah. Open them and it's dah again. But here's the twist, not everyone falls for it. In 2015, a team at Baylor College of Medicine tested more than 100 people. Some heard the made up sound every single time. Others never heard it at all. And a year later, each person's score had barely changed. So next time you're sure you heard something, ask yourself, did you hear it or did you see it?
+0 Watch a man's lips say "ga". Now play the sound "ba" over 0.0
+12 the top. What do you hear? Most people hear a third sound, 3.44
+24 "da", a sound nobody made. Remember when the internet split in 2018 6.82
+36 over a four-second clip that said "Yanny" or "Laurel"? Ellen DeGeneres heard 11.4
+48 "Laurel". The singer Yanni heard "Yanny". Our ears aren't as sure as 15.98
+60 we think. And you see, scientists found this one by accident. In 20.04
+72 the 1970s, at the University of Surrey in England, Harry McGurk and 23.98
+84 John MacDonald asked a technician to dub one sound onto a video 28.9
+96 of a different sound. When they played it back, they heard something 32.9
+108 that wasn't there. In 1976, they published it as "Hearing lips and 36.26
+120 seeing voices". Your brain doesn't wait for your ears. It mixes what 41.64
+132 you hear with what you see, and when the two disagree, it 45.56
+144 makes a best guess. That's why it's easier to follow someone in 48.32
+156 a noisy room when you can see their face. And even when 51.62
+168 you know the trick, it still works. Close your eyes, and you 54.86
+180 hear "ba". Open them, and it's "da" again. But here's the twist: 57.82
+192 not everyone falls for it. In 2015, a team at Baylor College 61.88
+204 of Medicine tested more than a hundred people. Some heard the made-up 66.38
+216 sound every single time. Others never heard it at all. And a 70.34
+228 year later, each person's score had barely changed. So next time you're 74.3
+240 sure you heard something, ask yourself: did you hear it, or did 78.66
+252 you see it? 82.48

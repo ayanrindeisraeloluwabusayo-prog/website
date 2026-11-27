@@ -1,0 +1,25 @@
+unmatched [(49, 'PS'), (61, 'Kanye'), (92, 'fourteen'), (93, 'hundred'), (95, 'Fifty-seven'), (96, 'percent'), (101, 'Thirty'), (102, 'percent'), (122, 'colour.'), (191, 'Pascal'), (192, 'Wallisch'), (200, 'thirteen'), (201, 'thousand'), (256, 'colour')]
+heard: Look at this dress, is it blue and black or white and gold? In February 2015, one blurry photo split the whole internet in half. Remember when Taylor Swift tweeted, I don't understand this odd dress debate and I feel like it's a trick somehow. I'm confused and scared. P .S. it's obviously blue and black. Kim Kardashian saw white and gold. Can I West saw blue and black. And you see the dress really was blue and black. So why did so many people see something else? Scientists at Wellesley College surveyed about 1 ,400 people. 57 % saw blue and black. 30 % saw white and gold. The rest saw something in between. The answer is light. Your brain never just sees color. It guesses what the light is like then takes it away. If your brain decided the dress was in bluish shadow, it took away the blue and you saw white and gold. If it decided the dress was under warm yellow light, it took away the yellow and you saw blue and black. But here's the twist. Your sleep schedule might decide which one you see. In 2017, Paschal Wallace at New York University studied more than 13 ,000 people. Early risers who spend more time in daylight were more likely to see white and gold. Night owls who spend more time under warm indoor light leaned blue and black. So nobody was lying and nobody was wrong. Your brain filled the gap with your own life. Next time you argue about a color with a friend, ask them one thing first. What time do you wake up?
+0 Look at this dress. Is it blue and black, or white and 0.0
+12 gold? In February 2015, one blurry photo split the whole internet in 2.8
+24 half. Remember when Taylor Swift tweeted, "I don't understand this odd dress 7.34
+36 debate and I feel like it's a trick somehow. I'm confused and 11.56
+48 scared. PS it's obviously blue and black"? Kim Kardashian saw white and 14.86
+60 gold. Kanye West saw blue and black. And you see, the dress 19.88
+72 really was blue and black. So why did so many people see 23.8
+84 something else? Scientists at Wellesley College surveyed about fourteen hundred people. Fifty-seven 27.18
+96 percent saw blue and black. Thirty percent saw white and gold. The 32.69
+108 rest saw something in between. The answer is light. Your brain never 37.44
+120 just sees colour. It guesses what the light is like, then takes 41.46
+132 it away. If your brain decided the dress was in bluish shadow, 44.94
+144 it took away the blue, and you saw white and gold. If 48.9
+156 it decided the dress was under warm, yellow light, it took away 52.1
+168 the yellow, and you saw blue and black. But here's the twist: 55.74
+180 your sleep schedule might decide which one you see. In 2017, Pascal 59.76
+192 Wallisch at New York University studied more than thirteen thousand people. Early 64.4
+204 risers, who spend more time in daylight, were more likely to see 69.66
+216 white and gold. Night owls, who spend more time under warm indoor 73.04
+228 light, leaned blue and black. So nobody was lying, and nobody was 76.9
+240 wrong. Your brain filled the gap with your own life. Next time 81.16
+252 you argue about a colour with a friend, ask them one thing 84.7
+264 first: what time do you wake up? 87.78
