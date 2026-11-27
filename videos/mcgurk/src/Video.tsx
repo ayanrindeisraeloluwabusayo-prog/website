@@ -96,7 +96,7 @@ const Clip: React.FC<{ src: string; at: number }> = ({ src, at }) => (
 );
 
 // music level: "musicGain" input prop lets a listening test override it
-const { musicGain: MUSIC_GAIN = 0.735 } = getInputProps() as { musicGain?: number };
+const { musicGain: MUSIC_GAIN = 1.065 } = getInputProps() as { musicGain?: number };
 
 export const McGurk: React.FC = () => {
 
