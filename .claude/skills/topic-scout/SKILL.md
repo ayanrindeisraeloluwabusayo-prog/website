@@ -28,3 +28,12 @@ study behind it. One run uses about a fifth of the free daily quota. Never quote
 
 Reddit is not wired in yet: anonymous reading is blocked from cloud sessions. It needs a free Reddit "script" app
 key (saved through the environment's credential form) and `oauth.reddit.com` allowed.
+
+## Engagement scoring and the leaderboard (added 27 Nov 2026)
+
+For a ranked comparison, put candidate topics in a JSON file and run `python3 scripts/yt_engage.py topics.json out.json`
+(total views, last-12-months views, likes, comments, best comment per topic; it pauses and retries when YouTube says "too many
+requests"). Then `python3 scripts/build_board.py out1.json out2.json ... > board.md` prints the combined leaderboard table.
+The current ranked list of every topic tested is `video-styles/topic-leaderboard.md`: check it and `topics-done.md` before
+offering topics. Google first: run `scout.py` with "why do we / study shows people who / what happens to your brain when" style
+seeds to find what people search, then score the best ones on YouTube. Fact-check every study with web search before offering.

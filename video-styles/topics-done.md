@@ -57,3 +57,6 @@ Offered (27 Nov 2026, round 12, scored incl. last-12-months views): invisible go
 Offered (27 Nov 2026, round 13, Google-first): early Christmas decorators happier? (Werner et al. 1989), swearing and pain
 (Stephens et al. 2009; Jay & Jay 2015), saying "ow" (Swee & Schirmer 2015), night owls smarter (Imperial, BMJ Public Health 2024),
 why we compare ourselves (Vogel et al. 2014).
+Offered (27 Nov 2026, round 14, "crazy" facts, scored on YouTube): Ganzfeld hallucinations (Wackermann et al. 2008), strange face
+in the mirror (Caputo 2010), why we say "ow" (Swee & Schirmer 2015), why 7 and 37 feel random (Kubovy & Psotka 1976), quietest room
+hallucinations (Mason & Brady 2009), smelling fear (de Groot et al. 2012), brain decides before you do (Soon et al. 2008).
